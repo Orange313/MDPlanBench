@@ -1,3 +1,5 @@
+ICDE 2027 EAB artifact: see tag [icde27-eab-v1.1](https://github.com/Orange313/MDRouter/tree/icde27-eab-v1.1)
+
 # MDRouter EAB reproduction artifact
 
 This artifact separates retrieval-plan quality, positive reference-relative regret, complete measured path costs, and statistical guarantees. It contains reproducibility code and authorized numerical measurements, not a new certified router or a claim of Serving superiority.
