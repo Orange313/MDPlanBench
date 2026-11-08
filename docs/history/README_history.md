@@ -1,0 +1,40 @@
+> Current EAB v1 branch: see [README_EAB_V1.md](README_EAB_V1.md) for the offline paper reproduction command, MIT license scope, exact evidence boundaries and unresolved manuscript audit items. Historical notes below are retained.
+
+# MDRouter EAB reproduction artifact
+
+This artifact separates retrieval-plan quality, positive reference-relative regret, complete measured path costs, and statistical guarantees. It contains reproducibility code and authorized numerical measurements, not a new certified router or a claim of Serving superiority.
+
+## Reproduce (CPU; Linux/Python3.11)
+
+```sh
+python -m venv .venv-replay
+. .venv-replay/bin/activate
+python -m pip install -r requirements-replay-lock.txt
+python reproduce_all.py --output /absolute/path/NEW_REPLAY
+```
+
+Expected: 38 core numeric CSV hashes +4 lifecycle sensitivity CSV hashes, and5 figure families. The fresh-install local clean-clone receipt from candidate010 is about26seconds for replay, excluding dependency installation. No GPU/network/private research checkout is required for this numerical replay. Actual GPU timing is archived, not remeasured by this command. Use official acquisition scripts and fixed revisions for hardware reruns; obey upstream access/license terms.
+
+## Provenance and scope
+
+Based on the audited783-file candidate010, ZIP SHA256 `3ca814f4e0ecac37de42c4b2db8a3b9dfad2d3a4bd53d61c7c93a6784845b266`. Public upload was authorized2026-10-29. README publication status is updated; numerical code, inputs and expected hashes are unchanged. The candidate/provenance/validation records describe their historical prepublication state. No raw document images, pretrained model weights, fullqrels, sealed partitions, visual indexes or private research Git history are included. Biomedical frozen-policy results are descriptive; ColPali extension is post-hoc; historical Dev data was repeatedly exposed; newK1 is NOT_CERTIFIED; strictServing equivalence was not established.
+
+## Licenses and public verification
+
+No original-code license grant has been selected or added. `LICENSE_PROPOSED.md` is only a proposal. Upstream data/model terms remain separate: consult `THIRD_PARTY_NOTICES_010.md` and `license_pin_verification_010.json`; absent standalone license endpoints remain NOT_VERIFIED. Publication is not a blanket MIT relicensing. Public/no-login clone replay must be reported separately after an actual successful push; the local candidate receipt alone does not establish public verification. No CMT submission is performed by these scripts.
+
+## Paper review011 derived diagnostics
+
+After the42-table replay, regenerate the new ownership-sensitivity Figure4 and the declared post-hoc mechanism examples:
+
+```sh
+python repro/paper_fig4_ownership.py --lifecycle-csv NEW_REPLAY/lifecycle010_workspace/reports/icde_eab_release_validation_010/A0/replay_002/lifecycle_cost_replay.csv --output NEW_FIG4
+python repro/paper_mechanism_audit.py --per-query-csv NEW_REPLAY/base/workspace/reports/icde_eab_independent_007/T2/summary_001/biomedical_per_query.csv --output NEW_MECHANISM
+```
+
+Expected derived hashes are in `expected_paper_review011_hashes.json` (Linux/Python3.11). The nativeTeX figure is generated from frozen component costs; its volume grid is accounting, not new requests. Mechanism examples use declared maximum-diagnostic-score rules and all160queries remain included. Reference containment requiresFullV and is an offline diagnostic, not an allowedonline feature. These two smallscripts add no training, calibration, newqrels, images or weights; the original42numericexpectedhashes stayunchanged. Originalcode license selection remains pending; no MITgrant is added.
+
+## ICDE 2027 EAB artifact v1
+
+See [the current EAB reproduction guide](README_EAB_V1.md) for the expanded paper mapping, MIT grant, audit ledger, and one-command offline CPU reproduction. Historical material below remains available.
+
