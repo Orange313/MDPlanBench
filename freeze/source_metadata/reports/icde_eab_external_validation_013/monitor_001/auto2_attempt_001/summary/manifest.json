@@ -1,0 +1,14 @@
+{
+  "run_id": "icde_eab_external_validation_013_monitor_001",
+  "parent_run": "icde_eab_external_validation_013",
+  "stage": "auto2_attempt_001_summary",
+  "time_bj": "2026-10-29T19:44:44.487933+08:00",
+  "status": "PASS_ACTUAL_FROZEN_ECONOMICS_MAIN_DESCRIPTIVE",
+  "facts": "58queries/53families/1sourcecomponent;9methods;4698warmtimings;754profilecalls;2000pairedfamily/processbootstrap;allnegativecasesretained",
+  "decision": "写入待Orange回报队列；不得声称新K1、可靠sourceCI或Serving/业务净收益，不改模型或论文。",
+  "code_commit": "b10796851c10db218fcdaed41dba7db585b38e36",
+  "code_bundle_SHA256": "9690d59d357b3ffdb2fac0a1fc9016fc7fb3d15eda45524e900b28f24e6c04ad",
+  "inventory_SHA256": "f20cea20910f3bf216a7caed7fa63a9a7158e011d9dbdf0b7c45be27c660ffa4",
+  "sealed_reads": 0,
+  "new_K1": "NOT_CERTIFIED"
+}

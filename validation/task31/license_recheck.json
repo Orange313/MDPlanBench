@@ -1,0 +1,62 @@
+[
+  {
+    "asset": "ColQwen2",
+    "revision": "2c9a09bb37ed19b63eb94ae6c29bb4e76eb6e3c2",
+    "url": "https://huggingface.co/vidore/colqwen2-v1.0-merged/resolve/2c9a09bb37ed19b63eb94ae6c29bb4e76eb6e3c2/README.md",
+    "time_BJ": "2026-11-08T15:58:36.599611+08:00",
+    "status": "VERIFIED_PINNED_HTTP",
+    "bytes": 5313,
+    "sha256": "ab46e54787908e4f6fa56d83b39cba54b7b9e35642046b0d1172aa80cabf17f4",
+    "historical_hash_equal": true
+  },
+  {
+    "asset": "ColPali",
+    "revision": "1b5c8929330df1a66de441a9b5409a878f0de5b0",
+    "url": "https://huggingface.co/vidore/colpali-v1.3/resolve/1b5c8929330df1a66de441a9b5409a878f0de5b0/README.md",
+    "time_BJ": "2026-11-08T15:58:36.600110+08:00",
+    "status": "VERIFIED_PINNED_HTTP",
+    "bytes": 6460,
+    "sha256": "2ae711e937255531903a0eac18db0d971f7bafb2e3acc94abc925e959e38a634",
+    "historical_hash_equal": true
+  },
+  {
+    "asset": "PaliGemmaBase",
+    "revision": "30ab955d073de4a91dc5a288e8c97226647e3e5a",
+    "url": "https://huggingface.co/vidore/colpaligemma-3b-pt-448-base/resolve/30ab955d073de4a91dc5a288e8c97226647e3e5a/README.md",
+    "time_BJ": "2026-11-08T15:58:36.600610+08:00",
+    "status": "VERIFIED_PINNED_HTTP",
+    "bytes": 4117,
+    "sha256": "adfcf9148e9726ab11af98d375dedbe281c9ac08497a67cf0f2ec87460dcadef",
+    "historical_hash_equal": true
+  },
+  {
+    "asset": "Biomedical",
+    "revision": "e82eb2f3e9f701688e6f3ba41fffad68c5b3b5fa",
+    "url": "https://huggingface.co/datasets/vidore/biomedical_lectures_eng_v2/resolve/e82eb2f3e9f701688e6f3ba41fffad68c5b3b5fa/README.md",
+    "time_BJ": "2026-11-08T15:58:36.601104+08:00",
+    "status": "VERIFIED_PINNED_HTTP",
+    "bytes": 4947,
+    "sha256": "d99854fb2f6c9533628a747368607f5b9c51097e0116143f9d3a1b3fbd928a66",
+    "historical_hash_equal": true
+  },
+  {
+    "asset": "Biomedical",
+    "revision": "e82eb2f3e9f701688e6f3ba41fffad68c5b3b5fa",
+    "url": "https://huggingface.co/datasets/vidore/biomedical_lectures_eng_v2/resolve/e82eb2f3e9f701688e6f3ba41fffad68c5b3b5fa/license.md",
+    "time_BJ": "2026-11-08T15:58:36.601603+08:00",
+    "status": "VERIFIED_PINNED_HTTP",
+    "bytes": 19128,
+    "sha256": "8386f4aded6116293b4a2daf378638abe4ed49406c696c12d4e8c19310aec46e",
+    "historical_hash_equal": true
+  },
+  {
+    "asset": "Economics",
+    "revision": "d4fba7cf3d620c42810d961435afcfaaa0678e8d",
+    "url": "https://huggingface.co/datasets/vidore/economics_reports_eng_v2/resolve/d4fba7cf3d620c42810d961435afcfaaa0678e8d/README.md",
+    "time_BJ": "2026-11-08T15:58:37.876326+08:00",
+    "status": "VERIFIED_PINNED_HTTP",
+    "bytes": 4929,
+    "sha256": "cdf4b66ecf388797f5d326a602acece03a6608e21a6da11c27dda56442e2d6ea",
+    "historical_hash_equal": null
+  }
+]

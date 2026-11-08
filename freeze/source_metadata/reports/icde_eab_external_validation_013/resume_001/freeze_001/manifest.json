@@ -1,0 +1,14 @@
+{
+  "run_id": "icde_eab_external_validation_013_resume_001",
+  "parent_run": "icde_eab_external_validation_013",
+  "stage": "freeze_001",
+  "time_bj": "2026-10-29T17:25:52.643284+08:00",
+  "status": "PASS_ECONOMICS_PRE_OUTCOME_DATA_FREEZE__RESOURCE_GATE_PENDING",
+  "facts": "58queries/53families/452pages/907qrels/5PDF→1sourcecomponent;allretained;official4fileSHAs+weightSHA;protocolSHA=c6b76cf2242afe4b8791cd5997b56336f2e6779cc3e17af172575e222950b613;methodoutcomes0",
+  "decision": "先写Orange冻结回执；只在空闲卡执行8页smoke，未PASS不得完整主实验；ESG继续LICENSE_BLOCKED。",
+  "code_commit": "093daa67b0e9796a4857259e4ee95c258fc038c5",
+  "code_bundle_SHA256": "3735ff4615af6d0a8f6b0aafda812133d58cc57a2c33ececc57dff796755a9db",
+  "inventory_SHA256": "20c451356242a966ad49099f4c38cfff5a39919192127d90ed590db119e1b8b6",
+  "sealed_reads": 0,
+  "new_K1": "NOT_CERTIFIED"
+}

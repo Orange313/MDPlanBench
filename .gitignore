@@ -35,3 +35,16 @@ paper_private/
 /models/
 /weights/
 /indexes/
+# Explicitly reviewed small numerical feature/outcome snapshots, NOT weights.
+!/records/021_snapshot/artifacts/icde_eab_review_strengthening_021/EX0/HR.npz
+!/records/021_snapshot/artifacts/icde_eab_review_strengthening_021/EX0/Finance.npz
+!/records/021_snapshot/artifacts/icde_eab_review_strengthening_021/EX0/Industrial.npz
+!/records/021_snapshot/artifacts/icde_eab_review_strengthening_021/EX0/Pharma.npz
+!/records/021_snapshot/artifacts/icde_eab_review_strengthening_021/EX0/Biomedical.npz
+!/records/021_snapshot/artifacts/icde_eab_review_strengthening_021/EX0/Economics.npz
+!/records/021_snapshot/artifacts/icde_eab_review_strengthening_021/EX0/fit.npz
+!/data/
+/data/*
+!/data/README.md
+!/data/acquire_pinned_asset.py
+!/data/official_asset_checksums.json

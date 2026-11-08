@@ -1,0 +1,8 @@
+{
+  "stage": "T3/expansion_vidore_v3_hr_p2_004",
+  "validation": "FULL_HR_FROZEN_PLAN_REPRODUCTION",
+  "time_bj": "2026-11-08T16:04:05.076718+08:00",
+  "GPU": 5,
+  "proc": 2,
+  "seed": 202610281100
+}

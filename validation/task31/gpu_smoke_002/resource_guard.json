@@ -1,0 +1,2601 @@
+{
+  "pid": 3582145,
+  "sample_period": 0.1,
+  "samples": [
+    {
+      "monotonic": 5276769.008220327,
+      "pids": [],
+      "power_W": 33.69,
+      "temperature_C": 31
+    },
+    {
+      "monotonic": 5276769.680057605,
+      "pids": [],
+      "power_W": 33.69,
+      "temperature_C": 31
+    },
+    {
+      "monotonic": 5276769.786553087,
+      "pids": [],
+      "power_W": 33.69,
+      "temperature_C": 31
+    },
+    {
+      "monotonic": 5276769.889145909,
+      "pids": [],
+      "power_W": 33.644,
+      "temperature_C": 31
+    },
+    {
+      "monotonic": 5276769.990322334,
+      "pids": [],
+      "power_W": 33.644,
+      "temperature_C": 31
+    },
+    {
+      "monotonic": 5276770.091573533,
+      "pids": [],
+      "power_W": 33.644,
+      "temperature_C": 31
+    },
+    {
+      "monotonic": 5276770.192747817,
+      "pids": [],
+      "power_W": 33.644,
+      "temperature_C": 31
+    },
+    {
+      "monotonic": 5276770.294732576,
+      "pids": [],
+      "power_W": 33.644,
+      "temperature_C": 31
+    },
+    {
+      "monotonic": 5276770.437092682,
+      "pids": [],
+      "power_W": 33.644,
+      "temperature_C": 31
+    },
+    {
+      "monotonic": 5276770.558381296,
+      "pids": [],
+      "power_W": 33.644,
+      "temperature_C": 31
+    },
+    {
+      "monotonic": 5276770.672464106,
+      "pids": [],
+      "power_W": 33.644,
+      "temperature_C": 31
+    },
+    {
+      "monotonic": 5276770.775594815,
+      "pids": [],
+      "power_W": 33.644,
+      "temperature_C": 31
+    },
+    {
+      "monotonic": 5276770.876597925,
+      "pids": [],
+      "power_W": 33.663,
+      "temperature_C": 31
+    },
+    {
+      "monotonic": 5276770.997935803,
+      "pids": [],
+      "power_W": 33.663,
+      "temperature_C": 31
+    },
+    {
+      "monotonic": 5276771.101911829,
+      "pids": [],
+      "power_W": 33.663,
+      "temperature_C": 31
+    },
+    {
+      "monotonic": 5276771.203104171,
+      "pids": [],
+      "power_W": 33.663,
+      "temperature_C": 31
+    },
+    {
+      "monotonic": 5276771.304377101,
+      "pids": [],
+      "power_W": 33.663,
+      "temperature_C": 31
+    },
+    {
+      "monotonic": 5276771.406451743,
+      "pids": [],
+      "power_W": 33.663,
+      "temperature_C": 31
+    },
+    {
+      "monotonic": 5276771.507950158,
+      "pids": [],
+      "power_W": 33.663,
+      "temperature_C": 31
+    },
+    {
+      "monotonic": 5276771.609611181,
+      "pids": [],
+      "power_W": 33.663,
+      "temperature_C": 31
+    },
+    {
+      "monotonic": 5276771.711482088,
+      "pids": [],
+      "power_W": 33.663,
+      "temperature_C": 31
+    },
+    {
+      "monotonic": 5276771.814141512,
+      "pids": [],
+      "power_W": 33.663,
+      "temperature_C": 31
+    },
+    {
+      "monotonic": 5276771.919131392,
+      "pids": [],
+      "power_W": 33.684,
+      "temperature_C": 31
+    },
+    {
+      "monotonic": 5276772.052193475,
+      "pids": [],
+      "power_W": 33.684,
+      "temperature_C": 31
+    },
+    {
+      "monotonic": 5276772.15860374,
+      "pids": [],
+      "power_W": 33.684,
+      "temperature_C": 31
+    },
+    {
+      "monotonic": 5276772.266953645,
+      "pids": [],
+      "power_W": 33.684,
+      "temperature_C": 31
+    },
+    {
+      "monotonic": 5276772.367870359,
+      "pids": [],
+      "power_W": 33.684,
+      "temperature_C": 31
+    },
+    {
+      "monotonic": 5276772.479294752,
+      "pids": [],
+      "power_W": 33.684,
+      "temperature_C": 31
+    },
+    {
+      "monotonic": 5276772.601715713,
+      "pids": [],
+      "power_W": 33.684,
+      "temperature_C": 31
+    },
+    {
+      "monotonic": 5276772.703501173,
+      "pids": [],
+      "power_W": 33.684,
+      "temperature_C": 31
+    },
+    {
+      "monotonic": 5276772.824869169,
+      "pids": [],
+      "power_W": 33.684,
+      "temperature_C": 31
+    },
+    {
+      "monotonic": 5276772.954248683,
+      "pids": [],
+      "power_W": 33.65,
+      "temperature_C": 31
+    },
+    {
+      "monotonic": 5276773.105840766,
+      "pids": [],
+      "power_W": 33.65,
+      "temperature_C": 31
+    },
+    {
+      "monotonic": 5276773.206833461,
+      "pids": [],
+      "power_W": 33.65,
+      "temperature_C": 31
+    },
+    {
+      "monotonic": 5276773.30798214,
+      "pids": [],
+      "power_W": 33.65,
+      "temperature_C": 31
+    },
+    {
+      "monotonic": 5276773.416206038,
+      "pids": [],
+      "power_W": 33.65,
+      "temperature_C": 31
+    },
+    {
+      "monotonic": 5276773.518364205,
+      "pids": [],
+      "power_W": 33.65,
+      "temperature_C": 31
+    },
+    {
+      "monotonic": 5276773.619441705,
+      "pids": [],
+      "power_W": 33.65,
+      "temperature_C": 31
+    },
+    {
+      "monotonic": 5276773.897031104,
+      "pids": [],
+      "power_W": 33.639,
+      "temperature_C": 31
+    },
+    {
+      "monotonic": 5276773.998425178,
+      "pids": [],
+      "power_W": 33.639,
+      "temperature_C": 31
+    },
+    {
+      "monotonic": 5276774.099671491,
+      "pids": [],
+      "power_W": 33.639,
+      "temperature_C": 31
+    },
+    {
+      "monotonic": 5276774.201250201,
+      "pids": [],
+      "power_W": 33.639,
+      "temperature_C": 31
+    },
+    {
+      "monotonic": 5276774.319916684,
+      "pids": [],
+      "power_W": 33.639,
+      "temperature_C": 31
+    },
+    {
+      "monotonic": 5276774.427410018,
+      "pids": [],
+      "power_W": 33.632,
+      "temperature_C": 31
+    },
+    {
+      "monotonic": 5276774.529436579,
+      "pids": [],
+      "power_W": 33.632,
+      "temperature_C": 31
+    },
+    {
+      "monotonic": 5276774.630857314,
+      "pids": [],
+      "power_W": 33.632,
+      "temperature_C": 31
+    },
+    {
+      "monotonic": 5276774.731568509,
+      "pids": [],
+      "power_W": 33.632,
+      "temperature_C": 31
+    },
+    {
+      "monotonic": 5276774.928340993,
+      "pids": [],
+      "power_W": 33.612,
+      "temperature_C": 31
+    },
+    {
+      "monotonic": 5276775.217191538,
+      "pids": [],
+      "power_W": 33.612,
+      "temperature_C": 31
+    },
+    {
+      "monotonic": 5276775.337579672,
+      "pids": [],
+      "power_W": 33.612,
+      "temperature_C": 31
+    },
+    {
+      "monotonic": 5276775.538359219,
+      "pids": [],
+      "power_W": 33.694,
+      "temperature_C": 31
+    },
+    {
+      "monotonic": 5276775.641741028,
+      "pids": [],
+      "power_W": 33.694,
+      "temperature_C": 31
+    },
+    {
+      "monotonic": 5276775.749538477,
+      "pids": [],
+      "power_W": 33.694,
+      "temperature_C": 31
+    },
+    {
+      "monotonic": 5276775.865875195,
+      "pids": [],
+      "power_W": 33.752,
+      "temperature_C": 31
+    },
+    {
+      "monotonic": 5276775.966448542,
+      "pids": [],
+      "power_W": 33.752,
+      "temperature_C": 31
+    },
+    {
+      "monotonic": 5276776.067251136,
+      "pids": [],
+      "power_W": 33.752,
+      "temperature_C": 31
+    },
+    {
+      "monotonic": 5276776.167934818,
+      "pids": [],
+      "power_W": 33.752,
+      "temperature_C": 31
+    },
+    {
+      "monotonic": 5276776.269904499,
+      "pids": [],
+      "power_W": 33.752,
+      "temperature_C": 31
+    },
+    {
+      "monotonic": 5276776.370613166,
+      "pids": [],
+      "power_W": 33.717,
+      "temperature_C": 31
+    },
+    {
+      "monotonic": 5276776.513781822,
+      "pids": [],
+      "power_W": 33.717,
+      "temperature_C": 31
+    },
+    {
+      "monotonic": 5276776.614627399,
+      "pids": [],
+      "power_W": 33.717,
+      "temperature_C": 31
+    },
+    {
+      "monotonic": 5276776.71564082,
+      "pids": [],
+      "power_W": 33.717,
+      "temperature_C": 31
+    },
+    {
+      "monotonic": 5276776.816649048,
+      "pids": [],
+      "power_W": 33.717,
+      "temperature_C": 31
+    },
+    {
+      "monotonic": 5276776.924154008,
+      "pids": [],
+      "power_W": 33.717,
+      "temperature_C": 31
+    },
+    {
+      "monotonic": 5276777.02552384,
+      "pids": [
+        3582145
+      ],
+      "power_W": 33.717,
+      "temperature_C": 31
+    },
+    {
+      "monotonic": 5276777.126386807,
+      "pids": [
+        3582145
+      ],
+      "power_W": 33.717,
+      "temperature_C": 31
+    },
+    {
+      "monotonic": 5276777.247248277,
+      "pids": [
+        3582145
+      ],
+      "power_W": 33.717,
+      "temperature_C": 31
+    },
+    {
+      "monotonic": 5276777.368638488,
+      "pids": [
+        3582145
+      ],
+      "power_W": 45.007,
+      "temperature_C": 31
+    },
+    {
+      "monotonic": 5276777.469544612,
+      "pids": [
+        3582145
+      ],
+      "power_W": 45.007,
+      "temperature_C": 31
+    },
+    {
+      "monotonic": 5276777.570460208,
+      "pids": [
+        3582145
+      ],
+      "power_W": 45.007,
+      "temperature_C": 32
+    },
+    {
+      "monotonic": 5276777.671380628,
+      "pids": [
+        3582145
+      ],
+      "power_W": 45.007,
+      "temperature_C": 32
+    },
+    {
+      "monotonic": 5276777.772321375,
+      "pids": [
+        3582145
+      ],
+      "power_W": 45.007,
+      "temperature_C": 32
+    },
+    {
+      "monotonic": 5276777.873230097,
+      "pids": [
+        3582145
+      ],
+      "power_W": 53.916,
+      "temperature_C": 32
+    },
+    {
+      "monotonic": 5276777.97423088,
+      "pids": [
+        3582145
+      ],
+      "power_W": 53.916,
+      "temperature_C": 32
+    },
+    {
+      "monotonic": 5276778.07489764,
+      "pids": [
+        3582145
+      ],
+      "power_W": 53.916,
+      "temperature_C": 32
+    },
+    {
+      "monotonic": 5276778.175386959,
+      "pids": [
+        3582145
+      ],
+      "power_W": 53.916,
+      "temperature_C": 32
+    },
+    {
+      "monotonic": 5276778.276042253,
+      "pids": [
+        3582145
+      ],
+      "power_W": 53.916,
+      "temperature_C": 32
+    },
+    {
+      "monotonic": 5276778.37691091,
+      "pids": [
+        3582145
+      ],
+      "power_W": 73.479,
+      "temperature_C": 32
+    },
+    {
+      "monotonic": 5276778.478715426,
+      "pids": [
+        3582145
+      ],
+      "power_W": 73.479,
+      "temperature_C": 32
+    },
+    {
+      "monotonic": 5276778.579697393,
+      "pids": [
+        3582145
+      ],
+      "power_W": 73.479,
+      "temperature_C": 32
+    },
+    {
+      "monotonic": 5276778.680568541,
+      "pids": [
+        3582145
+      ],
+      "power_W": 73.479,
+      "temperature_C": 32
+    },
+    {
+      "monotonic": 5276778.781471499,
+      "pids": [
+        3582145
+      ],
+      "power_W": 73.479,
+      "temperature_C": 32
+    },
+    {
+      "monotonic": 5276778.882340241,
+      "pids": [
+        3582145
+      ],
+      "power_W": 73.456,
+      "temperature_C": 32
+    },
+    {
+      "monotonic": 5276778.983252551,
+      "pids": [
+        3582145
+      ],
+      "power_W": 73.456,
+      "temperature_C": 32
+    },
+    {
+      "monotonic": 5276779.083894789,
+      "pids": [
+        3582145
+      ],
+      "power_W": 73.456,
+      "temperature_C": 32
+    },
+    {
+      "monotonic": 5276779.184738954,
+      "pids": [
+        3582145
+      ],
+      "power_W": 73.456,
+      "temperature_C": 32
+    },
+    {
+      "monotonic": 5276779.285614825,
+      "pids": [
+        3582145
+      ],
+      "power_W": 73.456,
+      "temperature_C": 32
+    },
+    {
+      "monotonic": 5276779.386497478,
+      "pids": [
+        3582145
+      ],
+      "power_W": 73.488,
+      "temperature_C": 32
+    },
+    {
+      "monotonic": 5276779.487388387,
+      "pids": [
+        3582145
+      ],
+      "power_W": 73.488,
+      "temperature_C": 32
+    },
+    {
+      "monotonic": 5276779.588051641,
+      "pids": [
+        3582145
+      ],
+      "power_W": 73.488,
+      "temperature_C": 32
+    },
+    {
+      "monotonic": 5276779.688851846,
+      "pids": [
+        3582145
+      ],
+      "power_W": 73.488,
+      "temperature_C": 32
+    },
+    {
+      "monotonic": 5276779.789759584,
+      "pids": [
+        3582145
+      ],
+      "power_W": 73.488,
+      "temperature_C": 32
+    },
+    {
+      "monotonic": 5276779.890652419,
+      "pids": [
+        3582145
+      ],
+      "power_W": 73.649,
+      "temperature_C": 32
+    },
+    {
+      "monotonic": 5276779.9915027,
+      "pids": [
+        3582145
+      ],
+      "power_W": 73.649,
+      "temperature_C": 32
+    },
+    {
+      "monotonic": 5276780.092399334,
+      "pids": [
+        3582145
+      ],
+      "power_W": 73.649,
+      "temperature_C": 32
+    },
+    {
+      "monotonic": 5276780.193880534,
+      "pids": [
+        3582145
+      ],
+      "power_W": 73.649,
+      "temperature_C": 32
+    },
+    {
+      "monotonic": 5276780.294772144,
+      "pids": [
+        3582145
+      ],
+      "power_W": 73.649,
+      "temperature_C": 32
+    },
+    {
+      "monotonic": 5276780.410759454,
+      "pids": [
+        3582145
+      ],
+      "power_W": 73.634,
+      "temperature_C": 32
+    },
+    {
+      "monotonic": 5276780.51155818,
+      "pids": [
+        3582145
+      ],
+      "power_W": 73.634,
+      "temperature_C": 32
+    },
+    {
+      "monotonic": 5276780.620260292,
+      "pids": [
+        3582145
+      ],
+      "power_W": 73.634,
+      "temperature_C": 32
+    },
+    {
+      "monotonic": 5276780.721116447,
+      "pids": [
+        3582145
+      ],
+      "power_W": 73.634,
+      "temperature_C": 32
+    },
+    {
+      "monotonic": 5276780.821985082,
+      "pids": [
+        3582145
+      ],
+      "power_W": 73.634,
+      "temperature_C": 32
+    },
+    {
+      "monotonic": 5276780.922867166,
+      "pids": [
+        3582145
+      ],
+      "power_W": 73.574,
+      "temperature_C": 32
+    },
+    {
+      "monotonic": 5276781.023830814,
+      "pids": [
+        3582145
+      ],
+      "power_W": 73.574,
+      "temperature_C": 32
+    },
+    {
+      "monotonic": 5276781.124671461,
+      "pids": [
+        3582145
+      ],
+      "power_W": 73.574,
+      "temperature_C": 32
+    },
+    {
+      "monotonic": 5276781.225418937,
+      "pids": [
+        3582145
+      ],
+      "power_W": 73.574,
+      "temperature_C": 32
+    },
+    {
+      "monotonic": 5276781.326709653,
+      "pids": [
+        3582145
+      ],
+      "power_W": 73.574,
+      "temperature_C": 32
+    },
+    {
+      "monotonic": 5276781.427598634,
+      "pids": [
+        3582145
+      ],
+      "power_W": 73.741,
+      "temperature_C": 32
+    },
+    {
+      "monotonic": 5276781.528453414,
+      "pids": [
+        3582145
+      ],
+      "power_W": 73.741,
+      "temperature_C": 32
+    },
+    {
+      "monotonic": 5276781.629091722,
+      "pids": [
+        3582145
+      ],
+      "power_W": 73.741,
+      "temperature_C": 32
+    },
+    {
+      "monotonic": 5276781.730004354,
+      "pids": [
+        3582145
+      ],
+      "power_W": 73.741,
+      "temperature_C": 32
+    },
+    {
+      "monotonic": 5276781.830899815,
+      "pids": [
+        3582145
+      ],
+      "power_W": 73.741,
+      "temperature_C": 32
+    },
+    {
+      "monotonic": 5276781.931742059,
+      "pids": [
+        3582145
+      ],
+      "power_W": 73.888,
+      "temperature_C": 32
+    },
+    {
+      "monotonic": 5276782.032635108,
+      "pids": [
+        3582145
+      ],
+      "power_W": 73.888,
+      "temperature_C": 32
+    },
+    {
+      "monotonic": 5276782.139245018,
+      "pids": [
+        3582145
+      ],
+      "power_W": 73.888,
+      "temperature_C": 32
+    },
+    {
+      "monotonic": 5276782.240128976,
+      "pids": [
+        3582145
+      ],
+      "power_W": 73.888,
+      "temperature_C": 32
+    },
+    {
+      "monotonic": 5276782.3408219,
+      "pids": [
+        3582145
+      ],
+      "power_W": 73.888,
+      "temperature_C": 32
+    },
+    {
+      "monotonic": 5276782.441480606,
+      "pids": [
+        3582145
+      ],
+      "power_W": 73.906,
+      "temperature_C": 32
+    },
+    {
+      "monotonic": 5276782.542293941,
+      "pids": [
+        3582145
+      ],
+      "power_W": 73.906,
+      "temperature_C": 32
+    },
+    {
+      "monotonic": 5276782.643107963,
+      "pids": [
+        3582145
+      ],
+      "power_W": 73.906,
+      "temperature_C": 32
+    },
+    {
+      "monotonic": 5276782.743745992,
+      "pids": [
+        3582145
+      ],
+      "power_W": 73.906,
+      "temperature_C": 32
+    },
+    {
+      "monotonic": 5276782.844644626,
+      "pids": [
+        3582145
+      ],
+      "power_W": 73.981,
+      "temperature_C": 32
+    },
+    {
+      "monotonic": 5276782.945434855,
+      "pids": [
+        3582145
+      ],
+      "power_W": 73.981,
+      "temperature_C": 32
+    },
+    {
+      "monotonic": 5276783.046145372,
+      "pids": [
+        3582145
+      ],
+      "power_W": 73.981,
+      "temperature_C": 32
+    },
+    {
+      "monotonic": 5276783.146920757,
+      "pids": [
+        3582145
+      ],
+      "power_W": 73.981,
+      "temperature_C": 32
+    },
+    {
+      "monotonic": 5276783.247706525,
+      "pids": [
+        3582145
+      ],
+      "power_W": 73.981,
+      "temperature_C": 32
+    },
+    {
+      "monotonic": 5276783.348598591,
+      "pids": [
+        3582145
+      ],
+      "power_W": 74.046,
+      "temperature_C": 32
+    },
+    {
+      "monotonic": 5276783.449454225,
+      "pids": [
+        3582145
+      ],
+      "power_W": 74.046,
+      "temperature_C": 32
+    },
+    {
+      "monotonic": 5276783.558756897,
+      "pids": [
+        3582145
+      ],
+      "power_W": 74.046,
+      "temperature_C": 33
+    },
+    {
+      "monotonic": 5276783.659634933,
+      "pids": [
+        3582145
+      ],
+      "power_W": 74.046,
+      "temperature_C": 33
+    },
+    {
+      "monotonic": 5276783.760572425,
+      "pids": [
+        3582145
+      ],
+      "power_W": 74.046,
+      "temperature_C": 33
+    },
+    {
+      "monotonic": 5276783.861385694,
+      "pids": [
+        3582145
+      ],
+      "power_W": 74.035,
+      "temperature_C": 33
+    },
+    {
+      "monotonic": 5276783.962213343,
+      "pids": [
+        3582145
+      ],
+      "power_W": 74.035,
+      "temperature_C": 33
+    },
+    {
+      "monotonic": 5276784.063090081,
+      "pids": [
+        3582145
+      ],
+      "power_W": 74.035,
+      "temperature_C": 33
+    },
+    {
+      "monotonic": 5276784.164025559,
+      "pids": [
+        3582145
+      ],
+      "power_W": 74.035,
+      "temperature_C": 33
+    },
+    {
+      "monotonic": 5276784.264996158,
+      "pids": [
+        3582145
+      ],
+      "power_W": 74.035,
+      "temperature_C": 33
+    },
+    {
+      "monotonic": 5276784.368529761,
+      "pids": [
+        3582145
+      ],
+      "power_W": 74.032,
+      "temperature_C": 33
+    },
+    {
+      "monotonic": 5276784.469310823,
+      "pids": [
+        3582145
+      ],
+      "power_W": 74.032,
+      "temperature_C": 33
+    },
+    {
+      "monotonic": 5276784.570109864,
+      "pids": [
+        3582145
+      ],
+      "power_W": 74.032,
+      "temperature_C": 33
+    },
+    {
+      "monotonic": 5276784.671419578,
+      "pids": [
+        3582145
+      ],
+      "power_W": 74.032,
+      "temperature_C": 33
+    },
+    {
+      "monotonic": 5276784.776931641,
+      "pids": [
+        3582145
+      ],
+      "power_W": 74.032,
+      "temperature_C": 33
+    },
+    {
+      "monotonic": 5276784.877720705,
+      "pids": [
+        3582145
+      ],
+      "power_W": 74.003,
+      "temperature_C": 33
+    },
+    {
+      "monotonic": 5276784.978602705,
+      "pids": [
+        3582145
+      ],
+      "power_W": 74.003,
+      "temperature_C": 33
+    },
+    {
+      "monotonic": 5276785.079471898,
+      "pids": [
+        3582145
+      ],
+      "power_W": 74.003,
+      "temperature_C": 33
+    },
+    {
+      "monotonic": 5276785.180352838,
+      "pids": [
+        3582145
+      ],
+      "power_W": 74.003,
+      "temperature_C": 33
+    },
+    {
+      "monotonic": 5276785.281219842,
+      "pids": [
+        3582145
+      ],
+      "power_W": 74.003,
+      "temperature_C": 33
+    },
+    {
+      "monotonic": 5276785.382108808,
+      "pids": [
+        3582145
+      ],
+      "power_W": 74.012,
+      "temperature_C": 33
+    },
+    {
+      "monotonic": 5276785.48750751,
+      "pids": [
+        3582145
+      ],
+      "power_W": 74.012,
+      "temperature_C": 33
+    },
+    {
+      "monotonic": 5276785.598029278,
+      "pids": [
+        3582145
+      ],
+      "power_W": 74.012,
+      "temperature_C": 33
+    },
+    {
+      "monotonic": 5276785.698906547,
+      "pids": [
+        3582145
+      ],
+      "power_W": 74.012,
+      "temperature_C": 33
+    },
+    {
+      "monotonic": 5276785.799793262,
+      "pids": [
+        3582145
+      ],
+      "power_W": 74.012,
+      "temperature_C": 33
+    },
+    {
+      "monotonic": 5276785.900569838,
+      "pids": [
+        3582145
+      ],
+      "power_W": 74.195,
+      "temperature_C": 33
+    },
+    {
+      "monotonic": 5276786.001193436,
+      "pids": [
+        3582145
+      ],
+      "power_W": 74.195,
+      "temperature_C": 33
+    },
+    {
+      "monotonic": 5276786.101873187,
+      "pids": [
+        3582145
+      ],
+      "power_W": 74.195,
+      "temperature_C": 33
+    },
+    {
+      "monotonic": 5276786.202735594,
+      "pids": [
+        3582145
+      ],
+      "power_W": 74.195,
+      "temperature_C": 33
+    },
+    {
+      "monotonic": 5276786.304157479,
+      "pids": [
+        3582145
+      ],
+      "power_W": 74.195,
+      "temperature_C": 33
+    },
+    {
+      "monotonic": 5276786.405060583,
+      "pids": [
+        3582145
+      ],
+      "power_W": 74.217,
+      "temperature_C": 33
+    },
+    {
+      "monotonic": 5276786.505768455,
+      "pids": [
+        3582145
+      ],
+      "power_W": 74.217,
+      "temperature_C": 33
+    },
+    {
+      "monotonic": 5276786.606341583,
+      "pids": [
+        3582145
+      ],
+      "power_W": 74.217,
+      "temperature_C": 33
+    },
+    {
+      "monotonic": 5276786.707178168,
+      "pids": [
+        3582145
+      ],
+      "power_W": 74.217,
+      "temperature_C": 33
+    },
+    {
+      "monotonic": 5276786.80786185,
+      "pids": [
+        3582145
+      ],
+      "power_W": 74.217,
+      "temperature_C": 33
+    },
+    {
+      "monotonic": 5276786.90875044,
+      "pids": [
+        3582145
+      ],
+      "power_W": 74.168,
+      "temperature_C": 33
+    },
+    {
+      "monotonic": 5276787.009637659,
+      "pids": [
+        3582145
+      ],
+      "power_W": 74.168,
+      "temperature_C": 33
+    },
+    {
+      "monotonic": 5276787.110476974,
+      "pids": [
+        3582145
+      ],
+      "power_W": 74.168,
+      "temperature_C": 33
+    },
+    {
+      "monotonic": 5276787.211350867,
+      "pids": [
+        3582145
+      ],
+      "power_W": 74.168,
+      "temperature_C": 33
+    },
+    {
+      "monotonic": 5276787.324157978,
+      "pids": [
+        3582145
+      ],
+      "power_W": 74.168,
+      "temperature_C": 33
+    },
+    {
+      "monotonic": 5276787.424712303,
+      "pids": [
+        3582145
+      ],
+      "power_W": 74.196,
+      "temperature_C": 33
+    },
+    {
+      "monotonic": 5276787.525414504,
+      "pids": [
+        3582145
+      ],
+      "power_W": 74.196,
+      "temperature_C": 33
+    },
+    {
+      "monotonic": 5276787.630740699,
+      "pids": [
+        3582145
+      ],
+      "power_W": 74.196,
+      "temperature_C": 33
+    },
+    {
+      "monotonic": 5276787.731656809,
+      "pids": [
+        3582145
+      ],
+      "power_W": 74.196,
+      "temperature_C": 33
+    },
+    {
+      "monotonic": 5276787.832394375,
+      "pids": [
+        3582145
+      ],
+      "power_W": 74.196,
+      "temperature_C": 33
+    },
+    {
+      "monotonic": 5276787.933222523,
+      "pids": [
+        3582145
+      ],
+      "power_W": 74.368,
+      "temperature_C": 33
+    },
+    {
+      "monotonic": 5276788.034116822,
+      "pids": [
+        3582145
+      ],
+      "power_W": 74.368,
+      "temperature_C": 33
+    },
+    {
+      "monotonic": 5276788.135032641,
+      "pids": [
+        3582145
+      ],
+      "power_W": 74.368,
+      "temperature_C": 33
+    },
+    {
+      "monotonic": 5276788.235902684,
+      "pids": [
+        3582145
+      ],
+      "power_W": 74.368,
+      "temperature_C": 33
+    },
+    {
+      "monotonic": 5276788.336706504,
+      "pids": [
+        3582145
+      ],
+      "power_W": 74.368,
+      "temperature_C": 33
+    },
+    {
+      "monotonic": 5276788.437563015,
+      "pids": [
+        3582145
+      ],
+      "power_W": 74.426,
+      "temperature_C": 33
+    },
+    {
+      "monotonic": 5276788.538514484,
+      "pids": [
+        3582145
+      ],
+      "power_W": 74.426,
+      "temperature_C": 33
+    },
+    {
+      "monotonic": 5276788.639116862,
+      "pids": [
+        3582145
+      ],
+      "power_W": 74.426,
+      "temperature_C": 33
+    },
+    {
+      "monotonic": 5276788.739870608,
+      "pids": [
+        3582145
+      ],
+      "power_W": 74.426,
+      "temperature_C": 33
+    },
+    {
+      "monotonic": 5276788.840874595,
+      "pids": [
+        3582145
+      ],
+      "power_W": 74.426,
+      "temperature_C": 33
+    },
+    {
+      "monotonic": 5276788.94175872,
+      "pids": [
+        3582145
+      ],
+      "power_W": 74.507,
+      "temperature_C": 33
+    },
+    {
+      "monotonic": 5276789.04252722,
+      "pids": [
+        3582145
+      ],
+      "power_W": 74.507,
+      "temperature_C": 33
+    },
+    {
+      "monotonic": 5276789.146102977,
+      "pids": [
+        3582145
+      ],
+      "power_W": 74.507,
+      "temperature_C": 33
+    },
+    {
+      "monotonic": 5276789.247279559,
+      "pids": [
+        3582145
+      ],
+      "power_W": 74.507,
+      "temperature_C": 33
+    },
+    {
+      "monotonic": 5276789.348109094,
+      "pids": [
+        3582145
+      ],
+      "power_W": 74.558,
+      "temperature_C": 33
+    },
+    {
+      "monotonic": 5276789.448776016,
+      "pids": [
+        3582145
+      ],
+      "power_W": 74.558,
+      "temperature_C": 33
+    },
+    {
+      "monotonic": 5276789.549572893,
+      "pids": [
+        3582145
+      ],
+      "power_W": 74.558,
+      "temperature_C": 33
+    },
+    {
+      "monotonic": 5276789.650485567,
+      "pids": [
+        3582145
+      ],
+      "power_W": 74.558,
+      "temperature_C": 33
+    },
+    {
+      "monotonic": 5276789.760659381,
+      "pids": [
+        3582145
+      ],
+      "power_W": 74.558,
+      "temperature_C": 33
+    },
+    {
+      "monotonic": 5276789.861262152,
+      "pids": [
+        3582145
+      ],
+      "power_W": 74.465,
+      "temperature_C": 33
+    },
+    {
+      "monotonic": 5276789.962064879,
+      "pids": [
+        3582145
+      ],
+      "power_W": 74.465,
+      "temperature_C": 33
+    },
+    {
+      "monotonic": 5276790.062904264,
+      "pids": [
+        3582145
+      ],
+      "power_W": 74.465,
+      "temperature_C": 33
+    },
+    {
+      "monotonic": 5276790.166593265,
+      "pids": [
+        3582145
+      ],
+      "power_W": 74.465,
+      "temperature_C": 33
+    },
+    {
+      "monotonic": 5276790.269901844,
+      "pids": [
+        3582145
+      ],
+      "power_W": 74.465,
+      "temperature_C": 33
+    },
+    {
+      "monotonic": 5276790.370764673,
+      "pids": [
+        3582145
+      ],
+      "power_W": 74.423,
+      "temperature_C": 33
+    },
+    {
+      "monotonic": 5276790.471677637,
+      "pids": [
+        3582145
+      ],
+      "power_W": 74.423,
+      "temperature_C": 33
+    },
+    {
+      "monotonic": 5276790.572516117,
+      "pids": [
+        3582145
+      ],
+      "power_W": 74.423,
+      "temperature_C": 33
+    },
+    {
+      "monotonic": 5276790.674113889,
+      "pids": [
+        3582145
+      ],
+      "power_W": 74.423,
+      "temperature_C": 33
+    },
+    {
+      "monotonic": 5276790.775007009,
+      "pids": [
+        3582145
+      ],
+      "power_W": 74.423,
+      "temperature_C": 33
+    },
+    {
+      "monotonic": 5276790.876199637,
+      "pids": [
+        3582145
+      ],
+      "power_W": 74.538,
+      "temperature_C": 33
+    },
+    {
+      "monotonic": 5276790.977031735,
+      "pids": [
+        3582145
+      ],
+      "power_W": 74.538,
+      "temperature_C": 33
+    },
+    {
+      "monotonic": 5276791.07821416,
+      "pids": [
+        3582145
+      ],
+      "power_W": 74.538,
+      "temperature_C": 33
+    },
+    {
+      "monotonic": 5276791.178866254,
+      "pids": [
+        3582145
+      ],
+      "power_W": 74.538,
+      "temperature_C": 33
+    },
+    {
+      "monotonic": 5276791.279636883,
+      "pids": [
+        3582145
+      ],
+      "power_W": 74.538,
+      "temperature_C": 33
+    },
+    {
+      "monotonic": 5276791.380354803,
+      "pids": [
+        3582145
+      ],
+      "power_W": 74.528,
+      "temperature_C": 33
+    },
+    {
+      "monotonic": 5276791.498727272,
+      "pids": [
+        3582145
+      ],
+      "power_W": 74.528,
+      "temperature_C": 33
+    },
+    {
+      "monotonic": 5276791.601127663,
+      "pids": [
+        3582145
+      ],
+      "power_W": 74.528,
+      "temperature_C": 33
+    },
+    {
+      "monotonic": 5276791.921917814,
+      "pids": [
+        3582145
+      ],
+      "power_W": 74.41,
+      "temperature_C": 33
+    },
+    {
+      "monotonic": 5276792.026093524,
+      "pids": [
+        3582145
+      ],
+      "power_W": 74.41,
+      "temperature_C": 33
+    },
+    {
+      "monotonic": 5276792.126923302,
+      "pids": [
+        3582145
+      ],
+      "power_W": 74.41,
+      "temperature_C": 33
+    },
+    {
+      "monotonic": 5276792.227749072,
+      "pids": [
+        3582145
+      ],
+      "power_W": 74.41,
+      "temperature_C": 33
+    },
+    {
+      "monotonic": 5276792.328459542,
+      "pids": [
+        3582145
+      ],
+      "power_W": 74.41,
+      "temperature_C": 33
+    },
+    {
+      "monotonic": 5276792.429207716,
+      "pids": [
+        3582145
+      ],
+      "power_W": 74.34,
+      "temperature_C": 33
+    },
+    {
+      "monotonic": 5276792.530018254,
+      "pids": [
+        3582145
+      ],
+      "power_W": 74.34,
+      "temperature_C": 33
+    },
+    {
+      "monotonic": 5276792.631640175,
+      "pids": [
+        3582145
+      ],
+      "power_W": 74.34,
+      "temperature_C": 33
+    },
+    {
+      "monotonic": 5276792.732504399,
+      "pids": [
+        3582145
+      ],
+      "power_W": 74.34,
+      "temperature_C": 33
+    },
+    {
+      "monotonic": 5276792.833336478,
+      "pids": [
+        3582145
+      ],
+      "power_W": 74.34,
+      "temperature_C": 33
+    },
+    {
+      "monotonic": 5276792.934191017,
+      "pids": [
+        3582145
+      ],
+      "power_W": 74.358,
+      "temperature_C": 33
+    },
+    {
+      "monotonic": 5276793.034972185,
+      "pids": [
+        3582145
+      ],
+      "power_W": 74.358,
+      "temperature_C": 33
+    },
+    {
+      "monotonic": 5276793.136185682,
+      "pids": [
+        3582145
+      ],
+      "power_W": 74.358,
+      "temperature_C": 33
+    },
+    {
+      "monotonic": 5276793.237350614,
+      "pids": [
+        3582145
+      ],
+      "power_W": 74.358,
+      "temperature_C": 33
+    },
+    {
+      "monotonic": 5276793.355824575,
+      "pids": [
+        3582145
+      ],
+      "power_W": 74.285,
+      "temperature_C": 33
+    },
+    {
+      "monotonic": 5276793.4573296,
+      "pids": [
+        3582145
+      ],
+      "power_W": 74.285,
+      "temperature_C": 33
+    },
+    {
+      "monotonic": 5276793.558174112,
+      "pids": [
+        3582145
+      ],
+      "power_W": 74.285,
+      "temperature_C": 34
+    },
+    {
+      "monotonic": 5276793.659087673,
+      "pids": [
+        3582145
+      ],
+      "power_W": 74.285,
+      "temperature_C": 34
+    },
+    {
+      "monotonic": 5276795.555024464,
+      "pids": [
+        3582145
+      ],
+      "power_W": 74.266,
+      "temperature_C": 34
+    },
+    {
+      "monotonic": 5276795.696206007,
+      "pids": [
+        3582145
+      ],
+      "power_W": 74.3,
+      "temperature_C": 34
+    },
+    {
+      "monotonic": 5276796.394816833,
+      "pids": [
+        3582145
+      ],
+      "power_W": 74.391,
+      "temperature_C": 34
+    },
+    {
+      "monotonic": 5276796.535364678,
+      "pids": [
+        3582145
+      ],
+      "power_W": 74.391,
+      "temperature_C": 34
+    },
+    {
+      "monotonic": 5276796.636341422,
+      "pids": [
+        3582145
+      ],
+      "power_W": 74.391,
+      "temperature_C": 34
+    },
+    {
+      "monotonic": 5276796.737250803,
+      "pids": [
+        3582145
+      ],
+      "power_W": 74.391,
+      "temperature_C": 34
+    },
+    {
+      "monotonic": 5276796.859234735,
+      "pids": [
+        3582145
+      ],
+      "power_W": 74.636,
+      "temperature_C": 34
+    },
+    {
+      "monotonic": 5276796.960208675,
+      "pids": [
+        3582145
+      ],
+      "power_W": 74.636,
+      "temperature_C": 34
+    },
+    {
+      "monotonic": 5276797.009421869,
+      "pids": [
+        3582145
+      ],
+      "power_W": 74.636,
+      "temperature_C": 34
+    },
+    {
+      "monotonic": 5276797.060923453,
+      "pids": [
+        3582145
+      ],
+      "power_W": 74.636,
+      "temperature_C": 34
+    },
+    {
+      "monotonic": 5276797.161873693,
+      "pids": [
+        3582145
+      ],
+      "power_W": 74.636,
+      "temperature_C": 34
+    },
+    {
+      "monotonic": 5276797.262839312,
+      "pids": [
+        3582145
+      ],
+      "power_W": 74.636,
+      "temperature_C": 34
+    },
+    {
+      "monotonic": 5276797.36379173,
+      "pids": [
+        3582145
+      ],
+      "power_W": 74.615,
+      "temperature_C": 34
+    },
+    {
+      "monotonic": 5276797.464724531,
+      "pids": [
+        3582145
+      ],
+      "power_W": 74.615,
+      "temperature_C": 34
+    },
+    {
+      "monotonic": 5276797.565616138,
+      "pids": [
+        3582145
+      ],
+      "power_W": 74.615,
+      "temperature_C": 34
+    },
+    {
+      "monotonic": 5276797.666619501,
+      "pids": [
+        3582145
+      ],
+      "power_W": 74.615,
+      "temperature_C": 34
+    },
+    {
+      "monotonic": 5276797.767568675,
+      "pids": [
+        3582145
+      ],
+      "power_W": 74.615,
+      "temperature_C": 34
+    },
+    {
+      "monotonic": 5276797.868323684,
+      "pids": [
+        3582145
+      ],
+      "power_W": 74.56,
+      "temperature_C": 34
+    },
+    {
+      "monotonic": 5276797.969254053,
+      "pids": [
+        3582145
+      ],
+      "power_W": 74.56,
+      "temperature_C": 34
+    },
+    {
+      "monotonic": 5276798.070124763,
+      "pids": [
+        3582145
+      ],
+      "power_W": 74.56,
+      "temperature_C": 34
+    },
+    {
+      "monotonic": 5276798.171042314,
+      "pids": [
+        3582145
+      ],
+      "power_W": 74.56,
+      "temperature_C": 34
+    },
+    {
+      "monotonic": 5276798.271960459,
+      "pids": [
+        3582145
+      ],
+      "power_W": 74.56,
+      "temperature_C": 34
+    },
+    {
+      "monotonic": 5276798.372873084,
+      "pids": [
+        3582145
+      ],
+      "power_W": 74.542,
+      "temperature_C": 34
+    },
+    {
+      "monotonic": 5276798.473758336,
+      "pids": [
+        3582145
+      ],
+      "power_W": 74.542,
+      "temperature_C": 34
+    },
+    {
+      "monotonic": 5276798.574732245,
+      "pids": [
+        3582145
+      ],
+      "power_W": 74.542,
+      "temperature_C": 34
+    },
+    {
+      "monotonic": 5276798.675401007,
+      "pids": [
+        3582145
+      ],
+      "power_W": 74.542,
+      "temperature_C": 34
+    },
+    {
+      "monotonic": 5276798.776397419,
+      "pids": [
+        3582145
+      ],
+      "power_W": 74.542,
+      "temperature_C": 34
+    },
+    {
+      "monotonic": 5276798.8770655,
+      "pids": [
+        3582145
+      ],
+      "power_W": 74.655,
+      "temperature_C": 34
+    },
+    {
+      "monotonic": 5276798.977993202,
+      "pids": [
+        3582145
+      ],
+      "power_W": 74.655,
+      "temperature_C": 34
+    },
+    {
+      "monotonic": 5276799.078638883,
+      "pids": [
+        3582145
+      ],
+      "power_W": 74.655,
+      "temperature_C": 34
+    },
+    {
+      "monotonic": 5276799.179438047,
+      "pids": [
+        3582145
+      ],
+      "power_W": 74.655,
+      "temperature_C": 34
+    },
+    {
+      "monotonic": 5276799.280345146,
+      "pids": [
+        3582145
+      ],
+      "power_W": 74.655,
+      "temperature_C": 34
+    },
+    {
+      "monotonic": 5276799.38100918,
+      "pids": [
+        3582145
+      ],
+      "power_W": 74.899,
+      "temperature_C": 34
+    },
+    {
+      "monotonic": 5276799.481889815,
+      "pids": [
+        3582145
+      ],
+      "power_W": 74.899,
+      "temperature_C": 34
+    },
+    {
+      "monotonic": 5276799.582835906,
+      "pids": [
+        3582145
+      ],
+      "power_W": 74.899,
+      "temperature_C": 34
+    },
+    {
+      "monotonic": 5276799.684245931,
+      "pids": [
+        3582145
+      ],
+      "power_W": 74.899,
+      "temperature_C": 34
+    },
+    {
+      "monotonic": 5276799.785187942,
+      "pids": [
+        3582145
+      ],
+      "power_W": 74.899,
+      "temperature_C": 34
+    },
+    {
+      "monotonic": 5276799.886080013,
+      "pids": [
+        3582145
+      ],
+      "power_W": 88.472,
+      "temperature_C": 34
+    },
+    {
+      "monotonic": 5276799.987068438,
+      "pids": [
+        3582145
+      ],
+      "power_W": 88.472,
+      "temperature_C": 34
+    },
+    {
+      "monotonic": 5276800.088034148,
+      "pids": [
+        3582145
+      ],
+      "power_W": 88.472,
+      "temperature_C": 34
+    },
+    {
+      "monotonic": 5276800.188966039,
+      "pids": [
+        3582145
+      ],
+      "power_W": 88.472,
+      "temperature_C": 34
+    },
+    {
+      "monotonic": 5276800.28991828,
+      "pids": [
+        3582145
+      ],
+      "power_W": 88.472,
+      "temperature_C": 34
+    },
+    {
+      "monotonic": 5276800.390883513,
+      "pids": [
+        3582145
+      ],
+      "power_W": 88.829,
+      "temperature_C": 34
+    },
+    {
+      "monotonic": 5276800.491810657,
+      "pids": [
+        3582145
+      ],
+      "power_W": 88.829,
+      "temperature_C": 34
+    },
+    {
+      "monotonic": 5276800.592622145,
+      "pids": [
+        3582145
+      ],
+      "power_W": 88.829,
+      "temperature_C": 35
+    },
+    {
+      "monotonic": 5276800.693503691,
+      "pids": [
+        3582145
+      ],
+      "power_W": 88.829,
+      "temperature_C": 35
+    },
+    {
+      "monotonic": 5276800.795254428,
+      "pids": [
+        3582145
+      ],
+      "power_W": 88.829,
+      "temperature_C": 35
+    },
+    {
+      "monotonic": 5276800.80091884,
+      "pids": [
+        3582145
+      ],
+      "power_W": 88.829,
+      "temperature_C": 35
+    },
+    {
+      "monotonic": 5276800.896203805,
+      "pids": [
+        3582145
+      ],
+      "power_W": 122.857,
+      "temperature_C": 35
+    },
+    {
+      "monotonic": 5276800.997098226,
+      "pids": [
+        3582145
+      ],
+      "power_W": 122.857,
+      "temperature_C": 35
+    },
+    {
+      "monotonic": 5276801.098062365,
+      "pids": [
+        3582145
+      ],
+      "power_W": 122.857,
+      "temperature_C": 35
+    },
+    {
+      "monotonic": 5276801.199021456,
+      "pids": [
+        3582145
+      ],
+      "power_W": 122.857,
+      "temperature_C": 35
+    },
+    {
+      "monotonic": 5276801.233546434,
+      "pids": [
+        3582145
+      ],
+      "power_W": 122.857,
+      "temperature_C": 35
+    },
+    {
+      "monotonic": 5276801.303605682,
+      "pids": [
+        3582145
+      ],
+      "power_W": 122.857,
+      "temperature_C": 35
+    },
+    {
+      "monotonic": 5276801.404617043,
+      "pids": [
+        3582145
+      ],
+      "power_W": 159.868,
+      "temperature_C": 35
+    },
+    {
+      "monotonic": 5276801.505483281,
+      "pids": [
+        3582145
+      ],
+      "power_W": 159.868,
+      "temperature_C": 35
+    },
+    {
+      "monotonic": 5276801.60645099,
+      "pids": [
+        3582145
+      ],
+      "power_W": 159.868,
+      "temperature_C": 40
+    },
+    {
+      "monotonic": 5276801.62358851,
+      "pids": [
+        3582145
+      ],
+      "power_W": 159.868,
+      "temperature_C": 40
+    },
+    {
+      "monotonic": 5276801.707435235,
+      "pids": [
+        3582145
+      ],
+      "power_W": 159.868,
+      "temperature_C": 40
+    },
+    {
+      "monotonic": 5276801.808354716,
+      "pids": [
+        3582145
+      ],
+      "power_W": 159.868,
+      "temperature_C": 40
+    },
+    {
+      "monotonic": 5276801.909451642,
+      "pids": [
+        3582145
+      ],
+      "power_W": 177.847,
+      "temperature_C": 40
+    },
+    {
+      "monotonic": 5276802.010465985,
+      "pids": [
+        3582145
+      ],
+      "power_W": 177.847,
+      "temperature_C": 40
+    },
+    {
+      "monotonic": 5276802.021362909,
+      "pids": [
+        3582145
+      ],
+      "power_W": 177.847,
+      "temperature_C": 40
+    },
+    {
+      "monotonic": 5276802.111308235,
+      "pids": [
+        3582145
+      ],
+      "power_W": 177.847,
+      "temperature_C": 41
+    },
+    {
+      "monotonic": 5276802.212212377,
+      "pids": [
+        3582145
+      ],
+      "power_W": 177.847,
+      "temperature_C": 41
+    },
+    {
+      "monotonic": 5276802.313114013,
+      "pids": [
+        3582145
+      ],
+      "power_W": 177.847,
+      "temperature_C": 41
+    },
+    {
+      "monotonic": 5276802.413969301,
+      "pids": [
+        3582145
+      ],
+      "power_W": 199.793,
+      "temperature_C": 41
+    },
+    {
+      "monotonic": 5276802.46764276,
+      "pids": [
+        3582145
+      ],
+      "power_W": 199.793,
+      "temperature_C": 41
+    },
+    {
+      "monotonic": 5276802.514786703,
+      "pids": [
+        3582145
+      ],
+      "power_W": 199.793,
+      "temperature_C": 41
+    },
+    {
+      "monotonic": 5276802.615643793,
+      "pids": [
+        3582145
+      ],
+      "power_W": 199.793,
+      "temperature_C": 39
+    },
+    {
+      "monotonic": 5276802.71650234,
+      "pids": [
+        3582145
+      ],
+      "power_W": 199.793,
+      "temperature_C": 39
+    },
+    {
+      "monotonic": 5276802.81735925,
+      "pids": [
+        3582145
+      ],
+      "power_W": 199.793,
+      "temperature_C": 39
+    },
+    {
+      "monotonic": 5276802.849521694,
+      "pids": [
+        3582145
+      ],
+      "power_W": 212.146,
+      "temperature_C": 39
+    },
+    {
+      "monotonic": 5276802.918628563,
+      "pids": [
+        3582145
+      ],
+      "power_W": 212.146,
+      "temperature_C": 39
+    },
+    {
+      "monotonic": 5276803.019523881,
+      "pids": [
+        3582145
+      ],
+      "power_W": 212.146,
+      "temperature_C": 39
+    },
+    {
+      "monotonic": 5276803.120273214,
+      "pids": [
+        3582145
+      ],
+      "power_W": 212.146,
+      "temperature_C": 37
+    },
+    {
+      "monotonic": 5276803.221038145,
+      "pids": [
+        3582145
+      ],
+      "power_W": 212.146,
+      "temperature_C": 37
+    },
+    {
+      "monotonic": 5276803.240385682,
+      "pids": [
+        3582145
+      ],
+      "power_W": 212.146,
+      "temperature_C": 37
+    },
+    {
+      "monotonic": 5276803.321824937,
+      "pids": [
+        3582145
+      ],
+      "power_W": 212.146,
+      "temperature_C": 37
+    },
+    {
+      "monotonic": 5276803.422643434,
+      "pids": [
+        3582145
+      ],
+      "power_W": 224.563,
+      "temperature_C": 37
+    },
+    {
+      "monotonic": 5276803.52349932,
+      "pids": [
+        3582145
+      ],
+      "power_W": 224.563,
+      "temperature_C": 37
+    },
+    {
+      "monotonic": 5276803.624149856,
+      "pids": [
+        3582145
+      ],
+      "power_W": 224.563,
+      "temperature_C": 41
+    },
+    {
+      "monotonic": 5276805.02598418,
+      "pids": [
+        3582145
+      ],
+      "power_W": 96.427,
+      "temperature_C": 37
+    },
+    {
+      "monotonic": 5276806.041971197,
+      "pids": [
+        3582145
+      ],
+      "power_W": 84.717,
+      "temperature_C": 37
+    },
+    {
+      "monotonic": 5276806.157866729,
+      "pids": [
+        3582145
+      ],
+      "power_W": 84.717,
+      "temperature_C": 36
+    },
+    {
+      "monotonic": 5276806.258786272,
+      "pids": [
+        3582145
+      ],
+      "power_W": 84.717,
+      "temperature_C": 36
+    },
+    {
+      "monotonic": 5276806.359666174,
+      "pids": [
+        3582145
+      ],
+      "power_W": 82.258,
+      "temperature_C": 36
+    },
+    {
+      "monotonic": 5276806.460634641,
+      "pids": [
+        3582145
+      ],
+      "power_W": 82.258,
+      "temperature_C": 36
+    },
+    {
+      "monotonic": 5276806.561536873,
+      "pids": [
+        3582145
+      ],
+      "power_W": 82.258,
+      "temperature_C": 37
+    },
+    {
+      "monotonic": 5276806.663007893,
+      "pids": [
+        3582145
+      ],
+      "power_W": 82.258,
+      "temperature_C": 37
+    },
+    {
+      "monotonic": 5276806.76407325,
+      "pids": [
+        3582145
+      ],
+      "power_W": 82.258,
+      "temperature_C": 37
+    },
+    {
+      "monotonic": 5276806.804372082,
+      "pids": [
+        3582145
+      ],
+      "power_W": 82.258,
+      "temperature_C": 37
+    },
+    {
+      "monotonic": 5276806.855519551,
+      "pids": [
+        3582145
+      ],
+      "power_W": 88.653,
+      "temperature_C": 37
+    },
+    {
+      "monotonic": 5276806.864978343,
+      "pids": [
+        3582145
+      ],
+      "power_W": 88.653,
+      "temperature_C": 37
+    },
+    {
+      "monotonic": 5276806.905316727,
+      "pids": [
+        3582145
+      ],
+      "power_W": 88.653,
+      "temperature_C": 37
+    },
+    {
+      "monotonic": 5276806.957816061,
+      "pids": [
+        3582145
+      ],
+      "power_W": 88.653,
+      "temperature_C": 37
+    },
+    {
+      "monotonic": 5276806.958230959,
+      "pids": [
+        3582145
+      ],
+      "power_W": 88.653,
+      "temperature_C": 37
+    },
+    {
+      "monotonic": 5276806.965665774,
+      "pids": [
+        3582145
+      ],
+      "power_W": 88.653,
+      "temperature_C": 37
+    },
+    {
+      "monotonic": 5276807.007508821,
+      "pids": [
+        3582145
+      ],
+      "power_W": 88.653,
+      "temperature_C": 37
+    },
+    {
+      "monotonic": 5276807.056623968,
+      "pids": [
+        3582145
+      ],
+      "power_W": 88.653,
+      "temperature_C": 37
+    },
+    {
+      "monotonic": 5276807.066485972,
+      "pids": [
+        3582145
+      ],
+      "power_W": 88.653,
+      "temperature_C": 37
+    },
+    {
+      "monotonic": 5276807.106012549,
+      "pids": [
+        3582145
+      ],
+      "power_W": 88.653,
+      "temperature_C": 37
+    },
+    {
+      "monotonic": 5276807.106418882,
+      "pids": [
+        3582145
+      ],
+      "power_W": 88.653,
+      "temperature_C": 37
+    },
+    {
+      "monotonic": 5276807.155557862,
+      "pids": [
+        3582145
+      ],
+      "power_W": 88.653,
+      "temperature_C": 37
+    },
+    {
+      "monotonic": 5276807.16730903,
+      "pids": [
+        3582145
+      ],
+      "power_W": 88.653,
+      "temperature_C": 37
+    },
+    {
+      "monotonic": 5276807.205250405,
+      "pids": [
+        3582145
+      ],
+      "power_W": 88.653,
+      "temperature_C": 37
+    },
+    {
+      "monotonic": 5276807.255183048,
+      "pids": [
+        3582145
+      ],
+      "power_W": 88.653,
+      "temperature_C": 37
+    },
+    {
+      "monotonic": 5276807.26825611,
+      "pids": [
+        3582145
+      ],
+      "power_W": 88.653,
+      "temperature_C": 37
+    },
+    {
+      "monotonic": 5276807.431976644,
+      "pids": [
+        3582145
+      ],
+      "power_W": 102.075,
+      "temperature_C": 37
+    },
+    {
+      "monotonic": 5276807.532960231,
+      "pids": [
+        3582145
+      ],
+      "power_W": 102.075,
+      "temperature_C": 37
+    },
+    {
+      "monotonic": 5276807.664722342,
+      "pids": [
+        3582145
+      ],
+      "power_W": 102.075,
+      "temperature_C": 36
+    },
+    {
+      "monotonic": 5276807.765763148,
+      "pids": [
+        3582145
+      ],
+      "power_W": 102.075,
+      "temperature_C": 36
+    },
+    {
+      "monotonic": 5276807.903643784,
+      "pids": [
+        3582145
+      ],
+      "power_W": 95.666,
+      "temperature_C": 36
+    },
+    {
+      "monotonic": 5276807.96724172,
+      "pids": [
+        3582145
+      ],
+      "power_W": 95.666,
+      "temperature_C": 36
+    }
+  ],
+  "foreign_pids": [],
+  "errors": [],
+  "valid": true
+}

@@ -1,0 +1,8 @@
+{
+  "status": "PASS_MATCHED_RESIDENT_PATHS",
+  "process": 6,
+  "gpu": 1,
+  "rows": 1566,
+  "time": "2026-11-05T19:38:51.529817+08:00",
+  "peak_allocated_GPU_bytes": 4662353408
+}

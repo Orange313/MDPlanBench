@@ -1,0 +1,53 @@
+[
+  {
+    "budget": 0.02,
+    "weights": [
+      0.0,
+      0.8881054561276628,
+      0.11189454387233722
+    ],
+    "seed": 20261105,
+    "training_risk": 0.020000000001,
+    "Fit_mean_cost": 0.02829209068246548,
+    "catalog": [
+      "Full-Visual",
+      "BM25-R100",
+      "BM25"
+    ],
+    "label_source": "Fit81_ONLY"
+  },
+  {
+    "budget": 0.05,
+    "weights": [
+      0.0,
+      0.5679251830044637,
+      0.4320748169955363
+    ],
+    "seed": 20261105,
+    "training_risk": 0.050000000001,
+    "Fit_mean_cost": 0.01895418629462181,
+    "catalog": [
+      "Full-Visual",
+      "BM25-R100",
+      "BM25"
+    ],
+    "label_source": "Fit81_ONLY"
+  },
+  {
+    "budget": 0.1,
+    "weights": [
+      0.0,
+      0.03429139446579843,
+      0.9657086055342016
+    ],
+    "seed": 20261105,
+    "training_risk": 0.10000000000100001,
+    "Fit_mean_cost": 0.0033910123148823672,
+    "catalog": [
+      "Full-Visual",
+      "BM25-R100",
+      "BM25"
+    ],
+    "label_source": "Fit81_ONLY"
+  }
+]

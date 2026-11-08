@@ -1,0 +1,15 @@
+{
+  "run_id": "icde_eab_independent_007",
+  "stage": "T1",
+  "status": "PASS_PREREGISTERED_QUALIFIED_BENCHMARK",
+  "time_bj": "2026-10-28T11:54:00.123210+08:00",
+  "seed": 202610281100,
+  "facts": "160英文/1016页/27来源/515qrels；3内部近重复对合为157查询族，跨旧允许数据未发现实质查询/页面重复；62视觉候选已逐对复核，4720文本候选全为空文本嵌入碰撞。OCR完成含20空页，冻结Q/QP/适配基线/继承成本与固定随机分配。预训练重叠UNKNOWN。",
+  "decision": "先独立上报T1；不得在该记录前运行Biomedical质量；ColPali pilot之后执行。",
+  "code_snapshot_commit": "32b7e2a29cad7ae6031e7102f8851e6fa09d0db8",
+  "base_project_commit": "346b80e1849df79c5e646ec2421ee552b1f2484e",
+  "code_bundle_SHA256": "fc3f92a105a991f119c94da779649922171168f4745d21b1c27556f7d9c0d3c9",
+  "inventory_SHA256": "deea76660d1be62551f2a993c9fa8c1402704d875f136f3bb9cf6eb3c503748e",
+  "sealed_reads": 0,
+  "new_certification": "NOT_CERTIFIED"
+}

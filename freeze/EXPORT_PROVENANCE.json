@@ -1,0 +1,104 @@
+[
+  {
+    "path": "freeze/biomedical_frozen_protocol.json",
+    "historical_original_sha256": "5f3db14fea91d12128d7507d07d7a3c9fe54a7c1dea3d3354207eea84357be3b",
+    "public_export_sha256": "ce891ca070bb3d768324f65c5fcf7a8df7d50a1aec3e966aa9f8aea81155e2c5",
+    "scope": "public metadata export, not a replacement for historical byte hash"
+  },
+  {
+    "path": "freeze/chronology.csv",
+    "historical_original_sha256": "79561fb8013ca3ca14e92b20df1864486c70338f3fd085970de82c4c9487377e",
+    "public_export_sha256": "b24844ffc77082f901d57730ed856ea4bb395e5afd5ac2aed5cef61f5c63ed52",
+    "scope": "public metadata export, not a replacement for historical byte hash"
+  },
+  {
+    "path": "freeze/economics_frozen_protocol.json",
+    "historical_original_sha256": "c6b76cf2242afe4b8791cd5997b56336f2e6779cc3e17af172575e222950b613",
+    "public_export_sha256": "9057ec9f7aa0e4fee051b77283fa6c306ce976fb8370c2e8160e4dcba2a2ec61",
+    "scope": "public metadata export, not a replacement for historical byte hash"
+  },
+  {
+    "path": "freeze/source_metadata/artifacts/icde_eab_external_validation_013/E2/manifest.json",
+    "historical_original_sha256": "33cc9cd8c76916170e9575a918fd5884cb29bc72b5b22e902d53b650fd51d6a3",
+    "public_export_sha256": "907748fe40bb7377490da0ffc524d69f741389318b7b5b9d4f0fa6d64966fb81",
+    "scope": "public metadata export, not a replacement for historical byte hash"
+  },
+  {
+    "path": "freeze/source_metadata/artifacts/icde_eab_external_validation_013/E2/stage_start.json",
+    "historical_original_sha256": "65c64f8b68bbd0949c88c987c2eaf8b8c41bcac1ad66a10d3fb286ba6ab208cd",
+    "public_export_sha256": "5b0b46b7f4d100a677edcfffc09e3ca114ddae1326528117b37ace573a0b997e",
+    "scope": "public metadata export, not a replacement for historical byte hash"
+  },
+  {
+    "path": "freeze/source_metadata/artifacts/icde_eab_external_validation_013/resume_001/gpu_smoke_001/manifest.json",
+    "historical_original_sha256": "feb17aab32d010d8ef0e329310c39a922cb5f338c7953553484052a9da43d816",
+    "public_export_sha256": "6d27dbf08ae9768a63abcabf3f90d3bbae3f55096d55f85c47ad179d1030f18f",
+    "scope": "public metadata export, not a replacement for historical byte hash"
+  },
+  {
+    "path": "freeze/source_metadata/artifacts/icde_eab_independent_007/T1/manifest.json",
+    "historical_original_sha256": "d0b1ebde068ccc17c7f5b02d90139f3f90966fdd10096094585e48e887b673fe",
+    "public_export_sha256": "6d5e3c13d44e6471f7a77b9b24feeccdd335b9f649424561537554da6598ccb2",
+    "scope": "public metadata export, not a replacement for historical byte hash"
+  },
+  {
+    "path": "freeze/source_metadata/artifacts/icde_eab_independent_007/T2/process_0_001/stage_start.json",
+    "historical_original_sha256": "fb54518fff67e41e3cf64ce195f2688b17f94878dce51e1fa1535b75f18972eb",
+    "public_export_sha256": "db2159eac91bd96f65e1120b6a97c8e21264934a6e2ee5d59f095bd28f0e3ce2",
+    "scope": "public metadata export, not a replacement for historical byte hash"
+  },
+  {
+    "path": "freeze/source_metadata/artifacts/icde_eab_independent_007/T2/process_1_001/stage_start.json",
+    "historical_original_sha256": "ba67c1c27b719f77e7267d72643cba9b7b0470fbb7c0b621cb6ec8dbfe8e5c4a",
+    "public_export_sha256": "245807e743d8a633b87308005637eb7527d0427e4a6a0495d059237cc9f6b617",
+    "scope": "public metadata export, not a replacement for historical byte hash"
+  },
+  {
+    "path": "freeze/source_metadata/artifacts/icde_eab_independent_007/T2/process_2_001/stage_start.json",
+    "historical_original_sha256": "834755e425ae187c335a7ab1021fcfa291ac1ea6ef0c6badcb5d98f5b1ae892e",
+    "public_export_sha256": "04f00fab04d42cdb5c4d741c2d82bb3bb00cfe2c34a3fc96656e0bdeaa160e47",
+    "scope": "public metadata export, not a replacement for historical byte hash"
+  },
+  {
+    "path": "freeze/source_metadata/artifacts/icde_eab_lastmile_008/L1/process_0_001/stage_start.json",
+    "historical_original_sha256": "d70d0d1bc34c160811287d73d4fc2356b94f1fa33668f1b998dd832d0e98c3e4",
+    "public_export_sha256": "bc0bf51c31430e0d953767953e27b3f31b8d9d659a19e77b7ebfe30ba99d9d5b",
+    "scope": "public metadata export, not a replacement for historical byte hash"
+  },
+  {
+    "path": "freeze/source_metadata/artifacts/icde_eab_lastmile_008/L1/process_1_001/stage_start.json",
+    "historical_original_sha256": "bf2387a56e57e8c411e7dde28d85feaacf48533755dc72d84dc5a36454705ac7",
+    "public_export_sha256": "c5d8bed3821b007709d496647097d93bec1eb7d8ca35212b31b1e46445ea3e9a",
+    "scope": "public metadata export, not a replacement for historical byte hash"
+  },
+  {
+    "path": "freeze/source_metadata/artifacts/icde_eab_lastmile_008/L1/process_2_001/stage_start.json",
+    "historical_original_sha256": "b4e2ad38aff6a613bbd2a4438e4c41aa987da61d9cb67584f2900533cf77084d",
+    "public_export_sha256": "d80ea2b273080d8b2993b7574a0fc12aa84bc3af4830e6acee863c2ce2d7943e",
+    "scope": "public metadata export, not a replacement for historical byte hash"
+  },
+  {
+    "path": "freeze/source_metadata/artifacts/icde_eab_lastmile_008/L1/process_2_002/stage_start.json",
+    "historical_original_sha256": "cb47266e0aa76eef2776b0ea7019c6f69b2ce0297c6312d5a14cfb8d7c181618",
+    "public_export_sha256": "5cbf9463b64a3e1b64e10ba2102c68d7fe86fef4e10fbce183f4aa48af3a28c3",
+    "scope": "public metadata export, not a replacement for historical byte hash"
+  },
+  {
+    "path": "freeze/source_metadata/artifacts/icde_eab_lastmile_008/L1/summary_001/manifest.json",
+    "historical_original_sha256": "fe9f03dfd201c7cd3e829799f1002697ddcb3377fbaed5d0fc81fab0bce4e5f1",
+    "public_export_sha256": "5b5f143a42c746496d9ff75c5e4574a7a00f08896942a65b401382b9384aae87",
+    "scope": "public metadata export, not a replacement for historical byte hash"
+  },
+  {
+    "path": "freeze/source_metadata/reports/icde_eab_external_validation_013/monitor_001/auto2_attempt_001/summary/manifest.json",
+    "historical_original_sha256": "edffe8770f3794eb9cf7f9c6a81ed539f32a03684d55036547f01dc2ec928ae2",
+    "public_export_sha256": "4c16fdd6d250bc13b2dd89d97a967292575e57b7c6b8c4168a8d0fc2f15f24ce",
+    "scope": "public metadata export, not a replacement for historical byte hash"
+  },
+  {
+    "path": "freeze/source_metadata/reports/icde_eab_external_validation_013/resume_001/freeze_001/manifest.json",
+    "historical_original_sha256": "a406138096a8c78a4b187a1bddbf79151a8bd98a7d2de91617056613c61fd1c5",
+    "public_export_sha256": "eefeb89b229234fb6bbcf5ff7bea360f9c59176969729247387a462783fd51f0",
+    "scope": "public metadata export, not a replacement for historical byte hash"
+  }
+]

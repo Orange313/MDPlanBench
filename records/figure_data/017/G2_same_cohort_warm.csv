@@ -1,0 +1,25 @@
+model,repeat,plan,queries,warm_E2E_s,P50_s,P95_s,scope
+ColQwen2,1,Full-Visual,160,0.03858436288428493,0.03718237532302737,0.04531755577772856,same017 process after3 warmups; real serial request cost; not Serving
+ColQwen2,1,BM25-R50,160,0.03216074106749147,0.03149118693545461,0.03682801499962807,same017 process after3 warmups; real serial request cost; not Serving
+ColQwen2,1,BM25-R100,160,0.03344195203389973,0.03208514070138335,0.04489458352327347,same017 process after3 warmups; real serial request cost; not Serving
+ColQwen2,1,BM25,160,0.0011449636367615312,0.0011374382302165031,0.0013227565214037895,same017 process after3 warmups; real serial request cost; not Serving
+ColQwen2,2,Full-Visual,160,0.0341567404975649,0.03378740604966879,0.035407586954534054,same017 process after3 warmups; real serial request cost; not Serving
+ColQwen2,2,BM25-R50,160,0.028486315940972416,0.0282762935385108,0.029699589125812054,same017 process after3 warmups; real serial request cost; not Serving
+ColQwen2,2,BM25-R100,160,0.02898837791290134,0.02875619987025857,0.030552844516932964,same017 process after3 warmups; real serial request cost; not Serving
+ColQwen2,2,BM25,160,0.0009374611254315823,0.0009358106181025505,0.0010279025882482529,same017 process after3 warmups; real serial request cost; not Serving
+ColQwen2,3,Full-Visual,160,0.03591402617748827,0.033723870757967234,0.04385215323418379,same017 process after3 warmups; real serial request cost; not Serving
+ColQwen2,3,BM25-R50,160,0.030805344879627227,0.02848186995834112,0.03763363230973482,same017 process after3 warmups; real serial request cost; not Serving
+ColQwen2,3,BM25-R100,160,0.030482677352847532,0.028603291604667902,0.03771883901208639,same017 process after3 warmups; real serial request cost; not Serving
+ColQwen2,3,BM25,160,0.0009327550826128573,0.0009126206859946251,0.001081801950931549,same017 process after3 warmups; real serial request cost; not Serving
+ColPali,1,Full-Visual,160,0.049141761899227275,0.04611411411315203,0.06424176320433617,same017 process after3 warmups; real serial request cost; not Serving
+ColPali,1,BM25-R50,160,0.042178609786788,0.03951963782310486,0.05557216517627239,same017 process after3 warmups; real serial request cost; not Serving
+ColPali,1,BM25-R100,160,0.043182338745100426,0.04070682730525732,0.05546906031668186,same017 process after3 warmups; real serial request cost; not Serving
+ColPali,1,BM25,160,0.001168257708195597,0.0010915366001427174,0.0017626434564590454,same017 process after3 warmups; real serial request cost; not Serving
+ColPali,2,Full-Visual,160,0.04490588356275112,0.044461865443736315,0.04796728305518627,same017 process after3 warmups; real serial request cost; not Serving
+ColPali,2,BM25-R50,160,0.040178219380322844,0.039530497044324875,0.04402443394064903,same017 process after3 warmups; real serial request cost; not Serving
+ColPali,2,BM25-R100,160,0.04047391782514751,0.03983042202889919,0.043365826830267906,same017 process after3 warmups; real serial request cost; not Serving
+ColPali,2,BM25,160,0.0010793260647915305,0.0010907398536801338,0.0012004263699054718,same017 process after3 warmups; real serial request cost; not Serving
+ColPali,3,Full-Visual,160,0.04147282261401415,0.04123242385685444,0.04404738172888756,same017 process after3 warmups; real serial request cost; not Serving
+ColPali,3,BM25-R50,160,0.03695342610008083,0.036413418129086494,0.039256513118743896,same017 process after3 warmups; real serial request cost; not Serving
+ColPali,3,BM25-R100,160,0.03707977167214267,0.036622846964746714,0.03936429601162672,same017 process after3 warmups; real serial request cost; not Serving
+ColPali,3,BM25,160,0.0009736340201925486,0.0009576454758644104,0.0011063134297728539,same017 process after3 warmups; real serial request cost; not Serving

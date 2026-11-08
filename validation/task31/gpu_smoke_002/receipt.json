@@ -1,0 +1,9 @@
+{
+  "returncode": 0,
+  "domain": "HR",
+  "Dev_query_id": 0,
+  "label_reads": 0,
+  "scope": "Four-plan technical smoke on16pages/one frozen Dev query; NOT full-domain benchmark reproduction",
+  "schema_adapter": "only field names and predeclared Dev filter; no model/score changes",
+  "base_commit": "e971def8e2c2f0278a272105e9016fe1d473a5d5"
+}

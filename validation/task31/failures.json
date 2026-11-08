@@ -1,0 +1,26 @@
+{
+  "retained_failures": [
+    {
+      "attempt": "Windows legacy replay001",
+      "status": "FAIL_BYTE_HASH_PORTABILITY",
+      "detail": "two CSV hashes differ due to floating-point accumulation at last digits; 78 cells; NOT a path-string issue; Linux reference pipeline passes byte hashes"
+    },
+    {
+      "attempt": "Linux figure preflight001",
+      "status": "FAIL_LABEL_PADDING",
+      "detail": "lower panel labels outside bounds; layout-only padding fixed"
+    },
+    {
+      "attempt": "Linux figure preflight002",
+      "status": "FAIL_DUPLICATE_EXPORT",
+      "detail": "A/A was already rendered by the common entry; duplicate call removed"
+    },
+    {
+      "attempt": "GPU schema smoke001",
+      "status": "FAIL_BEFORE_CUDA",
+      "detail": "V3 query_id versus V2 query-id; explicit schema adapter added for smoke002"
+    }
+  ],
+  "unchanged_scientific_values": true,
+  "models_retrained": 0
+}

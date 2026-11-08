@@ -1,0 +1,61 @@
+{
+  "status": "FAIL_SOURCE_DISJOINTNESS",
+  "roles": {
+    "QUARANTINED": {
+      "queries": 84,
+      "families": 72,
+      "sources": 16
+    },
+    "development": {
+      "queries": 45,
+      "families": 44,
+      "sources": 14
+    },
+    "fit": {
+      "queries": 81,
+      "families": 80,
+      "sources": 21
+    },
+    "new_calibration_sealed": {
+      "queries": 81,
+      "families": 81,
+      "sources": 20
+    },
+    "new_final_evaluation_sealed": {
+      "queries": 73,
+      "families": 70,
+      "sources": 18
+    }
+  },
+  "Fit_Cal_intersections": {
+    "query_id": [],
+    "family_id": [],
+    "source_component": [
+      "186",
+      "2056",
+      "2059",
+      "2063",
+      "2065",
+      "2071",
+      "2073",
+      "233",
+      "241",
+      "244",
+      "254",
+      "272",
+      "288",
+      "294",
+      "314",
+      "334",
+      "336",
+      "337",
+      "340"
+    ]
+  },
+  "global_components": 23,
+  "seeds": {
+    "original_candidate": 202610261600,
+    "quarantine_representatives": 202610271030
+  },
+  "new_sealed_label_reads": 0
+}

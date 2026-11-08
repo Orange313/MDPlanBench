@@ -1,3 +1,5 @@
+> Current EAB v1 branch: see [README_EAB_V1.md](README_EAB_V1.md) for the offline paper reproduction command, MIT license scope, exact evidence boundaries and unresolved manuscript audit items. Historical notes below are retained.
+
 # MDRouter EAB reproduction artifact
 
 This artifact separates retrieval-plan quality, positive reference-relative regret, complete measured path costs, and statistical guarantees. It contains reproducibility code and authorized numerical measurements, not a new certified router or a claim of Serving superiority.
@@ -31,3 +33,8 @@ python repro/paper_mechanism_audit.py --per-query-csv NEW_REPLAY/base/workspace/
 ```
 
 Expected derived hashes are in `expected_paper_review011_hashes.json` (Linux/Python3.11). The nativeTeX figure is generated from frozen component costs; its volume grid is accounting, not new requests. Mechanism examples use declared maximum-diagnostic-score rules and all160queries remain included. Reference containment requiresFullV and is an offline diagnostic, not an allowedonline feature. These two smallscripts add no training, calibration, newqrels, images or weights; the original42numericexpectedhashes stayunchanged. Originalcode license selection remains pending; no MITgrant is added.
+
+## ICDE 2027 EAB artifact v1
+
+See [the current EAB reproduction guide](README_EAB_V1.md) for the expanded paper mapping, MIT grant, audit ledger, and one-command offline CPU reproduction. Historical material below remains available.
+

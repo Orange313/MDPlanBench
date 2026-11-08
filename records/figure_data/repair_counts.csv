@@ -1,0 +1,12 @@
+domain,model,n,harmed50,fully_repaired,still_harmed,newly_harmed,harmed100
+HR,ColQwen2,40,6,1,5,0,5
+Finance,ColQwen2,39,5,2,3,0,3
+Industrial,ColQwen2,40,4,0,4,0,4
+Pharma,ColQwen2,45,8,4,4,0,4
+Biomedical,ColQwen2,160,44,7,37,0,37
+Economics,ColQwen2,58,17,12,5,0,5
+HR,ColPali,40,6,4,2,2,4
+Finance,ColPali,39,2,2,0,1,1
+Industrial,ColPali,40,3,1,2,0,2
+Pharma,ColPali,45,5,3,2,0,2
+Biomedical,ColPali,160,43,8,35,0,35

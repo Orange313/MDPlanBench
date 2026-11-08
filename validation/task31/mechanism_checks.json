@@ -1,0 +1,219 @@
+[
+  {
+    "name": "Biomedical_unfavorable_source_count",
+    "value": 14.0,
+    "source": "${WORKSPACE}\\icde_eab_paper_revision_022_local\\candidate_006\\inputs\\artifacts\\icde_eab_review_strengthening_021\\EX0\\Biomedical.npz",
+    "source_sha256": "1ef4842bad71ec6d064d331621cf9d216ab9539379a5ac26f0bf20897bbad39c",
+    "formula": "count source groups with mean(QP-R100 regret)>0 OR mean(QP-R100 E2E)>0"
+  },
+  {
+    "name": "Biomedical_source_groups",
+    "value": 27.0,
+    "source": "${WORKSPACE}\\icde_eab_paper_revision_022_local\\candidate_006\\inputs\\artifacts\\icde_eab_review_strengthening_021\\EX0\\Biomedical.npz",
+    "source_sha256": "1ef4842bad71ec6d064d331621cf9d216ab9539379a5ac26f0bf20897bbad39c",
+    "formula": "len(unique(source groups)); Economics remains ONE source component"
+  },
+  {
+    "name": "Biomedical_Q_features",
+    "value": 150.0,
+    "source": "${WORKSPACE}\\icde_eab_paper_revision_022_local\\candidate_006\\inputs\\artifacts\\icde_eab_review_strengthening_021\\EX0\\Biomedical.npz",
+    "source_sha256": "1ef4842bad71ec6d064d331621cf9d216ab9539379a5ac26f0bf20897bbad39c",
+    "formula": "Q.shape[1]"
+  },
+  {
+    "name": "Biomedical_QP_features",
+    "value": 163.0,
+    "source": "${WORKSPACE}\\icde_eab_paper_revision_022_local\\candidate_006\\inputs\\artifacts\\icde_eab_review_strengthening_021\\EX0\\Biomedical.npz",
+    "source_sha256": "1ef4842bad71ec6d064d331621cf9d216ab9539379a5ac26f0bf20897bbad39c",
+    "formula": "Q.shape[1]+P.shape[1]"
+  },
+  {
+    "name": "Economics_unfavorable_query_family_count",
+    "value": 45.0,
+    "source": "${WORKSPACE}\\icde_eab_paper_revision_022_local\\candidate_006\\inputs\\artifacts\\icde_eab_review_strengthening_021\\EX0\\Economics.npz",
+    "source_sha256": "47e174699e7f9cb62078b135ffc2a70930e56133cc245e09000bd133bb19e910",
+    "formula": "count query_family groups with mean(QP-R100 regret)>0 OR mean(QP-R100 E2E)>0"
+  },
+  {
+    "name": "Economics_query_family_groups",
+    "value": 53.0,
+    "source": "${WORKSPACE}\\icde_eab_paper_revision_022_local\\candidate_006\\inputs\\artifacts\\icde_eab_review_strengthening_021\\EX0\\Economics.npz",
+    "source_sha256": "47e174699e7f9cb62078b135ffc2a70930e56133cc245e09000bd133bb19e910",
+    "formula": "len(unique(query_family groups)); Economics remains ONE source component"
+  },
+  {
+    "name": "Economics_Q_features",
+    "value": 150.0,
+    "source": "${WORKSPACE}\\icde_eab_paper_revision_022_local\\candidate_006\\inputs\\artifacts\\icde_eab_review_strengthening_021\\EX0\\Economics.npz",
+    "source_sha256": "47e174699e7f9cb62078b135ffc2a70930e56133cc245e09000bd133bb19e910",
+    "formula": "Q.shape[1]"
+  },
+  {
+    "name": "Economics_QP_features",
+    "value": 163.0,
+    "source": "${WORKSPACE}\\icde_eab_paper_revision_022_local\\candidate_006\\inputs\\artifacts\\icde_eab_review_strengthening_021\\EX0\\Economics.npz",
+    "source_sha256": "47e174699e7f9cb62078b135ffc2a70930e56133cc245e09000bd133bb19e910",
+    "formula": "Q.shape[1]+P.shape[1]"
+  },
+  {
+    "name": "Fit81_BM100_harmed",
+    "value": 4.0,
+    "source": "${WORKSPACE}\\icde_eab_paper_revision_022_local\\candidate_006\\inputs\\artifacts\\icde_eab_review_strengthening_021\\EX0\\fit.npz",
+    "source_sha256": "a388b5afbaf0ff691ff57a2ff81326347da7341b87aad99f5c0196e6d7dbe05c",
+    "formula": "count(Y[:,BM100=2]>1e-10)"
+  },
+  {
+    "name": "Fit_queries",
+    "value": 81.0,
+    "source": "${WORKSPACE}\\icde_eab_paper_revision_022_local\\candidate_006\\inputs\\artifacts\\icde_eab_review_strengthening_021\\EX0\\fit.npz",
+    "source_sha256": "a388b5afbaf0ff691ff57a2ff81326347da7341b87aad99f5c0196e6d7dbe05c",
+    "formula": "len(qids)"
+  },
+  {
+    "name": "Fit_families",
+    "value": 80.0,
+    "source": "${WORKSPACE}\\icde_eab_paper_revision_022_local\\candidate_006\\inputs\\artifacts\\icde_eab_review_strengthening_021\\EX0\\fit.npz",
+    "source_sha256": "a388b5afbaf0ff691ff57a2ff81326347da7341b87aad99f5c0196e6d7dbe05c",
+    "formula": "len(unique(family))"
+  },
+  {
+    "name": "Dev_fully_repaired",
+    "value": 7.0,
+    "source": "${WORKSPACE}\\MDRouter_016_数字确认与绘图\\figures\\data\\repair_counts.csv",
+    "source_sha256": "b5487802eabc96d344dcda66f57dff6fab8da40a90ecac6b2fee492d01b4e699",
+    "formula": "Dev sum ColQwen2 fully_repaired"
+  },
+  {
+    "name": "Dev_harmed50",
+    "value": 23.0,
+    "source": "${WORKSPACE}\\MDRouter_016_数字确认与绘图\\figures\\data\\repair_counts.csv",
+    "source_sha256": "b5487802eabc96d344dcda66f57dff6fab8da40a90ecac6b2fee492d01b4e699",
+    "formula": "Dev sum ColQwen2 harmed50"
+  },
+  {
+    "name": "Dev_newly_harmed",
+    "value": 0.0,
+    "source": "${WORKSPACE}\\MDRouter_016_数字确认与绘图\\figures\\data\\repair_counts.csv",
+    "source_sha256": "b5487802eabc96d344dcda66f57dff6fab8da40a90ecac6b2fee492d01b4e699",
+    "formula": "Dev sum ColQwen2 newly_harmed"
+  },
+  {
+    "name": "Bench_fully_repaired",
+    "value": 19.0,
+    "source": "${WORKSPACE}\\MDRouter_016_数字确认与绘图\\figures\\data\\repair_counts.csv",
+    "source_sha256": "b5487802eabc96d344dcda66f57dff6fab8da40a90ecac6b2fee492d01b4e699",
+    "formula": "Bench sum ColQwen2 fully_repaired"
+  },
+  {
+    "name": "Bench_harmed50",
+    "value": 61.0,
+    "source": "${WORKSPACE}\\MDRouter_016_数字确认与绘图\\figures\\data\\repair_counts.csv",
+    "source_sha256": "b5487802eabc96d344dcda66f57dff6fab8da40a90ecac6b2fee492d01b4e699",
+    "formula": "Bench sum ColQwen2 harmed50"
+  },
+  {
+    "name": "Bench_newly_harmed",
+    "value": 0.0,
+    "source": "${WORKSPACE}\\MDRouter_016_数字确认与绘图\\figures\\data\\repair_counts.csv",
+    "source_sha256": "b5487802eabc96d344dcda66f57dff6fab8da40a90ecac6b2fee492d01b4e699",
+    "formula": "Bench sum ColQwen2 newly_harmed"
+  },
+  {
+    "name": "Biomedical_fast_gt005",
+    "value": 29.0,
+    "source": "${WORKSPACE}\\MDRouter_016_数字确认与绘图\\figures\\data\\QP_action_counts.csv",
+    "source_sha256": "9ef88a34e791be566915425a5ecb3390525023c083d300e6309507c6512869df",
+    "formula": "Biomedical sum fast_r_gt_005"
+  },
+  {
+    "name": "Economics_fast_gt005",
+    "value": 3.0,
+    "source": "${WORKSPACE}\\MDRouter_016_数字确认与绘图\\figures\\data\\QP_action_counts.csv",
+    "source_sha256": "9ef88a34e791be566915425a5ecb3390525023c083d300e6309507c6512869df",
+    "formula": "Economics sum fast_r_gt_005"
+  },
+  {
+    "name": "HR_BM50_minus_BM100_saving_ms",
+    "value": 0.2573196388159964,
+    "source": "${WORKSPACE}\\MDRouter_016_数字确认与绘图\\figures\\data\\plot_points_registered.csv",
+    "source_sha256": "ae5439c5d66e17938769bf81f74a12dd2be896cdb496d4ff4f43f4ad92ee2cc2",
+    "formula": "same original cohort R100_ms-R50_ms"
+  },
+  {
+    "name": "Finance_BM50_minus_BM100_saving_ms",
+    "value": 0.09969092820613668,
+    "source": "${WORKSPACE}\\MDRouter_016_数字确认与绘图\\figures\\data\\plot_points_registered.csv",
+    "source_sha256": "ae5439c5d66e17938769bf81f74a12dd2be896cdb496d4ff4f43f4ad92ee2cc2",
+    "formula": "same original cohort R100_ms-R50_ms"
+  },
+  {
+    "name": "Industrial_BM50_minus_BM100_saving_ms",
+    "value": 0.004740962241271518,
+    "source": "${WORKSPACE}\\MDRouter_016_数字确认与绘图\\figures\\data\\plot_points_registered.csv",
+    "source_sha256": "ae5439c5d66e17938769bf81f74a12dd2be896cdb496d4ff4f43f4ad92ee2cc2",
+    "formula": "same original cohort R100_ms-R50_ms"
+  },
+  {
+    "name": "Pharma_BM50_minus_BM100_saving_ms",
+    "value": 0.2986590573449064,
+    "source": "${WORKSPACE}\\MDRouter_016_数字确认与绘图\\figures\\data\\plot_points_registered.csv",
+    "source_sha256": "ae5439c5d66e17938769bf81f74a12dd2be896cdb496d4ff4f43f4ad92ee2cc2",
+    "formula": "same original cohort R100_ms-R50_ms"
+  },
+  {
+    "name": "Pharmaceuticals_Q_regret_nonaction_ms",
+    "value": 0.47776048520097025,
+    "source": "${WORKSPACE}\\MDPlanBench_031_核账与复现_20261108_001\\public_repo\\snapshot\\reports\\icde_final_gate_004\\S2\\resident_analysis_002\\all_unprofiled_requests.csv.gz",
+    "source_sha256": "2a83830577f887ba40847a70146ddc2f123ece2ee331fa231f13c4a843955ce7",
+    "formula": "mean((resident_full_path_E2E_s-selected_path_wall_s)*1000); includes unclassified residual; required reused probe inside action"
+  },
+  {
+    "name": "Pharmaceuticals_QP_regret_nonaction_ms",
+    "value": 2.8807925566295047,
+    "source": "${WORKSPACE}\\MDPlanBench_031_核账与复现_20261108_001\\public_repo\\snapshot\\reports\\icde_final_gate_004\\S2\\resident_analysis_002\\all_unprofiled_requests.csv.gz",
+    "source_sha256": "2a83830577f887ba40847a70146ddc2f123ece2ee331fa231f13c4a843955ce7",
+    "formula": "mean((resident_full_path_E2E_s-selected_path_wall_s)*1000); includes unclassified residual; required reused probe inside action"
+  },
+  {
+    "name": "vidore_v3_finance_en_Q_regret_nonaction_ms",
+    "value": 0.507439614042767,
+    "source": "${WORKSPACE}\\MDPlanBench_031_核账与复现_20261108_001\\public_repo\\snapshot\\reports\\icde_final_gate_004\\S2\\resident_analysis_002\\all_unprofiled_requests.csv.gz",
+    "source_sha256": "2a83830577f887ba40847a70146ddc2f123ece2ee331fa231f13c4a843955ce7",
+    "formula": "mean((resident_full_path_E2E_s-selected_path_wall_s)*1000); includes unclassified residual; required reused probe inside action"
+  },
+  {
+    "name": "vidore_v3_finance_en_QP_regret_nonaction_ms",
+    "value": 3.821002157601366,
+    "source": "${WORKSPACE}\\MDPlanBench_031_核账与复现_20261108_001\\public_repo\\snapshot\\reports\\icde_final_gate_004\\S2\\resident_analysis_002\\all_unprofiled_requests.csv.gz",
+    "source_sha256": "2a83830577f887ba40847a70146ddc2f123ece2ee331fa231f13c4a843955ce7",
+    "formula": "mean((resident_full_path_E2E_s-selected_path_wall_s)*1000); includes unclassified residual; required reused probe inside action"
+  },
+  {
+    "name": "vidore_v3_hr_Q_regret_nonaction_ms",
+    "value": 0.5101946570600072,
+    "source": "${WORKSPACE}\\MDPlanBench_031_核账与复现_20261108_001\\public_repo\\snapshot\\reports\\icde_final_gate_004\\S2\\resident_analysis_002\\all_unprofiled_requests.csv.gz",
+    "source_sha256": "2a83830577f887ba40847a70146ddc2f123ece2ee331fa231f13c4a843955ce7",
+    "formula": "mean((resident_full_path_E2E_s-selected_path_wall_s)*1000); includes unclassified residual; required reused probe inside action"
+  },
+  {
+    "name": "vidore_v3_hr_QP_regret_nonaction_ms",
+    "value": 1.894213047085537,
+    "source": "${WORKSPACE}\\MDPlanBench_031_核账与复现_20261108_001\\public_repo\\snapshot\\reports\\icde_final_gate_004\\S2\\resident_analysis_002\\all_unprofiled_requests.csv.gz",
+    "source_sha256": "2a83830577f887ba40847a70146ddc2f123ece2ee331fa231f13c4a843955ce7",
+    "formula": "mean((resident_full_path_E2E_s-selected_path_wall_s)*1000); includes unclassified residual; required reused probe inside action"
+  },
+  {
+    "name": "vidore_v3_industrial_Q_regret_nonaction_ms",
+    "value": 0.5050628601262966,
+    "source": "${WORKSPACE}\\MDPlanBench_031_核账与复现_20261108_001\\public_repo\\snapshot\\reports\\icde_final_gate_004\\S2\\resident_analysis_002\\all_unprofiled_requests.csv.gz",
+    "source_sha256": "2a83830577f887ba40847a70146ddc2f123ece2ee331fa231f13c4a843955ce7",
+    "formula": "mean((resident_full_path_E2E_s-selected_path_wall_s)*1000); includes unclassified residual; required reused probe inside action"
+  },
+  {
+    "name": "vidore_v3_industrial_QP_regret_nonaction_ms",
+    "value": 5.967284149179856,
+    "source": "${WORKSPACE}\\MDPlanBench_031_核账与复现_20261108_001\\public_repo\\snapshot\\reports\\icde_final_gate_004\\S2\\resident_analysis_002\\all_unprofiled_requests.csv.gz",
+    "source_sha256": "2a83830577f887ba40847a70146ddc2f123ece2ee331fa231f13c4a843955ce7",
+    "formula": "mean((resident_full_path_E2E_s-selected_path_wall_s)*1000); includes unclassified residual; required reused probe inside action"
+  }
+]

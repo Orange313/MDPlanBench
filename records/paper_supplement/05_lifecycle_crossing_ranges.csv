@@ -1,0 +1,7 @@
+model,scenario,N_min,N_max,repeats,scope
+ColQwen2,OCR_EXCLUSIVE_NEW_INDEX,75097,79315,3,observed process range; OCR singleton; NOT CI
+ColQwen2,OCR_SHARED_HALF_NEW_INDEX,37563,39671,3,observed process range; OCR singleton; NOT CI
+ColQwen2,OCR_PREPAID_NEW_INDEX,25,29,3,observed process range; OCR singleton; NOT CI
+ColPali,OCR_EXCLUSIVE_NEW_INDEX,68444,92841,3,observed process range; OCR singleton; NOT CI
+ColPali,OCR_SHARED_HALF_NEW_INDEX,34235,46436,3,observed process range; OCR singleton; NOT CI
+ColPali,OCR_PREPAID_NEW_INDEX,27,30,3,observed process range; OCR singleton; NOT CI

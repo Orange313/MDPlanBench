@@ -1,0 +1,17 @@
+batch,domain,QPS,metric,ratio,low,high,CI_level,process_pairs,status,scope
+Initial,HR,2,Service,1.0026690513615186,0.9254631932787892,1.086315732337671,0.9875,4,PASS,Paired process logmeans t df3; Bonferroni four/domain; strict repeatability not established
+Initial,HR,2,Response,1.002672767459091,0.9264425137778984,1.0851754573571863,0.9875,4,PASS,Paired process logmeans t df3; Bonferroni four/domain; strict repeatability not established
+Initial,HR,5,Service,0.9940657011464293,0.9294436624216857,1.0631807587143607,0.9875,4,PASS,Paired process logmeans t df3; Bonferroni four/domain; strict repeatability not established
+Initial,HR,5,Response,0.9953078923264195,0.932857977207125,1.0619384994628236,0.9875,4,PASS,Paired process logmeans t df3; Bonferroni four/domain; strict repeatability not established
+Initial,Pharma,2,Service,1.016009277855603,0.949716378003853,1.0869296103520245,0.9875,4,PASS,Paired process logmeans t df3; Bonferroni four/domain; strict repeatability not established
+Initial,Pharma,2,Response,1.0155353391613173,0.9506260333617816,1.0848766906144716,0.9875,4,PASS,Paired process logmeans t df3; Bonferroni four/domain; strict repeatability not established
+Initial,Pharma,5,Service,0.9935655356636561,0.9119511719981485,1.0824839135802022,0.9875,4,PASS,Paired process logmeans t df3; Bonferroni four/domain; strict repeatability not established
+Initial,Pharma,5,Response,0.9934242224499514,0.9126289925703133,1.0813722704237403,0.9875,4,PASS,Paired process logmeans t df3; Bonferroni four/domain; strict repeatability not established
+Repeat,HR,2,Service,0.9790769277208071,0.6889537876181473,1.3913729013803084,0.9875,4,INSUFFICIENT_EQUIVALENCE,Paired process logmeans t df3; Bonferroni four/domain; strict repeatability not established
+Repeat,HR,2,Response,0.9768345307258287,0.6851172503083104,1.392762625651225,0.9875,4,INSUFFICIENT_EQUIVALENCE,Paired process logmeans t df3; Bonferroni four/domain; strict repeatability not established
+Repeat,HR,5,Service,0.9872474066402119,0.9576315468523829,1.0177791710406814,0.9875,4,PASS,Paired process logmeans t df3; Bonferroni four/domain; strict repeatability not established
+Repeat,HR,5,Response,0.9754927790044348,0.8752700633273294,1.0871914872449207,0.9875,4,INSUFFICIENT_EQUIVALENCE,Paired process logmeans t df3; Bonferroni four/domain; strict repeatability not established
+Repeat,Pharma,2,Service,1.0048649644756515,0.6219814621033046,1.6234464503428288,0.9875,4,INSUFFICIENT_EQUIVALENCE,Paired process logmeans t df3; Bonferroni four/domain; strict repeatability not established
+Repeat,Pharma,2,Response,1.004945825466062,0.6182628252508264,1.6334737766449832,0.9875,4,INSUFFICIENT_EQUIVALENCE,Paired process logmeans t df3; Bonferroni four/domain; strict repeatability not established
+Repeat,Pharma,5,Service,1.0738108853529305,0.7257766822357385,1.588739133848223,0.9875,4,INSUFFICIENT_EQUIVALENCE,Paired process logmeans t df3; Bonferroni four/domain; strict repeatability not established
+Repeat,Pharma,5,Response,1.0750516502364265,0.7219862170227853,1.6007730112105303,0.9875,4,INSUFFICIENT_EQUIVALENCE,Paired process logmeans t df3; Bonferroni four/domain; strict repeatability not established

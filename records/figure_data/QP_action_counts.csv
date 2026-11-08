@@ -1,0 +1,9 @@
+domain,action,n,fast_r_gt_005,total_queries
+Biomedical,FullV,56,0,160
+Biomedical,R50,0,0,160
+Biomedical,R100,80,18,160
+Biomedical,BM25,24,11,160
+Economics,FullV,44,0,58
+Economics,R50,0,0,58
+Economics,R100,10,1,58
+Economics,BM25,4,2,58

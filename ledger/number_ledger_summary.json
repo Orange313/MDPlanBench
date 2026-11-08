@@ -1,0 +1,14 @@
+{
+  "paper_revision": 69,
+  "paper_revision_id": "b1ffeb59-964f-4fc8-86f2-15147ffbe5a8",
+  "total_numerals": 533,
+  "counts": {
+    "PASS": 528,
+    "CONDITIONAL": 1,
+    "FAIL": 4
+  },
+  "sealed_labels_read": 0,
+  "models_trained": 0,
+  "manuscript_modified": false,
+  "posthoc": true
+}

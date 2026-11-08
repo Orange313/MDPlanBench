@@ -1,0 +1,37 @@
+[
+  {
+    "paper": "Arabzadeh",
+    "url": "https://arxiv.org/pdf/2109.10739",
+    "sha256": "790e92b46bc6db7c5d8efdf435dc4ba5d3c25ce1d4acf0e282fe982709aa5f37",
+    "pages": 5,
+    "status": "PASS_PRIMARY_FULLTEXT"
+  },
+  {
+    "paper": "AdaptiveRAG",
+    "url": "https://aclanthology.org/2024.naacl-long.389.pdf",
+    "sha256": "1e5abee712c5d8552416b2fd456bcf2c37a0ba518372e64302db2b7b7bdf643f",
+    "pages": 15,
+    "status": "PASS_PRIMARY_FULLTEXT"
+  },
+  {
+    "paper": "RetrievalRouter",
+    "url": "https://arxiv.org/pdf/2608.25625",
+    "sha256": "32e920bd4c58b7e46e7d36efef7b159bb34d9e3e07c33fabb4a36b9a6829e25c",
+    "pages": 15,
+    "status": "PASS_PRIMARY_FULLTEXT"
+  },
+  {
+    "paper": "BeyondQuery",
+    "url": "https://arxiv.org/pdf/2609.12437",
+    "sha256": "3a97797d29c191ac2f85f4f7a9ae6fc189d2544e77b4b968eecaadc453478d78",
+    "pages": 12,
+    "status": "PASS_PRIMARY_FULLTEXT"
+  },
+  {
+    "paper": "ConformalArbitrage",
+    "url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/65a655c5a267f678fd3e897e4137ef53-Paper-Conference.pdf",
+    "sha256": "07f18942343527f05e5b197d5d3200d25022a90b7a3f6b8a438373c53a255a40",
+    "pages": 33,
+    "status": "PASS_PRIMARY_FULLTEXT"
+  }
+]

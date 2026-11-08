@@ -1,0 +1,402 @@
+{
+  "status": "PASS",
+  "files": 1006,
+  "total_bytes": 69246573,
+  "issues": [],
+  "small_numeric_npz_review": [
+    {
+      "path": "records/021_snapshot/artifacts/icde_eab_review_strengthening_021/EX0/Biomedical.npz",
+      "keys": [
+        "qids",
+        "groups",
+        "Q",
+        "P",
+        "qwall",
+        "old_extra",
+        "old_actions",
+        "T",
+        "Y",
+        "U"
+      ],
+      "shapes": {
+        "qids": [
+          160
+        ],
+        "groups": [
+          160
+        ],
+        "Q": [
+          160,
+          150
+        ],
+        "P": [
+          160,
+          13
+        ],
+        "qwall": [
+          160,
+          3
+        ],
+        "old_extra": [
+          160,
+          3
+        ],
+        "old_actions": [
+          160
+        ],
+        "T": [
+          160,
+          3,
+          9
+        ],
+        "Y": [
+          160,
+          3,
+          9
+        ],
+        "U": [
+          160,
+          3,
+          9
+        ]
+      },
+      "bytes": 385782,
+      "scope": "numeric features/observed losses/timings, NOT model weights or qrels"
+    },
+    {
+      "path": "records/021_snapshot/artifacts/icde_eab_review_strengthening_021/EX0/Economics.npz",
+      "keys": [
+        "qids",
+        "groups",
+        "Q",
+        "P",
+        "qwall",
+        "old_extra",
+        "old_actions",
+        "T",
+        "Y",
+        "U"
+      ],
+      "shapes": {
+        "qids": [
+          58
+        ],
+        "groups": [
+          58
+        ],
+        "Q": [
+          58,
+          150
+        ],
+        "P": [
+          58,
+          13
+        ],
+        "qwall": [
+          58,
+          3
+        ],
+        "old_extra": [
+          58,
+          3
+        ],
+        "old_actions": [
+          58
+        ],
+        "T": [
+          58,
+          3,
+          9
+        ],
+        "Y": [
+          58,
+          3,
+          9
+        ],
+        "U": [
+          58,
+          3,
+          9
+        ]
+      },
+      "bytes": 122598,
+      "scope": "numeric features/observed losses/timings, NOT model weights or qrels"
+    },
+    {
+      "path": "records/021_snapshot/artifacts/icde_eab_review_strengthening_021/EX0/Finance.npz",
+      "keys": [
+        "qids",
+        "groups",
+        "Q",
+        "P",
+        "qwall",
+        "old_extra",
+        "old_actions",
+        "T",
+        "Y",
+        "U"
+      ],
+      "shapes": {
+        "qids": [
+          39
+        ],
+        "groups": [
+          39
+        ],
+        "Q": [
+          39,
+          150
+        ],
+        "P": [
+          39,
+          13
+        ],
+        "qwall": [
+          39,
+          3
+        ],
+        "old_extra": [
+          39,
+          3
+        ],
+        "old_actions": [
+          39
+        ],
+        "T": [
+          39,
+          3,
+          8
+        ],
+        "Y": [
+          39,
+          3,
+          8
+        ],
+        "U": [
+          39,
+          3,
+          8
+        ]
+      },
+      "bytes": 86506,
+      "scope": "numeric features/observed losses/timings, NOT model weights or qrels"
+    },
+    {
+      "path": "records/021_snapshot/artifacts/icde_eab_review_strengthening_021/EX0/fit.npz",
+      "keys": [
+        "qids",
+        "family",
+        "Q",
+        "P",
+        "Y",
+        "T"
+      ],
+      "shapes": {
+        "qids": [
+          81
+        ],
+        "family": [
+          81
+        ],
+        "Q": [
+          81,
+          150
+        ],
+        "P": [
+          81,
+          13
+        ],
+        "Y": [
+          81,
+          4
+        ],
+        "T": [
+          81,
+          4
+        ]
+      },
+      "bytes": 133634,
+      "scope": "numeric features/observed losses/timings, NOT model weights or qrels"
+    },
+    {
+      "path": "records/021_snapshot/artifacts/icde_eab_review_strengthening_021/EX0/HR.npz",
+      "keys": [
+        "qids",
+        "groups",
+        "Q",
+        "P",
+        "qwall",
+        "old_extra",
+        "old_actions",
+        "T",
+        "Y",
+        "U"
+      ],
+      "shapes": {
+        "qids": [
+          40
+        ],
+        "groups": [
+          40
+        ],
+        "Q": [
+          40,
+          150
+        ],
+        "P": [
+          40,
+          13
+        ],
+        "qwall": [
+          40,
+          3
+        ],
+        "old_extra": [
+          40,
+          3
+        ],
+        "old_actions": [
+          40
+        ],
+        "T": [
+          40,
+          3,
+          8
+        ],
+        "Y": [
+          40,
+          3,
+          8
+        ],
+        "U": [
+          40,
+          3,
+          8
+        ]
+      },
+      "bytes": 87382,
+      "scope": "numeric features/observed losses/timings, NOT model weights or qrels"
+    },
+    {
+      "path": "records/021_snapshot/artifacts/icde_eab_review_strengthening_021/EX0/Industrial.npz",
+      "keys": [
+        "qids",
+        "groups",
+        "Q",
+        "P",
+        "qwall",
+        "old_extra",
+        "old_actions",
+        "T",
+        "Y",
+        "U"
+      ],
+      "shapes": {
+        "qids": [
+          40
+        ],
+        "groups": [
+          40
+        ],
+        "Q": [
+          40,
+          150
+        ],
+        "P": [
+          40,
+          13
+        ],
+        "qwall": [
+          40,
+          3
+        ],
+        "old_extra": [
+          40,
+          3
+        ],
+        "old_actions": [
+          40
+        ],
+        "T": [
+          40,
+          3,
+          8
+        ],
+        "Y": [
+          40,
+          3,
+          8
+        ],
+        "U": [
+          40,
+          3,
+          8
+        ]
+      },
+      "bytes": 88662,
+      "scope": "numeric features/observed losses/timings, NOT model weights or qrels"
+    },
+    {
+      "path": "records/021_snapshot/artifacts/icde_eab_review_strengthening_021/EX0/Pharma.npz",
+      "keys": [
+        "qids",
+        "groups",
+        "Q",
+        "P",
+        "qwall",
+        "old_extra",
+        "old_actions",
+        "T",
+        "Y",
+        "U"
+      ],
+      "shapes": {
+        "qids": [
+          45
+        ],
+        "groups": [
+          45
+        ],
+        "Q": [
+          45,
+          150
+        ],
+        "P": [
+          45,
+          13
+        ],
+        "qwall": [
+          45,
+          3
+        ],
+        "old_extra": [
+          45,
+          3
+        ],
+        "old_actions": [
+          45
+        ],
+        "T": [
+          45,
+          3,
+          8
+        ],
+        "Y": [
+          45,
+          3,
+          8
+        ],
+        "U": [
+          45,
+          3,
+          8
+        ]
+      },
+      "bytes": 101422,
+      "scope": "numeric features/observed losses/timings, NOT model weights or qrels"
+    }
+  ],
+  "original_MIT_user_approved": true,
+  "raw_questions_qrels_images_weights_added": false,
+  "limitations": "Rule-based scan plus explicitly reviewed input schema, not a proof that arbitrary text cannot contain sensitive content."
+}

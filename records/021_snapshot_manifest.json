@@ -1,0 +1,147 @@
+{
+  "private_code_commit": "b26f16f0f6d3c67e9cc4b51b40a5a95497e065cb",
+  "original_archive_sha256": "428779253e49365e7d7d30a1648b8bc723d117ae038146f07047935d5186a8d3",
+  "original_archive_public": false,
+  "files": {
+    "artifacts/icde_eab_review_strengthening_021/EX0/Biomedical.npz": {
+      "sha256": "1ef4842bad71ec6d064d331621cf9d216ab9539379a5ac26f0bf20897bbad39c",
+      "bytes": 385782
+    },
+    "artifacts/icde_eab_review_strengthening_021/EX0/domains.json": {
+      "sha256": "f8ae3a840b753754d77f3c03339b77b00f5a8bbc87c981f6f6d4244af81e3f6f",
+      "bytes": 2172
+    },
+    "artifacts/icde_eab_review_strengthening_021/EX0/Economics.npz": {
+      "sha256": "47e174699e7f9cb62078b135ffc2a70930e56133cc245e09000bd133bb19e910",
+      "bytes": 122598
+    },
+    "artifacts/icde_eab_review_strengthening_021/EX0/Finance.npz": {
+      "sha256": "9ca1c0fa059818486101aaa50666bbe8e9ad187c632ea77e597471f540727e2d",
+      "bytes": 86506
+    },
+    "artifacts/icde_eab_review_strengthening_021/EX0/fit.npz": {
+      "sha256": "a388b5afbaf0ff691ff57a2ff81326347da7341b87aad99f5c0196e6d7dbe05c",
+      "bytes": 133634
+    },
+    "artifacts/icde_eab_review_strengthening_021/EX0/HR.npz": {
+      "sha256": "7eab7c4f6e08d8671397346f9528c087fc41eedf6261759e5ce7a7d9e7eb39a9",
+      "bytes": 87382
+    },
+    "artifacts/icde_eab_review_strengthening_021/EX0/Industrial.npz": {
+      "sha256": "57298a15c9732f647148ae63b22b06b1053ecead5efd8ce00c9a524da8fe436f",
+      "bytes": 88662
+    },
+    "artifacts/icde_eab_review_strengthening_021/EX0/Pharma.npz": {
+      "sha256": "6fce44615d67411df35f1a277b805fb6b247c1664680a3d61fd5d1b8ba770710",
+      "bytes": 101422
+    },
+    "artifacts/icde_eab_review_strengthening_021/EX1/preanalysis.json": {
+      "sha256": "130208ca7a880682d02825d7a8e936306a8383c85397adb80d2dbc3c4c04f0b6",
+      "bytes": 1408
+    },
+    "artifacts/icde_eab_review_strengthening_021/EX1/predictions_and_allocations.json": {
+      "sha256": "42790299fc56df7c5b599d9fd595366270ee0721a25b5a4b0af0f27ccb0e3fee",
+      "bytes": 326034
+    },
+    "artifacts/icde_eab_review_strengthening_021/EX3/frozen_mixtures.json": {
+      "sha256": "65c2dfe9628af96181bedfeaceffa814c1a9f473421e4dc95fae57bc1b5bbc6b",
+      "bytes": 1042
+    },
+    "artifacts/icde_eab_review_strengthening_021/GPU/process_03/partial.jsonl": {
+      "sha256": "cde740d91f9cd562eef3fec5c564b9f2c6f55f94e9a7251aff1f982db9e1e1f5",
+      "bytes": 3466796
+    },
+    "artifacts/icde_eab_review_strengthening_021/GPU/process_06/completed.json": {
+      "sha256": "4ede2bf6c0e9385121669514476408a97325b642a96fc8441163f5b07236b347",
+      "bytes": 186
+    },
+    "artifacts/icde_eab_review_strengthening_021/GPU/process_06/requests.csv": {
+      "sha256": "6468598d6ceef4ee6e83f78d50f0f7e980ca5773ab330ea204b6d9d068331a2d",
+      "bytes": 310766
+    },
+    "artifacts/icde_eab_review_strengthening_021/GPU/process_08/completed.json": {
+      "sha256": "def75c66132304d3e1af17df87e828682cb41ff6a968e5d1cc34e1c655f6fd04",
+      "bytes": 187
+    },
+    "artifacts/icde_eab_review_strengthening_021/GPU/process_08/requests.csv": {
+      "sha256": "9f77abf91911d6cc0deda793bf8d0e6a9494894d1ad69546e1c631ec4813ee89",
+      "bytes": 2083815
+    },
+    "artifacts/icde_eab_review_strengthening_021/GPU/process_09/completed.json": {
+      "sha256": "6653e2cef632959b1c610c0a5f4579a03b657abe6b291d8e264ae59d4b667d27",
+      "bytes": 187
+    },
+    "artifacts/icde_eab_review_strengthening_021/GPU/process_09/requests.csv": {
+      "sha256": "3dc903e83f128cb94f2550c7b2c928edf3a843c69212fd58b2e4e877b857ca61",
+      "bytes": 2084002
+    },
+    "reports/icde_eab_g2_setup_017/final_manifest_001.json": {
+      "sha256": "1990d9f9f3e418f2479a06ba2dfdad9df7288d705c1ffe7234af8ff2756afcad",
+      "bytes": 2636
+    },
+    "reports/icde_eab_g2_setup_017/G2_break_even_ranges.csv": {
+      "sha256": "24eba5941fa6d8d9983d338cc46387afa8943e5dda09c86ede5606c20a0c9a06",
+      "bytes": 5875
+    },
+    "reports/icde_eab_g2_setup_017/G2_reuse_sensitivity.csv": {
+      "sha256": "34d8773aa00d7eb97ce30e5c2293c9038ad2973810f56b9c0564e49e1c69409e",
+      "bytes": 36244
+    },
+    "reports/icde_eab_g2_setup_017/G2_same_cohort_warm.csv": {
+      "sha256": "177d292ca08fd96f722ed3095a3b9ac261d8e3b4c24cc2f30431a6208be8f1b6",
+      "bytes": 3811
+    },
+    "reports/icde_eab_g2_setup_017/G2_setup_repeats.csv": {
+      "sha256": "cdea90e3ae6d139da264e5ef80ca3720c01ca1c487eb32fa0142cba1208821cc",
+      "bytes": 2317
+    },
+    "reports/icde_eab_figure_verification_016/delivery_003/MDRouter_016_figures/figures/data/fixed_budget_oracle.csv": {
+      "sha256": "89c0aa26a4b5dd5ae63de3b357d8b2e80709a3dd4057c28eb9789d1a7711c6df",
+      "bytes": 4904
+    },
+    "reports/icde_eab_figure_verification_016/delivery_003/MDRouter_016_figures/figures/data/paired_contrasts.csv": {
+      "sha256": "a62e0b91e348b512ee934d0d49ab175fc5182d7f9547fecf35edbe2f1cce0e0e",
+      "bytes": 1102
+    },
+    "reports/icde_eab_figure_verification_016/delivery_003/MDRouter_016_figures/figures/data/plan_points.csv": {
+      "sha256": "794d393042b011afec3c6efcec393933519381fb5cf5e606d4f85c0fae47422d",
+      "bytes": 35801
+    },
+    "reports/icde_eab_review_strengthening_021/EX0/fresh_CPU_feature_timings.csv": {
+      "sha256": "69275dad7c9d05baf95fea7391dd5d2e904966462fa4324c6cbf8879420f8895",
+      "bytes": 142413
+    },
+    "reports/icde_eab_review_strengthening_021/EX1/CPU_inference_raw.csv": {
+      "sha256": "c978cae7fe24d70dea44066abe2ccc8c257d30ebbdaf28b83c3e8beee9258a3e",
+      "bytes": 761589
+    },
+    "reports/icde_eab_review_strengthening_021/analysis_003/EX1/actual_per_query.csv": {
+      "sha256": "a3a389f762736561d9038e8bf258f0d9e2cc22940b1cef2ec5efe7c671c41b62",
+      "bytes": 546075
+    },
+    "reports/icde_eab_review_strengthening_021/analysis_003/EX1/capacity_paired_contrasts.csv": {
+      "sha256": "df38ee371c351d209baddbfe0fa3aaf014a3742d8c9678876d85e156e02675a5",
+      "bytes": 5695
+    },
+    "reports/icde_eab_review_strengthening_021/analysis_003/EX1/false_safe_cases.csv": {
+      "sha256": "12b37d0d195306d08942da67aab4ddb662e7dc38bdd23c4f12c439f899dbac7d",
+      "bytes": 8162
+    },
+    "reports/icde_eab_review_strengthening_021/analysis_003/EX1/router_capacity_results.csv": {
+      "sha256": "0f33cea583435643789c611570d6b413beae8888e0397ddb6350c5598aef3282",
+      "bytes": 30673
+    },
+    "reports/icde_eab_review_strengthening_021/analysis_003/EX2/feature_ablation.csv": {
+      "sha256": "e966a46999e4fc67f59103bbc4e543e00014889cdc5648b046584b88b9f18dbe",
+      "bytes": 4211
+    },
+    "reports/icde_eab_review_strengthening_021/analysis_003/EX2/information_value_decomposition.csv": {
+      "sha256": "b8ddfee128c6de7a39b75c236eaf969782258f94fbe1b67333d183fab49587a4",
+      "bytes": 15590
+    },
+    "reports/icde_eab_review_strengthening_021/analysis_003/EX3/static_mixture_prospective.csv": {
+      "sha256": "ace4bfc7c77073f5cd4c575029e3ff257eae42d6592cdb8f4d86ad7ef5722889",
+      "bytes": 5153
+    }
+  }
+}

@@ -1,0 +1,17 @@
+item,status,tables,note
+A1,PASS_POSTHOC_REGISTERED,oracle_at_router_risk.csv,A1 positive headroom uses envelope-minus-oracle; signed reverse also exported
+A2,PASS_POSTHOC_REGISTERED,plan_points.csv,no new evaluation or independent samples
+A3,PASS_POSTHOC_REGISTERED,plan_points.csv,no new evaluation or independent samples
+A4,PASS_POSTHOC_REGISTERED,industrial_oracle_curve.csv,no new evaluation or independent samples
+A5,PASS_POSTHOC_REGISTERED,plan_points.csv,no new evaluation or independent samples
+A6,PASS_POSTHOC_REGISTERED,envelope_vertices.csv,no new evaluation or independent samples
+A7,PASS_POSTHOC_REGISTERED,repair_counts.csv,no new evaluation or independent samples
+A8,PASS_POSTHOC_REGISTERED,QP_cost_components.csv,A8 action recomposition is an estimate; required probe not treated as free
+A9,PASS_POSTHOC_REGISTERED,QP_cost_components.csv,no new evaluation or independent samples
+A10,PASS_POSTHOC_REGISTERED,setup_query_equivalents.csv,no new evaluation or independent samples
+A11,PASS_POSTHOC_REGISTERED,lifecycle_crossings.csv,no new evaluation or independent samples
+A12,PASS_POSTHOC_REGISTERED,lifecycle_curves.csv,no new evaluation or independent samples
+A13,PASS_POSTHOC_REGISTERED,plan_points.csv,no new evaluation or independent samples
+A14,PASS_POSTHOC_REGISTERED,paired_contrasts.csv,no new evaluation or independent samples
+A15,PASS_POSTHOC_REGISTERED,fast_action_severity.csv,no new evaluation or independent samples
+A16,PASS_POSTHOC_REGISTERED,severity_quantiles.csv,A16 records all-query and conditional-harmed quantiles separately

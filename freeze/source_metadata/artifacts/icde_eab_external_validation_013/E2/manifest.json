@@ -1,0 +1,13 @@
+{
+  "run_id": "icde_eab_external_validation_013",
+  "stage": "E2",
+  "status": "BLOCKED_OBJECTIVE_LEGAL_RESOURCE_GATE",
+  "time_bj": "2026-10-29T16:12:34.023893+08:00",
+  "facts": "Economics English:nominaln=58,evaluatedn=0;metricsNA,GPUjobs0,newlabels0;Independent Economics resource/data gate incomplete: no idleGPU, disk below15GiB; corpus/qrels/sourcejoin/pageoverlap notopened",
+  "decision": "保留本阶段客观阻塞；不以其他域收益决定取消；继续可独立完成的CPU证据归档。",
+  "code_snapshot_commit": "666cd9b63c7c51279526847a4f538b000393e2b0",
+  "code_bundle_SHA256": "893f476faefe1837e1ff110a55d69b05c38b42acac73b494c10aeaac99599c49",
+  "inventory_SHA256": "394195ebf2a35a4ff2fc968dc29858c32d0f85aa7c169292b9eb144f00ea5981",
+  "sealed_reads": 0,
+  "new_K1": "NOT_CERTIFIED"
+}

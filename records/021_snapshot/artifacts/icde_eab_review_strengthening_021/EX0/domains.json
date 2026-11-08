@@ -1,0 +1,86 @@
+[
+  {
+    "domain": "HR",
+    "raw_domain": "vidore_v3_hr",
+    "n": 40,
+    "grouping": "query_family",
+    "index": "${PROJECT_ROOT}/cache/indexes/hr_primary_001",
+    "cvec": [
+      1.0,
+      0.9243728964541923,
+      0.9092400422563028,
+      0.039520774493903656
+    ],
+    "evidence": "DEV_EXPLORATORY"
+  },
+  {
+    "domain": "Finance",
+    "raw_domain": "vidore_v3_finance_en",
+    "n": 39,
+    "grouping": "query_family",
+    "index": "${PROJECT_ROOT}/cache/indexes/finance_primary_001",
+    "cvec": [
+      1.0,
+      0.792368526273131,
+      0.7936594306703421,
+      0.0821671292356417
+    ],
+    "evidence": "DEV_EXPLORATORY"
+  },
+  {
+    "domain": "Industrial",
+    "raw_domain": "vidore_v3_industrial",
+    "n": 40,
+    "grouping": "query_family",
+    "index": "${PROJECT_ROOT}/cache/indexes/industrial_primary_003",
+    "cvec": [
+      0.9999999999999999,
+      0.6510058048314745,
+      0.6578042487053173,
+      0.10461498012278879
+    ],
+    "evidence": "DEV_EXPLORATORY"
+  },
+  {
+    "domain": "Pharma",
+    "raw_domain": "Pharmaceuticals",
+    "n": 45,
+    "grouping": "query_family",
+    "index": "${PROJECT_ROOT}/cache/indexes/pharma_fixedcorpus_index_001",
+    "cvec": [
+      1.0,
+      0.801768800434828,
+      0.8090265742317495,
+      0.061299031059753706
+    ],
+    "evidence": "DEV_EXPLORATORY"
+  },
+  {
+    "domain": "Biomedical",
+    "n": 160,
+    "grouping": "source_group",
+    "cvec": [
+      1.0,
+      0.801768800434828,
+      0.8090265742317495,
+      0.061299031059753706
+    ],
+    "index": "${PROJECT_ROOT}/cache/indexes/icde_eab_independent_007_biomedical_colqwen_001",
+    "evidence": "POSTHOC_FROZEN_TRANSFER_NEW_ANALYSIS",
+    "source_components": 27
+  },
+  {
+    "domain": "Economics",
+    "n": 58,
+    "grouping": "family",
+    "cvec": [
+      1.0,
+      0.801768800434828,
+      0.8090265742317495,
+      0.061299031059753706
+    ],
+    "index": "${ASSET_ROOT}/icde_eab_external_validation_013_resume_001/indexes/economics_auto_auto2_attempt_001",
+    "evidence": "POSTHOC_FROZEN_TRANSFER_NEW_ANALYSIS",
+    "source_components": 1
+  }
+]

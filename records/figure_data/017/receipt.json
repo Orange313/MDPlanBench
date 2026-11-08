@@ -1,0 +1,15 @@
+{
+  "status": "PASS_INDEPENDENT_CPU_RECONCILIATION",
+  "time_bj": "2026-11-02T23:16:20.456937+08:00",
+  "sources_reverified": 10,
+  "original_assets_reverified": 1079,
+  "guarded_processes": 10,
+  "exact_setup_repeats": 6,
+  "cost_rows": 144,
+  "crossing_rows": 36,
+  "maximum_numeric_error": 6.252776074688882e-13,
+  "rounding_max_crossing_difference": 0,
+  "verification_source_SHA256": "b448382fac74a4ce094ff0f22eca6e99d01ff810d5884f0088e083447106b670",
+  "sealed_reads": 0,
+  "caveat": "CPU validation only; no code or results changed. Profile full-index component GPU_scope uses a generic unprofiled-missing label; actual profiled GPU activity is separately captured in GPU_profile_summary.json/G2_GPU_profiles.csv, not imputed as0."
+}

@@ -1,0 +1,9 @@
+model,component,wall_s,warm_margin_s,query_equivalents,display_nearest_integer,queries_to_repay_ceil,scope
+ColQwen2,Model load,3.391593138066431,0.005287741068362564,641.4068113809312,641,642,009 unprofiled component /009 warm margin; cold first query includes its documented startup scope; components not summed
+ColQwen2,First cold FullV query,13.368216175120324,0.005287741068362564,2528.152570689323,2528,2529,009 unprofiled component /009 warm margin; cold first query includes its documented startup scope; components not summed
+ColQwen2,Page-embedding index,189.78818962257355,0.005287741068362564,35892.11104872512,35892,35893,009 unprofiled component /009 warm margin; cold first query includes its documented startup scope; components not summed
+ColQwen2,OCR,407.7253655064851,0.005287741068362564,77107.66473532033,77108,77108,009 unprofiled component /009 warm margin; cold first query includes its documented startup scope; components not summed
+ColPali,Model load,7.567183716222644,0.004641942047358803,1630.1762579152103,1630,1631,009 unprofiled component /009 warm margin; cold first query includes its documented startup scope; components not summed
+ColPali,First cold FullV query,18.921940878033638,0.004641942047358803,4076.298386534133,4076,4077,009 unprofiled component /009 warm margin; cold first query includes its documented startup scope; components not summed
+ColPali,Page-embedding index,151.76138228643686,0.004641942047358803,32693.51076297621,32694,32694,009 unprofiled component /009 warm margin; cold first query includes its documented startup scope; components not summed
+ColPali,OCR,407.7253655064851,0.004641942047358803,87835.0831067516,87835,87836,009 unprofiled component /009 warm margin; cold first query includes its documented startup scope; components not summed

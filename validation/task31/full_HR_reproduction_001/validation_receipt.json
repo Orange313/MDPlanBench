@@ -1,0 +1,19 @@
+{
+  "status": "PASS_FULL_HR_STATIC_REPRODUCTION",
+  "queries": 40,
+  "pages": 1110,
+  "plans": 4,
+  "processes": 1,
+  "repetitions": 3,
+  "timed_requests": 480,
+  "top10_lists_equal": 160,
+  "max_quality_metric_delta": 0.0,
+  "guard_samples": 1421,
+  "foreign_pids": [],
+  "physical_GPU": 5,
+  "source_commit": "e971def8e2c2f0278a272105e9016fe1d473a5d5",
+  "sealed_label_reads": 0,
+  "allowed_Dev_qrels_read": true,
+  "trained_models": 0,
+  "cost_cohort": "new validation only; no existing scientific result overwritten"
+}

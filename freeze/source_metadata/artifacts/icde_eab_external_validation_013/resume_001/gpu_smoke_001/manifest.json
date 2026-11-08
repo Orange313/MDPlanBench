@@ -1,0 +1,14 @@
+{
+  "run_id": "icde_eab_external_validation_013_resume_001",
+  "parent_run": "icde_eab_external_validation_013",
+  "stage": "gpu_smoke_001",
+  "time_bj": "2026-10-29T17:27:08.429552+08:00",
+  "status": "RESOURCE_BLOCKED__CUDA_OOM_NOT_RUN",
+  "facts": "No idleGPU by process/memory/utilization;model/pageindexsmokeNOT_RUN;fullEconomicsNOT_RUN",
+  "decision": "不共享占用卡，不以空余显存推断独占，不将未运行写成无OOM通过。",
+  "code_commit": "897ccfaa6b3f65a383f8b19c84980d643d344d5b",
+  "code_bundle_SHA256": "d58f83592f9830a5840d4892c0a835133a6b47b6e0ed6fc132c34acb081759d4",
+  "inventory_SHA256": "e0c091cc4846c58bb776b6d78250d508312c0a6f7f074d87c956a3f6bd0e6ad3",
+  "sealed_reads": 0,
+  "new_K1": "NOT_CERTIFIED"
+}

@@ -1,0 +1,5 @@
+domain,control,relative_mean_latency_B_minus_A,latency_A_s,latency_B_s,status,limit
+Pharmaceuticals,independent process sameFullV inputs/QPS/window/concurrency/order,1.0028748403966925,0.07279961013409775,0.14580850752827246,INSUFFICIENT_STREAM_NOISE,one matched process pair; no independent run CI or equivalence certificate
+vidore_v3_hr,independent process sameFullV inputs/QPS/window/concurrency/order,7.3940591948423044,0.04055398718628567,0.3404125690285582,INSUFFICIENT_STREAM_NOISE,one matched process pair; no independent run CI or equivalence certificate
+vidore_v3_finance_en,independent process sameFullV inputs/QPS/window/concurrency/order,-0.3656515361712347,0.13955290596641134,0.08852517152263317,INSUFFICIENT_STREAM_NOISE,one matched process pair; no independent run CI or equivalence certificate
+vidore_v3_industrial,independent process sameFullV inputs/QPS/window/concurrency/order,3.230631092685546,0.07926738708920311,0.33535107245552354,INSUFFICIENT_STREAM_NOISE,one matched process pair; no independent run CI or equivalence certificate

@@ -1,0 +1,309 @@
+{
+  "status": "PASS_TECHNICAL_SMOKE_ONLY",
+  "query_id": 0,
+  "pages": 16,
+  "trained_adapter_tensors_verified": 254,
+  "model_load_wall_s": 19.920915534719825,
+  "index_build_wall_s": 9.270209887996316,
+  "index_GPU_profile": {
+    "gpu_active_union_seconds": 1.8899704443359375,
+    "gpu_kernel_sum_seconds": 1.8811774649999957,
+    "gpu_memory_activity_sum_seconds": 0.00879302299999999,
+    "kernel_events": 17640,
+    "activity_events": 17889,
+    "devices": [
+      0
+    ],
+    "definition": "union of process-owned kernel/memcpy/memset durations; profiler instrumentation present",
+    "cpu_time_and_cuda_elapsed_span_are_separate": true,
+    "device_power_is_not_query_energy": true
+  },
+  "timings": [
+    {
+      "plan": "BM25-R100",
+      "repeat": 0,
+      "E2E_ms": 50.44109653681517,
+      "CPU_ms": 50.446058999998655,
+      "ranking": [
+        7,
+        8,
+        13,
+        3,
+        15,
+        14,
+        4,
+        5,
+        12,
+        2
+      ]
+    },
+    {
+      "plan": "Full-Visual",
+      "repeat": 0,
+      "E2E_ms": 49.13300648331642,
+      "CPU_ms": 49.8063430000002,
+      "ranking": [
+        7,
+        8,
+        13,
+        3,
+        15,
+        14,
+        4,
+        5,
+        12,
+        2
+      ]
+    },
+    {
+      "plan": "BM25-R100",
+      "repeat": 1,
+      "E2E_ms": 51.87475122511387,
+      "CPU_ms": 51.824815999999885,
+      "ranking": [
+        7,
+        8,
+        13,
+        3,
+        15,
+        14,
+        4,
+        5,
+        12,
+        2
+      ]
+    },
+    {
+      "plan": "BM25",
+      "repeat": 2,
+      "E2E_ms": 0.1947600394487381,
+      "CPU_ms": 0.1947349999973369,
+      "ranking": [
+        8,
+        13,
+        2,
+        7,
+        3,
+        5,
+        9,
+        11,
+        12,
+        10
+      ]
+    },
+    {
+      "plan": "BM25-R50",
+      "repeat": 0,
+      "E2E_ms": 48.70994109660387,
+      "CPU_ms": 49.245675000001654,
+      "ranking": [
+        7,
+        8,
+        13,
+        3,
+        15,
+        14,
+        4,
+        5,
+        12,
+        2
+      ]
+    },
+    {
+      "plan": "Full-Visual",
+      "repeat": 1,
+      "E2E_ms": 48.522512428462505,
+      "CPU_ms": 48.54566299999874,
+      "ranking": [
+        7,
+        8,
+        13,
+        3,
+        15,
+        14,
+        4,
+        5,
+        12,
+        2
+      ]
+    },
+    {
+      "plan": "BM25-R50",
+      "repeat": 1,
+      "E2E_ms": 48.807292245328426,
+      "CPU_ms": 49.3702909999989,
+      "ranking": [
+        7,
+        8,
+        13,
+        3,
+        15,
+        14,
+        4,
+        5,
+        12,
+        2
+      ]
+    },
+    {
+      "plan": "BM25",
+      "repeat": 1,
+      "E2E_ms": 0.1875702291727066,
+      "CPU_ms": 0.1870970000013017,
+      "ranking": [
+        8,
+        13,
+        2,
+        7,
+        3,
+        5,
+        9,
+        11,
+        12,
+        10
+      ]
+    },
+    {
+      "plan": "BM25-R50",
+      "repeat": 2,
+      "E2E_ms": 48.58200903981924,
+      "CPU_ms": 48.60736100000196,
+      "ranking": [
+        7,
+        8,
+        13,
+        3,
+        15,
+        14,
+        4,
+        5,
+        12,
+        2
+      ]
+    },
+    {
+      "plan": "BM25-R100",
+      "repeat": 2,
+      "E2E_ms": 49.055131152272224,
+      "CPU_ms": 49.638979000000916,
+      "ranking": [
+        7,
+        8,
+        13,
+        3,
+        15,
+        14,
+        4,
+        5,
+        12,
+        2
+      ]
+    },
+    {
+      "plan": "Full-Visual",
+      "repeat": 2,
+      "E2E_ms": 49.28852058947086,
+      "CPU_ms": 49.31397300000029,
+      "ranking": [
+        7,
+        8,
+        13,
+        3,
+        15,
+        14,
+        4,
+        5,
+        12,
+        2
+      ]
+    },
+    {
+      "plan": "BM25",
+      "repeat": 0,
+      "E2E_ms": 0.19104871898889542,
+      "CPU_ms": 0.1910719999997923,
+      "ranking": [
+        8,
+        13,
+        2,
+        7,
+        3,
+        5,
+        9,
+        11,
+        12,
+        10
+      ]
+    }
+  ],
+  "GPU_profiles": [
+    {
+      "plan": "Full-Visual",
+      "gpu_active_union_seconds": 0.01104256298828125,
+      "gpu_kernel_sum_seconds": 0.01103094,
+      "gpu_memory_activity_sum_seconds": 1.1615e-05,
+      "kernel_events": 1696,
+      "activity_events": 1702,
+      "devices": [
+        0
+      ],
+      "definition": "union of process-owned kernel/memcpy/memset durations; profiler instrumentation present",
+      "cpu_time_and_cuda_elapsed_span_are_separate": true,
+      "device_power_is_not_query_energy": true
+    },
+    {
+      "plan": "BM25-R50",
+      "gpu_active_union_seconds": 0.01102468603515625,
+      "gpu_kernel_sum_seconds": 0.011013635999999986,
+      "gpu_memory_activity_sum_seconds": 1.104e-05,
+      "kernel_events": 1696,
+      "activity_events": 1702,
+      "devices": [
+        0
+      ],
+      "definition": "union of process-owned kernel/memcpy/memset durations; profiler instrumentation present",
+      "cpu_time_and_cuda_elapsed_span_are_separate": true,
+      "device_power_is_not_query_energy": true
+    },
+    {
+      "plan": "BM25-R100",
+      "gpu_active_union_seconds": 0.01102678955078125,
+      "gpu_kernel_sum_seconds": 0.011015608000000001,
+      "gpu_memory_activity_sum_seconds": 1.1167e-05,
+      "kernel_events": 1696,
+      "activity_events": 1702,
+      "devices": [
+        0
+      ],
+      "definition": "union of process-owned kernel/memcpy/memset durations; profiler instrumentation present",
+      "cpu_time_and_cuda_elapsed_span_are_separate": true,
+      "device_power_is_not_query_energy": true
+    },
+    {
+      "plan": "BM25",
+      "gpu_active_union_seconds": 0.0,
+      "gpu_kernel_sum_seconds": 0.0,
+      "gpu_memory_activity_sum_seconds": 0.0,
+      "kernel_events": 0,
+      "activity_events": 0,
+      "devices": [],
+      "definition": "union of process-owned kernel/memcpy/memset durations; profiler instrumentation present",
+      "cpu_time_and_cuda_elapsed_span_are_separate": true,
+      "device_power_is_not_query_energy": true
+    }
+  ],
+  "reference": [
+    7,
+    8,
+    13,
+    3,
+    15,
+    14,
+    4,
+    5,
+    12,
+    2
+  ],
+  "label_reads": 0,
+  "scope": "one fixed query/16 pages; standalone execution from clean checkout with explicit official external assets, not an independent benchmark sample or certificate"
+}

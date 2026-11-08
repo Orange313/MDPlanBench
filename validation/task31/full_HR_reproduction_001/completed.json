@@ -1,0 +1,9 @@
+{
+  "status": "PASS_FOUR_DOMAIN_STATIC_EXPANSION",
+  "requests": 480,
+  "queries": 40,
+  "proc": 2,
+  "time_bj": "2026-11-08T16:04:52.158646+08:00",
+  "peak_GPU_allocated_bytes": 11812998144,
+  "peak_RSS_KiB": 6503736
+}

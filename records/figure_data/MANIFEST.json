@@ -1,0 +1,136 @@
+{
+  "run_id": "icde_eab_figure_verification_016",
+  "time_bj": "2026-11-02T17:07:25.464172+08:00",
+  "source_registration": "../../source_registration.json",
+  "source_registration_sha256": "0bac7b599ec0418c5e17e68239b3452a9602496e4e97b4b0d3b69701a072edd9",
+  "files": {
+    "AA_equivalence_intervals.csv": {
+      "sha256": "24a4a40d81da8b34fa66b3e878f6ac99812b60481d388b15521361437e3d57e5",
+      "bytes": 3200
+    },
+    "fast_action_severity.csv": {
+      "sha256": "426f9ade8e07a69f9ee236d75ea1e6b21ca35253d3a3dd3c90f4fc08eb72e1eb",
+      "bytes": 530
+    },
+    "containment_groups.csv": {
+      "sha256": "7eb4037085c00d608ca7408f5d3811798cf9a2329da15f31346e2ec9c75453af",
+      "bytes": 126
+    },
+    "executed_mix_audit.csv": {
+      "sha256": "bc73d157e629a6923b4de9e3f5301d88f31d20d20fe14575296599c07a0ba00b",
+      "bytes": 402
+    },
+    "setup_query_equivalents.csv": {
+      "sha256": "6d0f91217bca4149714074fbae0407ed318a1edbe29e8a4955cf9a4a5d334d5e",
+      "bytes": 1816
+    },
+    "QP_action_counts.csv": {
+      "sha256": "9ef88a34e791be566915425a5ecb3390525023c083d300e6309507c6512869df",
+      "bytes": 244
+    },
+    "QP_cost_decomposition_corrected.csv": {
+      "sha256": "8d8bea4e7d724073e85c09d07f1d42940e27f4d48ab10a9c1fdf5f47e24fc6e0",
+      "bytes": 1852
+    },
+    "lifecycle_crossings.csv": {
+      "sha256": "7c2a64436c2561618b5c5d3577b699a2462802d5baea9e751ff9b2ae1df479f3",
+      "bytes": 3486
+    },
+    "plan_points.csv": {
+      "sha256": "794d393042b011afec3c6efcec393933519381fb5cf5e606d4f85c0fae47422d",
+      "bytes": 35801
+    },
+    "oracle_catalog_sensitivity.csv": {
+      "sha256": "cc925fd5adafc9d55640b493e81d8c8150ba34827adcf04b55189190c7a3239b",
+      "bytes": 1304
+    },
+    "public_oracle_asset_audit.csv": {
+      "sha256": "43062ce2eba6fdb7ecd882f7d89b3248c9f95241e1f537de6339886c72b2c7ad",
+      "bytes": 777
+    },
+    "economics_original_envelope_intervals.csv": {
+      "sha256": "b31567a20451ce08afa9a23a7c8e9c84234624987a19a5ea1586e6c1a0c799f8",
+      "bytes": 1753
+    },
+    "query_level_derived.csv": {
+      "sha256": "b7b55563d742c5d20b85b4de7af55f825396631ecd9a2a25e498ca454b5ff9d3",
+      "bytes": 504723
+    },
+    "QP_cost_components.csv": {
+      "sha256": "510b0292b548ddcb0306343e25d57d8460bfaf238a05d285b78b6d6cd2dbab02",
+      "bytes": 1153
+    },
+    "oracle_at_router_risk.csv": {
+      "sha256": "f77a73ecb3fa68160bd86c7df5c20018474ab1f4ecf9141836c90cee6a6fb3d1",
+      "bytes": 2717
+    },
+    "repair_counts.csv": {
+      "sha256": "b5487802eabc96d344dcda66f57dff6fab8da40a90ecac6b2fee492d01b4e699",
+      "bytes": 424
+    },
+    "A1_A16_status.csv": {
+      "sha256": "1fa2b8b7076247dba732205de8dae0b36cfc8c90b4d5739b1aecca5ee09d7d20",
+      "bytes": 1578
+    },
+    "plot_points_registered.csv": {
+      "sha256": "ae5439c5d66e17938769bf81f74a12dd2be896cdb496d4ff4f43f4ad92ee2cc2",
+      "bytes": 41083
+    },
+    "new_harm_vs_worsening.csv": {
+      "sha256": "f990edddeb21830214175c26a3dad3cae15bd7cd7c02d8ad5312b22c2b64b6b2",
+      "bytes": 292
+    },
+    "biomedical_oracle_curve.csv": {
+      "sha256": "e22d024db989fc33059e9c6afd4f3d757bf7b8e9bb0e5453fedcb76117f79646",
+      "bytes": 57416
+    },
+    "fixed_budget_oracle.csv": {
+      "sha256": "89c0aa26a4b5dd5ae63de3b357d8b2e80709a3dd4057c28eb9789d1a7711c6df",
+      "bytes": 4904
+    },
+    "severity_quantiles.csv": {
+      "sha256": "33df461ff0dbe04da46e240ee36c3bba7ec3c9cc62f9002b51c0fc2c966a1183",
+      "bytes": 7714
+    },
+    "false_safe_version_audit.csv": {
+      "sha256": "fb4376fc1df6ece2216311dfa263c0f199347d7dbc00429cc822fb74f35c646c",
+      "bytes": 1199
+    },
+    "all_zero_capacity.csv": {
+      "sha256": "caacad6a4f399a56a7da1244c524234d47da37452b4d52cd3983f0ffc3cfb160",
+      "bytes": 311
+    },
+    "industrial_oracle_curve.csv": {
+      "sha256": "005c936b4d34d737b15481b44c67b7e3132dcb1e1e3d766f4bea96e394c52fb8",
+      "bytes": 17248
+    },
+    "paired_contrasts.csv": {
+      "sha256": "a62e0b91e348b512ee934d0d49ab175fc5182d7f9547fecf35edbe2f1cce0e0e",
+      "bytes": 1102
+    },
+    "numeric_reconciliation.csv": {
+      "sha256": "1c1e1ebe45a6c078631d9f1e9681f7a33572ba72b0a65d3a208380bf69ae3298",
+      "bytes": 13995
+    },
+    "lifecycle_curves.csv": {
+      "sha256": "7b0ba6e6bba9181c4eb65e67d2f65069543a0a0a7ae868651d242553682108e7",
+      "bytes": 272351
+    },
+    "envelope_vertices.csv": {
+      "sha256": "05938fddcd4d47a4452a9288e9eeaa267bb4a269b52086788f0fd586ea8633db",
+      "bytes": 3316
+    }
+  },
+  "limits": [
+    "No new independent samples",
+    "All paired intervals pointwise",
+    "Economics conditional on one source component",
+    "No formal certification",
+    "No GPU or sealed reads",
+    "Own FullV references; cross-model time not a controlled paired claim"
+  ],
+  "plot_points_file": "plot_points_registered.csv",
+  "plot_gain_CI_note": "Eco uses original paired ms interval / fixed archivedFullVmean as explicitly requested by doc27A3; paired-ratio sensitivity separately preserved",
+  "new_harm_note": "2/1 means worsened, not new harmed0/0",
+  "final_false_safe_cohort": "PharmaDev45"
+}

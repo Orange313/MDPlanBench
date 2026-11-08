@@ -1,0 +1,49 @@
+{
+  "reads": [
+    {
+      "path": "${PROJECT_ROOT}/artifacts/icde_eab_main_006/X1/preparation.json",
+      "role": "EXISTING_INPUT",
+      "sha256": "ebda2f1c4b10ae8a19c194633cdcddba3f380941fa26d0d08c85ea657f1941e2"
+    },
+    {
+      "path": "${PROJECT_ROOT}/cache/indexes/hr_primary_001/pages.json",
+      "role": "UNLABELLED_CORPUS_TEXT",
+      "sha256": "908c6d08f895f9f84fa630c0668acac53f8520f370174f770f7ac00753af79d6"
+    },
+    {
+      "path": "${CHECKOUT}/execution_source/cross_domain_four_plan_001.py",
+      "role": "EXISTING_INPUT",
+      "sha256": "357494a211e470a867f49427a86a60ab5473f29409865a753b14967b3a2cd06a"
+    },
+    {
+      "path": "${PROJECT_ROOT}/configs/hr_pilot_sparse_004.json",
+      "role": "EXISTING_INPUT",
+      "sha256": "c1e4fd0a33236d115023fb9492c021eeb30ec98e4051f779122acfcdfef03ad2"
+    },
+    {
+      "path": "${PROJECT_ROOT}/manifests/primary_datasets_inventory.json",
+      "role": "EXISTING_INPUT",
+      "sha256": "2f2a67a82f3fa3fd4133b4ced6de60d5f71c0e479bb8debc729fe502382b96fe"
+    },
+    {
+      "path": "${PROJECT_ROOT}/cache/indexes/icde_eab_independent_007_colpali_vidore_v3_hr_002/index_manifest.json",
+      "role": "UNLABELLED_VISUAL_INDEX",
+      "sha256": "0db659f8ef583962a02631305b3262085a3c1cbe84cc5cfda37955cce0a7c1b8"
+    },
+    {
+      "path": "${PROJECT_ROOT}/artifacts/splits/query_generalization_002/vidore_v3_hr/dev_queries.json",
+      "role": "EXISTING_INPUT",
+      "sha256": "d8f0156386277a04ee0617f01464d01e514189632e1d59b056fab5067f98e45e"
+    },
+    {
+      "path": "${PROJECT_ROOT}/artifacts/splits/query_generalization_002/vidore_v3_hr/dev_qrels.json",
+      "role": "AUTHORIZED_DEV_QRELS",
+      "sha256": "8f7b491057874708fb43cef9b02db6d1fe1df238de57d29913c1e035dbca37e5"
+    }
+  ],
+  "sealed_reads": 0,
+  "Dev_qrels_only": true,
+  "source_sha256": "fb3cd8f736ee685fba37974656da54224be0e84f2784ee737198c91a1d6ee7b3",
+  "source_commit": "e971def8e2c2f0278a272105e9016fe1d473a5d5",
+  "new_source_or_model_selection": false
+}

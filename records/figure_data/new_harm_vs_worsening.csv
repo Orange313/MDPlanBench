@@ -1,0 +1,3 @@
+domain,newly_harmed_zero_to_positive,worsened_including_previously_harmed,n,status,tolerance
+Biomedical,0,2,160,CORRECTION_REQUIRED: document27 B6 calls worsening NEW harm; these differ,1e-10
+Economics,0,1,58,CORRECTION_REQUIRED: document27 B6 calls worsening NEW harm; these differ,1e-10

@@ -1,0 +1,15 @@
+{
+  "run_id": "icde_eab_lastmile_008",
+  "stage": "L1_summary_001",
+  "status": "PASS_BIOMEDICAL_COLPALI_EXPLORATORY_POSTHOC_EXTENDED",
+  "time_bj": "2026-10-28T16:43:58.696496+08:00",
+  "seed": 202610281450,
+  "facts": "Biomedical ColPali160，5760次真实计时/3进程×3重复，1600GPU分项；Full-Visual U=0.6377,r=0.00000[0.00000,0.00000],E2E=94.72ms; BM25-R50 U=0.5417,r=0.11091[0.06985,0.16048],E2E=88.38ms; BM25-R100 U=0.5583,r=0.09293[0.05462,0.13912],E2E=88.40ms; BM25 U=0.3807,r=0.27910[0.22356,0.34183],E2E=2.78ms",
+  "decision": "报告同数据域双检索器的各自前沿，不把事后补充伪装预注册，不转移旧证书或模型。",
+  "code_snapshot_commit": "42c8aee489bd4cdc10b670a5dcfbf1d0c1c8dd1a",
+  "base_project_commit": "346b80e1849df79c5e646ec2421ee552b1f2484e",
+  "code_bundle_SHA256": "78c08d69d4c30b72e4ad87220d2a9bdeb61c65b078552fe0663074a878629d5d",
+  "inventory_SHA256": "990f0dee348f6002116f77199923b08e9c6153e62413853f5d3c2b796f51272c",
+  "sealed_reads": 0,
+  "new_certification": "NOT_CERTIFIED"
+}

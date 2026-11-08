@@ -1,0 +1,90 @@
+{
+  "seed": 20261105,
+  "kappa": 20,
+  "CV_folds": 3,
+  "Ridge_L2": [
+    1.0,
+    8.0,
+    64.0
+  ],
+  "LightGBM_grid": [
+    {
+      "num_leaves": 3,
+      "min_data_in_leaf": 10,
+      "lambda_l2": 1.0
+    },
+    {
+      "num_leaves": 3,
+      "min_data_in_leaf": 20,
+      "lambda_l2": 8.0
+    },
+    {
+      "num_leaves": 7,
+      "min_data_in_leaf": 10,
+      "lambda_l2": 8.0
+    },
+    {
+      "num_leaves": 7,
+      "min_data_in_leaf": 20,
+      "lambda_l2": 8.0
+    }
+  ],
+  "LightGBM_fixed": {
+    "objective": "regression",
+    "metric": "l2",
+    "learning_rate": 0.05,
+    "max_depth": 3,
+    "num_threads": 1,
+    "deterministic": true,
+    "force_col_wise": true,
+    "feature_pre_filter": false,
+    "num_leaves": 3,
+    "verbosity": -1,
+    "seed": 20261105
+  },
+  "rounds": 60,
+  "budgets": [
+    0.02,
+    0.05,
+    0.1
+  ],
+  "bootstrap": 2000,
+  "feature_blocks": {
+    "Q": [],
+    "QP": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "Q_distribution": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      9,
+      10,
+      12
+    ],
+    "Q_gaps": [
+      6,
+      7,
+      8
+    ],
+    "Q_coverage": [
+      11
+    ]
+  },
+  "scope": "POSTHOC_EXPLORATORY; existing frozen policies remain separate"
+}

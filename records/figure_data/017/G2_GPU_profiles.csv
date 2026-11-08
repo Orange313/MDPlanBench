@@ -1,0 +1,3 @@
+model,model_load_GPU_s,full_index_GPU_active_s,blocks,pages,scope,status
+ColQwen2,0.9812456859999986,121.03702956800001,32,1016,sum of nonoverlapping per-block process-owned GPU unions in separate profiled process; not unprofiled wall,PASS_SEPARATE_PROFILE
+ColPali,1.7598220319999978,120.81916919200025,32,1016,sum of nonoverlapping per-block process-owned GPU unions in separate profiled process; not unprofiled wall,PASS_SEPARATE_PROFILE

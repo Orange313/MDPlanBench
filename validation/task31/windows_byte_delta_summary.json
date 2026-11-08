@@ -1,0 +1,8 @@
+{
+  "changed_csv_files": 2,
+  "changed_float_string_cells": 78,
+  "max_abs_numeric_delta": 5.684341886080802e-14,
+  "non_numeric_differences": 0,
+  "reason": "platform floating-point accumulation, not path strings",
+  "reference_platform": "Linux byte-identical replay PASS"
+}
