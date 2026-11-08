@@ -1,0 +1,14 @@
+item,status,output,scope
+Table II,PASS,tables/table_II.csv,Frozen IDs and independently audited corpus metadata
+Table III,PASS,tables/table_III.csv,Original four-static envelope cohort
+Table IV,PASS,tables/table_IV.csv,Biomedical source grouped; Economics conditional
+Figure 1,PASS,figures/fig1_*_019.png,"Both original candidates, with017 lifecycle components"
+Figure 2,PASS_FROZEN_ASSET,figures/fig2_testbed.pdf/png + drawio,Editable diagram reproduced as hash-verified frozen asset
+Figure 3,PASS,figures/fig3_static_frontiers_018_019.png,Original scientific data; portable label padding only
+Figure 4,PASS,figures/fig4_decision_information_019.png,Original registered intervals; Economics denominator caveat retained
+Figure 5,PASS,figures/posthoc_diagnostic.pdf/png,"24 controls,18 H/S/O values; three-action catalog"
+Lifecycle supplement,PASS,figures/fig5_lifecycle.pdf/png,017 same-process costs; historical OCR singleton
+A/A supplement,PASS_REPLAY_OF_NEGATIVE_RESULT,figures/fig6_aa_equivalence_019.png,Replay succeeds; reliability gate does not pass
+42 historical CSVs,PASS_BYTE_IDENTICAL_LINUX,legacy/,Separate Windows float-string failure retained
+021/017 raw numerical audit,PASS,audit/,No model fitting or sealed labels
+Full HR GPU repetition,PASS_QUALITY_CONDITIONAL_TIMING,validation/task31/full_HR_reproduction_001/,40queries/1110pages/480requests; all160 Top10 equal; new timing cohort not substituted

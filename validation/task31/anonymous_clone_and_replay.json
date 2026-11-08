@@ -1,0 +1,63 @@
+{
+  "status": "PASS",
+  "public_repository": "https://github.com/Orange313/MDRouter.git",
+  "validated_code_commit": "044e72d2fcdd39d21f30aa03a2de0a0e128d4e65",
+  "manifest_sha256": "eafdfaa15b57b1d3fe4e97dbe0f2d4d03aeb999e43f4b85f9af8840174608dbe",
+  "manifest_verified_files": 1007,
+  "anonymous_clone": {
+    "platform": "Windows",
+    "credential_helper_disabled": true,
+    "global_and_system_git_config_disabled": true,
+    "terminal_prompt_disabled": true,
+    "source": "official public HTTPS repository"
+  },
+  "reference_replay": {
+    "platform": "Linux",
+    "source": "clean Git clone plus Git bundle from the anonymous public clone; existing public main prerequisite verified",
+    "source_matches_public_commit": true,
+    "new_isolated_Python_environment": true,
+    "receipt": {
+      "status": "PASS_CPU_NUMERIC_AND_FIGURE_REPLAY",
+      "wall_s": 40.39111112803221,
+      "steps": [
+        {
+          "step": "legacy_cpu",
+          "returncode": 0
+        },
+        {
+          "step": "021_017_statistics",
+          "returncode": 0
+        },
+        {
+          "step": "paper_figures_1_3_4",
+          "returncode": 0
+        },
+        {
+          "step": "figure5_and_lifecycle",
+          "returncode": 0
+        }
+      ],
+      "original_numeric_tables": 42,
+      "new_tables": 14,
+      "figures": [
+        "fig5_lifecycle.pdf",
+        "fig2_testbed.pdf",
+        "posthoc_diagnostic.pdf"
+      ],
+      "new_models_trained": 0,
+      "GPU_jobs": 0,
+      "network": false,
+      "sealed_labels_read": 0,
+      "limitations": [
+        "No fresh GPU timing is inferred from CPU reconstruction.",
+        "Economics inference is conditional on one source component.",
+        "Scientific issues in ledger are retained; replay success does not endorse manuscript wording."
+      ]
+    }
+  },
+  "failed_server_direct_clones": [
+    "GnuTLS -110 connection terminated",
+    "TCP443 connection timeout"
+  ],
+  "metadata_only_followup": "Release commit adds this receipt and table/figure status; no scientific script or numeric data changes."
+}
