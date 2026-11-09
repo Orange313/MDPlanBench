@@ -1,0 +1,9 @@
+{
+  "base_commit": "e9d4c2d14abca6003001caf8010da4f6b7321669",
+  "reviewed_parent_commit": "5689437006c68f5aaf32b29de1ca963bcec11672",
+  "changes": 472,
+  "new_files": 466,
+  "modified_files": 6,
+  "deleted_files": 0,
+  "self_reference_note": "This content review list excludes itself, the new sealing metadata and final root manifest, whose hashes are covered by root MANIFEST.sha256."
+}

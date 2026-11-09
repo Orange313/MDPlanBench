@@ -123,7 +123,7 @@ Biomedical resamples 27 source lectures and measurement processes. Economics has
 one relevance-connected component despite five PDFs; its intervals condition on
 that corpus and use the original fixed FullV denominator. Development analyses
 are exploratory. Labels, repeated timings, query translations and resampling do
-not create new independent evaluation units. There is no new K1 risk certificate
+not create new independent evaluation units. There is no new K1 (finite-sample mean-regret contract) risk certificate
 or validated Serving acceleration. RR-adapted is not the official RetrievalRouter.
 Pretraining overlap is unknown. Setup and warm costs are paired only within their
 own cohort; 70.22 ms and 36.22 ms are not interchangeable baselines.

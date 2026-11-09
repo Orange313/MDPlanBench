@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "base_commit": "e9d4c2d14abca6003001caf8010da4f6b7321669",
+  "checked_scopes": [
+    "snapshot",
+    "cost009/snapshot",
+    "records/figure_data",
+    "records/021_snapshot",
+    "LICENSE",
+    "config/frozen_Q_QP_coefficients.json",
+    "config/frozen_RR_adapted_coefficients.json"
+  ],
+  "modified_frozen_files": [],
+  "LaTeX_files_added_or_modified": [],
+  "remote_pushes": 0,
+  "PRs_created": 0,
+  "new_GPU_jobs": 0,
+  "new_training": 0
+}
