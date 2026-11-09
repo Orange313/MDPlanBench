@@ -1,36 +1,36 @@
 [
   {
-    "path": "records\\manuscript_R74_assets\\fig1_overview.png",
+    "path": "records/manuscript_R74_assets/fig1_overview.png",
     "sha256": "3d8657b94776a9c5c777de925553b5fe31dec73ecea2ebc2800ebe43d8d67de6",
     "bytes": 107644,
     "kind": "Frozen exact manuscript asset; not a claim of fresh rendering"
   },
   {
-    "path": "records\\manuscript_R74_assets\\fig2_testbed.pdf",
+    "path": "records/manuscript_R74_assets/fig2_testbed.pdf",
     "sha256": "15241de1dbf4032d66616963a7bab114d498151fe4de5a917bd73ee3a2d49584",
     "bytes": 66691,
     "kind": "Frozen exact manuscript asset; not a claim of fresh rendering"
   },
   {
-    "path": "records\\manuscript_R74_assets\\fig3_frontier.png",
+    "path": "records/manuscript_R74_assets/fig3_frontier.png",
     "sha256": "eec616eaa46d0c3fe13661ee8e644fd15087de461189dea32b505eb6955bb627",
     "bytes": 277805,
     "kind": "Frozen exact manuscript asset; not a claim of fresh rendering"
   },
   {
-    "path": "records\\manuscript_R74_assets\\fig4_decision.png",
+    "path": "records/manuscript_R74_assets/fig4_decision.png",
     "sha256": "4b7ea3c43aaf4eb691f7f97e5c11f5b5fd385316d64ffbc197c7701e192af879",
     "bytes": 222600,
     "kind": "Frozen exact manuscript asset; not a claim of fresh rendering"
   },
   {
-    "path": "records\\manuscript_R74_assets\\posthoc_diagnostic.pdf",
+    "path": "records/manuscript_R74_assets/posthoc_diagnostic.pdf",
     "sha256": "b577919580966ab169c40ee1c9ec97b045feff9a1e940d3f3edd54b566b55df8",
     "bytes": 30820,
     "kind": "Frozen exact manuscript asset; not a claim of fresh rendering"
   },
   {
-    "path": "records\\manuscript_R74_assets\\fig2_overview_020.drawio",
+    "path": "records/manuscript_R74_assets/fig2_overview_020.drawio",
     "sha256": "08d23b89b727196206f4d349aad5aad165d7b411f2f65a39ceeeb2d31bee1d57",
     "bytes": 27014,
     "kind": "Editable diagram source"

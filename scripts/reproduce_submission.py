@@ -15,7 +15,7 @@ def main():
  # Preserve author figure bytes separately from data-driven reconstructions.
  exact=O/'figures_exact_manuscript';exact.mkdir()
  for x in json.loads((G/'config/manuscript_R74_assets.json').read_text()):
-  src=G/x['path'];assert hashlib.sha256(src.read_bytes()).hexdigest()==x['sha256'];shutil.copyfile(src,exact/src.name)
+  src=G/x['path'].replace('\\','/');assert hashlib.sha256(src.read_bytes()).hexdigest()==x['sha256'];shutil.copyfile(src,exact/src.name)
  generated=O/'figures_generated';generated.mkdir()
  mapping={'fig1_industrial_ab_019.png':'fig1_overview.png','fig3_static_frontiers_018_019.png':'fig3_frontier.png','fig4_decision_information_019.png':'fig4_decision.png','posthoc_diagnostic.pdf':'posthoc_diagnostic.pdf','posthoc_diagnostic.png':'posthoc_diagnostic.png'}
  for old,new in mapping.items():
