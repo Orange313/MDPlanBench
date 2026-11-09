@@ -1,0 +1,86 @@
+[
+  {
+    "domain": "Biomedical",
+    "kind": "queries",
+    "url": "https://huggingface.co/datasets/vidore/biomedical_lectures_eng_v2/resolve/e82eb2f3e9f701688e6f3ba41fffad68c5b3b5fa/queries/test-00000-of-00001.parquet",
+    "sha256": "92b9de72e49c72f98e1a2da6b5f9decc2304b1f2ca196d385f0d58ff0174e8a9",
+    "bytes": 344534,
+    "expected": "92b9de72e49c72f98e1a2da6b5f9decc2304b1f2ca196d385f0d58ff0174e8a9",
+    "status": "PASS_HASH"
+  },
+  {
+    "domain": "Biomedical",
+    "kind": "qrels",
+    "url": "https://huggingface.co/datasets/vidore/biomedical_lectures_eng_v2/resolve/e82eb2f3e9f701688e6f3ba41fffad68c5b3b5fa/qrels/test-00000-of-00001.parquet",
+    "sha256": "62934f235e95809cd26fc6e9af982a496012aefad671b9308e008d414c42aa55",
+    "bytes": 63576,
+    "expected": "62934f235e95809cd26fc6e9af982a496012aefad671b9308e008d414c42aa55",
+    "status": "PASS_HASH"
+  },
+  {
+    "domain": "Biomedical",
+    "kind": "README.md",
+    "url": "https://huggingface.co/datasets/vidore/biomedical_lectures_eng_v2/resolve/e82eb2f3e9f701688e6f3ba41fffad68c5b3b5fa/README.md",
+    "sha256": "d99854fb2f6c9533628a747368607f5b9c51097e0116143f9d3a1b3fbd928a66",
+    "bytes": 4947,
+    "expected": null,
+    "status": "FETCHED_PRIMARY_BODY"
+  },
+  {
+    "domain": "Biomedical",
+    "kind": "LICENSE",
+    "url": "https://huggingface.co/datasets/vidore/biomedical_lectures_eng_v2/resolve/e82eb2f3e9f701688e6f3ba41fffad68c5b3b5fa/LICENSE",
+    "status": "NOT_VERIFIED",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "domain": "Biomedical",
+    "kind": "license.md",
+    "url": "https://huggingface.co/datasets/vidore/biomedical_lectures_eng_v2/resolve/e82eb2f3e9f701688e6f3ba41fffad68c5b3b5fa/license.md",
+    "sha256": "8386f4aded6116293b4a2daf378638abe4ed49406c696c12d4e8c19310aec46e",
+    "bytes": 19128,
+    "expected": null,
+    "status": "FETCHED_PRIMARY_BODY"
+  },
+  {
+    "domain": "Economics",
+    "kind": "queries",
+    "url": "https://huggingface.co/datasets/vidore/economics_reports_eng_v2/resolve/d4fba7cf3d620c42810d961435afcfaaa0678e8d/queries/test-00000-of-00001.parquet",
+    "sha256": "49717a960d1528f716aabdc388a51c9bbfe09fd96f77f1771a78edc949f4c570",
+    "bytes": 147599,
+    "expected": "49717a960d1528f716aabdc388a51c9bbfe09fd96f77f1771a78edc949f4c570",
+    "status": "PASS_HASH"
+  },
+  {
+    "domain": "Economics",
+    "kind": "qrels",
+    "url": "https://huggingface.co/datasets/vidore/economics_reports_eng_v2/resolve/d4fba7cf3d620c42810d961435afcfaaa0678e8d/qrels/test-00000-of-00001.parquet",
+    "sha256": "8e2ef74f957ea777352e670e2230bd16ad77c0a9783f198f1ac4385bd333c5cf",
+    "bytes": 154308,
+    "expected": "8e2ef74f957ea777352e670e2230bd16ad77c0a9783f198f1ac4385bd333c5cf",
+    "status": "PASS_HASH"
+  },
+  {
+    "domain": "Economics",
+    "kind": "README.md",
+    "url": "https://huggingface.co/datasets/vidore/economics_reports_eng_v2/resolve/d4fba7cf3d620c42810d961435afcfaaa0678e8d/README.md",
+    "sha256": "cdf4b66ecf388797f5d326a602acece03a6608e21a6da11c27dda56442e2d6ea",
+    "bytes": 4929,
+    "expected": null,
+    "status": "FETCHED_PRIMARY_BODY"
+  },
+  {
+    "domain": "Economics",
+    "kind": "LICENSE",
+    "url": "https://huggingface.co/datasets/vidore/economics_reports_eng_v2/resolve/d4fba7cf3d620c42810d961435afcfaaa0678e8d/LICENSE",
+    "status": "NOT_VERIFIED",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "domain": "Economics",
+    "kind": "license.md",
+    "url": "https://huggingface.co/datasets/vidore/economics_reports_eng_v2/resolve/d4fba7cf3d620c42810d961435afcfaaa0678e8d/license.md",
+    "status": "NOT_VERIFIED",
+    "error": "HTTP Error 404: Not Found"
+  }
+]

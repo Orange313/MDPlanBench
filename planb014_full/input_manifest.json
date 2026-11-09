@@ -1,0 +1,21 @@
+{
+  "query_family_map.csv": "1066b7efbff4f1bbe3e0ef8cbde9cf5e8066800ebe123baca689f92fa28bd424",
+  "artifacts/icde_eab_external_validation_013/monitor_001/setup_005/execution_protocol.json": "60ba3d60a6e0e571b14f5364dbde8fd6d6670d0ac08d3d470381ce46e0461736",
+  "reports/icde_eab_release_validation_010/A0/replay_002/cohort_comparison.csv": "905f7283f692f2c1abdc80a0efc54e0713cf59a2453c95f40edd8672076f7867",
+  "reports/icde_eab_release_validation_010/A0/replay_002/reuse_sensitivity.csv": "7c2a64436c2561618b5c5d3577b699a2462802d5baea9e751ff9b2ae1df479f3",
+  "reports/icde_eab_release_validation_010/A0/replay_002/lifecycle_cost_replay.csv": "8f8aee1689b45fb77b8fb2480562ec193eb84aea67cf3d068ef73d9935d380de",
+  "reports/icde_eab_main_006/X2/rebuild_002/all_per_query.csv": "6aa6146f96d3c52eae40ffc28aafaec6ef2d41c18f1a5a5c65e7583499841ab5",
+  "reports/icde_eab_main_006/X2/rebuild_002/eab_main_table_dev.csv": "0f26593820e91ea87cd921a9604640c390513c6b7c884bb4dee44dc6f1e98f7b",
+  "reports/icde_eab_external_validation_013/monitor_001/auto2_attempt_001/process_02/quality.csv": "954cfec4b2ab5e7044579ff82dce3b07500205e70481a2b257991aa845bd1da9",
+  "reports/icde_eab_external_validation_013/monitor_001/auto2_attempt_001/process_02/requests.csv": "647699762f6b2aaa6bbf49584051340bc9aa8f19f46536abece7c7d6e8919053",
+  "reports/icde_eab_external_validation_013/monitor_001/auto2_attempt_001/process_01/quality.csv": "954cfec4b2ab5e7044579ff82dce3b07500205e70481a2b257991aa845bd1da9",
+  "reports/icde_eab_external_validation_013/monitor_001/auto2_attempt_001/process_01/requests.csv": "f4e431f99fc49dd6ff35afef77a7dea67b176687b09d0ec5b69b3e4d1f8e649c",
+  "reports/icde_eab_external_validation_013/monitor_001/auto2_attempt_001/process_00/GPU_profiles.csv": "bc433ecdde6f4bae2b8831d72104abaec78f14cacdbced74d90f22d9ac9018b2",
+  "reports/icde_eab_external_validation_013/monitor_001/auto2_attempt_001/process_00/requests.csv": "a12ce27aceb3b8bc05399145f01bd68a17bc7bbec4130bb7a0c26d496b22da74",
+  "reports/icde_eab_external_validation_013/monitor_001/auto2_attempt_001/process_00/quality.csv": "954cfec4b2ab5e7044579ff82dce3b07500205e70481a2b257991aa845bd1da9",
+  "reports/icde_eab_independent_007/T2/summary_001/biomedical_main_table.csv": "0816b2a6d56e643b3f0e89a2eb386701f8b618a28e587ee61909c376dc7ae1a4",
+  "reports/icde_eab_independent_007/T2/process_2_001/requests.csv": "70682dd71fbbe501c6c04b4ffc10628050975fd7b4435accf6506a5a5cd25b25",
+  "reports/icde_eab_independent_007/T2/process_1_001/requests.csv": "c4a14cbc7f4e750b54858948d7b21744cbce9d8827baa103232800d4435974d3",
+  "reports/icde_eab_independent_007/T2/process_0_001/requests.csv": "67bc377321796ca356b28a10b8ef69249fa7b6319cddb6607d0454cf45ea906b",
+  "reports/icde_eab_independent_007/T2/process_0_001/quality.csv": "1d680afe2876f44ad4026b20d86ac1596d47a2751d84a5a18835115a842cb2eb"
+}

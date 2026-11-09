@@ -1,0 +1,30 @@
+{
+  "Biomedical": {
+    "queries": {
+      "url": "https://huggingface.co/datasets/vidore/biomedical_lectures_eng_v2/resolve/e82eb2f3e9f701688e6f3ba41fffad68c5b3b5fa/queries/test-00000-of-00001.parquet",
+      "sha256": "92b9de72e49c72f98e1a2da6b5f9decc2304b1f2ca196d385f0d58ff0174e8a9",
+      "dataset": "vidore/biomedical_lectures_eng_v2",
+      "revision": "e82eb2f3e9f701688e6f3ba41fffad68c5b3b5fa"
+    },
+    "qrels": {
+      "url": "https://huggingface.co/datasets/vidore/biomedical_lectures_eng_v2/resolve/e82eb2f3e9f701688e6f3ba41fffad68c5b3b5fa/qrels/test-00000-of-00001.parquet",
+      "sha256": "62934f235e95809cd26fc6e9af982a496012aefad671b9308e008d414c42aa55",
+      "dataset": "vidore/biomedical_lectures_eng_v2",
+      "revision": "e82eb2f3e9f701688e6f3ba41fffad68c5b3b5fa"
+    }
+  },
+  "Economics": {
+    "queries": {
+      "url": "https://huggingface.co/datasets/vidore/economics_reports_eng_v2/resolve/d4fba7cf3d620c42810d961435afcfaaa0678e8d/queries/test-00000-of-00001.parquet",
+      "sha256": "49717a960d1528f716aabdc388a51c9bbfe09fd96f77f1771a78edc949f4c570",
+      "dataset": "vidore/economics_reports_eng_v2",
+      "revision": "d4fba7cf3d620c42810d961435afcfaaa0678e8d"
+    },
+    "qrels": {
+      "url": "https://huggingface.co/datasets/vidore/economics_reports_eng_v2/resolve/d4fba7cf3d620c42810d961435afcfaaa0678e8d/qrels/test-00000-of-00001.parquet",
+      "sha256": "8e2ef74f957ea777352e670e2230bd16ad77c0a9783f198f1ac4385bd333c5cf",
+      "dataset": "vidore/economics_reports_eng_v2",
+      "revision": "d4fba7cf3d620c42810d961435afcfaaa0678e8d"
+    }
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "query_ids": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    14,
+    15,
+    17,
+    18,
+    20,
+    22,
+    23,
+    24,
+    25,
+    26,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63
+  ],
+  "primary_model_revision": "2c9a09bb37ed19b63eb94ae6c29bb4e76eb6e3c2",
+  "inherited_cost_vector": [
+    1.0,
+    0.801768800434828,
+    0.8090265742317495,
+    0.061299031059753706
+  ],
+  "cost_vector_normalize_by_FullV": false,
+  "random_mix_probabilities": [
+    0.0,
+    0.0,
+    0.7231294321302025,
+    0.2768705678697975
+  ],
+  "seed": 202610281100,
+  "original_frozen_protocol_SHA256": "a1a1f8b304a91f505ec37868b7ee11d54c6637852064b05eb87dec325f0e26bd",
+  "official_inputs": {
+    "corpus": {
+      "repo_path": "corpus/test-00000-of-00001.parquet",
+      "url": "https://huggingface.co/datasets/vidore/economics_reports_eng_v2/resolve/d4fba7cf3d620c42810d961435afcfaaa0678e8d/corpus/test-00000-of-00001.parquet",
+      "sha256": "0d5a0c9c03f5730cb18a8a22f372859866120f4f44ff89b1a32e9bb2db345939"
+    },
+    "docs": {
+      "repo_path": "docs/test-00000-of-00001.parquet",
+      "url": "https://huggingface.co/datasets/vidore/economics_reports_eng_v2/resolve/d4fba7cf3d620c42810d961435afcfaaa0678e8d/docs/test-00000-of-00001.parquet",
+      "sha256": "60eb2a2f818516e37fa06224ead4e3d3a8677827838ad992e6bdf0072d7808e6"
+    },
+    "qrels": {
+      "repo_path": "qrels/test-00000-of-00001.parquet",
+      "url": "https://huggingface.co/datasets/vidore/economics_reports_eng_v2/resolve/d4fba7cf3d620c42810d961435afcfaaa0678e8d/qrels/test-00000-of-00001.parquet",
+      "sha256": "8e2ef74f957ea777352e670e2230bd16ad77c0a9783f198f1ac4385bd333c5cf"
+    },
+    "queries": {
+      "repo_path": "queries/test-00000-of-00001.parquet",
+      "url": "https://huggingface.co/datasets/vidore/economics_reports_eng_v2/resolve/d4fba7cf3d620c42810d961435afcfaaa0678e8d/queries/test-00000-of-00001.parquet",
+      "sha256": "49717a960d1528f716aabdc388a51c9bbfe09fd96f77f1771a78edc949f4c570"
+    }
+  }
+}

@@ -1,0 +1,20 @@
+[
+  {
+    "process": 0,
+    "historical_guard_valid": true,
+    "sha256": "352bb03a04ede26245b0b03fa56e517418928f36a3f606952a6763f08f50f737",
+    "new_guard_execution": false
+  },
+  {
+    "process": 1,
+    "historical_guard_valid": true,
+    "sha256": "6f3ceef6c6ca382118fb37f901f6470e02b497fe56fcdc737f198c8c00161d57",
+    "new_guard_execution": false
+  },
+  {
+    "process": 2,
+    "historical_guard_valid": true,
+    "sha256": "17d77027a869e27c88bb6ad3ed80fea77511ca9b607f17fed90a677e7241de3f",
+    "new_guard_execution": false
+  }
+]

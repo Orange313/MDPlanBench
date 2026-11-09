@@ -1,0 +1,7 @@
+domain,queries,evidence,sources,connected_components,independence
+Biomedical,160,FROZEN_EXTERNAL_DESCRIPTIVE,27,27,conditional source27 uncertainty
+Economics,58,FROZEN_EXTERNAL_DESCRIPTIVE,5,1,sourceCI unavailable
+HR,40,EXPOSED_DEV,,,NOT_INDEPENDENT_TEST
+Finance-EN,39,EXPOSED_DEV,,,NOT_INDEPENDENT_TEST
+Industrial,40,EXPOSED_DEV,,,NOT_INDEPENDENT_TEST
+Pharma,45,EXPOSED_DEV,,,NOT_INDEPENDENT_TEST

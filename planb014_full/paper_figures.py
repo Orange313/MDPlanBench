@@ -1,0 +1,14 @@
+"""Rebuild all three current paper picture blocks using versioned source and CSV."""
+from pathlib import Path
+import ast,csv,importlib.util,json,hashlib,re,sys
+root=Path(__file__).resolve().parents[1];ws=Path(sys.argv[1]);out=Path(sys.argv[2]);out.mkdir(exist_ok=False)
+def read(p):return list(csv.DictReader(p.open(encoding='utf-8-sig',newline='')))
+f=lambda r,k:float(r[k]);domains=['vidore_v3_hr','vidore_v3_finance_en','vidore_v3_industrial','Pharmaceuticals'];names=['HR','Finance','Industrial','Pharma'];short={'Full-Visual':'FullV','BM25-R50':'R50','BM25-R100':'R100','BM25':'BM25','Q_regret':'Q','QP_regret':'QP','RandomMix':'Fixed Mix','RR_hard':'RR-adapt hard','RR_soft':'RR-adapt soft'}
+s=(root/'source_archive/scripts/icde_eab_main_006/paper_expand_001.py').read_text();ns={'f':f,'domains':domains,'names':names,'short':short,'rows':read(ws/'reports/icde_eab_main_006/X2/rebuild_002/eab_main_table_dev.csv')}
+funcs=[x for x in ast.parse(s).body if isinstance(x,ast.FunctionDef) and x.name in ['pic','text','line']];exec(compile(ast.Module(body=funcs,type_ignores=[]),'bound_picture_helpers','exec'),ns);chunk=s[s.index('# Four-domain risk--cost scatter.'):s.index('\nz=pic(470,170)')];exec(compile(chunk,'bound_dev_picture','exec'),ns);figs={'fig:frontier':ns['scatter']}
+s=(root/'source_archive/scripts/icde_eab_independent_007/paper_update_007_002.py').read_text();fn=next(x for x in ast.parse(s).body if isinstance(x,ast.FunctionDef) and x.name=='scatter');exec(compile(ast.Module(body=[fn],type_ignores=[]),'bound_biomedical_picture','exec'),globals());bio=read(ws/'reports/icde_eab_independent_007/T2/summary_001/biomedical_main_table.csv');figs['fig:biomedical']=scatter([r for r in bio if r['method'] in list(short)[:6]],'E2E_mean_ms','mean_r','Biomedical: positive regret $r$','fig:biomedical','Pointwise descriptive frozen-policy observations, not new K1 or Serving evidence.')
+spec=importlib.util.spec_from_file_location('ownership',root/'repro/paper_fig4_ownership.py');m=importlib.util.module_from_spec(spec);spec.loader.exec_module(m);figs['fig:ownership']=m.render(read(ws/'reports/icde_eab_release_validation_010/A0/replay_002/lifecycle_cost_replay.csv'))[0]
+expected=json.loads((root/'planb014_full/paper_figure_picture_hashes.json').read_text());checks=[]
+for name,tex in figs.items():
+ picture=re.search(r'\\begin\{picture\}.*?\\end\{picture\}',tex,re.S).group();canonical=re.sub(r'\s+','',picture);h=hashlib.sha256(canonical.encode()).hexdigest();checks.append({'figure':name,'picture_sha256':h,'expected':expected[name],'identical':h==expected[name]});(out/(name.split(':')[1]+'.tex')).write_text(tex+'\n')
+(out/'paper_figure_receipt.json').write_text(json.dumps(checks,indent=2)+'\n');assert all(x['identical'] for x in checks),checks;print(json.dumps({'status':'PASS_THREE_PAPER_PICTURE_REPLAY','figures':3}))

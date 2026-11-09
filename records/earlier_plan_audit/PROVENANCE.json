@@ -1,0 +1,37 @@
+{
+  "status": "RECOVERED_ORIGINAL_DEV_ONLY_NUMERICAL_RECORDS",
+  "files": [
+    {
+      "path": "records/earlier_plan_audit/all_unprofiled_requests.csv",
+      "sha256": "ff13c5ba7dc7e46b57ee2713028a3cd528dbf661039b26ad387b8b5fcced256c",
+      "bytes": 1471356,
+      "source": "reports/icde_evidence_closure_003/E1/all_unprofiled_requests.csv"
+    },
+    {
+      "path": "records/earlier_plan_audit/candidate_miss_fix.csv",
+      "sha256": "385e496e40b8a92f74b6ae8b36f7f64e8928d0fac614eb4db1e66e810b0aae78",
+      "bytes": 6115,
+      "source": "reports/icde_evidence_closure_003/E1/candidate_miss_fix.csv"
+    },
+    {
+      "path": "records/earlier_plan_audit/k_sweep_pareto.csv",
+      "sha256": "585145ac66b1e0a4c9c4ec4aa9add14fa73ca9b8619145b0f65b16d5195a9764",
+      "bytes": 11435,
+      "source": "reports/icde_evidence_closure_003/E1/k_sweep_pareto.csv"
+    },
+    {
+      "path": "records/earlier_plan_audit/per_query_quality_cost.csv",
+      "sha256": "393c078291f939a6483c279a504f4c74d5de5de37ba74c9702d4fb6bd2f4ad6b",
+      "bytes": 212075,
+      "source": "reports/icde_evidence_closure_003/E1/per_query_quality_cost.csv"
+    },
+    {
+      "path": "records/earlier_plan_audit/static_quality_e2e.csv",
+      "sha256": "9b5eb07075b8812cf8f2c082a1082f3de610456dae71561d7c8ee11796b5ba73",
+      "bytes": 9624,
+      "source": "reports/icde_evidence_closure_003/E1/static_quality_e2e.csv"
+    }
+  ],
+  "scientific_changes": 0,
+  "source_pages_or_labels": false
+}

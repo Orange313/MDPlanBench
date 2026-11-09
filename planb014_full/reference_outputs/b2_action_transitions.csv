@@ -1,0 +1,219 @@
+domain,query_id,family,source_group,Q_action,QP_action,Q_r,QP_r,QP_minus_Q_r,QP_minus_Q_actual_ms,empty_OCR_relevant
+Biomedical,0,semantic_family_0,regeneration_of_joint_tissues_cartilage_slides,BM25-R100,BM25-R100,0.0,0.0,0.0,-5.932893811000717,False
+Biomedical,1,semantic_family_1,regeneration_of_joint_tissues_cartilage_slides,Full-Visual,Full-Visual,0.0,0.0,0.0,-6.943765613767837,False
+Biomedical,2,semantic_family_2,regeneration_of_joint_tissues_cartilage_slides,BM25-R100,BM25-R100,1.0,1.0,0.0,2.593357736865677,False
+Biomedical,3,semantic_family_3,regeneration_of_joint_tissues_cartilage_slides,BM25-R100,BM25-R100,0.20438239758848611,0.20438239758848611,0.0,0.14813720352120185,False
+Biomedical,4,semantic_family_4,regeneration_of_joint_tissues_cartilage_slides,Full-Visual,Full-Visual,0.0,0.0,0.0,4.993591768046215,False
+Biomedical,5,semantic_family_5,regeneration_of_joint_tissues_cartilage_slides,Full-Visual,Full-Visual,0.0,0.0,0.0,6.557884419129948,False
+Biomedical,6,semantic_family_6,regeneration_of_joint_tissues_cartilage_slides,BM25-R100,BM25-R100,0.0,0.0,0.0,2.7322038594219435,False
+Biomedical,7,semantic_family_7,regeneration_of_joint_tissues_cartilage_slides,BM25-R100,BM25-R100,0.7012899792965542,0.7012899792965542,0.0,6.35159936630064,False
+Biomedical,8,semantic_family_8,regeneration_of_joint_tissues_cartilage_slides,BM25,Full-Visual,1.0,0.0,-1.0,71.79706419507663,False
+Biomedical,9,semantic_family_9,orthopaedic_joint_replacement_and_dental_implants_slides,BM25-R100,Full-Visual,0.7045057227504283,0.0,-0.7045057227504283,27.921182724336788,False
+Biomedical,10,semantic_family_10,orthopaedic_joint_replacement_and_dental_implants_slides,BM25-R100,BM25-R100,0.0,0.0,0.0,2.6604862262805398,False
+Biomedical,11,semantic_family_11,orthopaedic_joint_replacement_and_dental_implants_slides,BM25-R100,BM25-R100,0.0,0.0,0.0,-8.929195606874103,False
+Biomedical,12,semantic_family_12,orthopaedic_joint_replacement_and_dental_implants_slides,BM25-R100,BM25-R100,1.0,1.0,0.0,-0.26142410933971405,False
+Biomedical,13,semantic_family_13,biomaterials_tissue_interactions_structure_and_function_of_ecms_slides,BM25-R100,BM25-R100,0.0,0.0,0.0,-16.95167738944292,False
+Biomedical,14,semantic_family_14,biomaterials_tissue_interactions_structure_and_function_of_ecms_slides,BM25-R100,BM25-R100,0.0,0.0,0.0,0.9609071744812852,False
+Biomedical,15,semantic_family_15,biomaterials_tissue_interactions_structure_and_function_of_ecms_slides,BM25,BM25,0.0,0.0,0.0,0.37747621536254883,False
+Biomedical,16,semantic_family_16,biomaterials_tissue_interactions_structure_and_function_of_ecms_slides,BM25-R100,BM25-R100,0.0,0.0,0.0,15.848189695841732,False
+Biomedical,17,semantic_family_17,biomaterials_tissue_interactions_structure_and_function_of_ecms_slides,Full-Visual,Full-Visual,0.0,0.0,0.0,21.307044352094337,False
+Biomedical,18,semantic_family_18,unit_cell_processes_tissue_engineering_slides,BM25,BM25,0.04566068575442683,0.04566068575442683,0.0,-2.7942354273464947,False
+Biomedical,19,semantic_family_19,unit_cell_processes_tissue_engineering_slides,BM25,BM25,0.0636906478035375,0.0636906478035375,0.0,0.9183857796920667,True
+Biomedical,20,semantic_family_20,unit_cell_processes_tissue_engineering_slides,BM25,BM25,0.6989700043360187,0.6989700043360187,0.0,0.7198887566725416,False
+Biomedical,21,semantic_family_21,unit_cell_processes_tissue_engineering_slides,BM25-R100,BM25-R100,0.3065735963827292,0.3065735963827292,0.0,-17.83197176539236,True
+Biomedical,22,semantic_family_22,unit_cell_processes_tissue_engineering_slides,BM25,Full-Visual,0.48153499054313026,0.0,-0.48153499054313026,71.23895103318823,True
+Biomedical,23,semantic_family_23,biomaterial_tissue_interactions_formation_of_soft_tissue_and_bone_slides,Full-Visual,Full-Visual,0.0,0.0,0.0,0.9664019776715236,False
+Biomedical,24,semantic_family_24,biomaterial_tissue_interactions_formation_of_soft_tissue_and_bone_slides,BM25,BM25,0.0,0.0,0.0,0.759298395779398,False
+Biomedical,25,semantic_family_25,biomaterial_tissue_interactions_formation_of_soft_tissue_and_bone_slides,Full-Visual,Full-Visual,0.0,0.0,0.0,12.977114878594875,True
+Biomedical,26,semantic_family_26,biomaterial_tissue_interactions_formation_of_soft_tissue_and_bone_slides,BM25-R100,BM25-R100,0.17662492816016712,0.17662492816016712,0.0,-2.2604854570494766,False
+Biomedical,27,semantic_family_27,biomaterial_tissue_interactions_formation_of_soft_tissue_and_bone_slides,BM25-R100,BM25-R100,0.0,0.0,0.0,-1.1752240566743737,False
+Biomedical,28,semantic_family_28,biomaterial_tissue_interactions_formation_of_soft_tissue_and_bone_slides,Full-Visual,Full-Visual,0.0,0.0,0.0,6.957895950310757,False
+Biomedical,29,semantic_family_29,stress_supporting_structures_biomaterial_tissue_interactions_slides,Full-Visual,Full-Visual,0.0,0.0,0.0,0.18177109046114026,False
+Biomedical,30,semantic_family_30,stress_supporting_structures_biomaterial_tissue_interactions_slides,BM25-R100,BM25-R100,0.0,0.0,0.0,4.9266100136770135,False
+Biomedical,31,semantic_family_31,stress_supporting_structures_biomaterial_tissue_interactions_slides,BM25-R100,BM25-R100,0.0,0.0,0.0,10.96174420995844,False
+Biomedical,32,semantic_family_32,stress_supporting_structures_biomaterial_tissue_interactions_slides,BM25-R100,BM25-R100,0.0,0.0,0.0,-15.947399040063218,False
+Biomedical,33,semantic_family_33,stress_supporting_structures_biomaterial_tissue_interactions_slides,BM25-R100,BM25-R100,0.0,0.0,0.0,4.4406687633858795,False
+Biomedical,34,semantic_family_34,wound_healing_processes_unit_slides,BM25-R100,BM25-R100,0.0,0.0,0.0,17.827062660621266,False
+Biomedical,35,semantic_family_35,wound_healing_processes_unit_slides,BM25-R100,BM25-R100,0.0,0.0,0.0,5.2023509310351415,False
+Biomedical,36,semantic_family_36,wound_healing_processes_unit_slides,BM25-R100,BM25-R100,0.358830543740463,0.358830543740463,0.0,1.1547616579466435,False
+Biomedical,37,semantic_family_37,wound_healing_processes_unit_slides,BM25-R100,BM25-R100,0.3010299956639812,0.3010299956639812,0.0,10.525009594857693,False
+Biomedical,38,semantic_family_38,biomaterials_tissue_interactions_phenotype_slides,BM25,BM25,0.0,0.0,0.0,-0.14877598732709885,False
+Biomedical,39,semantic_family_39,biomaterials_tissue_interactions_phenotype_slides,BM25-R100,BM25-R100,0.0,0.0,0.0,-8.348134656747192,False
+Biomedical,40,semantic_family_40,biomaterials_tissue_interactions_phenotype_slides,BM25-R100,BM25-R100,0.38685280723454163,0.38685280723454163,0.0,1.1919748245014148,False
+Biomedical,41,semantic_family_41,biomaterials_tissue_interactions_phenotype_slides,BM25,Full-Visual,0.20025319549806447,0.0,-0.20025319549806447,66.40587105519242,False
+Biomedical,42,semantic_family_42,biomaterials_tissue_interactions_phenotype_slides,Full-Visual,BM25,0.0,0.0,0.0,-60.43453493879901,False
+Biomedical,43,semantic_family_43,biomaterials_tissue_interactions_phenotype_slides,Full-Visual,Full-Visual,0.0,0.0,0.0,-10.375802405178547,False
+Biomedical,44,semantic_family_44,methodology_for_measuring_surface_ligand_density_biomaterials_notes,BM25-R100,BM25-R100,0.0,0.0,0.0,7.598652711345089,False
+Biomedical,45,semantic_family_45,methodology_for_measuring_surface_ligand_density_biomaterials_notes,BM25-R100,BM25-R100,0.0,0.0,0.0,-1.6147166283594316,False
+Biomedical,46,semantic_family_46,methodology_for_measuring_surface_ligand_density_biomaterials_notes,Full-Visual,Full-Visual,0.0,0.0,0.0,-4.388015510307426,False
+Biomedical,47,semantic_family_47,methodology_for_measuring_surface_ligand_density_biomaterials_notes,Full-Visual,Full-Visual,0.0,0.0,0.0,3.5292186463872497,False
+Biomedical,48,semantic_family_48,methodology_for_measuring_surface_ligand_density_biomaterials_notes,BM25-R100,Full-Visual,0.0,0.0,0.0,29.109976875285305,False
+Biomedical,49,semantic_family_49,methodology_for_measuring_surface_ligand_density_biomaterials_notes,Full-Visual,Full-Visual,0.0,0.0,0.0,13.467835779819225,False
+Biomedical,50,semantic_family_50,methodology_for_measuring_surface_ligand_density_biomaterials_notes,Full-Visual,Full-Visual,0.0,0.0,0.0,-18.482105806469924,False
+Biomedical,51,semantic_family_51,biological_specificity_and_cooperativity_notes,Full-Visual,Full-Visual,0.0,0.0,0.0,-9.96308287398682,False
+Biomedical,52,semantic_family_52,biological_specificity_and_cooperativity_notes,Full-Visual,Full-Visual,0.0,0.0,0.0,6.363447652094891,False
+Biomedical,53,semantic_family_53,biological_specificity_and_cooperativity_notes,BM25,BM25,0.0,0.0,0.0,0.3107284299201436,False
+Biomedical,54,semantic_family_54,biological_specificity_and_cooperativity_notes,BM25-R100,BM25-R100,0.0,0.0,0.0,-4.775769594642846,False
+Biomedical,55,semantic_family_55,biological_specificity_and_cooperativity_notes,BM25-R100,BM25-R100,0.0,0.0,0.0,0.5921919105781441,False
+Biomedical,56,semantic_family_56,biological_specificity_and_cooperativity_notes,BM25-R100,Full-Visual,0.0,0.0,0.0,1.653292216360569,False
+Biomedical,57,semantic_family_57,nerve_synthesis_regeneration_slides,BM25-R100,BM25-R100,0.0,0.0,0.0,-1.7819769887460666,False
+Biomedical,58,semantic_family_58,nerve_synthesis_regeneration_slides,BM25-R100,BM25-R100,0.19342640361727076,0.19342640361727076,0.0,2.529638301995064,False
+Biomedical,59,semantic_family_59,nerve_synthesis_regeneration_slides,BM25,BM25-R100,0.13650467229854604,0.06661907343641432,-0.06988559886213172,57.739866483542656,False
+Biomedical,60,semantic_family_60,nerve_synthesis_regeneration_slides,BM25,BM25-R100,0.10452929475369863,0.0,-0.10452929475369863,54.27400581538677,False
+Biomedical,61,semantic_family_61,nerve_synthesis_regeneration_slides,Full-Visual,Full-Visual,0.0,0.0,0.0,-7.64562976029184,False
+Biomedical,62,semantic_family_62,nerve_synthesis_regeneration_slides,BM25-R100,BM25-R100,0.0,0.0,0.0,-0.07629922280708001,False
+Biomedical,63,semantic_family_63,nerve_synthesis_regeneration_slides,BM25-R100,BM25-R100,0.0,0.0,0.0,-3.1472092701329117,False
+Biomedical,64,semantic_family_64,nerve_synthesis_regeneration_slides,BM25-R100,BM25-R100,0.0,0.0,0.0,17.434345247844853,False
+Biomedical,65,semantic_family_65,nerve_synthesis_regeneration_slides,Full-Visual,Full-Visual,0.0,0.0,0.0,-11.547744067178826,False
+Biomedical,66,semantic_family_66,integrins_hst522j_slides,BM25-R100,BM25-R100,1.0,1.0,0.0,6.768362907071918,False
+Biomedical,67,semantic_family_67,integrins_hst522j_slides,BM25-R100,BM25-R100,0.0,0.0,0.0,-2.3190480553441617,False
+Biomedical,68,semantic_family_68,integrins_hst522j_slides,Full-Visual,Full-Visual,0.0,0.0,0.0,-9.47240088135004,False
+Biomedical,69,semantic_family_69,integrins_hst522j_slides,Full-Visual,Full-Visual,0.0,0.0,0.0,3.525281324982643,False
+Biomedical,70,semantic_family_70,integrins_hst522j_slides,Full-Visual,Full-Visual,0.0,0.0,0.0,13.492364746828883,False
+Biomedical,71,semantic_family_71,integrins_hst522j_slides,BM25-R100,BM25-R100,0.22004653412513586,0.22004653412513586,0.0,5.339804312421215,False
+Biomedical,72,semantic_family_72,epithelialization_epidermal_regeneration_mit_course_slides,Full-Visual,BM25,0.0,0.0,0.0,-61.935969007511936,False
+Biomedical,73,semantic_family_73,epithelialization_epidermal_regeneration_mit_course_slides,BM25-R100,Full-Visual,0.0,0.0,0.0,-5.497763657735462,False
+Biomedical,74,semantic_family_74,epithelialization_epidermal_regeneration_mit_course_slides,BM25,BM25,0.0,0.0,0.0,1.6205698872605963,False
+Biomedical,75,semantic_family_75,biomaterial_tissue_interactions_epithelialization_slides,Full-Visual,Full-Visual,0.0,0.0,0.0,-25.96514578908682,False
+Biomedical,76,semantic_family_76,biomaterial_tissue_interactions_epithelialization_slides,BM25-R100,BM25-R100,0.0,0.0,0.0,-6.650088458425472,False
+Biomedical,77,semantic_family_77,biomaterial_tissue_interactions_epithelialization_slides,Full-Visual,Full-Visual,0.0,0.0,0.0,-0.08806627657679655,False
+Biomedical,78,semantic_family_78,biomaterial_tissue_interactions_epithelialization_slides,BM25-R100,BM25-R100,0.26853572298423234,0.26853572298423234,0.0,-17.667314658562347,False
+Biomedical,79,semantic_family_79,biomaterial_tissue_interactions_epithelialization_slides,Full-Visual,Full-Visual,0.0,0.0,0.0,-6.3234649391637845,False
+Biomedical,80,semantic_family_80,biomaterial_tissue_interactions_epithelialization_slides,Full-Visual,Full-Visual,0.0,0.0,0.0,11.854412861996224,False
+Biomedical,81,semantic_family_81,biomaterial_tissue_interactions_epithelialization_slides,BM25,BM25,0.36061783285612214,0.36061783285612214,0.0,1.6037268150183897,False
+Biomedical,82,semantic_family_82,cardiac_muscle_tissue_engineering_slides,Full-Visual,Full-Visual,0.0,0.0,0.0,-3.293270555635303,False
+Biomedical,83,semantic_family_82,cardiac_muscle_tissue_engineering_slides,BM25-R100,BM25-R100,0.45940927615099747,0.45940927615099747,0.0,6.5970225259661674,False
+Biomedical,84,semantic_family_84,cardiac_muscle_tissue_engineering_slides,BM25-R100,BM25-R100,0.0,0.0,0.0,3.6254320293664932,False
+Biomedical,85,semantic_family_85,cardiac_muscle_tissue_engineering_slides,BM25-R100,BM25-R100,0.0,0.0,0.0,3.0139888533287547,False
+Biomedical,86,semantic_family_86,cardiac_muscle_tissue_engineering_slides,Full-Visual,BM25,0.0,0.03253201651083071,0.03253201651083071,-65.91035725755823,False
+Biomedical,87,semantic_family_87,cardiac_muscle_tissue_engineering_slides,BM25,BM25,0.6309297535714575,0.6309297535714575,0.0,1.6078971740272308,True
+Biomedical,88,semantic_family_88,skin_synthesis_in_vivo_slides,BM25,BM25-R100,0.0,0.0,0.0,68.44278311149941,False
+Biomedical,89,semantic_family_89,skin_synthesis_in_vivo_slides,BM25,BM25,1.0,1.0,0.0,0.6532044046454959,False
+Biomedical,90,semantic_family_90,skin_synthesis_in_vivo_slides,BM25-R100,Full-Visual,0.0,0.0,0.0,-4.8575776939590725,False
+Biomedical,91,semantic_family_89,skin_synthesis_in_vivo_slides,BM25,BM25,0.0,0.0,0.0,-0.30156400882535506,False
+Biomedical,92,semantic_family_92,skin_synthesis_in_vivo_slides,BM25-R100,Full-Visual,0.0,0.0,0.0,7.957835164335037,False
+Biomedical,93,semantic_family_93,skin_synthesis_in_vivo_slides,Full-Visual,Full-Visual,0.0,0.0,0.0,-16.263569601707985,False
+Biomedical,94,semantic_family_94,skin_synthesis_in_vivo_slides,BM25-R100,BM25-R100,0.0,0.0,0.0,-11.72163927306731,False
+Biomedical,95,semantic_family_95,skin_synthesis_in_vivo_slides,Full-Visual,Full-Visual,0.0,0.0,0.0,-13.358717784285545,False
+Biomedical,96,semantic_family_96,skin_physiology_biomaterial_tissue_interactions_slides,Full-Visual,Full-Visual,0.0,0.0,0.0,17.23527463359966,False
+Biomedical,97,semantic_family_97,skin_physiology_biomaterial_tissue_interactions_slides,BM25,BM25,0.0,0.0,0.0,0.17683032072252658,False
+Biomedical,98,semantic_family_98,biomaterial_tissue_interactions_cell_scaffold_interactions_slides,Full-Visual,Full-Visual,0.0,0.0,0.0,14.798247255384922,False
+Biomedical,99,semantic_family_99,biomaterial_tissue_interactions_cell_scaffold_interactions_slides,BM25-R100,BM25-R100,0.0,0.0,0.0,5.012947652075027,False
+Biomedical,100,semantic_family_100,biomaterial_tissue_interactions_cell_scaffold_interactions_slides,BM25-R100,BM25-R100,0.0,0.0,0.0,0.6479582645826838,False
+Biomedical,101,semantic_family_101,biomaterial_tissue_interactions_cell_scaffold_interactions_slides,Full-Visual,Full-Visual,0.0,0.0,0.0,2.029281006091182,False
+Biomedical,102,semantic_family_102,biomaterial_tissue_interactions_cell_scaffold_interactions_slides,Full-Visual,Full-Visual,0.0,0.0,0.0,3.244909354382088,False
+Biomedical,103,semantic_family_103,biomaterial_tissue_interactions_cell_scaffold_interactions_slides,BM25-R100,BM25-R100,0.0,0.0,0.0,3.924198862579125,False
+Biomedical,104,semantic_family_104,structural_determinants_of_biologically_active_materials_biomaterial_tissue_interactions_slides,BM25-R100,BM25-R100,0.0,0.0,0.0,15.03674313426017,False
+Biomedical,105,semantic_family_105,structural_determinants_of_biologically_active_materials_biomaterial_tissue_interactions_slides,BM25-R100,BM25-R100,0.0,0.0,0.0,7.0404908102419625,False
+Biomedical,106,semantic_family_106,structural_determinants_of_biologically_active_materials_biomaterial_tissue_interactions_slides,Full-Visual,Full-Visual,0.0,0.0,0.0,-4.330523208611538,False
+Biomedical,107,semantic_family_107,structural_determinants_of_biologically_active_materials_biomaterial_tissue_interactions_slides,BM25-R100,BM25-R100,0.0,0.0,0.0,-0.7356369040078548,False
+Biomedical,108,semantic_family_108,structural_determinants_of_biologically_active_materials_biomaterial_tissue_interactions_slides,BM25-R100,BM25-R100,0.0,0.0,0.0,2.298370417621399,False
+Biomedical,109,semantic_family_109,structural_determinants_of_biologically_active_materials_biomaterial_tissue_interactions_slides,BM25-R100,BM25-R100,0.19342640361727093,0.19342640361727093,0.0,6.5175174838966825,False
+Biomedical,110,semantic_family_41,structural_determinants_of_biologically_active_materials_biomaterial_tissue_interactions_slides,BM25-R100,BM25-R100,0.0,0.0,0.0,-10.296267871227528,False
+Biomedical,111,semantic_family_111,structural_determinants_of_biologically_active_materials_biomaterial_tissue_interactions_slides,Full-Visual,Full-Visual,0.0,0.0,0.0,-0.2752247576912197,False
+Biomedical,112,semantic_family_112,biomaterials_and_tissue_interactions_simplest_synthetic_pathways_slides,BM25-R100,BM25-R100,0.0,0.0,0.0,1.7861598688695182,False
+Biomedical,113,semantic_family_113,biomaterials_and_tissue_interactions_simplest_synthetic_pathways_slides,BM25-R100,BM25-R100,0.04183149594673563,0.04183149594673563,0.0,-3.537419355577896,False
+Biomedical,114,semantic_family_114,biomaterials_and_tissue_interactions_simplest_synthetic_pathways_slides,BM25-R100,BM25-R100,0.0,0.0,0.0,-0.32450444996356964,False
+Biomedical,115,semantic_family_115,biomaterials_and_tissue_interactions_simplest_synthetic_pathways_slides,BM25-R100,BM25-R100,0.0,0.0,0.0,-1.5128681229220433,False
+Biomedical,116,semantic_family_116,biomaterials_and_tissue_interactions_simplest_synthetic_pathways_slides,BM25,BM25,0.0,0.0,0.0,0.36197238498263884,False
+Biomedical,117,semantic_family_117,biomaterials_and_tissue_interactions_simplest_synthetic_pathways_slides,BM25-R100,BM25-R100,0.0,0.0,0.0,-0.47195764879385393,False
+Biomedical,118,semantic_family_118,biomaterials_and_tissue_interactions_simplest_synthetic_pathways_slides,BM25-R100,BM25-R100,0.0,0.0,0.0,13.153380507396328,False
+Biomedical,119,semantic_family_119,biomaterials_and_tissue_interactions_simplest_synthetic_pathways_slides,BM25-R100,BM25-R100,0.0,0.0,0.0,-16.96249946124024,False
+Biomedical,120,semantic_family_120,biomaterials_and_tissue_interactions_simplest_synthetic_pathways_slides,BM25-R100,BM25-R100,0.0,0.0,0.0,-2.818743491338367,False
+Biomedical,121,semantic_family_121,bone_remodeling_slides,BM25,BM25,0.0,0.0,0.0,0.9306366037991309,False
+Biomedical,122,semantic_family_122,bone_remodeling_slides,BM25,BM25,1.0,1.0,0.0,0.5902888046370611,False
+Biomedical,123,semantic_family_123,bone_remodeling_slides,BM25,BM25,1.0,1.0,0.0,0.5008589683307543,False
+Biomedical,124,semantic_family_124,bone_remodeling_slides,Full-Visual,Full-Visual,0.0,0.0,0.0,-15.538940102689793,False
+Biomedical,125,semantic_family_125,bone_remodeling_slides,BM25-R100,Full-Visual,0.0,0.0,0.0,15.711529801289245,False
+Biomedical,126,semantic_family_126,bone_remodeling_slides,BM25,BM25-R100,1.0,0.0,-1.0,59.13372699999147,False
+Biomedical,127,semantic_family_127,tissue_types_mit_harvard_slides,BM25-R100,BM25-R100,0.0,0.0,0.0,14.453937196069297,False
+Biomedical,128,semantic_family_128,tissue_types_mit_harvard_slides,BM25-R100,BM25-R100,0.0,0.0,0.0,-2.4543096207910082,False
+Biomedical,129,semantic_family_129,tissue_types_mit_harvard_slides,BM25-R100,BM25-R100,0.0,0.0,0.0,-8.707941613263557,False
+Biomedical,130,semantic_family_130,tissue_types_mit_harvard_slides,Full-Visual,Full-Visual,0.0,0.0,0.0,-1.0308483615517616,False
+Biomedical,131,semantic_family_131,tissue_types_mit_harvard_slides,BM25,BM25-R100,0.5714285040141098,0.26485490763138064,-0.3065735963827292,64.7160593006346,False
+Biomedical,132,semantic_family_132,tissue_types_mit_harvard_slides,Full-Visual,Full-Visual,0.0,0.0,0.0,-5.4345071936647145,False
+Biomedical,133,semantic_family_133,regeneration_of_joint_tissues_bone_slides,BM25,BM25,0.43067655807339306,0.43067655807339306,0.0,-0.1506636747055583,False
+Biomedical,134,semantic_family_134,regeneration_of_joint_tissues_bone_slides,BM25-R100,Full-Visual,0.0,0.0,0.0,14.96949957476722,False
+Biomedical,135,semantic_family_135,regeneration_of_joint_tissues_bone_slides,Full-Visual,Full-Visual,0.0,0.0,0.0,-8.605189000566796,False
+Biomedical,136,semantic_family_136,regeneration_of_joint_tissues_bone_slides,BM25-R100,BM25-R100,0.0,0.0,0.0,-3.512478433549404,False
+Biomedical,137,semantic_family_137,biomaterials_tissue_interactions_noncooperative_cell_slides,Full-Visual,Full-Visual,0.0,0.0,0.0,8.373441071146061,False
+Biomedical,138,semantic_family_138,biomaterials_tissue_interactions_noncooperative_cell_slides,BM25,Full-Visual,0.6934264036172708,0.0,-0.6934264036172708,71.63196760747168,False
+Biomedical,139,semantic_family_139,biomaterials_tissue_interactions_noncooperative_cell_slides,BM25-R100,BM25-R100,0.0,0.0,0.0,11.455575728582005,False
+Biomedical,140,semantic_family_140,biomaterials_tissue_interactions_noncooperative_cell_slides,Full-Visual,Full-Visual,0.0,0.0,0.0,0.6826365780499373,False
+Biomedical,141,semantic_family_141,biomaterials_tissue_interactions_noncooperative_cell_slides,Full-Visual,Full-Visual,0.0,0.0,0.0,6.613586615357136,False
+Biomedical,142,semantic_family_142,biomaterials_tissue_interactions_noncooperative_cell_slides,Full-Visual,Full-Visual,0.0,0.0,0.0,32.45296018819014,False
+Biomedical,143,semantic_family_143,surface_characterization_and_analysis_biomaterial_tissue_interactions_slides,BM25-R100,BM25-R100,0.0,0.0,0.0,11.842584547897182,False
+Biomedical,144,semantic_family_144,surface_characterization_and_analysis_biomaterial_tissue_interactions_slides,BM25,BM25-R100,1.0,0.0,-1.0,69.6208006184962,False
+Biomedical,145,semantic_family_145,surface_characterization_and_analysis_biomaterial_tissue_interactions_slides,BM25,BM25,1.0,1.0,0.0,-0.7197484374046326,False
+Biomedical,146,semantic_family_146,surface_characterization_and_analysis_biomaterial_tissue_interactions_slides,Full-Visual,Full-Visual,0.0,0.0,0.0,-0.7521255562702862,False
+Biomedical,147,semantic_family_147,surface_characterization_and_analysis_biomaterial_tissue_interactions_slides,BM25-R100,BM25-R100,0.3065735963827292,0.3065735963827292,0.0,3.2340157777071,False
+Biomedical,148,semantic_family_148,biomaterials_tissue_interactions_slides,BM25-R100,BM25-R100,0.0,0.0,0.0,9.777861854268451,False
+Biomedical,149,semantic_family_149,biomaterials_tissue_interactions_slides,BM25-R100,BM25-R100,0.0,0.0,0.0,-1.6479933013518604,False
+Biomedical,150,semantic_family_150,biomaterials_tissue_interactions_slides,BM25-R100,BM25-R100,0.0,0.0,0.0,-1.8433029245999109,False
+Biomedical,151,semantic_family_151,biomaterials_tissue_interactions_slides,BM25-R100,BM25-R100,0.0,0.0,0.0,-5.0150288475884395,False
+Biomedical,152,semantic_family_152,biomaterials_tissue_interactions_slides,BM25-R100,BM25-R100,0.0,0.0,0.0,-0.9047505963179816,False
+Biomedical,153,semantic_family_153,biomaterials_tissue_interactions_slides,BM25-R100,BM25-R100,0.0,0.0,0.0,1.977949610186947,False
+Biomedical,154,semantic_family_154,chronic_response_to_implants_slides,BM25,BM25,1.0,1.0,0.0,0.8162716403603554,True
+Biomedical,155,semantic_family_155,chronic_response_to_implants_slides,BM25-R100,BM25-R100,0.0,0.0,0.0,-6.082511610454979,False
+Biomedical,156,semantic_family_156,chronic_response_to_implants_slides,Full-Visual,Full-Visual,0.0,0.0,0.0,-15.69707029395633,False
+Biomedical,157,semantic_family_157,chronic_response_to_implants_slides,BM25-R100,BM25,0.0,0.36907024642854247,0.36907024642854247,-59.74281020462513,False
+Biomedical,158,semantic_family_158,chronic_response_to_implants_slides,Full-Visual,Full-Visual,0.0,0.0,0.0,6.373428636127045,False
+Biomedical,159,semantic_family_159,chronic_response_to_implants_slides,BM25-R100,BM25-R100,0.0,0.0,0.0,16.46422553393576,False
+Economics,0,econ_family_0,Business Ready 2024,BM25-R100,BM25-R100,0.0,0.0,0.0,0.8654049080279123,False
+Economics,1,econ_family_1,Business Ready 2024,Full-Visual,Full-Visual,0.0,0.0,0.0,-1.1733060495720977,False
+Economics,2,econ_family_2,Business Ready 2024,Full-Visual,Full-Visual,0.0,0.0,0.0,1.3668992453151319,False
+Economics,3,econ_family_3,Business Ready 2024,BM25-R100,BM25-R100,0.0,0.0,0.0,-0.803639180958271,False
+Economics,4,econ_family_4,Business Ready 2024,BM25-R100,BM25-R100,0.0,0.0,0.0,1.4827811262673833,False
+Economics,5,econ_family_5,Business Ready 2024,Full-Visual,Full-Visual,0.0,0.0,0.0,-0.2356987032625426,False
+Economics,6,econ_family_6,Business Ready 2024,BM25,Full-Visual,0.0,0.0,0.0,37.711801524791454,False
+Economics,7,econ_family_7,Business Ready 2024,Full-Visual,Full-Visual,0.0,0.0,0.0,4.386999954779938,False
+Economics,8,econ_family_8,Business Ready 2024,Full-Visual,Full-Visual,0.0,0.0,0.0,-0.559934932324623,False
+Economics,9,econ_family_9,Business Ready 2024,BM25-R100,Full-Visual,0.0,0.0,0.0,-0.8487642432252542,False
+Economics,10,econ_family_10,Business Ready 2024,BM25,BM25,0.022821594349814844,0.022821594349814844,0.0,0.04293697161806942,False
+Economics,11,econ_family_11,Business Ready 2024,BM25-R100,Full-Visual,0.0,0.0,0.0,8.63049210359653,False
+Economics,12,econ_family_12,Business Ready 2024,Full-Visual,Full-Visual,0.0,0.0,0.0,1.0602784653504642,False
+Economics,14,econ_family_14,Business Ready 2024,Full-Visual,Full-Visual,0.0,0.0,0.0,0.2579514144195443,False
+Economics,15,econ_family_15,Business Ready 2024,BM25-R100,Full-Visual,0.0,0.0,0.0,-1.159474357134762,False
+Economics,17,econ_family_17,Business Ready 2024,BM25-R100,BM25-R100,0.0,0.0,0.0,-0.13385785536633676,False
+Economics,18,econ_family_18,Business Ready 2024,BM25,BM25,0.0783982689786753,0.0783982689786753,0.0,0.2196569823556478,False
+Economics,20,econ_family_20,Business Ready 2024,BM25-R100,Full-Visual,0.0,0.0,0.0,4.516700075732331,False
+Economics,22,econ_family_22,Business Ready 2024,BM25,Full-Visual,0.21190465603975872,0.0,-0.21190465603975872,39.499297738075256,False
+Economics,23,econ_family_23,Business Ready 2024,Full-Visual,Full-Visual,0.0,0.0,0.0,6.296348551081287,False
+Economics,24,econ_family_24,Business Ready 2024,Full-Visual,Full-Visual,0.0,0.0,0.0,-1.3991428746117478,False
+Economics,25,econ_family_25,Business Ready 2024,Full-Visual,Full-Visual,0.0,0.0,0.0,-1.5995155812965436,False
+Economics,26,econ_family_26,Business Ready 2024,BM25-R100,BM25-R100,0.08318788207221539,0.08318788207221539,0.0,0.21465505576795607,False
+Economics,28,econ_family_28,Business Ready 2024,Full-Visual,Full-Visual,0.0,0.0,0.0,-2.2271487654911155,False
+Economics,29,econ_family_29,Business Ready 2024,BM25-R100,Full-Visual,0.0,0.0,0.0,2.922732072571911,False
+Economics,30,econ_family_30,Business Ready 2024,BM25-R100,BM25-R100,0.0,0.0,0.0,-0.11285373734103388,False
+Economics,31,econ_family_31,Business Ready 2024,Full-Visual,Full-Visual,0.0,0.0,0.0,0.7460231168402558,False
+Economics,32,econ_family_32,Business Ready 2024,BM25-R100,BM25-R100,0.0,0.0,0.0,-0.6877805830703849,False
+Economics,33,econ_family_23,Business Ready 2024,Full-Visual,Full-Visual,0.0,0.0,0.0,0.4801565988196259,False
+Economics,34,econ_family_34,Business Ready 2024,BM25,Full-Visual,0.37615295441188135,0.0,-0.37615295441188135,38.75038069155481,False
+Economics,35,econ_family_35,Business Ready 2024,Full-Visual,Full-Visual,0.0,0.0,0.0,6.132148102753696,False
+Economics,36,econ_family_7,Business Ready 2024,Full-Visual,Full-Visual,0.0,0.0,0.0,1.0723545112543675,False
+Economics,37,econ_family_37,Business Ready 2024,BM25-R100,BM25,0.0946239834774153,0.07945707943276747,-0.015166904044647822,-33.64931233227253,False
+Economics,38,econ_family_38,Business Ready 2024,Full-Visual,Full-Visual,0.0,0.0,0.0,0.8373157017760775,False
+Economics,39,econ_family_39,Business Ready 2024,BM25-R100,BM25-R100,0.0,0.0,0.0,-2.632568176421856,False
+Economics,41,econ_family_32,Business Ready 2024,BM25,Full-Visual,0.39675672288353475,0.0,-0.39675672288353475,36.73307483808861,False
+Economics,42,econ_family_42,Business Ready 2024,Full-Visual,Full-Visual,0.0,0.0,0.0,-0.48824337621529423,False
+Economics,43,econ_family_43,Business Ready 2024,Full-Visual,Full-Visual,0.0,0.0,0.0,1.454826547867718,False
+Economics,44,econ_family_44,Business Ready 2024,BM25-R100,Full-Visual,0.0,0.0,0.0,3.821656107902527,False
+Economics,45,econ_family_45,Business Ready 2024,Full-Visual,Full-Visual,0.0,0.0,0.0,-5.088450387120247,False
+Economics,46,econ_family_46,Business Ready 2024,Full-Visual,Full-Visual,0.0,0.0,0.0,1.19632534268829,False
+Economics,47,econ_family_47,Business Ready 2024,Full-Visual,Full-Visual,0.0,0.0,0.0,-2.0131924086146924,False
+Economics,48,econ_family_48,Business Ready 2024,Full-Visual,Full-Visual,0.0,0.0,0.0,5.448165142701733,False
+Economics,49,econ_family_49,Business Ready 2024,Full-Visual,Full-Visual,0.0,0.0,0.0,-0.5658712858955113,False
+Economics,50,econ_family_50,Business Ready 2024,Full-Visual,Full-Visual,0.0,0.0,0.0,2.682347781956196,False
+Economics,51,econ_family_51,Business Ready 2024,BM25,BM25-R100,0.12895368228175952,0.0,-0.12895368228175952,35.206304759615,False
+Economics,52,econ_family_17,Business Ready 2024,BM25,BM25-R100,0.4191860521374084,0.0,-0.4191860521374084,36.12113495667775,False
+Economics,53,econ_family_53,Business Ready 2024,Full-Visual,Full-Visual,0.0,0.0,0.0,1.4985513149036365,False
+Economics,54,econ_family_54,Business Ready 2024,BM25,BM25,0.0,0.0,0.0,0.0010776436991162264,False
+Economics,55,econ_family_55,Business Ready 2024,Full-Visual,Full-Visual,0.0,0.0,0.0,1.9310454113615876,False
+Economics,56,econ_family_56,Business Ready 2024,Full-Visual,Full-Visual,0.0,0.0,0.0,0.8406508713960648,False
+Economics,57,econ_family_0,Business Ready 2024,Full-Visual,Full-Visual,0.0,0.0,0.0,1.6864162559310572,False
+Economics,58,econ_family_58,Business Ready 2024,Full-Visual,Full-Visual,0.0,0.0,0.0,1.8765750444597629,False
+Economics,59,econ_family_59,Business Ready 2024,Full-Visual,Full-Visual,0.0,0.0,0.0,-0.45620412048366177,False
+Economics,60,econ_family_60,Business Ready 2024,Full-Visual,Full-Visual,0.0,0.0,0.0,-0.4626161729296072,False
+Economics,61,econ_family_61,Business Ready 2024,Full-Visual,Full-Visual,0.0,0.0,0.0,1.453218671182789,False
+Economics,62,econ_family_62,Business Ready 2024,Full-Visual,Full-Visual,0.0,0.0,0.0,0.19976341476043302,False
+Economics,63,econ_family_63,Business Ready 2024,Full-Visual,Full-Visual,0.0,0.0,0.0,2.2254433068964232,False

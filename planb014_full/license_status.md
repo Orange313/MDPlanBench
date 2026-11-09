@@ -1,0 +1,5 @@
+# License status — author confirmation required
+
+No new blanket software license. Parent/LICENSE_PROPOSED.md is a proposal, not a grant. Existing third-party notices remain. Official data/model versions are fixed; raw PDFs/images/qrels/weights are acquired separately and not redistributed. Biomedical card CC-BY-NC-SA4.0 and original slide rights; Economics CC-BY3.0/WorldBankCC-BY3.0IGO and third-party exceptions. Derived numerical metadata and author-owned code remain subject to software-rightsholder and data-rights review before public push. Frozen Ridge coefficient files already in parent are unchanged.
+
+Fresh2026-11-02verification: BioREADME d99854fb2f6c9533628a747368607f5b9c51097e0116143f9d3a1b3fbd928a66 and license.md8386f4aded6116293b4a2daf378638abe4ed49406c696c12d4e8c19310aec46e fetched. EcoREADME cdf4b66ecf388797f5d326a602acece03a6608e21a6da11c27dda56442e2d6ea declaresCC-BY3.0; distinctLICENSE/license.md atthatrevision404, NOT_VERIFIED. OriginalPDF thirdpartyrights remainunverified;rawpages/OCR/qrels notdistributed. No blanket MIT.
