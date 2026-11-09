@@ -80,7 +80,7 @@ def main():
    if p.is_file():consume(name,p.read_bytes())
  for name,rows,cols in [('data_file_inventory.csv',files,list(files[0])),('findings.csv',findings,['path','location','reason'])]:
   with (O/name).open('x',newline='',encoding='utf8') as f:w=csv.DictWriter(f,cols);w.writeheader();w.writerows(rows)
- result=dict(status='PASS_NO_RAW_OR_REBUILDABLE_PAGE_ASSETS' if not findings else 'REVIEW_REQUIRED',files=len(files),classifications=dict(counts),findings=len(findings),removed_assets=0,source_files_modified=0,
+ result=dict(status='PASS_NO_RAW_OR_REBUILDABLE_PAGE_ASSETS' if not findings else 'REVIEW_REQUIRED',files=len(files),classifications=dict(counts),findings=len(findings),assets_removed_by_readonly_auditor=0,files_modified_by_auditor=0,
   scope='Filename and structured-payload audit, including gzip and NPZ. Source-code literals and SHA256/ID metadata are retained; raw query text, page/OCR text, full qrels, pages and embedding/index payloads are not allowed. Scientific result plots are not original page images.')
  (O/'receipt.json').write_text(json.dumps(result,indent=2)+'\n',encoding='utf8');print(json.dumps(result,indent=2));return int(bool(findings))
 if __name__=='__main__':raise SystemExit(main())

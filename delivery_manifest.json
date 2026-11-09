@@ -29,5 +29,14 @@
   "excluded_unique_original_questions": 160,
   "metadata_only_group_rows": 160,
   "R83_all_numbers_audit": "PENDING_NOT_CLAIMED",
-  "original_numeric_results_or_expected_hashes_modified": false
+  "original_numeric_results_or_expected_hashes_modified": false,
+  "distribution_update_source_commit": "21b98995a334f258db3f8236f707c002e1e48761",
+  "distribution_regression": "PASS_42_CSV_70747_VALUES",
+  "distribution_regression_source_hashes": {
+    "reproduce.py": "096ad29e578427733ecc4282f4980e9ffcc35c1388eae8a58430b3a7b3b598d5",
+    "cost009/reproduce.py": "08067bc4ca00f7ebea38dc3cc1a9c43e3b236f2dd2bc47014307215b15c535cc",
+    "config/distribution_input_overrides.json": "6f44bf261a6e03b905ec2028711aabd3e99c8a90cf6d07514bbb7ef707745438",
+    "splits/biomedical_groups_metadata_only.csv": "7cea2d87ed13cb3edbe5d30ee97a503552dbd55d0727ca85852fe10a4853adf1"
+  },
+  "distribution_test_context": "Exact new I/O and metadata-export bytes executed in worktree, then committed unchanged; subsequent edits are distribution documentation/audit metadata only."
 }
