@@ -1,0 +1,10 @@
+{
+  "status": "PASS_WITH_DISCLOSED_R83_ERRATUM",
+  "checks": 323,
+  "numeric_failures": [],
+  "acknowledged_definition_errata": 2,
+  "raw_data_read": false,
+  "GPU_jobs": 0,
+  "new_training": 0,
+  "scope": "Specified R83 quantitative assertions, table cells in the separate paper_values stage. Not a claim of independent raw-corpus or hardware reproduction."
+}

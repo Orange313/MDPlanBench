@@ -1,0 +1,63 @@
+{
+  "status": "PASS_CPU_POSTHOC_REPLAY",
+  "wall_s": 36.11845387239009,
+  "checked_files": 75,
+  "extra_checks": [
+    {
+      "check": "Archived OCR fingerprint consistency",
+      "observations": 15240,
+      "PASS": true,
+      "fresh_OCR_executed": false
+    },
+    {
+      "check": "HR reported quality aggregates and positive-regret identity",
+      "PASS": true,
+      "fresh_OCR_or_qrels_read": false
+    },
+    {
+      "check": "Archived storage inventory arithmetic",
+      "cells": 11,
+      "PASS": true,
+      "fresh_assets_opened": false
+    },
+    {
+      "check": "Seven review figures reconstructed and PNG bytes matched",
+      "PASS": true,
+      "PDF_regenerated": true,
+      "PDF_bytes_not_compared": "Creation timestamps may differ; underlying CSV and PNG checked"
+    }
+  ],
+  "checkout_commit": "8f38d75fea3e562406c6a1640b9b5bf2945d45cc",
+  "checkout_clean": true,
+  "executed_code_sha256": {
+    "export_portable_inputs.py": "22d2b900c254088a2aeeae7d77a4ca5fec6dd12cb113c678c2512bc1bcfc3a05",
+    "run_screening.py": "7f6173ea42822d5f6d7235c8c7f699e0b9cf42212e25b8e272ab28c1cca36f73",
+    "storage_inventory.py": "1c11aa3e2d000e8108da5a3fbedde573423ef8abf84b9236e9fe2e2a6d697198",
+    "hr_text_control.py": "68ec7b221fbf9545e23ff6a76cb522bfa7f5b9d6ec45a0090fc90145cc481ba2",
+    "export_metadata_privacy.py": "c888ba03da9d5eaa671470881b8d88878e191b2cd3c093f42cccc5ebcea05fdd",
+    "reproduce_posthoc.py": "f5e1bfc0e86d0e6fe1500a77805982dec95d35f8b113e395d7ae553ed7b3c230",
+    "build_delivery.py": "db4408a234257e1e26c1bf46c9afff0b6894811d2e1846a9745226c1262f25e5",
+    "verify_E7_reference.py": "d8b918f8ee3da931824971ee1fe4112d07fccea18fb92e2709e2624835868518",
+    "regression_gates.py": "cb23df34214cfc839a3eb276956da9edd90d621604746f940e60a13a2933827f",
+    "ocr_workers.py": "9b75251728d8be24acb34cac5efc4476bcc9b947b8bfc2531fd8c2de34783445",
+    "document_headline_audit.py": "8c18a680054bfb924d7d4e54b04cb53e499058415ccaea3326d2cb701a7f3fb6",
+    "regression_gates_original.py": "2ea613a0ea6af2529413e3edfbc88eab3aaec142278cb4a1a13c95ec9745d31d",
+    "finalize_review.py": "503e42f6ce7d37c4cfd521ac39e1108397176043ddbc7dd8ac87d363d131660e",
+    "ocr_crossings.py": "bb369bdcec33fefd6b939e46a1b0809b2ac5e6d04ab971a89c5ee46c939cb81c",
+    "export_fit_trace.py": "f5ceb48ca0e5e11b68dbeb6fd68a47ddc98cc044cebd2b9f45db4abd218b5337",
+    "accounting.py": "175418ee625ed81280c118ad732b3cfcadcb9293058cdfd5d2d6210d5cec6039",
+    "independent_cpu.py": "a358b607d424e62c3a90cf83adad54bab364d0260248be1e97dc38890fef9204",
+    "write_environment.py": "ba1395f4cd7a76197dd403ddd497f20e85179467f73b28e4566bd7a5ecb20b1a",
+    "render_results.py": "a3958a463653cb466cb7a96359a584230449a3ce08e1ea4293b62817e181dba7",
+    "export_fit_trace_v001.py": "2a70a165f633857ee8e8521deeb9d90253dae3360e990b056e0f12f7a2b5cbe3"
+  },
+  "GPU_jobs": 0,
+  "new_models_trained": 0,
+  "sealed_labels_read": 0,
+  "fresh_system_measurements": false,
+  "limitations": [
+    "This is offline reconstruction of numerical records, not fresh OCR/GPU benchmarking.",
+    "Economics intervals are conditional on one source component.",
+    "New accounting costs retain signed execution-context transfer and may be negative per query."
+  ]
+}

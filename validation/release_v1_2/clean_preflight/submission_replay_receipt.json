@@ -1,0 +1,67 @@
+{
+  "status": "PASS_ALL_OFFLINE_STAGES",
+  "steps": [
+    {
+      "step": "base",
+      "status": "PASS",
+      "exit_code": 0,
+      "wall_s": 40.933065126650035,
+      "log": "base.log"
+    },
+    {
+      "step": "posthoc",
+      "status": "PASS",
+      "exit_code": 0,
+      "wall_s": 36.26730914320797,
+      "log": "posthoc.log"
+    },
+    {
+      "step": "E6",
+      "status": "PASS",
+      "exit_code": 0,
+      "wall_s": 2.9869512682780623,
+      "log": "E6.log"
+    },
+    {
+      "step": "paper_values",
+      "status": "PASS",
+      "exit_code": 0,
+      "wall_s": 0.07486925274133682,
+      "log": "paper_values.log"
+    },
+    {
+      "step": "R83_number_map",
+      "status": "PASS",
+      "exit_code": 0,
+      "wall_s": 0.4996662111952901,
+      "log": "R83_number_map.log"
+    },
+    {
+      "step": "frozen_inference",
+      "status": "PASS",
+      "exit_code": 0,
+      "wall_s": 0.8333617271855474,
+      "log": "frozen_inference.log"
+    },
+    {
+      "step": "earlier_plan_audit",
+      "status": "PASS",
+      "exit_code": 0,
+      "wall_s": 0.2330190259963274,
+      "log": "earlier_plan_audit.log"
+    }
+  ],
+  "wall_s": 81.84108627028763,
+  "python": "3.11.15 (main, May 10 2026, 19:28:18) [Clang 22.1.3 ]",
+  "platform": "linux",
+  "source_manuscript_revision": 83,
+  "GPU_jobs": 0,
+  "new_training": 0,
+  "new_benchmark_evaluation": false,
+  "network": false,
+  "limitations": [
+    "Fresh timings, OCR, model acquisition, and original-data evaluation are separate hardware paths.",
+    "Exact manuscript graphics are immutable archived assets; freshly rendered graphics may differ in layout/fonts but are checked numerically.",
+    "Public replay does not open sealed qrels."
+  ]
+}

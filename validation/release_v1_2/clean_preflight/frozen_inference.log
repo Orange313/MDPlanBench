@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "cells": 42,
+  "query_model_pairs": 2674,
+  "max_error": 0.0,
+  "models_sha256": "4b109e789769ce524c4a8a0159dd7de5e87cb963f43f4216057c4fa971a7f855",
+  "lightgbm_version": "4.6.0",
+  "new_models_trained": 0,
+  "raw_labels_read": 0,
+  "scope": "Frozen numeric-feature inference parity only; no new effectiveness experiment or timing"
+}
