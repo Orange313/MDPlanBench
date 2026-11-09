@@ -1,0 +1,58 @@
+{
+  "status": "PASS_CPU_ARCHIVED_REPLAY",
+  "wall_s": 2.787763594649732,
+  "checked_files": [
+    {
+      "file": "schedule_means.csv",
+      "PASS": true,
+      "sha256": "8c930371aa3dec595184dd1a024ee585ff40c2ba9f369763939bd0992825673b"
+    },
+    {
+      "file": "factorial_effects.csv",
+      "PASS": true,
+      "sha256": "1b839557931f8b8ee2136347cc4c3a6779db256209b9b5181d20a99a3e8604ea"
+    },
+    {
+      "file": "repeat_differences.csv",
+      "PASS": true,
+      "sha256": "222bf5de1b5d896692665a9519a61f816ccd565400b5c454aac2682d1920fab9"
+    },
+    {
+      "file": "block_gpu_metrics.csv",
+      "PASS": true,
+      "sha256": "69e96adc2c597e414147b84be23693fd10a585a0799041bb57b5de59c7bfc618"
+    },
+    {
+      "file": "repeat_label_audit.csv",
+      "PASS": true,
+      "sha256": "1327fb9f72b92f0f6ce409923ad6cc9cc19bcd96d3dd0682b96a3c3777285622"
+    },
+    {
+      "file": "E6_fullv_means.png",
+      "PASS": true,
+      "sha256": "1d01af3c395911736911d33966c4b25218d6b5b386009a067c59db14421a77be"
+    },
+    {
+      "file": "E6_block_metrics.png",
+      "PASS": true,
+      "sha256": "fdbe30d62cd96b6d0a669c80acfba57dc2921b760a559f5fc1fed1a26f3caa96"
+    },
+    {
+      "file": "bootstrap_indices.npz",
+      "PASS": true,
+      "comparison": "NPZ arrays"
+    },
+    {
+      "file": "bootstrap_draws.npz",
+      "PASS": true,
+      "comparison": "NPZ arrays"
+    }
+  ],
+  "analysis_summary_equal": true,
+  "actual_GPU_jobs": 0,
+  "new_model_training": 0,
+  "qrels_reads": 0,
+  "paper_edits": false,
+  "PDF_regenerated": true,
+  "limitation": "Reconstruction of one archived resident process, not a new GPU replication or independent process confidence interval"
+}

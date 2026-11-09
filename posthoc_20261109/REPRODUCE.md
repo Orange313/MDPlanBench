@@ -77,3 +77,5 @@ Metadata exports replace private server-root prefixes with placeholders. Source
 hashes describe original inputs; the delivery MANIFEST describes exported files.
 No model weights, pages, OCR prose, question text, full qrels, sealed labels, or
 credentials are included. New public publication remains an author decision.
+
+Current candidate export note: the later E6_001 manifest supersedes the root historical E6 NOT_RUN status. Original MANIFEST.sha256 files identify pre-redaction source versions; verify current exported bytes using PUBLIC_EXPORT_MANIFEST.sha256 or the candidate root MANIFEST. Private path metadata redactions are in config/public_export_redactions.json; numerical arrays/results are unchanged.

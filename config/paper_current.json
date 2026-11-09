@@ -1,0 +1,61 @@
+{
+  "resourceId": "7a578142-5d3f-45c9-bf61-58b112459996",
+  "revisionNumber": 82,
+  "revisionId": "34d15ab3-c937-4bf7-b5e8-d61e49000131",
+  "projectTreeHash": "c2803d51b7221a5d926ae85463cda1dbda2602bf548fc96c3373e7528cc97f08",
+  "workspaceVersion": 86,
+  "build": "269d245c-15c0-4732-81bc-593d79f25993",
+  "sourceBundleHash": "4f4ba339aa9c8cdc6fadad008f69e774c6fec3f87c57a4d94f8c9f62aae9b75f",
+  "buildSourceArtifact": "8355f0be-89f6-4dbf-b986-81ca14afb929",
+  "artifact_base": "e9d4c2d14abca6003001caf8010da4f6b7321669",
+  "public_main": "9dabe7040e0f7173e11cfc35fab68d1d3635c30c",
+  "supplement_source_commit": "a1f50c417d73fe9c5590057331d9e245d2dc0cb9",
+  "publication": "LOCAL_REVIEW_ONLY_NO_PUSH",
+  "manuscript_edited": false,
+  "files": {
+    "main.tex": {
+      "sha256": "7fb21e2dbf07f8b1afa173ea85807e111ef146aab569be8c0860ec272601f8ac",
+      "bytes": 4268
+    },
+    "sections/01_intro.tex": {
+      "sha256": "9f0e020818847b31f107292ec06896eb78bda2921dcc95d6dd693c0d9096e072",
+      "bytes": 10750
+    },
+    "sections/02_related_work.tex": {
+      "sha256": "827187c613433261906435110dcb38ed45bdf8569e1ed1f646290447b729e4f5",
+      "bytes": 6775
+    },
+    "sections/03_problem.tex": {
+      "sha256": "c813a70f8af7f54dd63e3cfc131bca8b8bafc1cde8b6c2dc1f754d4fb93c8aa8",
+      "bytes": 6694
+    },
+    "sections/04_benchmark.tex": {
+      "sha256": "4f0e89a4c6f45b09e73c68b1c4e298ccf753c3b7e37bb6bb5907a03f4da4107e",
+      "bytes": 7352
+    },
+    "sections/05_setup.tex": {
+      "sha256": "e8120ff831079ab038401caace48c75c90fcc8c88429aaa08c6b6f3b7f8d95a3",
+      "bytes": 6813
+    },
+    "sections/06_results.tex": {
+      "sha256": "d463ea3cca7967f40995239d55466b636205ed25a3c599ff6c40aef23542c91a",
+      "bytes": 24763
+    },
+    "sections/07_lessons.tex": {
+      "sha256": "e63dd9f89af9a372d1d9d09897b780bbe2fd07cf4996a9f797ccdbda5191aea9",
+      "bytes": 4316
+    },
+    "sections/08_conclusion.tex": {
+      "sha256": "d5ab8c97017d70e1d15b1107b32b59f1089e1aa9b033c872c9d21433186942e3",
+      "bytes": 1093
+    },
+    "references.bib": {
+      "sha256": "1c51550eee7ca415add8e46af6f9b414f7575070d4a0c2ebecd040427b8f40e4",
+      "bytes": 11286
+    }
+  },
+  "table_cells": "ledger/manuscript_R82_table_cells.csv",
+  "number_inventory": "ledger/manuscript_R82_numbers.csv",
+  "item_inventory": "ledger/manuscript_R82_items.csv",
+  "asset_manifest": "config/manuscript_R82_assets.json"
+}

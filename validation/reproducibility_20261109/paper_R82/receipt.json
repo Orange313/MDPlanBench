@@ -1,0 +1,20 @@
+{
+
+  "status": "PASS",
+
+  "checks": 170,
+
+  "failures": [],
+
+  "manuscript_revision": 82,
+
+  "scope": "All 154 numeric table cells and explicit key-claim checks. The separate numeric-token inventory includes unverified prose/configuration tokens; a token inventory is not proof of every sentence.",
+
+  "GPU_jobs": 0,
+
+  "training": 0,
+
+  "manuscript_writes": 0
+
+}
+

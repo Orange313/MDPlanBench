@@ -1,0 +1,22 @@
+{
+
+  "status": "PASS_PINNED_BYTES",
+
+  "asset": "economics-docs",
+
+  "url": "https://huggingface.co/datasets/vidore/economics_reports_eng_v2/resolve/d4fba7cf3d620c42810d961435afcfaaa0678e8d/docs/test-00000-of-00001.parquet",
+
+  "bytes": 9860,
+
+  "sha256": "60eb2a2f818516e37fa06224ead4e3d3a8677827838ad992e6bdf0072d7808e6",
+
+  "expected_sha256": "60eb2a2f818516e37fa06224ead4e3d3a8677827838ad992e6bdf0072d7808e6",
+
+  "license_scope": "Dataset CC-BY-3.0; original reports CC-BY-3.0-IGO with third-party exceptions",
+
+  "qrels_read": false,
+
+  "scope": "Byte acquisition and hash verification only; no content evaluation"
+
+}
+

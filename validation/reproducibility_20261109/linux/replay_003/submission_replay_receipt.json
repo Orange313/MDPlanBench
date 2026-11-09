@@ -1,0 +1,53 @@
+{
+  "status": "PASS_ALL_OFFLINE_STAGES",
+  "steps": [
+    {
+      "step": "base",
+      "status": "PASS",
+      "exit_code": 0,
+      "wall_s": 40.75411222409457,
+      "log": "base.log"
+    },
+    {
+      "step": "posthoc",
+      "status": "PASS",
+      "exit_code": 0,
+      "wall_s": 36.33715055882931,
+      "log": "posthoc.log"
+    },
+    {
+      "step": "E6",
+      "status": "PASS",
+      "exit_code": 0,
+      "wall_s": 2.924130294471979,
+      "log": "E6.log"
+    },
+    {
+      "step": "paper_values",
+      "status": "PASS",
+      "exit_code": 0,
+      "wall_s": 0.07581016607582569,
+      "log": "paper_values.log"
+    },
+    {
+      "step": "frozen_inference",
+      "status": "PASS",
+      "exit_code": 0,
+      "wall_s": 0.8264554096385837,
+      "log": "frozen_inference.log"
+    }
+  ],
+  "wall_s": 80.92383731529117,
+  "python": "3.11.15 (main, May 10 2026, 19:28:18) [Clang 22.1.3 ]",
+  "platform": "linux",
+  "source_manuscript_revision": 74,
+  "GPU_jobs": 0,
+  "new_training": 0,
+  "new_benchmark_evaluation": false,
+  "network": false,
+  "limitations": [
+    "Fresh timings, OCR, model acquisition, and original-data evaluation are separate hardware paths.",
+    "Exact manuscript graphics are immutable archived assets; freshly rendered graphics may differ in layout/fonts but are checked numerically.",
+    "Public replay does not open sealed qrels."
+  ]
+}

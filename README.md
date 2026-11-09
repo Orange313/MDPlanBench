@@ -6,8 +6,8 @@ lifecycle cost of physical plans and fixed routers for multimodal document retri
 **Paper:** *[Experiment, Analysis, and Benchmark] MDPlanBench: When Does Query-Level
 Physical Plan Selection Pay Off for Multimodal Document Retrieval?*
 
-This **local review candidate** audits manuscript **R74** (revision
-`968afd84-b776-4a67-8d5c-4fe420d45a45`). It extends public artifact v1.1
+This **local review candidate** audits manuscript **R82** (revision
+`34d15ab3-c937-4bf7-b5e8-d61e49000131`). It extends public artifact v1.1
 `e9d4c2d14abca6003001caf8010da4f6b7321669`. It has **not been pushed or published**.
 The paper's numerical results and source are not changed by this artifact work.
 
@@ -44,29 +44,29 @@ cover all late manuscript additions; use `reproduce_submission.py` for this audi
 
 ## Paper-to-artifact map
 
-| R74 item | Frozen inputs and computation | Output |
+| R82 item | Frozen inputs and computation | Output |
 |---|---|---|
 | Table I, related-work settings | `ledger/tableI_primary_evidence.csv` (primary-source pointers) | Qualitative evidence; absence claims remain conditional |
 | Table II, data and splits | `splits/`, pinned protocols, `records/fresh_unlabelled_page_counts.json` | `base/tables/table_II.csv` |
-| Tables III–IV, static plans and frozen Q/QP/RR/mix | `snapshot/`, `repro/`, `records/figure_data/` | `base/tables/table_III.csv`, `table_IV.csv`; 154 manuscript-cell checks |
+| Tables III鈥揑V, static plans and frozen Q/QP/RR/mix | `snapshot/`, `repro/`, `records/figure_data/` | `base/tables/table_III.csv`, `table_IV.csv`; 154 manuscript-cell checks |
 | Fig. 1(a), static/envelope/oracle/router | original four-static-plan records | `figures_generated/fig1_overview.png` |
 | Fig. 1(b), lifecycle | same-process setup/warm study, historical OCR singleton | overview lifecycle panel; full curves in `base/figures/` |
-| Fig. 2, architecture | `records/manuscript_R74_assets/` | exact PDF + editable draw.io, no synthetic measurements |
-| Fig. 3(a–f), static frontiers, both retrievers | quality and actual warm request records | `figures_generated/fig3_frontier.png` |
-| Fig. 3(g–h), candidate containment and recovery | `containment_groups.csv`, `repair_counts.csv`, worsening audit | same figure; new harm and aggravated existing harm remain distinct |
-| Fig. 4(a–d), router comparison/information/cost/actions | grouped paired statistics and complete-path records | `figures_generated/fig4_decision.png` |
-| Fig. 5(a–b), capacity and accounting | `records/021_snapshot/`, `scripts/replay_021_017.py` | `base/audit/`, `figures_generated/posthoc_diagnostic.pdf` |
+| Fig. 2, architecture | `records/manuscript_R82_assets/` | exact PDF + editable draw.io, no synthetic measurements |
+| Fig. 3(a鈥揻), static frontiers, both retrievers | quality and actual warm request records | `figures_generated/fig3_frontier.png` |
+| Fig. 3(g鈥揾), candidate containment and recovery | `containment_groups.csv`, `repair_counts.csv`, worsening audit | same figure; new harm and aggravated existing harm remain distinct |
+| Fig. 4(a鈥揹), router comparison/information/cost/actions | grouped paired statistics and complete-path records | `figures_generated/fig4_decision.png` |
+| Fig. 5(a鈥揵), capacity and accounting | `records/021_snapshot/`, `scripts/replay_021_017.py` | `base/audit/`, `figures_generated/posthoc_diagnostic.pdf` |
 | Cross-fitted screen / envelope optimism | `posthoc_20261109/run_screening.py` | `posthoc/screening/`, saved group/process bootstrap indices and draws |
 | Learning curve at fixed cost weight | `posthoc_20261109/independent_cpu.py`, fixed subsets/seeds | `posthoc/independent/K17_kappa10_vs20.csv` |
 | OCR concurrency and lifecycle sensitivity | archived page fingerprints and real CPU/wall observations | `posthoc/E5_analysis/`; no fresh OCR in CPU replay |
-| HR text-source sensitivity / index footprint | legal Dev-only numerical control / 11 measured cells | `posthoc/` checks; Economics×ColPali absent |
+| HR text-source sensitivity / index footprint | legal Dev-only numerical control / 11 measured cells | `posthoc/` checks; Economics脳ColPali absent |
 | Calibration sample-power limits | exact zero-loss bound, split metadata | `paper_values/`; **NOT_CERTIFIED** |
 | Resident/streaming A/A negative results | two cohorts, queue/service records, fixed equivalence gate | `base/figures/`, historical summaries; no Serving speedup |
 | Supplemental schedule experiment | one resident process, eight balanced blocks | `E6/`; old 34 ms gap not reproduced at its original magnitude |
 
 The exhaustive panel/experiment/configuration map, including failures and missing
 hardware paths, is [REPRODUCIBILITY_MATRIX.md](REPRODUCIBILITY_MATRIX.md).
-The read-only manuscript occurrence inventory is `ledger/manuscript_R74_numbers.csv`.
+The read-only manuscript occurrence inventory is `ledger/manuscript_R82_numbers.csv`.
 It is an inventory, **not a claim that every prose token was independently verified**.
 
 ## From-scratch hardware route (separate from quick replay)
@@ -133,10 +133,27 @@ own cohort; 70.22 ms and 36.22 ms are not interchangeable baselines.
 Original software remains under [MIT](LICENSE), copyright 2026 Harbin Institute
 of Technology. **This task does not change that license.** Dataset/model/source
 terms are independent; see [THIRD_PARTY_NOTICES_EAB.md](THIRD_PARTY_NOTICES_EAB.md).
-No weight, raw page/PDF, original question, OCR prose, full query–page label map,
+No weight, raw page/PDF, original question, OCR prose, full query鈥損age label map,
 credential or sealed annotation is added. Cite the official ViDoRe V2/V3 and
 ColPali/ColQwen2 works and original source notices; the paper bibliography is
 audited in `ledger/` rather than replaced by an invented publication DOI.
 
 See [MISSING_MATERIALS.md](MISSING_MATERIALS.md) and
 [PUSH_REVIEW.md](PUSH_REVIEW.md) before approving any future publication.
+
+## Additional CPU reconstruction with official annotations
+
+The restored Economics/Plan B module recomputes 25 CSVs and 3 mechanism PNGs from
+pinned official queries/qrels of the **already evaluated Biomedical/Economics
+benchmarks**. It performs no GPU run or model training. Raw annotations and
+generated case prose stay outside Git. This separate path needs network on first
+use and explicit upstream-terms acknowledgment:
+
+```sh
+python scripts/reproduce_with_official_annotations.py --output ../mechanism-replay \
+  --official-cache ../official-annotation-cache --accept-upstream-terms
+```
+
+Linux rehashes the cache even when transferred from an independently verified
+official download. The actual Linux upstream timeout and Windows PNG differences
+remain in receipts. This path never fetches sealed project labels.

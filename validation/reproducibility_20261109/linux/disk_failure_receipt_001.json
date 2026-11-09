@@ -1,0 +1,9 @@
+{
+  "status": "DISK_BLOCKED",
+  "failed_command": "scripts/reproduce_submission.py",
+  "candidate_commit": "4057380601bf40c648d238fbd052b08198283e4d",
+  "reason": "Archived trace materialization exhausted /home; log flush failed. Source archive and measured experiments unchanged.",
+  "removed_regenerable_temporary_tree": "replay/base/legacy/cost009/workspace",
+  "files": 104,
+  "approx_bytes": 479245950
+}

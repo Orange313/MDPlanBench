@@ -10,7 +10,8 @@ def main():
  def check(item,expected,actual,source,formula='',tol=1e-8):
   checks.append(dict(item=item,reported=expected,recomputed=actual,tolerance=tol,status='PASS' if abs(float(expected)-float(actual))<=tol else 'FAIL',source=source,source_sha256=hashlib.sha256((G/source).read_bytes()).hexdigest(),formula=formula))
  src='records/figure_data/plot_points_registered.csv';points=rows(G/src)
- for c in rows(G/'ledger/manuscript_R74_table_cells.csv'):
+ current=json.loads((G/'config/paper_current.json').read_text())
+ for c in rows(G/current['table_cells']):
   r=next(z for z in points if (z['domain'],z['model'],z['method'])==(c['domain'],c['model'],c['method']))
   v=c['paper_value'];d=len(v.split('.')[1]) if '.' in v else 0;s=float(c['scale'])
   check('/'.join([c['item'],c['domain'],c['method'],c['field']]),float(v)*s,float(r[c['field']]),src,c['source']+':'+c['line'],.500001*10**(-d)*s)
@@ -45,6 +46,6 @@ def main():
  check('Industrial envelope maximum optimism',12.,float(z['max_abs_Bias_pp']),src,'Four-static original cohort',.05)
  with (O/'paper_numeric_checks.csv').open('x',newline='',encoding='utf8') as f:
   w=csv.DictWriter(f,list(checks[0]));w.writeheader();w.writerows(checks)
- result=dict(status='PASS' if all(x['status']=='PASS' for x in checks) else 'FAIL',checks=len(checks),failures=[x for x in checks if x['status']!='PASS'],manuscript_revision=74,scope='All 154 numeric table cells and explicit key-claim checks. The separate 552-token inventory includes unverified prose/configuration tokens; a token inventory is not proof of every sentence.',GPU_jobs=0,training=0,manuscript_writes=0)
+ result=dict(status='PASS' if all(x['status']=='PASS' for x in checks) else 'FAIL',checks=len(checks),failures=[x for x in checks if x['status']!='PASS'],manuscript_revision=current['revisionNumber'],scope='All 154 numeric table cells and explicit key-claim checks. The separate numeric-token inventory includes unverified prose/configuration tokens; a token inventory is not proof of every sentence.',GPU_jobs=0,training=0,manuscript_writes=0)
  (O/'receipt.json').write_text(json.dumps(result,indent=2)+'\n',encoding='utf8');print(json.dumps(result,indent=2));return 0 if result['status']=='PASS' else 1
 if __name__=='__main__':raise SystemExit(main())

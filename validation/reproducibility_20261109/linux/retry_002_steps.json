@@ -1,0 +1,22 @@
+[
+  {
+    "step": "fetch_002",
+    "exitcode": 0,
+    "wall_s": 0.1435143630951643
+  },
+  {
+    "step": "checkout_002",
+    "exitcode": 0,
+    "wall_s": 0.4342046994715929
+  },
+  {
+    "step": "install_002",
+    "exitcode": 0,
+    "wall_s": 7.8347995560616255
+  },
+  {
+    "step": "full_cpu_replay_002",
+    "exitcode": 1,
+    "wall_s": 78.53970893099904
+  }
+]

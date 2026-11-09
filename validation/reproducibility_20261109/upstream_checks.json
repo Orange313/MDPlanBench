@@ -1,0 +1,442 @@
+{
+
+  "checks": [
+
+    {
+
+      "repo": "vidore/biomedical_lectures_eng_v2",
+
+      "revision": "e82eb2f3e9f701688e6f3ba41fffad68c5b3b5fa",
+
+      "file": "README.md",
+
+      "url": "https://huggingface.co/datasets/vidore/biomedical_lectures_eng_v2/resolve/e82eb2f3e9f701688e6f3ba41fffad68c5b3b5fa/README.md",
+
+      "status": "PASS_ENDPOINT_BYTES_ONLY",
+
+      "time_UTC": "2026-11-09T11:13:54.038279+00:00",
+
+      "bytes": 4947,
+
+      "sha256": "d99854fb2f6c9533628a747368607f5b9c51097e0116143f9d3a1b3fbd928a66",
+
+      "http_status": 200,
+
+      "declared_license_lines": [
+
+        "license: cc-by-nc-sa-4.0"
+
+      ]
+
+    },
+
+    {
+
+      "repo": "vidore/biomedical_lectures_eng_v2",
+
+      "revision": "e82eb2f3e9f701688e6f3ba41fffad68c5b3b5fa",
+
+      "file": "LICENSE",
+
+      "url": "https://huggingface.co/datasets/vidore/biomedical_lectures_eng_v2/resolve/e82eb2f3e9f701688e6f3ba41fffad68c5b3b5fa/LICENSE",
+
+      "status": "NOT_VERIFIED",
+
+      "time_UTC": "2026-11-09T11:13:55.055206+00:00",
+
+      "error_type": "HTTPError",
+
+      "error": "HTTP Error 404: Not Found"
+
+    },
+
+    {
+
+      "repo": "vidore/colpali-v1.3",
+
+      "revision": "1b5c8929330df1a66de441a9b5409a878f0de5b0",
+
+      "file": "README.md",
+
+      "url": "https://huggingface.co/vidore/colpali-v1.3/resolve/1b5c8929330df1a66de441a9b5409a878f0de5b0/README.md",
+
+      "status": "PASS_ENDPOINT_BYTES_ONLY",
+
+      "time_UTC": "2026-11-09T11:13:55.703791+00:00",
+
+      "bytes": 6460,
+
+      "sha256": "2ae711e937255531903a0eac18db0d971f7bafb2e3acc94abc925e959e38a634",
+
+      "http_status": 200,
+
+      "declared_license_lines": [
+
+        "license: mit"
+
+      ]
+
+    },
+
+    {
+
+      "repo": "vidore/colpali-v1.3",
+
+      "revision": "1b5c8929330df1a66de441a9b5409a878f0de5b0",
+
+      "file": "LICENSE",
+
+      "url": "https://huggingface.co/vidore/colpali-v1.3/resolve/1b5c8929330df1a66de441a9b5409a878f0de5b0/LICENSE",
+
+      "status": "NOT_VERIFIED",
+
+      "time_UTC": "2026-11-09T11:13:57.377448+00:00",
+
+      "error_type": "HTTPError",
+
+      "error": "HTTP Error 404: Not Found"
+
+    },
+
+    {
+
+      "repo": "vidore/colpaligemma-3b-pt-448-base",
+
+      "revision": "30ab955d073de4a91dc5a288e8c97226647e3e5a",
+
+      "file": "README.md",
+
+      "url": "https://huggingface.co/vidore/colpaligemma-3b-pt-448-base/resolve/30ab955d073de4a91dc5a288e8c97226647e3e5a/README.md",
+
+      "status": "PASS_ENDPOINT_BYTES_ONLY",
+
+      "time_UTC": "2026-11-09T11:13:57.969419+00:00",
+
+      "bytes": 4117,
+
+      "sha256": "adfcf9148e9726ab11af98d375dedbe281c9ac08497a67cf0f2ec87460dcadef",
+
+      "http_status": 200,
+
+      "declared_license_lines": [
+
+        "license: gemma"
+
+      ]
+
+    },
+
+    {
+
+      "repo": "vidore/colpaligemma-3b-pt-448-base",
+
+      "revision": "30ab955d073de4a91dc5a288e8c97226647e3e5a",
+
+      "file": "LICENSE",
+
+      "url": "https://huggingface.co/vidore/colpaligemma-3b-pt-448-base/resolve/30ab955d073de4a91dc5a288e8c97226647e3e5a/LICENSE",
+
+      "status": "NOT_VERIFIED",
+
+      "time_UTC": "2026-11-09T11:13:58.966024+00:00",
+
+      "error_type": "HTTPError",
+
+      "error": "HTTP Error 404: Not Found"
+
+    },
+
+    {
+
+      "repo": "vidore/colqwen2-v1.0-merged",
+
+      "revision": "2c9a09bb37ed19b63eb94ae6c29bb4e76eb6e3c2",
+
+      "file": "README.md",
+
+      "url": "https://huggingface.co/vidore/colqwen2-v1.0-merged/resolve/2c9a09bb37ed19b63eb94ae6c29bb4e76eb6e3c2/README.md",
+
+      "status": "PASS_ENDPOINT_BYTES_ONLY",
+
+      "time_UTC": "2026-11-09T11:13:59.487322+00:00",
+
+      "bytes": 5313,
+
+      "sha256": "ab46e54787908e4f6fa56d83b39cba54b7b9e35642046b0d1172aa80cabf17f4",
+
+      "http_status": 200,
+
+      "declared_license_lines": [
+
+        "license: apache-2.0"
+
+      ]
+
+    },
+
+    {
+
+      "repo": "vidore/colqwen2-v1.0-merged",
+
+      "revision": "2c9a09bb37ed19b63eb94ae6c29bb4e76eb6e3c2",
+
+      "file": "LICENSE",
+
+      "url": "https://huggingface.co/vidore/colqwen2-v1.0-merged/resolve/2c9a09bb37ed19b63eb94ae6c29bb4e76eb6e3c2/LICENSE",
+
+      "status": "NOT_VERIFIED",
+
+      "time_UTC": "2026-11-09T11:14:00.666057+00:00",
+
+      "error_type": "HTTPError",
+
+      "error": "HTTP Error 404: Not Found"
+
+    },
+
+    {
+
+      "repo": "vidore/economics_reports_eng_v2",
+
+      "revision": "d4fba7cf3d620c42810d961435afcfaaa0678e8d",
+
+      "file": "README.md",
+
+      "url": "https://huggingface.co/datasets/vidore/economics_reports_eng_v2/resolve/d4fba7cf3d620c42810d961435afcfaaa0678e8d/README.md",
+
+      "status": "PASS_ENDPOINT_BYTES_ONLY",
+
+      "time_UTC": "2026-11-09T11:14:01.194573+00:00",
+
+      "bytes": 4929,
+
+      "sha256": "cdf4b66ecf388797f5d326a602acece03a6608e21a6da11c27dda56442e2d6ea",
+
+      "http_status": 200,
+
+      "declared_license_lines": [
+
+        "license: cc-by-3.0"
+
+      ]
+
+    },
+
+    {
+
+      "repo": "vidore/economics_reports_eng_v2",
+
+      "revision": "d4fba7cf3d620c42810d961435afcfaaa0678e8d",
+
+      "file": "LICENSE",
+
+      "url": "https://huggingface.co/datasets/vidore/economics_reports_eng_v2/resolve/d4fba7cf3d620c42810d961435afcfaaa0678e8d/LICENSE",
+
+      "status": "NOT_VERIFIED",
+
+      "time_UTC": "2026-11-09T11:14:02.336037+00:00",
+
+      "error_type": "HTTPError",
+
+      "error": "HTTP Error 404: Not Found"
+
+    },
+
+    {
+
+      "repo": "vidore/vidore_v3_finance_en",
+
+      "revision": "7f432c176d82e27546501ad8064a713ac3071809",
+
+      "file": "README.md",
+
+      "url": "https://huggingface.co/datasets/vidore/vidore_v3_finance_en/resolve/7f432c176d82e27546501ad8064a713ac3071809/README.md",
+
+      "status": "PASS_ENDPOINT_BYTES_ONLY",
+
+      "time_UTC": "2026-11-09T11:14:02.955319+00:00",
+
+      "bytes": 9487,
+
+      "sha256": "f0c6aa2c23eeda69889cfe6a79cfd45562009cb5701f96003fd159ed96fee662",
+
+      "http_status": 200,
+
+      "declared_license_lines": [
+
+        "license: cc-by-4.0"
+
+      ]
+
+    },
+
+    {
+
+      "repo": "vidore/vidore_v3_finance_en",
+
+      "revision": "7f432c176d82e27546501ad8064a713ac3071809",
+
+      "file": "LICENSE",
+
+      "url": "https://huggingface.co/datasets/vidore/vidore_v3_finance_en/resolve/7f432c176d82e27546501ad8064a713ac3071809/LICENSE",
+
+      "status": "NOT_VERIFIED",
+
+      "time_UTC": "2026-11-09T11:14:04.429076+00:00",
+
+      "error_type": "HTTPError",
+
+      "error": "HTTP Error 404: Not Found"
+
+    },
+
+    {
+
+      "repo": "vidore/vidore_v3_hr",
+
+      "revision": "0cdf0979f2c5a0fd3e335e6373b9da48a9fe3bc3",
+
+      "file": "README.md",
+
+      "url": "https://huggingface.co/datasets/vidore/vidore_v3_hr/resolve/0cdf0979f2c5a0fd3e335e6373b9da48a9fe3bc3/README.md",
+
+      "status": "PASS_ENDPOINT_BYTES_ONLY",
+
+      "time_UTC": "2026-11-09T11:14:05.004612+00:00",
+
+      "bytes": 9201,
+
+      "sha256": "9a5a23114e7d46ce5d1db95b013e1a3e7d0ab68a21ab52b3f6abb1bc3c1afd8f",
+
+      "http_status": 200,
+
+      "declared_license_lines": [
+
+        "license: cc-by-4.0"
+
+      ]
+
+    },
+
+    {
+
+      "repo": "vidore/vidore_v3_hr",
+
+      "revision": "0cdf0979f2c5a0fd3e335e6373b9da48a9fe3bc3",
+
+      "file": "LICENSE",
+
+      "url": "https://huggingface.co/datasets/vidore/vidore_v3_hr/resolve/0cdf0979f2c5a0fd3e335e6373b9da48a9fe3bc3/LICENSE",
+
+      "status": "NOT_VERIFIED",
+
+      "time_UTC": "2026-11-09T11:14:06.632865+00:00",
+
+      "error_type": "HTTPError",
+
+      "error": "HTTP Error 404: Not Found"
+
+    },
+
+    {
+
+      "repo": "vidore/vidore_v3_industrial",
+
+      "revision": "e26c864724f5dd71a3d7d739272d95637764cee9",
+
+      "file": "README.md",
+
+      "url": "https://huggingface.co/datasets/vidore/vidore_v3_industrial/resolve/e26c864724f5dd71a3d7d739272d95637764cee9/README.md",
+
+      "status": "PASS_ENDPOINT_BYTES_ONLY",
+
+      "time_UTC": "2026-11-09T11:14:07.224921+00:00",
+
+      "bytes": 9325,
+
+      "sha256": "4caa957ff491848d6a6565cb11c4886dc524af090f80933e5341da53586cc3d1",
+
+      "http_status": 200,
+
+      "declared_license_lines": [
+
+        "license: cc-by-4.0"
+
+      ]
+
+    },
+
+    {
+
+      "repo": "vidore/vidore_v3_industrial",
+
+      "revision": "e26c864724f5dd71a3d7d739272d95637764cee9",
+
+      "file": "LICENSE",
+
+      "url": "https://huggingface.co/datasets/vidore/vidore_v3_industrial/resolve/e26c864724f5dd71a3d7d739272d95637764cee9/LICENSE",
+
+      "status": "NOT_VERIFIED",
+
+      "time_UTC": "2026-11-09T11:14:08.807423+00:00",
+
+      "error_type": "HTTPError",
+
+      "error": "HTTP Error 404: Not Found"
+
+    },
+
+    {
+
+      "repo": "vidore/vidore_v3_pharmaceuticals",
+
+      "revision": "262e203d7c59c55947f7042812e0bcc1eee190b1",
+
+      "file": "README.md",
+
+      "url": "https://huggingface.co/datasets/vidore/vidore_v3_pharmaceuticals/resolve/262e203d7c59c55947f7042812e0bcc1eee190b1/README.md",
+
+      "status": "PASS_ENDPOINT_BYTES_ONLY",
+
+      "time_UTC": "2026-11-09T11:14:09.629024+00:00",
+
+      "bytes": 8714,
+
+      "sha256": "7e00c9a376f0ac79f5c89f7ac254b1f718413ab73e5971eda57eec1487485b06",
+
+      "http_status": 200,
+
+      "declared_license_lines": []
+
+    },
+
+    {
+
+      "repo": "vidore/vidore_v3_pharmaceuticals",
+
+      "revision": "262e203d7c59c55947f7042812e0bcc1eee190b1",
+
+      "file": "LICENSE",
+
+      "url": "https://huggingface.co/datasets/vidore/vidore_v3_pharmaceuticals/resolve/262e203d7c59c55947f7042812e0bcc1eee190b1/LICENSE",
+
+      "status": "NOT_VERIFIED",
+
+      "time_UTC": "2026-11-09T11:14:11.037527+00:00",
+
+      "error_type": "HTTPError",
+
+      "error": "HTTP Error 404: Not Found"
+
+    }
+
+  ],
+
+  "limitation": "A card declaration or HTTP200 is not an independent legal clearance; standalone404 is NOT_VERIFIED and never a rights grant. Gemma base terms and source-image exceptions remain separate.",
+
+  "downloaded_corpus": false,
+
+  "downloaded_weights": false
+
+}
+

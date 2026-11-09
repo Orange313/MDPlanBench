@@ -1,0 +1,181 @@
+{
+  "status": "PASS",
+  "new_GPU_executions": 0,
+  "raw_annotations_in_checkout": false,
+  "all_checks": [
+    {
+      "file": "generated_mechanisms/B2_analysis_002/b2_decision_cost_components.csv",
+      "expected_sha256": "c00fa99705965a4616a5f9f845d3b3d3a0eb17a5d4f8d228786e36f57d89f65b",
+      "actual_sha256": "c00fa99705965a4616a5f9f845d3b3d3a0eb17a5d4f8d228786e36f57d89f65b",
+      "identical": true
+    },
+    {
+      "file": "generated_mechanisms/B2_analysis_002/paired_information_value.png",
+      "expected_sha256": "808efc7739a9e4aee810b71f831e6315d7a1861a6c87e93ea3cf4233bcfb90b4",
+      "actual_sha256": "808efc7739a9e4aee810b71f831e6315d7a1861a6c87e93ea3cf4233bcfb90b4",
+      "identical": true
+    },
+    {
+      "file": "generated_mechanisms/B2_analysis_002/b2_reuse_break_even.csv",
+      "expected_sha256": "7c2a64436c2561618b5c5d3577b699a2462802d5baea9e751ff9b2ae1df479f3",
+      "actual_sha256": "7c2a64436c2561618b5c5d3577b699a2462802d5baea9e751ff9b2ae1df479f3",
+      "identical": true
+    },
+    {
+      "file": "generated_mechanisms/B2_analysis_002/b2_candidate_harm_matrix.csv",
+      "expected_sha256": "8a79d4dbc1a4a81cfbe2af8eb65e22e445d8a151a3be062782793bd3f6628c5f",
+      "actual_sha256": "8a79d4dbc1a4a81cfbe2af8eb65e22e445d8a151a3be062782793bd3f6628c5f",
+      "identical": true
+    },
+    {
+      "file": "generated_mechanisms/B2_analysis_002/b2_timing_cohort_compatibility.csv",
+      "expected_sha256": "905f7283f692f2c1abdc80a0efc54e0713cf59a2453c95f40edd8672076f7867",
+      "actual_sha256": "905f7283f692f2c1abdc80a0efc54e0713cf59a2453c95f40edd8672076f7867",
+      "identical": true
+    },
+    {
+      "file": "generated_mechanisms/B2_analysis_002/cross_domain_main_results.csv",
+      "expected_sha256": "0e0103d9bd195c56995679c08b479291d1bc1ee33046799502676b56c34755c3",
+      "actual_sha256": "0e0103d9bd195c56995679c08b479291d1bc1ee33046799502676b56c34755c3",
+      "identical": true
+    },
+    {
+      "file": "generated_mechanisms/B2_analysis_002/b2_evidence_tiers.csv",
+      "expected_sha256": "9ebba047168a735e12d88ae60ff5a78652aa98ee60c007eb9360f0264ff48be0",
+      "actual_sha256": "9ebba047168a735e12d88ae60ff5a78652aa98ee60c007eb9360f0264ff48be0",
+      "identical": true
+    },
+    {
+      "file": "generated_mechanisms/B2_analysis_002/candidate_harm_analysis.csv",
+      "expected_sha256": "a16a38005233c4a4f51d64b050e4bd0d4241ab703374e286ed76bfe460962e4c",
+      "actual_sha256": "a16a38005233c4a4f51d64b050e4bd0d4241ab703374e286ed76bfe460962e4c",
+      "identical": true
+    },
+    {
+      "file": "generated_mechanisms/B2_analysis_002/lifecycle_ownership.png",
+      "expected_sha256": "8aa06ba9316f3bbc74981df4a888faa7fa045bbcfe08f350d02cee0e9e8e13c1",
+      "actual_sha256": "8aa06ba9316f3bbc74981df4a888faa7fa045bbcfe08f350d02cee0e9e8e13c1",
+      "identical": true
+    },
+    {
+      "file": "generated_mechanisms/B2_analysis_002/b2_dev_per_query.csv",
+      "expected_sha256": "6aa6146f96d3c52eae40ffc28aafaec6ef2d41c18f1a5a5c65e7583499841ab5",
+      "actual_sha256": "6aa6146f96d3c52eae40ffc28aafaec6ef2d41c18f1a5a5c65e7583499841ab5",
+      "identical": true
+    },
+    {
+      "file": "generated_mechanisms/B2_analysis_002/b2_lifecycle_reuse_scenarios.csv",
+      "expected_sha256": "55007789be70e6f208950fc9c6da71ffb49e335a3d76eb931e4d6fc333e8e368",
+      "actual_sha256": "55007789be70e6f208950fc9c6da71ffb49e335a3d76eb931e4d6fc333e8e368",
+      "identical": true
+    },
+    {
+      "file": "generated_mechanisms/B2_analysis_002/b2_source_query_page_mapping.csv",
+      "expected_sha256": "dcbe0ebdfb44b65b171ad8010f808eccb2d721d890940aaff388ed305b0343b0",
+      "actual_sha256": "dcbe0ebdfb44b65b171ad8010f808eccb2d721d890940aaff388ed305b0343b0",
+      "identical": true
+    },
+    {
+      "file": "generated_mechanisms/B2_analysis_002/b2_bio_eco_paired.csv",
+      "expected_sha256": "cfd8cd23a1826220a54afdf9516337c85ff0be997bf9d1493c73871b0e81fbff",
+      "actual_sha256": "cfd8cd23a1826220a54afdf9516337c85ff0be997bf9d1493c73871b0e81fbff",
+      "identical": true
+    },
+    {
+      "file": "generated_mechanisms/B2_analysis_002/b2_preserved_envelope_uncertainty.csv",
+      "expected_sha256": "b31567a20451ce08afa9a23a7c8e9c84234624987a19a5ea1586e6c1a0c799f8",
+      "actual_sha256": "b31567a20451ce08afa9a23a7c8e9c84234624987a19a5ea1586e6c1a0c799f8",
+      "identical": true
+    },
+    {
+      "file": "generated_mechanisms/B2_analysis_002/b2_query_repairs_and_fallbacks.csv",
+      "expected_sha256": "7b045051bbe56e86ce8abec84b6c5f3705d937bcaad421f361c5364b4f35b665",
+      "actual_sha256": "7b045051bbe56e86ce8abec84b6c5f3705d937bcaad421f361c5364b4f35b665",
+      "identical": true
+    },
+    {
+      "file": "generated_mechanisms/B2_analysis_002/b2_action_transitions.csv",
+      "expected_sha256": "af7132bce423b9d20fbe565912125f98c84ead2f43e40844118a60ab57ec5ec5",
+      "actual_sha256": "af7132bce423b9d20fbe565912125f98c84ead2f43e40844118a60ab57ec5ec5",
+      "identical": true
+    },
+    {
+      "file": "generated_mechanisms/B2_analysis_002/b2_information_value_breakdown.csv",
+      "expected_sha256": "9ba2ecdaf26733751153ccfe3056fb0a6d613c721f5c1e3c3f49e37a6b2b3077",
+      "actual_sha256": "9ba2ecdaf26733751153ccfe3056fb0a6d613c721f5c1e3c3f49e37a6b2b3077",
+      "identical": true
+    },
+    {
+      "file": "generated_mechanisms/B2_analysis_002/candidate_coverage_harm.png",
+      "expected_sha256": "a2988fb7969f2b1fb2431711a4e518c7d700340cdd58fba6d46997b0bfaf3d39",
+      "actual_sha256": "a2988fb7969f2b1fb2431711a4e518c7d700340cdd58fba6d46997b0bfaf3d39",
+      "identical": true
+    },
+    {
+      "file": "generated_mechanisms/B2_analysis_002/information_value_analysis.csv",
+      "expected_sha256": "9ba2ecdaf26733751153ccfe3056fb0a6d613c721f5c1e3c3f49e37a6b2b3077",
+      "actual_sha256": "9ba2ecdaf26733751153ccfe3056fb0a6d613c721f5c1e3c3f49e37a6b2b3077",
+      "identical": true
+    },
+    {
+      "file": "generated_mechanisms/B2_analysis_002/b2_case_examples.csv",
+      "expected_sha256": "128fadd47e0857f70081931cc491497083eb3bf696e6f959eeed9692257c9777",
+      "actual_sha256": "128fadd47e0857f70081931cc491497083eb3bf696e6f959eeed9692257c9777",
+      "identical": true
+    },
+    {
+      "file": "generated_mechanisms/B2_analysis_002/b2_ocr_sensitivity.csv",
+      "expected_sha256": "2294bd586f731f5a35ce20bb8e5fd9ebaeffa399fb90cb8a5b695384c6856f1f",
+      "actual_sha256": "2294bd586f731f5a35ce20bb8e5fd9ebaeffa399fb90cb8a5b695384c6856f1f",
+      "identical": true
+    },
+    {
+      "file": "reports/icde_eab_external_validation_013/monitor_001/auto2_attempt_001/summary/economics_source_leave_one_out.csv",
+      "expected_sha256": "16a16649871985a00c8ae23e209bb409a31869eea49ae0b623a9f55eb535ce5e",
+      "actual_sha256": "16a16649871985a00c8ae23e209bb409a31869eea49ae0b623a9f55eb535ce5e",
+      "identical": true
+    },
+    {
+      "file": "reports/icde_eab_external_validation_013/monitor_001/auto2_attempt_001/summary/economics_posthoc_static_envelope.csv",
+      "expected_sha256": "b31567a20451ce08afa9a23a7c8e9c84234624987a19a5ea1586e6c1a0c799f8",
+      "actual_sha256": "b31567a20451ce08afa9a23a7c8e9c84234624987a19a5ea1586e6c1a0c799f8",
+      "identical": true
+    },
+    {
+      "file": "reports/icde_eab_external_validation_013/monitor_001/auto2_attempt_001/summary/allocation_counts.csv",
+      "expected_sha256": "bc8cf1d9872e3e081e767ae86e73215cd18bb56b838f8ad2cd43388d9650dc17",
+      "actual_sha256": "bc8cf1d9872e3e081e767ae86e73215cd18bb56b838f8ad2cd43388d9650dc17",
+      "identical": true
+    },
+    {
+      "file": "reports/icde_eab_external_validation_013/monitor_001/auto2_attempt_001/summary/economics_paired_contrasts.csv",
+      "expected_sha256": "d2274e5c5b5f293cac3e6dd131427af00d48d2814a7e27ed2397b7d217a7b852",
+      "actual_sha256": "d2274e5c5b5f293cac3e6dd131427af00d48d2814a7e27ed2397b7d217a7b852",
+      "identical": true
+    },
+    {
+      "file": "reports/icde_eab_external_validation_013/monitor_001/auto2_attempt_001/summary/all_high_harm_and_false_safe_cases.csv",
+      "expected_sha256": "51f79dd7d813f0e64b4199249f6983a8be350e3a7bc44e9f76d67d262d88e7e4",
+      "actual_sha256": "51f79dd7d813f0e64b4199249f6983a8be350e3a7bc44e9f76d67d262d88e7e4",
+      "identical": true
+    },
+    {
+      "file": "reports/icde_eab_external_validation_013/monitor_001/auto2_attempt_001/summary/economics_main_table.csv",
+      "expected_sha256": "a694b2aac2a6d37e88860248caea0faa3f3a12350b6d96ba9eb26fd85b7d8a52",
+      "actual_sha256": "a694b2aac2a6d37e88860248caea0faa3f3a12350b6d96ba9eb26fd85b7d8a52",
+      "identical": true
+    },
+    {
+      "file": "reports/icde_eab_external_validation_013/monitor_001/auto2_attempt_001/summary/economics_per_query.csv",
+      "expected_sha256": "954cfec4b2ab5e7044579ff82dce3b07500205e70481a2b257991aa845bd1da9",
+      "actual_sha256": "954cfec4b2ab5e7044579ff82dce3b07500205e70481a2b257991aa845bd1da9",
+      "identical": true
+    }
+  ],
+  "new_science_CSV": 18,
+  "mechanism_PNG": 3,
+  "economics_methods": 9,
+  "parent_replayed": false,
+  "wall_s": 8.379854771308601,
+  "scope": "Historical numeric reconstruction; not independent evaluation/Serving/K1 or public hosting"
+}

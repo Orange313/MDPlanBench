@@ -1,0 +1,92 @@
+{
+
+  "status": "FAIL_OR_PARTIAL",
+
+  "steps": [
+
+    {
+
+      "step": "base",
+
+      "status": "PASS",
+
+      "exit_code": 0,
+
+      "wall_s": 101.66963819996454,
+
+      "log": "base.log"
+
+    },
+
+    {
+
+      "step": "posthoc",
+
+      "status": "FAIL",
+
+      "exit_code": 1,
+
+      "wall_s": 52.95400290004909,
+
+      "log": "posthoc.log"
+
+    },
+
+    {
+
+      "step": "E6",
+
+      "status": "FAIL",
+
+      "exit_code": 1,
+
+      "wall_s": 3.9174742999020964,
+
+      "log": "E6.log"
+
+    },
+
+    {
+
+      "step": "paper_values",
+
+      "status": "PASS",
+
+      "exit_code": 0,
+
+      "wall_s": 0.26177930017001927,
+
+      "log": "paper_values.log"
+
+    }
+
+  ],
+
+  "wall_s": 158.9011025999207,
+
+  "python": "3.11.14 (main, Dec  9 2025, 18:59:10) [MSC v.1944 64 bit (AMD64)]",
+
+  "platform": "win32",
+
+  "source_manuscript_revision": 74,
+
+  "GPU_jobs": 0,
+
+  "new_training": 0,
+
+  "new_benchmark_evaluation": false,
+
+  "network": false,
+
+  "limitations": [
+
+    "Fresh timings, OCR, model acquisition, and original-data evaluation are separate hardware paths.",
+
+    "Exact manuscript graphics are immutable archived assets; freshly rendered graphics may differ in layout/fonts but are checked numerically.",
+
+    "Public replay does not open sealed qrels."
+
+  ]
+
+}
+
