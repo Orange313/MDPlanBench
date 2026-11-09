@@ -4,8 +4,8 @@
 
 Public base `icde27-eab-v1.1` = `e9d4c2d14abca6003001caf8010da4f6b7321669`.
 Initial private test commit `4057380601bf40c648d238fbd052b08198283e4d`;
-strict successful Linux CPU pipeline commit
-`384b46bba2136c89b50eb2e0be1b3f049e81be36`. Current manuscript is **R82**,
+strict successful Linux current-R82 CPU pipeline commit
+`e895856ac9f026b4b49708888b6d8f192df2c291`. Current manuscript is **R82**,
 revision `34d15ab3-c937-4bf7-b5e8-d61e49000131`, tree
 `c2803d51b7221a5d926ae85463cda1dbda2602bf548fc96c3373e7528cc97f08`.
 The R74→R82 incremental audit confirms all154 table numbers and all active figure
@@ -18,7 +18,7 @@ bytes unchanged. The current wrapper reruns those checks under the R82 lock.
 | New Windows Python3.11.14 environment, pinned packages | PASS installation | local audit log / `validation/reproducibility_20261109/` |
 | Anonymous public-base Git clone, local candidate-bundle fetch, fresh clean clone | PASS; no remote candidate publication | Linux acceptance setup records |
 | New Linux Python3.11.15 venv and lock installation | PASS; pyarrow added through same pinned extension lock | archived install/freeze receipt |
-| Strict complete offline pipeline | PASS,80.98s wrapper | `linux/final_stage_003.json`, `linux/replay_003/submission_replay_receipt.json` |
+| Strict complete offline pipeline | PASS,79.17s, six stages | `linux/R82_final/stage.json`, `linux/R82_final/replay_receipt.json` |
 | Main/older numerical CSV replay | PASS30+8+4 CSVs; no expected hash changed | base/legacy receipts and independent verification |
 | Independent numeric audit | PASS48,405 checks /70,747 values;0 deltas | `linux/replay_003/base/audit/audit_summary.json` |
 | Later post-hoc supplement | PASS75 files /7 PNGs; bootstrap arrays checked | `linux/replay_003/posthoc/replay_receipt.json` |

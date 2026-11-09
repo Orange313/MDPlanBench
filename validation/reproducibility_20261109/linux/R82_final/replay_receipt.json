@@ -1,0 +1,60 @@
+{
+  "status": "PASS_ALL_OFFLINE_STAGES",
+  "steps": [
+    {
+      "step": "base",
+      "status": "PASS",
+      "exit_code": 0,
+      "wall_s": 40.743701121769845,
+      "log": "base.log"
+    },
+    {
+      "step": "posthoc",
+      "status": "PASS",
+      "exit_code": 0,
+      "wall_s": 34.054251031950116,
+      "log": "posthoc.log"
+    },
+    {
+      "step": "E6",
+      "status": "PASS",
+      "exit_code": 0,
+      "wall_s": 3.0921286921948195,
+      "log": "E6.log"
+    },
+    {
+      "step": "paper_values",
+      "status": "PASS",
+      "exit_code": 0,
+      "wall_s": 0.08556571137160063,
+      "log": "paper_values.log"
+    },
+    {
+      "step": "frozen_inference",
+      "status": "PASS",
+      "exit_code": 0,
+      "wall_s": 0.8721833527088165,
+      "log": "frozen_inference.log"
+    },
+    {
+      "step": "earlier_plan_audit",
+      "status": "PASS",
+      "exit_code": 0,
+      "wall_s": 0.24867862276732922,
+      "log": "earlier_plan_audit.log"
+    }
+  ],
+  "wall_s": 79.10682165343314,
+  "python": "3.11.15 (main, May 10 2026, 19:28:18) [Clang 22.1.3 ]",
+  "platform": "linux",
+  "source_manuscript_revision": 82,
+  "GPU_jobs": 0,
+  "new_training": 0,
+  "new_benchmark_evaluation": false,
+  "network": false,
+  "limitations": [
+    "Fresh timings, OCR, model acquisition, and original-data evaluation are separate hardware paths.",
+    "Exact manuscript graphics are immutable archived assets; freshly rendered graphics may differ in layout/fonts but are checked numerically.",
+    "Public replay does not open sealed qrels."
+  ]
+}

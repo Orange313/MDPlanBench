@@ -1,0 +1,62 @@
+{
+  "status": "PASS_AUTOMATED_SCAN",
+  "files": 1469,
+  "bytes": 112369049,
+  "largest_files": [
+    {
+      "path": "posthoc_20261109/E6_001/measure_003/requests.csv",
+      "bytes": 4943724,
+      "sha256": "215e49d8d104c6754e4db3512c8150aa2e5688a02976216db6ea9087dd75d443"
+    },
+    {
+      "path": "records/021_snapshot/artifacts/icde_eab_review_strengthening_021/GPU/process_03/partial.jsonl",
+      "bytes": 3466796,
+      "sha256": "cde740d91f9cd562eef3fec5c564b9f2c6f55f94e9a7251aff1f982db9e1e1f5"
+    },
+    {
+      "path": "validation/reproducibility_20261109/linux/replay_003/base/audit/verification_checks.csv",
+      "bytes": 2462906,
+      "sha256": "9b42b8c74a47be7052c818de1b4fb840122bad9e0396744a47e20e5703c8114d"
+    },
+    {
+      "path": "records/021_snapshot/artifacts/icde_eab_review_strengthening_021/GPU/process_09/requests.csv",
+      "bytes": 2084002,
+      "sha256": "3dc903e83f128cb94f2550c7b2c928edf3a843c69212fd58b2e4e877b857ca61"
+    },
+    {
+      "path": "records/021_snapshot/artifacts/icde_eab_review_strengthening_021/GPU/process_08/requests.csv",
+      "bytes": 2083815,
+      "sha256": "9f77abf91911d6cc0deda793bf8d0e6a9494894d1ad69546e1c631ec4813ee89"
+    },
+    {
+      "path": "posthoc_20261109/E6_001/measure_003/resource_guard.json",
+      "bytes": 2074493,
+      "sha256": "fbd5f9414c93c2b93ee42f51e998fefb8eba9829d031ec8283eba274c2cac657"
+    },
+    {
+      "path": "posthoc_20261109/screening_001/OOF_per_query.csv",
+      "bytes": 1791431,
+      "sha256": "1f61403643dccfede27a363ff5d18bd455d0fbec4a15d2a47234b6e079b717aa"
+    },
+    {
+      "path": "records/022_plot_data/metric_ledger.csv",
+      "bytes": 1735464,
+      "sha256": "efdcca00ade0a9c8546e2641957d7143b6c6560ea8cd36a7a911a487f690cd33"
+    },
+    {
+      "path": "posthoc_20261109/E8_storage_001/E8_visual_files.csv",
+      "bytes": 1606331,
+      "sha256": "0f750051cb656788bcfe68df811a1bf4a686c814d866966c24a14394fc5810d4"
+    },
+    {
+      "path": "records/earlier_plan_audit/all_unprofiled_requests.csv",
+      "bytes": 1471356,
+      "sha256": "ff13c5ba7dc7e46b57ee2713028a3cd528dbf661039b26ad387b8b5fcced256c"
+    }
+  ],
+  "findings": 0,
+  "review_required": 0,
+  "duplicates_retained": 98,
+  "LFS_required": false,
+  "scope": "Automated text/filename screening only, not legal or exhaustive secret assurance; immutable observations are not edited or deleted."
+}

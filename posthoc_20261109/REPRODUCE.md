@@ -70,8 +70,8 @@ text and page images are deliberately absent from this supplement.
   There is no new full-ranking acquisition or independent HR evaluation.
 - BM25 indexes were built in memory and not persisted. Their disk size and the
   visual-to-BM25 disk ratio are MISSING, not zero. Economics/ColPali is not built.
-- No GPU reservation was confirmed; E6 and conditional new routed timings are
-  NOT_RUN. A clean CPU replay does not remedy those missing measurements.
+- No GPU reservation was confirmed; Conditional new routed timings are
+  NOT_RUN; the later standalone E6_001 result supersedes the historical E6 NOT_RUN state. A clean CPU replay does not remedy those missing measurements.
 
 Metadata exports replace private server-root prefixes with placeholders. Source
 hashes describe original inputs; the delivery MANIFEST describes exported files.

@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "exitcode": 0,
+  "wall_s": 79.16872844751924,
+  "commit": "e895856ac9f026b4b49708888b6d8f192df2c291",
+  "clean_checkout_before_run": true,
+  "GPU_jobs": 0,
+  "new_training": 0,
+  "manuscript_revision": 82
+}
