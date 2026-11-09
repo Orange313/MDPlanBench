@@ -1,0 +1,70 @@
+{
+  "${PROJECT_ROOT}/artifacts/icde_evidence_closure_003/E2/pharma_dataset.npz": {
+    "bytes": 223900,
+    "sha256": "0d8a8ba9584c76fa083e1bae83c500a8ebdd5747ff5f3a71c83536eb4bcd7630"
+  },
+  "${PROJECT_ROOT}/reports/icde_evidence_closure_003/E2/per_query_policy.csv": {
+    "bytes": 8164324,
+    "sha256": "f3f3e59f5caaed2b6a395362a0f28d8b5a11ac0a7c5938d8ff35ea15f6a091fa"
+  },
+  "${PROJECT_ROOT}/reports/icde_final_gate_004/S3/paired_fit_subsets.csv": {
+    "bytes": 102110,
+    "sha256": "cb209c19cb9f6cd7543c6785e922ada031c860bf6e9feac0b4822d8c750d84cb"
+  },
+  "${PROJECT_ROOT}/reports/icde_final_gate_004/S3/matched_risk_learning_curves.csv": {
+    "bytes": 11929,
+    "sha256": "dcd117aeadbe00868fe9ca740944d4224f6fdfd68c0e23931170403f33fba56f"
+  },
+  "${PROJECT_ROOT}/reports/icde_eab_g2_setup_017/repeat/ColQwen2_001/setup_components.csv": {
+    "bytes": 779,
+    "sha256": "e800093d612a4e7f2ead06a84b8d5be1c3ebc0a89bc950e886d44288923d4f83"
+  },
+  "${PROJECT_ROOT}/reports/icde_eab_g2_setup_017/repeat/ColQwen2_001/requests.csv": {
+    "bytes": 110774,
+    "sha256": "a3721e8228af7b082c4786b9f94705fdb493e9ac0c54f6a5ef55fb958fa14846"
+  },
+  "${PROJECT_ROOT}/reports/icde_eab_g2_setup_017/repeat/ColQwen2_002/setup_components.csv": {
+    "bytes": 785,
+    "sha256": "cdbc2be04015ea97649a21cc42b5b2161730d010affdf39f790d2879504abac8"
+  },
+  "${PROJECT_ROOT}/reports/icde_eab_g2_setup_017/repeat/ColQwen2_002/requests.csv": {
+    "bytes": 110993,
+    "sha256": "66cdc18977dffd2dedf4241021060897a8d98f3edad69100cef957b54418282b"
+  },
+  "${PROJECT_ROOT}/reports/icde_eab_g2_setup_017/repeat/ColQwen2_003/setup_components.csv": {
+    "bytes": 786,
+    "sha256": "d338bc61c8a87dea397151f5e3168371b90649d85fc603cc2498fd1348122625"
+  },
+  "${PROJECT_ROOT}/reports/icde_eab_g2_setup_017/repeat/ColQwen2_003/requests.csv": {
+    "bytes": 110990,
+    "sha256": "c5b193abd6e60c81dfa37c7dd8d96485b0eda276161ebe045e51b5bb39b92d09"
+  },
+  "${PROJECT_ROOT}/reports/icde_eab_g2_setup_017/repeat/ColPali_001/setup_components.csv": {
+    "bytes": 903,
+    "sha256": "b02f981cfb5c7056223447761b88df2e29a84baaa617b888756907717769cb00"
+  },
+  "${PROJECT_ROOT}/reports/icde_eab_g2_setup_017/repeat/ColPali_001/requests.csv": {
+    "bytes": 110141,
+    "sha256": "fe7eb71ed4050a37096a7a120683670e6b4178a29f0037515660046143c91e39"
+  },
+  "${PROJECT_ROOT}/reports/icde_eab_g2_setup_017/repeat/ColPali_002/setup_components.csv": {
+    "bytes": 905,
+    "sha256": "06eaf9472b72a41c7a5107ba9c0f5b0cdcfe6b2cbe4c52b2aa90d535b8b3076f"
+  },
+  "${PROJECT_ROOT}/reports/icde_eab_g2_setup_017/repeat/ColPali_002/requests.csv": {
+    "bytes": 110102,
+    "sha256": "52eac80751de51683e455bcdd0aa9f941aa577fe4f35b6ff6d22d3953f4c3058"
+  },
+  "${PROJECT_ROOT}/reports/icde_eab_g2_setup_017/repeat/ColPali_003/setup_components.csv": {
+    "bytes": 915,
+    "sha256": "38a69a15a0718365de7fd60a8b1f5a9e45c6aa69472760d60b19c2f0e4c184c1"
+  },
+  "${PROJECT_ROOT}/reports/icde_eab_g2_setup_017/repeat/ColPali_003/requests.csv": {
+    "bytes": 110118,
+    "sha256": "5b10a93a0ef6cc2d4bb0bbe18e6d71ca7a82a89cb69eabed486f1e18efc99d19"
+  },
+  "${PROJECT_ROOT}/artifacts/icde_eab_independent_007/T1_preparation/ocr_001/pages.json": {
+    "bytes": 782921,
+    "sha256": "0eca2e1f505c3e30722b87a02be9808251f5a7823fb0ed26f33043f1d331f81e"
+  }
+}

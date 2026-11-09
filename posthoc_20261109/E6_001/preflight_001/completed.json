@@ -1,0 +1,18 @@
+{
+  "status": "PASS_CPU_ASSET_AUDIT",
+  "time_beijing": "2026-11-09T17:16:20.532125+08:00",
+  "pages": 1016,
+  "queries": 160,
+  "frozen_outputs": 1440,
+  "model_repo": "vidore/colqwen2-v1.0-merged",
+  "model_revision": "2c9a09bb37ed19b63eb94ae6c29bb4e76eb6e3c2",
+  "index": "cache/indexes/icde_eab_independent_007_biomedical_colqwen_001",
+  "free_bytes": 1574014976,
+  "index_or_model_rebuilt": false,
+  "qrels_reads": 0,
+  "sealed_reads": 0,
+  "new_GPU_jobs": 0,
+  "main_worklist": "[(q,m,k) for q in ids for m in methods for k in range(3)]; global shuffle",
+  "setup_worklist": "[(q,p) for q in ids for p in PLANS]; global shuffle",
+  "BM25_persisted_index": "NOT_PRESENT; author explicitly permits frozen in-memory initialization outside timing"
+}

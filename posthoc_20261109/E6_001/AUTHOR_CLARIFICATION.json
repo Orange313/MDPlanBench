@@ -1,0 +1,7 @@
+{
+  "date_beijing": "2026-11-09",
+  "before_any_new_GPU_measurement": true,
+  "scheduler": "复用原始全局 shuffle（推荐，最接近旧调度）",
+  "BM25_initialization": "允许恢复内存 BM25 对象（推荐）",
+  "scope": "Original frozen OCR and BM25 implementation, once outside timing; no page encoding or persisted-index rebuilding"
+}

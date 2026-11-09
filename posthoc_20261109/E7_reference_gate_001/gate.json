@@ -1,0 +1,7 @@
+{
+  "PASS": true,
+  "checks": 80,
+  "max_absolute_error": 5.551115123125783e-17,
+  "qrels_read": false,
+  "interpretation": "Official-text scorer regression only; OCR quality remains exploratory"
+}

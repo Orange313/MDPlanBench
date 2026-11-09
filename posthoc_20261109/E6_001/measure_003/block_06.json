@@ -1,0 +1,13 @@
+{
+  "block": 6,
+  "schedule": "A1",
+  "seed": 20261115,
+  "start_time_beijing": "2026-11-09T17:36:00.948042+08:00",
+  "end_time_beijing": "2026-11-09T17:36:35.728750+08:00",
+  "start_monotonic": 5370113.13423263,
+  "end_monotonic": 5370147.914395386,
+  "requests": 1440,
+  "FullV_requests": 160,
+  "FullV_mean_ms": 36.236831080168486,
+  "status": "COMPLETE"
+}

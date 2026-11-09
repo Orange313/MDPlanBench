@@ -1,0 +1,15 @@
+claim_id,status,supported_scope_and_limits,evidence_path,evidence_sha256
+CF_ROUTER_SUPERIORITY,PARTIAL_NOT_SUPPORTED,No b=.05 cell has a positive conditional lower95; signed cost-transfer limitations remain,screening_001/E2_main_b005.csv,be0842a1be83587770c02cd09e1e58a530a1386d982ac3315772bebd0b45dd60
+RETROSPECTIVE_FRONTIER_BIAS,DONE_CONDITIONAL,Cohort-specific retrospective minus grouped cross-fit frontier; effects differ by domain,screening_001/E1_bias_summary.csv,66ef0738c4bc56ccee2b5092d28ed178aea63e0ecbf6a8c16694d8aa9e7b9762
+ORIGINAL_CI_RECONSTRUCTION,PASS,All72 original endpoints within .01pp; query/process draws and indices saved,gates_001/interval_endpoint_gate.csv,11f2b747288e1ac37ba093e131b0f77574c209bbded8858eb29e3632d40c26db
+INTERVAL_UPPER_BOUND_COUNTS,DONE,All36: U<5/10/15 counts15/21/25; not a proof of no conceivable gain,independent_001/E3_upper_bound_counts.csv,b260d5e666e74ad8a5a8ba6f1ce7e61f4bcb844211ef0db3899ab55e4908ced2
+LEARNING_DIAGNOSTIC_KAPPA20,DONE_EXPLORATORY,"Same fixed Dev/subsets and seeds, no retraining; original four-action diagnostic",independent_001/K17_kappa10_vs20.csv,4a1e19ef3b2bf7dd11784a8795e76908213d9d1c31021983841e99381ad19068
+TRANSFERRED_MIXTURE_COMPARISON,DONE_COARSE_HULL,Only actual same-cohort FullV/Fit-only.05/BM25 points; weaker than full static frontier,independent_001/E4_coarse_hull.csv,c8c06f2b7f78255c97216496050e29da6c84bad691869904a4fa36eec04ba604
+OCR_CONTENT_EQUIVALENCE,PASS,15 settings x1016 frozen text fingerprints; prepared-PNG scope,portable_inputs_001/E5_metadata/completed.json,49032dd4e3d44b4219a714d9f83bcb7baddee70d741b9f899c7d9ba58b4c2835
+OCR_PARALLEL_LIFECYCLE,DONE_CONDITIONAL,"Observed shared-host wall/childCPU scenarios, paired017 model processes; not production CI",E5_analysis_001/E5_crossing_ranges.csv,9dd882a0398cbd097fa2a9fb484f4e15d023aa7f327a38a79ac17de67e110154
+SCHEDULER_CAUSAL_DIAGNOSIS,NOT_RUN,No confirmed exclusive-GPU reservation; old cohort difference unresolved,E6_NOT_RUN.json,b53a3210e72ad13a283b2d345b2f808eb1e04004be164c4f8d238c1d570e0762
+HR_TEXT_SOURCE_CONTROL,DONE_DEV_ONLY,40/40 frozen HR Dev;40/318 English pool; no new FullV ranking,E7_HR_001/E7_summary.csv,62c33d510236f1021ed5205ad7fa1520f06a2a01762e9ec6dd700333dffce350
+HR_OFFICIAL_TEXT_REGRESSION,PASS,80 per-query BM25/BM100 risks checked against archived legal Dev cache,E7_reference_gate_001/E7_official_reference_gate.csv,10c3f3ca13e81800c92cf32843d4a5aafc755b6fe95ab62d63b4b5f455db0f3c
+VISUAL_STORAGE_PAYLOAD,PARTIAL,11 payload checks pass; BM25 persisted-index size and ratio MISSING; Eco/ColPali not built,E8_storage_001/E8_assets.csv,e380ef87c5d5c55b7262c1ec2106e1e1c1f000bc468a27009bc230f84bcb5a20
+REVIEW_CPU_REPLAY,PASS_ARCHIVED_RECONSTRUCTION,"Clean review checkout, fixed environment, no fresh OCR/GPU/qrels in replay",replay_receipts/full_005.json,353f115bb25dc421dc61d624004a86ccdf29cc02c4e6611b812463b8cb88b433
+FORMAL_CERTIFICATION,NOT_CERTIFIED,"No new K1, sealed labels read0, unchanged historical contract",PLAN.md,f7586d58f594c51d8761e24136de66da56de750d693a0f01235482adae8a3110

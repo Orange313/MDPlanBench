@@ -1,0 +1,24 @@
+HR archive regression and bootstrap exports completed
+Finance archive regression and bootstrap exports completed
+Industrial archive regression and bootstrap exports completed
+Pharma archive regression and bootstrap exports completed
+Biomedical archive regression and bootstrap exports completed
+Economics archive regression and bootstrap exports completed
+{
+  "time_beijing": "2026-11-08T22:07:09.036797+08:00",
+  "scope": "Regression only; no new screening configurations or model fitting",
+  "kappa20_exact_float_gate": true,
+  "kappa20_displayed_2dp_gate": true,
+  "kappa20_allocation_gate": true,
+  "endpoint_gate": true,
+  "endpoint_checks": 72,
+  "max_endpoint_error_pp": 1.021405182655144e-13,
+  "strict_stop": false,
+  "original_order_status": "MERGED_AUTHOR_ORDER_R1",
+  "new_effects_computed": false,
+  "bootstrap_repeats": 2000,
+  "bootstrap_index_and_draw_exports": 12,
+  "GPU_jobs": 0,
+  "new_models_trained": 0,
+  "sealed_label_reads": 0
+}

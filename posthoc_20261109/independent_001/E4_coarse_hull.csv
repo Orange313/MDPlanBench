@@ -1,0 +1,25 @@
+domain,method,DeltaC_tr_pp,low95_pp,high95_pp,comparator,cost_scope
+HR,Ridge_Q,1.5602386217435145,-23.932600557770783,17.202525884037666,coarse hull: measured FullV/Fit-only .05 mixture/BM25,Archived same-cohort frozen-kappa20 measured route; no .02/.10 cost composition
+HR,Ridge_QP,1.0876704727456692,-20.752197147741406,15.380757307247041,coarse hull: measured FullV/Fit-only .05 mixture/BM25,Archived same-cohort frozen-kappa20 measured route; no .02/.10 cost composition
+HR,LightGBM_Q,-0.8257654203715639,-17.03793262645196,7.2617867075212725,coarse hull: measured FullV/Fit-only .05 mixture/BM25,Archived same-cohort frozen-kappa20 measured route; no .02/.10 cost composition
+HR,LightGBM_QP,-8.9562350037595,-20.736170596690314,-1.8350417067840035,coarse hull: measured FullV/Fit-only .05 mixture/BM25,Archived same-cohort frozen-kappa20 measured route; no .02/.10 cost composition
+Finance,Ridge_Q,-3.4807254308558395,-29.61589988534423,30.415380883840555,coarse hull: measured FullV/Fit-only .05 mixture/BM25,Archived same-cohort frozen-kappa20 measured route; no .02/.10 cost composition
+Finance,Ridge_QP,14.203897333675124,-20.78218354417093,36.58667438257901,coarse hull: measured FullV/Fit-only .05 mixture/BM25,Archived same-cohort frozen-kappa20 measured route; no .02/.10 cost composition
+Finance,LightGBM_Q,5.735929352058835,-11.833398876509744,15.460570204906736,coarse hull: measured FullV/Fit-only .05 mixture/BM25,Archived same-cohort frozen-kappa20 measured route; no .02/.10 cost composition
+Finance,LightGBM_QP,10.676317361992854,2.3015461952255793,21.50043670122384,coarse hull: measured FullV/Fit-only .05 mixture/BM25,Archived same-cohort frozen-kappa20 measured route; no .02/.10 cost composition
+Industrial,Ridge_Q,-26.29950821169945,-38.95952082984505,14.309474680518269,coarse hull: measured FullV/Fit-only .05 mixture/BM25,Archived same-cohort frozen-kappa20 measured route; no .02/.10 cost composition
+Industrial,Ridge_QP,-22.567379465845338,-41.35165101789254,34.119126818681345,coarse hull: measured FullV/Fit-only .05 mixture/BM25,Archived same-cohort frozen-kappa20 measured route; no .02/.10 cost composition
+Industrial,LightGBM_Q,22.74630348271931,-5.193692245656955,45.06971303133307,coarse hull: measured FullV/Fit-only .05 mixture/BM25,Archived same-cohort frozen-kappa20 measured route; no .02/.10 cost composition
+Industrial,LightGBM_QP,24.490569864409764,4.116285238929496,38.229383833927145,coarse hull: measured FullV/Fit-only .05 mixture/BM25,Archived same-cohort frozen-kappa20 measured route; no .02/.10 cost composition
+Pharma,Ridge_Q,-18.535106642007218,-40.97032894662798,6.47149604492019,coarse hull: measured FullV/Fit-only .05 mixture/BM25,Archived same-cohort frozen-kappa20 measured route; no .02/.10 cost composition
+Pharma,Ridge_QP,16.639767158377715,4.0675664566941,27.01648338083333,coarse hull: measured FullV/Fit-only .05 mixture/BM25,Archived same-cohort frozen-kappa20 measured route; no .02/.10 cost composition
+Pharma,LightGBM_Q,6.046952376558549,-11.658337622702325,19.7836358095007,coarse hull: measured FullV/Fit-only .05 mixture/BM25,Archived same-cohort frozen-kappa20 measured route; no .02/.10 cost composition
+Pharma,LightGBM_QP,4.243418320897039,-16.585109329314665,19.342698303742203,coarse hull: measured FullV/Fit-only .05 mixture/BM25,Archived same-cohort frozen-kappa20 measured route; no .02/.10 cost composition
+Biomedical,Ridge_Q,-11.810076019202878,-22.945717036352328,0.7489826873322156,coarse hull: measured FullV/Fit-only .05 mixture/BM25,Archived same-cohort frozen-kappa20 measured route; no .02/.10 cost composition
+Biomedical,Ridge_QP,-12.205560313674198,-19.131337007197804,-4.006127624600418,coarse hull: measured FullV/Fit-only .05 mixture/BM25,Archived same-cohort frozen-kappa20 measured route; no .02/.10 cost composition
+Biomedical,LightGBM_Q,-19.26514710126706,-27.9338327291957,-9.372673913636145,coarse hull: measured FullV/Fit-only .05 mixture/BM25,Archived same-cohort frozen-kappa20 measured route; no .02/.10 cost composition
+Biomedical,LightGBM_QP,-21.781522791983114,-31.29947980813765,-10.70787377003596,coarse hull: measured FullV/Fit-only .05 mixture/BM25,Archived same-cohort frozen-kappa20 measured route; no .02/.10 cost composition
+Economics,Ridge_Q,-9.817062208657985,-24.63906129868264,6.743379106270089,coarse hull: measured FullV/Fit-only .05 mixture/BM25,Archived same-cohort frozen-kappa20 measured route; no .02/.10 cost composition
+Economics,Ridge_QP,1.5180464243168046,-4.794565939782951,7.127339028377415,coarse hull: measured FullV/Fit-only .05 mixture/BM25,Archived same-cohort frozen-kappa20 measured route; no .02/.10 cost composition
+Economics,LightGBM_Q,-4.631039443049273,-21.592400275017468,7.509531410286037,coarse hull: measured FullV/Fit-only .05 mixture/BM25,Archived same-cohort frozen-kappa20 measured route; no .02/.10 cost composition
+Economics,LightGBM_QP,-3.1918022777145336,-8.723133113336218,0.4668729164485976,coarse hull: measured FullV/Fit-only .05 mixture/BM25,Archived same-cohort frozen-kappa20 measured route; no .02/.10 cost composition

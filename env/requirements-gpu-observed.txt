@@ -1,0 +1,13 @@
+# Observed original runtime; NOT freshly installed/tested as a GPU environment.
+# Install torch==2.5.1+cu121 from the official CUDA wheel index separately.
+transformers==5.9.0
+colpali-engine==0.3.16
+peft==0.19.1
+safetensors==0.7.0
+huggingface-hub==1.17.0
+numpy==2.4.6
+scipy==1.17.1
+pandas==3.0.3
+pyarrow==24.0.0
+Pillow==12.2.0
+requests==2.34.2

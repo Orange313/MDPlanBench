@@ -1,0 +1,15 @@
+{
+  "status": "DONE_CONDITIONAL_PREPARED_PNG_COST_MODEL",
+  "settings": 15,
+  "hash_mismatch_observations": 0,
+  "max_output_bytes": 4707575,
+  "crossings": 540,
+  "ranges": 60,
+  "GPU_jobs": 0,
+  "limitations": [
+    "Input PNG preparation is prepaid in these new OCR timings. Historical407.725s included RGB/PNG materialization.",
+    "CPU resource uses child user+sys; parent CPU is separately recorded. Wall and CPU are never added.",
+    "Ranges combine3 OCR repeats with3 paired model setup/warm processes; they are not9 independent workload samples.",
+    "Shared CPU host, warm filesystem cache; no production-level confidence guarantee."
+  ]
+}

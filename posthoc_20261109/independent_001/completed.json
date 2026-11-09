@@ -1,0 +1,33 @@
+{
+  "E3": "DONE",
+  "E3_cells": 36,
+  "E3_counts": [
+    {
+      "cohort": "original12",
+      "n": 12,
+      "U_lt5": 4,
+      "U_lt10": 7,
+      "U_lt15": 9
+    },
+    {
+      "cohort": "posthoc24",
+      "n": 24,
+      "U_lt5": 11,
+      "U_lt10": 14,
+      "U_lt15": 16
+    },
+    {
+      "cohort": "all36",
+      "n": 36,
+      "U_lt5": 15,
+      "U_lt10": 21,
+      "U_lt15": 25
+    }
+  ],
+  "K17": "DONE_NO_RETRAINING",
+  "K17_points": 16,
+  "E4": "DONE_COARSE_HULL",
+  "E4_cells": 24,
+  "GPU_jobs": 0,
+  "sealed_labels_read": 0
+}

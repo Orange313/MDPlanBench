@@ -1,0 +1,8 @@
+{
+  "status": "NOT_RUN",
+  "reason": "No explicit exclusive-GPU reservation confirmed by the author for this round. Current idleness is not reservation.",
+  "GPU_jobs": 0,
+  "new_full_rankings": 0,
+  "historical_values_ms": [70.22, 36.22],
+  "interpretation": "Scheduling causality is unresolved. Do not subtract costs between these timing cohorts or claim Serving speedup."
+}

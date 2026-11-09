@@ -1,0 +1,93 @@
+{
+  "status": "DONE_ON_FROZEN_DEV_ONLY",
+  "coverage": {
+    "HR_Dev_queries": 40,
+    "covered_queries": 40,
+    "coverage_Dev": 1.0,
+    "HR_all_English_queries": 318,
+    "coverage_all_English": 0.12578616352201258,
+    "covered_ids": [
+      0,
+      19,
+      23,
+      37,
+      38,
+      61,
+      67,
+      76,
+      84,
+      87,
+      114,
+      118,
+      127,
+      134,
+      137,
+      139,
+      150,
+      153,
+      165,
+      182,
+      183,
+      191,
+      193,
+      196,
+      197,
+      214,
+      224,
+      226,
+      228,
+      241,
+      268,
+      273,
+      276,
+      279,
+      282,
+      284,
+      292,
+      293,
+      1808,
+      1815
+    ],
+    "denominator": "Primary: frozen HR Dev workload from common evaluation objects; full318-query pool reported separately"
+  },
+  "summary": [
+    {
+      "text_source": "official_markdown",
+      "plan": "BM25",
+      "queries": 40,
+      "mean_r": 0.1172566548622946,
+      "harm_rate": 0.55,
+      "mean_nDCG10": 0.4489531079032611
+    },
+    {
+      "text_source": "official_markdown",
+      "plan": "BM25-R100",
+      "queries": 40,
+      "mean_r": 0.016744178641910922,
+      "harm_rate": 0.125,
+      "mean_nDCG10": 0.499806365985235
+    },
+    {
+      "text_source": "Tesseract411_eng_psm3",
+      "plan": "BM25",
+      "queries": 40,
+      "mean_r": 0.11485620529564122,
+      "harm_rate": 0.5,
+      "mean_nDCG10": 0.44920467068955683
+    },
+    {
+      "text_source": "Tesseract411_eng_psm3",
+      "plan": "BM25-R100",
+      "queries": 40,
+      "mean_r": 0.020453913816234914,
+      "harm_rate": 0.15,
+      "mean_nDCG10": 0.4963178984818537
+    }
+  ],
+  "OCR_wall_s": 1262.0757796335965,
+  "OCR_workers": 4,
+  "GPU_jobs": 0,
+  "new_full_rankings": 0,
+  "sealed_labels_read": 0,
+  "qrels_scope": "Isolated HR Dev-only qrels; no mixed raw qrels opened"
+}

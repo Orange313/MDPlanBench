@@ -1,0 +1,9 @@
+{
+  "time_beijing": "2026-11-09T17:38:39.686491+08:00",
+  "status": "WORKER_FINISHED",
+  "attempt": 3,
+  "gpu": 0,
+  "exit_code": 0,
+  "output": "${PROJECT_ROOT}/posthoc_20261109/E6_001/measure_003",
+  "GPU_measurement_retry": false
+}

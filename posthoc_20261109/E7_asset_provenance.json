@@ -1,0 +1,10 @@
+{
+  "verification_date_beijing": "2026-11-08",
+  "method": "Actual sha256sum on existing read-only corpus/code files; no new ranking or qrels evaluation",
+  "source_corpus": "${PROJECT_ROOT}/data/primary/vidore_v3_hr/0cdf0979f2c5a0fd3e335e6373b9da48a9fe3bc3/corpus/test-00000-of-00001.parquet",
+  "expected_from_frozen_index_manifest": "79ae6980099204c7bc670317ef0ef31a0c9929c3e73476db64868a32f0594834",
+  "actual_corpus_sha256": "79ae6980099204c7bc670317ef0ef31a0c9929c3e73476db64868a32f0594834",
+  "corpus_hash_equal": true,
+  "graded_metrics_py_sha256": "66ee3e1ea586151690582c2e6f5c810c3b18f6f5c0cd1ab06b5bdbd4fc02636a",
+  "aaber_common_text_py_sha256": "ab5920bf09ce6b14b19f3ff3586ec48637ceac2164c408508d874304ac97641c"
+}

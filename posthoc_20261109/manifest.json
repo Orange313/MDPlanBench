@@ -1,0 +1,41 @@
+{
+  "run_id": "posthoc_20261109",
+  "time_beijing": "2026-11-08T22:08:56.006722+08:00",
+  "code_and_replay_input_commit": "d45baabb79b4dfe2ddf27584e3c7b843d1203e2d",
+  "assembly_parent_commit": "0e6306d9fc715036a688696a95de145bab34fa3f",
+  "base_commit": "e9d4c2d14abca6003001caf8010da4f6b7321669",
+  "branch": "codex/posthoc-20261109",
+  "new_tag": null,
+  "public_push": false,
+  "author_order_resource": "a71e700f-dd74-4350-b621-2ea6892ab19f",
+  "author_order_canonical_sha256": "eb5d11ecdb7761bf49558d5e34442988a0ce51af58075e428e0f71b3fdb697b6",
+  "stage_status": {
+    "E1": "DONE",
+    "E2": "PARTIAL_ACCOUNTING_LIMITATIONS",
+    "E3": "DONE",
+    "E4": "DONE_COARSE_HULL",
+    "E5": "DONE_CONDITIONAL_PREPARED_PNG_SCOPE",
+    "E6": "NOT_RUN_NO_GPU_RESERVATION",
+    "E7": "DONE_HR_DEV_ONLY",
+    "E8": "PARTIAL_BM25_INDEX_NOT_PERSISTED",
+    "K17": "DONE_NO_RETRAINING"
+  },
+  "gates": {
+    "kappa20": "PASS_EXACT",
+    "original_CI": "PASS_72_ENDPOINTS",
+    "OCR": "PASS_15240_FINGERPRINTS",
+    "HR_reference": "PASS_80_RISKS"
+  },
+  "CPU_replay": {
+    "status": "PASS_CPU_POSTHOC_REPLAY",
+    "checked_files": 75,
+    "receipt": "replay_receipts/full_005.json"
+  },
+  "GPU_jobs": 0,
+  "new_training": 0,
+  "sealed_labels_read": 0,
+  "paper_edits": false,
+  "license_edits": false,
+  "modifications_outside_supplement": false,
+  "formal_new_certification": "NOT_CERTIFIED"
+}

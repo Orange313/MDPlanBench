@@ -1,0 +1,7 @@
+{
+  "public_query_file": "artifacts/icde_eab_main_006/X3/biomedical_audit_inputs_001/queries/test-00000-of-00001.parquet",
+  "sha256": "92b9de72e49c72f98e1a2da6b5f9decc2304b1f2ca196d385f0d58ff0174e8a9",
+  "query_count": 160,
+  "qrels_reads": 0,
+  "sealed_reads": 0
+}

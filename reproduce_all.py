@@ -6,7 +6,7 @@ for name,script in [('base',root/'reproduce.py'),('cost009',root/'cost009/reprod
     subprocess.run([sys.executable,str(script),'--output',str(out/name)],check=True,cwd=root)
 base=json.loads((out/'base/reproduction_receipt.json').read_text());cost=json.loads((out/'cost009/reproduction_receipt.json').read_text())
 # Merge already verified materializations into one read-only logical input namespace.
-import os,runpy,hashlib
+import os,runpy,hashlib,shutil
 ws=out/'lifecycle010_workspace';ws.mkdir()
 for prefix in ['reports','artifacts']:
     dst=ws/prefix;dst.mkdir()
@@ -14,7 +14,14 @@ for prefix in ['reports','artifacts']:
         source=out/stage/'workspace'/prefix
         if source.exists():
             for item in source.iterdir():
-                if not (dst/item.name).exists():(dst/item.name).symlink_to(item,target_is_directory=item.is_dir())
+                target=dst/item.name
+                if not target.exists():
+                    try:target.symlink_to(item,target_is_directory=item.is_dir())
+                    except OSError as exc:
+                        if os.name!='nt' or getattr(exc,'winerror',None)!=1314:raise
+                        # Unprivileged Windows: identical bytes, no scientific change.
+                        if item.is_dir():shutil.copytree(item,target)
+                        else:shutil.copyfile(item,target)
 os.environ['MDROUTER_REPLAY_ROOT']=str(ws);sys.path.insert(0,str(root/'cost009/repro'));import common as C
 C.RUN='icde_eab_release_validation_010';C.ROOT=ws;C.ART=ws/'artifacts'/C.RUN;C.REPORT=ws/'reports'/C.RUN
 runpy.run_path(str(root/'repro/lifecycle010_portable.py'),run_name='__main__')

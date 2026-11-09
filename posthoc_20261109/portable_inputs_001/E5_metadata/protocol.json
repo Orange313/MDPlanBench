@@ -1,0 +1,55 @@
+{
+  "time_bj": "2026-11-08T20:45:10.340349+08:00",
+  "workers": [
+    1,
+    2,
+    4,
+    8,
+    16
+  ],
+  "repeats": 3,
+  "order": [
+    [
+      16,
+      2,
+      8,
+      4,
+      1
+    ],
+    [
+      16,
+      4,
+      1,
+      2,
+      8
+    ],
+    [
+      4,
+      8,
+      1,
+      16,
+      2
+    ]
+  ],
+  "seed": 20261109,
+  "version": "tesseract 4.1.1\n leptonica-1.79.0\n  libgif 5.1.4 : libjpeg 8d (libjpeg-turbo 2.0.3) : libpng 1.6.37 : libtiff 4.1.0 : zlib 1.2.11 : libwebp 0.6.1 : libopenjp2 2.3.1\n Found AVX512BW\n Found AVX512F\n Found AVX2\n Found AVX\n Found FMA\n Found SSE\n Found libarchive 3.4.0 zlib/1.2.11 liblzma/5.2.4 bz2lib/1.0.8 liblz4/1.9.2 libzstd/1.4.4\n",
+  "child_env": {
+    "OMP_THREAD_LIMIT": "1"
+  },
+  "engine_args": [
+    "-l",
+    "eng",
+    "--psm",
+    "3"
+  ],
+  "dispatch": "ThreadPoolExecutor dispatching external Tesseract processes, same architecture as historical OCR",
+  "free_bytes_before": 3120242688,
+  "budget_bytes": 1000000000,
+  "source_pngs_reused": true,
+  "temporary_images_created": 0,
+  "historical_runtime_lock_sha256": "f377b6bac80734e632695cd3677e0b4117d90acb92058ca36f23153e2f6b337a",
+  "historical_pages_sha256": "0eca2e1f505c3e30722b87a02be9808251f5a7823fb0ed26f33043f1d331f81e",
+  "historical_workers": 4,
+  "historical_OMP_THREAD_LIMIT": "1",
+  "shared_CPU_host": true
+}

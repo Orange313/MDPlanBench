@@ -1,0 +1,20 @@
+{
+  "original_grid": [
+    0,
+    1,
+    5,
+    10,
+    20,
+    50,
+    100
+  ],
+  "training_seeds": [
+    202610271130,
+    202610271131,
+    202610271132
+  ],
+  "original_preanalysis": "2026-10-27T15:23:04.291948+08:00",
+  "kappa20_candidate_written": "2026-10-27T15:57:11.214590+08:00",
+  "kappa10_figure_written": "2026-10-27T15:57:13.538609+08:00",
+  "statement": "Kappa10 and20 came from the same seven-point development sweep; the reason for displaying10 was not registered. This is not a pre-freeze diagnostic."
+}

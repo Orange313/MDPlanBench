@@ -1,0 +1,161 @@
+{
+  "status": "PASS_STATISTICAL_REPLAY",
+  "wall_s": 24.916892619803548,
+  "checked_files": 36,
+  "checks": [
+    {
+      "file": "posthoc_20261109/screening_001/OOF_per_query.csv",
+      "PASS": true
+    },
+    {
+      "file": "posthoc_20261109/screening_001/Biomedical_conditional_draws.npz",
+      "PASS": true
+    },
+    {
+      "file": "posthoc_20261109/screening_001/E1_bias_points.csv",
+      "PASS": true
+    },
+    {
+      "file": "posthoc_20261109/screening_001/Finance_conditional_draws.npz",
+      "PASS": true
+    },
+    {
+      "file": "posthoc_20261109/screening_001/E2_all_budgets.csv",
+      "PASS": true
+    },
+    {
+      "file": "posthoc_20261109/screening_001/fold_membership.csv",
+      "PASS": true
+    },
+    {
+      "file": "posthoc_20261109/screening_001/Economics_conditional_draws.npz",
+      "PASS": true
+    },
+    {
+      "file": "posthoc_20261109/screening_001/HR_conditional_indices.npz",
+      "PASS": true
+    },
+    {
+      "file": "posthoc_20261109/screening_001/Pharma_conditional_draws.npz",
+      "PASS": true
+    },
+    {
+      "file": "posthoc_20261109/screening_001/E2_main_b005.csv",
+      "PASS": true
+    },
+    {
+      "file": "posthoc_20261109/screening_001/kappa20_adapter_gate.csv",
+      "PASS": true
+    },
+    {
+      "file": "posthoc_20261109/screening_001/mixture_sampled_secondary.csv",
+      "PASS": true
+    },
+    {
+      "file": "posthoc_20261109/screening_001/context_transfer_audit.csv",
+      "PASS": true
+    },
+    {
+      "file": "posthoc_20261109/screening_001/kappa20_array_gate.csv",
+      "PASS": true
+    },
+    {
+      "file": "posthoc_20261109/screening_001/HR_conditional_draws.npz",
+      "PASS": true
+    },
+    {
+      "file": "posthoc_20261109/screening_001/stability.csv",
+      "PASS": true
+    },
+    {
+      "file": "posthoc_20261109/screening_001/Industrial_conditional_indices.npz",
+      "PASS": true
+    },
+    {
+      "file": "posthoc_20261109/screening_001/E1_bias_summary.csv",
+      "PASS": true
+    },
+    {
+      "file": "posthoc_20261109/screening_001/Economics_conditional_indices.npz",
+      "PASS": true
+    },
+    {
+      "file": "posthoc_20261109/screening_001/Finance_conditional_indices.npz",
+      "PASS": true
+    },
+    {
+      "file": "posthoc_20261109/screening_001/Industrial_conditional_draws.npz",
+      "PASS": true
+    },
+    {
+      "file": "posthoc_20261109/screening_001/Biomedical_conditional_indices.npz",
+      "PASS": true
+    },
+    {
+      "file": "posthoc_20261109/screening_001/selected_kappas.csv",
+      "PASS": true
+    },
+    {
+      "file": "posthoc_20261109/screening_001/Pharma_conditional_indices.npz",
+      "PASS": true
+    },
+    {
+      "file": "posthoc_20261109/independent_001/E3_intervals_36.csv",
+      "PASS": true
+    },
+    {
+      "file": "posthoc_20261109/independent_001/E3_upper_bound_counts.csv",
+      "PASS": true
+    },
+    {
+      "file": "posthoc_20261109/independent_001/K17_kappa10_vs20.csv",
+      "PASS": true
+    },
+    {
+      "file": "posthoc_20261109/independent_001/K17_original_reproduction.csv",
+      "PASS": true
+    },
+    {
+      "file": "posthoc_20261109/independent_001/K17_subset_membership.csv",
+      "PASS": true
+    },
+    {
+      "file": "posthoc_20261109/independent_001/E4_coarse_hull.csv",
+      "PASS": true
+    },
+    {
+      "file": "posthoc_20261109/independent_001/Economics_E4_draws.npz",
+      "PASS": true
+    },
+    {
+      "file": "posthoc_20261109/independent_001/HR_E4_draws.npz",
+      "PASS": true
+    },
+    {
+      "file": "posthoc_20261109/independent_001/Industrial_E4_draws.npz",
+      "PASS": true
+    },
+    {
+      "file": "posthoc_20261109/independent_001/Biomedical_E4_draws.npz",
+      "PASS": true
+    },
+    {
+      "file": "posthoc_20261109/independent_001/Finance_E4_draws.npz",
+      "PASS": true
+    },
+    {
+      "file": "posthoc_20261109/independent_001/Pharma_E4_draws.npz",
+      "PASS": true
+    }
+  ],
+  "extra_checks": [],
+  "GPU_jobs": 0,
+  "new_models_trained": 0,
+  "sealed_labels_read": 0,
+  "fresh_system_measurements": false,
+  "limitations": [
+    "This is offline reconstruction of numerical records, not fresh OCR/GPU benchmarking.",
+    "Economics intervals are conditional on one source component.",
+    "New accounting costs retain signed execution-context transfer and may be negative per query."
+  ]
+}

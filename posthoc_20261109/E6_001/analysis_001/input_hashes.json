@@ -1,0 +1,62 @@
+{
+  "${PROJECT_ROOT}/posthoc_20261109/E6_001/preflight_001/query_ids.json": {
+    "sha256": "c8f0e93698a01adee74d0b4426f4aaef4ce51cdf61b22861c11a2e9128b8d990",
+    "bytes": 1013
+  },
+  "${PROJECT_ROOT}/posthoc_20261109/E6_001/measure_003/requests.csv": {
+    "sha256": "215e49d8d104c6754e4db3512c8150aa2e5688a02976216db6ea9087dd75d443",
+    "bytes": 4943724
+  },
+  "${PROJECT_ROOT}/posthoc_20261109/E6_001/measure_003/block_01.json": {
+    "sha256": "74d7b8cdbd8c8c4df80283ccfb40047d36b657d30ad121a17ec5d37d822ecdd1",
+    "bytes": 359
+  },
+  "${PROJECT_ROOT}/posthoc_20261109/E6_001/measure_003/block_02.json": {
+    "sha256": "0b8d4ed32a822ff415c64912daaad1e373398d7155aa9b10ea3fd1eef1a07ed8",
+    "bytes": 358
+  },
+  "${PROJECT_ROOT}/posthoc_20261109/E6_001/measure_003/block_03.json": {
+    "sha256": "f4f410239dcf6c8fde609bdfc11bdccb78be836baced7f76ddd427e2bf36cad7",
+    "bytes": 360
+  },
+  "${PROJECT_ROOT}/posthoc_20261109/E6_001/measure_003/block_04.json": {
+    "sha256": "4058cf685b380ab09e1cd08cf937a6001dfa318b438fe196ac39c203eccc7b76",
+    "bytes": 360
+  },
+  "${PROJECT_ROOT}/posthoc_20261109/E6_001/measure_003/block_05.json": {
+    "sha256": "57ec83741a32f30e43c38cecac08cf515af7635324fef511591e6aaf32cc8f05",
+    "bytes": 360
+  },
+  "${PROJECT_ROOT}/posthoc_20261109/E6_001/measure_003/block_06.json": {
+    "sha256": "284f8d9e485d4989c4c0dd679c4fd4b69689a4d25270ca3651f453d081cd058f",
+    "bytes": 360
+  },
+  "${PROJECT_ROOT}/posthoc_20261109/E6_001/measure_003/block_07.json": {
+    "sha256": "3077dde91c1924ef035a7fee99fd50dbf03b01868f86ee0ed82f93f3f8ee2220",
+    "bytes": 358
+  },
+  "${PROJECT_ROOT}/posthoc_20261109/E6_001/measure_003/block_08.json": {
+    "sha256": "0afa085c3d6d31fc0266861c6986bd97d5f948b98fe3c4a729e117ac36148bef",
+    "bytes": 360
+  },
+  "${PROJECT_ROOT}/posthoc_20261109/E6_001/measure_003/resource_guard.json": {
+    "sha256": "fbd5f9414c93c2b93ee42f51e998fefb8eba9829d031ec8283eba274c2cac657",
+    "bytes": 2074493
+  },
+  "${PROJECT_ROOT}/posthoc_20261109/E6_001/measure_003/three_idle_checks.json": {
+    "sha256": "058c14081808ec274549fc07769570895657ec8d081528978fda390e97b9c20a",
+    "bytes": 812
+  },
+  "${PROJECT_ROOT}/posthoc_20261109/E6_001/measure_003/top10_gate.json": {
+    "sha256": "f2c1886320581f4213fc973f442846183c1ab34f1bb43745101c32663723b38f",
+    "bytes": 8745
+  },
+  "${PROJECT_ROOT}/posthoc_20261109/E6_001/measure_003/nvidia_smi.csv": {
+    "sha256": "6eea4327c98d0f437bb4fbe1e784b9dc06c39667e9e1be1610eca70e321e40f1",
+    "bytes": 68205
+  },
+  "${PROJECT_ROOT}/posthoc_20261109/E6_001/measure_003/completed.json": {
+    "sha256": "24bbb6ae2797159030ba22a4a2fee027e2896656f3d37ed03d63f2df9ef3e8aa",
+    "bytes": 3654
+  }
+}

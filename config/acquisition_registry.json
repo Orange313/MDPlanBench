@@ -1,0 +1,374 @@
+{
+  "assets": [
+    {
+      "id": "development-0",
+      "repo": "vidore/vidore_v3_finance_en",
+      "revision": "7f432c176d82e27546501ad8064a713ac3071809",
+      "path": "corpus/test-00000-of-00003.parquet",
+      "sha256": "be17c9aa26e09d1e81fe6bf749ab220f129a99808d08315480a57c7f2b189e7f",
+      "url": "https://huggingface.co/datasets/vidore/vidore_v3_finance_en/resolve/7f432c176d82e27546501ad8064a713ac3071809/corpus/test-00000-of-00003.parquet",
+      "license": "cc-by-4.0",
+      "scope": "UNLABELLED_CORPUS_DOCS_OR_QUERY_METADATA_ONLY; sealed qrels excluded",
+      "redistribution": "Not bundled; acquire under upstream terms"
+    },
+    {
+      "id": "development-1",
+      "repo": "vidore/vidore_v3_finance_en",
+      "revision": "7f432c176d82e27546501ad8064a713ac3071809",
+      "path": "corpus/test-00001-of-00003.parquet",
+      "sha256": "d7c0bc0dd3d8666476dc749d700b491c1b3e6335b4227b8563a75e4fec28b5f7",
+      "url": "https://huggingface.co/datasets/vidore/vidore_v3_finance_en/resolve/7f432c176d82e27546501ad8064a713ac3071809/corpus/test-00001-of-00003.parquet",
+      "license": "cc-by-4.0",
+      "scope": "UNLABELLED_CORPUS_DOCS_OR_QUERY_METADATA_ONLY; sealed qrels excluded",
+      "redistribution": "Not bundled; acquire under upstream terms"
+    },
+    {
+      "id": "development-2",
+      "repo": "vidore/vidore_v3_finance_en",
+      "revision": "7f432c176d82e27546501ad8064a713ac3071809",
+      "path": "corpus/test-00002-of-00003.parquet",
+      "sha256": "4ee2a59bbc4d9c81726d6a231173a57022c79717e2690037083a8303ec43518d",
+      "url": "https://huggingface.co/datasets/vidore/vidore_v3_finance_en/resolve/7f432c176d82e27546501ad8064a713ac3071809/corpus/test-00002-of-00003.parquet",
+      "license": "cc-by-4.0",
+      "scope": "UNLABELLED_CORPUS_DOCS_OR_QUERY_METADATA_ONLY; sealed qrels excluded",
+      "redistribution": "Not bundled; acquire under upstream terms"
+    },
+    {
+      "id": "development-3",
+      "repo": "vidore/vidore_v3_finance_en",
+      "revision": "7f432c176d82e27546501ad8064a713ac3071809",
+      "path": "documents_metadata/test-00000-of-00001.parquet",
+      "sha256": "e665567ef967bdbd9cf2e1f4547ded950809c6346fa490f424722afe9a2d1c95",
+      "url": "https://huggingface.co/datasets/vidore/vidore_v3_finance_en/resolve/7f432c176d82e27546501ad8064a713ac3071809/documents_metadata/test-00000-of-00001.parquet",
+      "license": "cc-by-4.0",
+      "scope": "UNLABELLED_CORPUS_DOCS_OR_QUERY_METADATA_ONLY; sealed qrels excluded",
+      "redistribution": "Not bundled; acquire under upstream terms"
+    },
+    {
+      "id": "development-4",
+      "repo": "vidore/vidore_v3_finance_en",
+      "revision": "7f432c176d82e27546501ad8064a713ac3071809",
+      "path": "queries/test-00000-of-00001.parquet",
+      "sha256": "3ab1f931bf8522750be06b300d5e8efe3b7cb68cb749705b19416b4032b7ad8b",
+      "url": "https://huggingface.co/datasets/vidore/vidore_v3_finance_en/resolve/7f432c176d82e27546501ad8064a713ac3071809/queries/test-00000-of-00001.parquet",
+      "license": "cc-by-4.0",
+      "scope": "UNLABELLED_CORPUS_DOCS_OR_QUERY_METADATA_ONLY; sealed qrels excluded",
+      "redistribution": "Not bundled; acquire under upstream terms"
+    },
+    {
+      "id": "development-5",
+      "repo": "vidore/vidore_v3_hr",
+      "revision": "0cdf0979f2c5a0fd3e335e6373b9da48a9fe3bc3",
+      "path": "corpus/test-00000-of-00001.parquet",
+      "sha256": "79ae6980099204c7bc670317ef0ef31a0c9929c3e73476db64868a32f0594834",
+      "url": "https://huggingface.co/datasets/vidore/vidore_v3_hr/resolve/0cdf0979f2c5a0fd3e335e6373b9da48a9fe3bc3/corpus/test-00000-of-00001.parquet",
+      "license": "cc-by-4.0",
+      "scope": "UNLABELLED_CORPUS_DOCS_OR_QUERY_METADATA_ONLY; sealed qrels excluded",
+      "redistribution": "Not bundled; acquire under upstream terms"
+    },
+    {
+      "id": "development-6",
+      "repo": "vidore/vidore_v3_hr",
+      "revision": "0cdf0979f2c5a0fd3e335e6373b9da48a9fe3bc3",
+      "path": "documents_metadata/test-00000-of-00001.parquet",
+      "sha256": "f002723055c1dc73cf998bc9b5bd5fb8be315624e2f977b0b7a86811d9565c6c",
+      "url": "https://huggingface.co/datasets/vidore/vidore_v3_hr/resolve/0cdf0979f2c5a0fd3e335e6373b9da48a9fe3bc3/documents_metadata/test-00000-of-00001.parquet",
+      "license": "cc-by-4.0",
+      "scope": "UNLABELLED_CORPUS_DOCS_OR_QUERY_METADATA_ONLY; sealed qrels excluded",
+      "redistribution": "Not bundled; acquire under upstream terms"
+    },
+    {
+      "id": "development-7",
+      "repo": "vidore/vidore_v3_hr",
+      "revision": "0cdf0979f2c5a0fd3e335e6373b9da48a9fe3bc3",
+      "path": "queries/test-00000-of-00001.parquet",
+      "sha256": "bbf0bfa70498e036e93b4b4567e37ce23ad3a658f2b7dd3567bbd70285c03606",
+      "url": "https://huggingface.co/datasets/vidore/vidore_v3_hr/resolve/0cdf0979f2c5a0fd3e335e6373b9da48a9fe3bc3/queries/test-00000-of-00001.parquet",
+      "license": "cc-by-4.0",
+      "scope": "UNLABELLED_CORPUS_DOCS_OR_QUERY_METADATA_ONLY; sealed qrels excluded",
+      "redistribution": "Not bundled; acquire under upstream terms"
+    },
+    {
+      "id": "development-8",
+      "repo": "vidore/vidore_v3_industrial",
+      "revision": "e26c864724f5dd71a3d7d739272d95637764cee9",
+      "path": "corpus/test-00000-of-00005.parquet",
+      "sha256": "e3919b54eebd5630f4be6b7b6941b7ed01c867880867c5c52bd7a06e6837e948",
+      "url": "https://huggingface.co/datasets/vidore/vidore_v3_industrial/resolve/e26c864724f5dd71a3d7d739272d95637764cee9/corpus/test-00000-of-00005.parquet",
+      "license": "cc-by-4.0",
+      "scope": "UNLABELLED_CORPUS_DOCS_OR_QUERY_METADATA_ONLY; sealed qrels excluded",
+      "redistribution": "Not bundled; acquire under upstream terms"
+    },
+    {
+      "id": "development-9",
+      "repo": "vidore/vidore_v3_industrial",
+      "revision": "e26c864724f5dd71a3d7d739272d95637764cee9",
+      "path": "corpus/test-00001-of-00005.parquet",
+      "sha256": "970a313b8a734f1bdb5bbe0226717cd439b34ed55f74f57327512a8fb9fd9bdc",
+      "url": "https://huggingface.co/datasets/vidore/vidore_v3_industrial/resolve/e26c864724f5dd71a3d7d739272d95637764cee9/corpus/test-00001-of-00005.parquet",
+      "license": "cc-by-4.0",
+      "scope": "UNLABELLED_CORPUS_DOCS_OR_QUERY_METADATA_ONLY; sealed qrels excluded",
+      "redistribution": "Not bundled; acquire under upstream terms"
+    },
+    {
+      "id": "development-10",
+      "repo": "vidore/vidore_v3_industrial",
+      "revision": "e26c864724f5dd71a3d7d739272d95637764cee9",
+      "path": "corpus/test-00002-of-00005.parquet",
+      "sha256": "d0686b7b33540fa183b7f2ea49a130f091919d34f36ae4c8ce5405901541689c",
+      "url": "https://huggingface.co/datasets/vidore/vidore_v3_industrial/resolve/e26c864724f5dd71a3d7d739272d95637764cee9/corpus/test-00002-of-00005.parquet",
+      "license": "cc-by-4.0",
+      "scope": "UNLABELLED_CORPUS_DOCS_OR_QUERY_METADATA_ONLY; sealed qrels excluded",
+      "redistribution": "Not bundled; acquire under upstream terms"
+    },
+    {
+      "id": "development-11",
+      "repo": "vidore/vidore_v3_industrial",
+      "revision": "e26c864724f5dd71a3d7d739272d95637764cee9",
+      "path": "corpus/test-00003-of-00005.parquet",
+      "sha256": "f605c58988c752cc11db62d19703f45bcab206d8c10b828aeec00a4e4723ed28",
+      "url": "https://huggingface.co/datasets/vidore/vidore_v3_industrial/resolve/e26c864724f5dd71a3d7d739272d95637764cee9/corpus/test-00003-of-00005.parquet",
+      "license": "cc-by-4.0",
+      "scope": "UNLABELLED_CORPUS_DOCS_OR_QUERY_METADATA_ONLY; sealed qrels excluded",
+      "redistribution": "Not bundled; acquire under upstream terms"
+    },
+    {
+      "id": "development-12",
+      "repo": "vidore/vidore_v3_industrial",
+      "revision": "e26c864724f5dd71a3d7d739272d95637764cee9",
+      "path": "corpus/test-00004-of-00005.parquet",
+      "sha256": "d7637e3a5c6c2240211bcfc862af95f75c909730fb2c162829d8de66f71dbdac",
+      "url": "https://huggingface.co/datasets/vidore/vidore_v3_industrial/resolve/e26c864724f5dd71a3d7d739272d95637764cee9/corpus/test-00004-of-00005.parquet",
+      "license": "cc-by-4.0",
+      "scope": "UNLABELLED_CORPUS_DOCS_OR_QUERY_METADATA_ONLY; sealed qrels excluded",
+      "redistribution": "Not bundled; acquire under upstream terms"
+    },
+    {
+      "id": "development-13",
+      "repo": "vidore/vidore_v3_industrial",
+      "revision": "e26c864724f5dd71a3d7d739272d95637764cee9",
+      "path": "documents_metadata/test-00000-of-00001.parquet",
+      "sha256": "8c1722e988fe54448f7c23d09f7a96f6e8b7bc40da825ab6c5c15011a5b2d117",
+      "url": "https://huggingface.co/datasets/vidore/vidore_v3_industrial/resolve/e26c864724f5dd71a3d7d739272d95637764cee9/documents_metadata/test-00000-of-00001.parquet",
+      "license": "cc-by-4.0",
+      "scope": "UNLABELLED_CORPUS_DOCS_OR_QUERY_METADATA_ONLY; sealed qrels excluded",
+      "redistribution": "Not bundled; acquire under upstream terms"
+    },
+    {
+      "id": "development-14",
+      "repo": "vidore/vidore_v3_industrial",
+      "revision": "e26c864724f5dd71a3d7d739272d95637764cee9",
+      "path": "queries/test-00000-of-00001.parquet",
+      "sha256": "145df0eef4d41bbd80cb9678c63dd2c771094342b01220a814a565e17cfe8f27",
+      "url": "https://huggingface.co/datasets/vidore/vidore_v3_industrial/resolve/e26c864724f5dd71a3d7d739272d95637764cee9/queries/test-00000-of-00001.parquet",
+      "license": "cc-by-4.0",
+      "scope": "UNLABELLED_CORPUS_DOCS_OR_QUERY_METADATA_ONLY; sealed qrels excluded",
+      "redistribution": "Not bundled; acquire under upstream terms"
+    },
+    {
+      "id": "development-15",
+      "repo": "vidore/biomedical_lectures_eng_v2",
+      "revision": "e82eb2f3e9f701688e6f3ba41fffad68c5b3b5fa",
+      "path": "corpus/test-00000-of-00001.parquet",
+      "sha256": "4559f91bc3a9c4b303e5a0f343e083eeba23f6bc7045ba5cf3602fbe25f95e86",
+      "url": "https://huggingface.co/datasets/vidore/biomedical_lectures_eng_v2/resolve/e82eb2f3e9f701688e6f3ba41fffad68c5b3b5fa/corpus/test-00000-of-00001.parquet",
+      "license": "CC-BY-NC-SA-4.0; keep attribution/noncommercial/sharealike; do not redistribute raw pages or weights",
+      "scope": "Frozen external benchmark; NOT old sealed Cal/Eval",
+      "redistribution": "Not bundled; acquire under upstream terms"
+    },
+    {
+      "id": "development-16",
+      "repo": "vidore/biomedical_lectures_eng_v2",
+      "revision": "e82eb2f3e9f701688e6f3ba41fffad68c5b3b5fa",
+      "path": "docs/test-00000-of-00001.parquet",
+      "sha256": "57e29b9d412c46e47b0f2172aaa94aaa9b6e7ed496f14d1f0cc2b650ba464359",
+      "url": "https://huggingface.co/datasets/vidore/biomedical_lectures_eng_v2/resolve/e82eb2f3e9f701688e6f3ba41fffad68c5b3b5fa/docs/test-00000-of-00001.parquet",
+      "license": "CC-BY-NC-SA-4.0; keep attribution/noncommercial/sharealike; do not redistribute raw pages or weights",
+      "scope": "Frozen external benchmark; NOT old sealed Cal/Eval",
+      "redistribution": "Not bundled; acquire under upstream terms"
+    },
+    {
+      "id": "development-17",
+      "repo": "vidore/biomedical_lectures_eng_v2",
+      "revision": "e82eb2f3e9f701688e6f3ba41fffad68c5b3b5fa",
+      "path": "queries/test-00000-of-00001.parquet",
+      "sha256": "92b9de72e49c72f98e1a2da6b5f9decc2304b1f2ca196d385f0d58ff0174e8a9",
+      "url": "https://huggingface.co/datasets/vidore/biomedical_lectures_eng_v2/resolve/e82eb2f3e9f701688e6f3ba41fffad68c5b3b5fa/queries/test-00000-of-00001.parquet",
+      "license": "CC-BY-NC-SA-4.0; keep attribution/noncommercial/sharealike; do not redistribute raw pages or weights",
+      "scope": "Frozen external benchmark; NOT old sealed Cal/Eval",
+      "redistribution": "Not bundled; acquire under upstream terms"
+    },
+    {
+      "id": "development-18",
+      "repo": "vidore/economics_reports_eng_v2",
+      "revision": "d4fba7cf3d620c42810d961435afcfaaa0678e8d",
+      "path": "corpus/test-00000-of-00001.parquet",
+      "sha256": "0d5a0c9c03f5730cb18a8a22f372859866120f4f44ff89b1a32e9bb2db345939",
+      "url": "https://huggingface.co/datasets/vidore/economics_reports_eng_v2/resolve/d4fba7cf3d620c42810d961435afcfaaa0678e8d/corpus/test-00000-of-00001.parquet",
+      "license": "DatasetCC-BY-3.0; fiveoriginalWorldBankrights pagesCC-BY-3.0-IGO with thirdpartyartexceptions; no publicrawpages/weights redistribution",
+      "scope": "Frozen external benchmark; NOT old sealed Cal/Eval",
+      "redistribution": "Not bundled; acquire under upstream terms"
+    },
+    {
+      "id": "development-19",
+      "repo": "vidore/economics_reports_eng_v2",
+      "revision": "d4fba7cf3d620c42810d961435afcfaaa0678e8d",
+      "path": "docs/test-00000-of-00001.parquet",
+      "sha256": "60eb2a2f818516e37fa06224ead4e3d3a8677827838ad992e6bdf0072d7808e6",
+      "url": "https://huggingface.co/datasets/vidore/economics_reports_eng_v2/resolve/d4fba7cf3d620c42810d961435afcfaaa0678e8d/docs/test-00000-of-00001.parquet",
+      "license": "DatasetCC-BY-3.0; fiveoriginalWorldBankrights pagesCC-BY-3.0-IGO with thirdpartyartexceptions; no publicrawpages/weights redistribution",
+      "scope": "Frozen external benchmark; NOT old sealed Cal/Eval",
+      "redistribution": "Not bundled; acquire under upstream terms"
+    },
+    {
+      "id": "development-20",
+      "repo": "vidore/economics_reports_eng_v2",
+      "revision": "d4fba7cf3d620c42810d961435afcfaaa0678e8d",
+      "path": "queries/test-00000-of-00001.parquet",
+      "sha256": "49717a960d1528f716aabdc388a51c9bbfe09fd96f77f1771a78edc949f4c570",
+      "url": "https://huggingface.co/datasets/vidore/economics_reports_eng_v2/resolve/d4fba7cf3d620c42810d961435afcfaaa0678e8d/queries/test-00000-of-00001.parquet",
+      "license": "DatasetCC-BY-3.0; fiveoriginalWorldBankrights pagesCC-BY-3.0-IGO with thirdpartyartexceptions; no publicrawpages/weights redistribution",
+      "scope": "Frozen external benchmark; NOT old sealed Cal/Eval",
+      "redistribution": "Not bundled; acquire under upstream terms"
+    },
+    {
+      "id": "development-21",
+      "repo": "vidore/vidore_v3_pharmaceuticals",
+      "revision": "262e203d7c59c55947f7042812e0bcc1eee190b1",
+      "path": "corpus/test-00000-of-00002.parquet",
+      "sha256": "0f51d221a1def60c6d1436a31507e69be42a6a1da4a9ae45ff6e231751466ac5",
+      "url": "https://huggingface.co/datasets/vidore/vidore_v3_pharmaceuticals/resolve/262e203d7c59c55947f7042812e0bcc1eee190b1/corpus/test-00000-of-00002.parquet",
+      "license": "consult pinned official dataset and original-document terms; no license override",
+      "scope": "Corpus/query metadata only; mixed qrels and sealed Cal/Eval excluded",
+      "redistribution": "Not bundled; acquire under upstream terms"
+    },
+    {
+      "id": "development-22",
+      "repo": "vidore/vidore_v3_pharmaceuticals",
+      "revision": "262e203d7c59c55947f7042812e0bcc1eee190b1",
+      "path": "corpus/test-00001-of-00002.parquet",
+      "sha256": "827305c58164c9e69581953560b1e76349dbc86a5a06df91d16c92023175e468",
+      "url": "https://huggingface.co/datasets/vidore/vidore_v3_pharmaceuticals/resolve/262e203d7c59c55947f7042812e0bcc1eee190b1/corpus/test-00001-of-00002.parquet",
+      "license": "consult pinned official dataset and original-document terms; no license override",
+      "scope": "Corpus/query metadata only; mixed qrels and sealed Cal/Eval excluded",
+      "redistribution": "Not bundled; acquire under upstream terms"
+    },
+    {
+      "id": "development-23",
+      "repo": "vidore/vidore_v3_pharmaceuticals",
+      "revision": "262e203d7c59c55947f7042812e0bcc1eee190b1",
+      "path": "queries/test-00000-of-00001.parquet",
+      "sha256": "6088a4d297ccddb980bb8af1aaeef51e4d8243959add4cbdaa8a65c2ef42f6a0",
+      "url": "https://huggingface.co/datasets/vidore/vidore_v3_pharmaceuticals/resolve/262e203d7c59c55947f7042812e0bcc1eee190b1/queries/test-00000-of-00001.parquet",
+      "license": "consult pinned official dataset and original-document terms; no license override",
+      "scope": "Corpus/query metadata only; mixed qrels and sealed Cal/Eval excluded",
+      "redistribution": "Not bundled; acquire under upstream terms"
+    },
+    {
+      "id": "biomedical-corpus",
+      "repo": "vidore/biomedical_lectures_eng_v2",
+      "revision": "e82eb2f3e9f701688e6f3ba41fffad68c5b3b5fa",
+      "path": "corpus/test-00000-of-00001.parquet",
+      "sha256": "4559f91bc3a9c4b303e5a0f343e083eeba23f6bc7045ba5cf3602fbe25f95e86",
+      "url": "https://huggingface.co/datasets/vidore/biomedical_lectures_eng_v2/resolve/e82eb2f3e9f701688e6f3ba41fffad68c5b3b5fa/corpus/test-00000-of-00001.parquet",
+      "license": "CC-BY-NC-SA-4.0; retain attribution, official notices and removed-image limitations",
+      "scope": "Public independent benchmark; not sealed project labels",
+      "redistribution": "Official download only"
+    },
+    {
+      "id": "biomedical-docs",
+      "repo": "vidore/biomedical_lectures_eng_v2",
+      "revision": "e82eb2f3e9f701688e6f3ba41fffad68c5b3b5fa",
+      "path": "docs/test-00000-of-00001.parquet",
+      "sha256": "57e29b9d412c46e47b0f2172aaa94aaa9b6e7ed496f14d1f0cc2b650ba464359",
+      "url": "https://huggingface.co/datasets/vidore/biomedical_lectures_eng_v2/resolve/e82eb2f3e9f701688e6f3ba41fffad68c5b3b5fa/docs/test-00000-of-00001.parquet",
+      "license": "CC-BY-NC-SA-4.0; retain attribution, official notices and removed-image limitations",
+      "scope": "Public independent benchmark; not sealed project labels",
+      "redistribution": "Official download only"
+    },
+    {
+      "id": "biomedical-queries",
+      "repo": "vidore/biomedical_lectures_eng_v2",
+      "revision": "e82eb2f3e9f701688e6f3ba41fffad68c5b3b5fa",
+      "path": "queries/test-00000-of-00001.parquet",
+      "sha256": "92b9de72e49c72f98e1a2da6b5f9decc2304b1f2ca196d385f0d58ff0174e8a9",
+      "url": "https://huggingface.co/datasets/vidore/biomedical_lectures_eng_v2/resolve/e82eb2f3e9f701688e6f3ba41fffad68c5b3b5fa/queries/test-00000-of-00001.parquet",
+      "license": "CC-BY-NC-SA-4.0; retain attribution, official notices and removed-image limitations",
+      "scope": "Public independent benchmark; not sealed project labels",
+      "redistribution": "Official download only"
+    },
+    {
+      "id": "biomedical-qrels",
+      "repo": "vidore/biomedical_lectures_eng_v2",
+      "revision": "e82eb2f3e9f701688e6f3ba41fffad68c5b3b5fa",
+      "path": "qrels/test-00000-of-00001.parquet",
+      "sha256": "62934f235e95809cd26fc6e9af982a496012aefad671b9308e008d414c42aa55",
+      "url": "https://huggingface.co/datasets/vidore/biomedical_lectures_eng_v2/resolve/e82eb2f3e9f701688e6f3ba41fffad68c5b3b5fa/qrels/test-00000-of-00001.parquet",
+      "license": "CC-BY-NC-SA-4.0; retain attribution, official notices and removed-image limitations",
+      "scope": "Public independent benchmark; not sealed project labels",
+      "redistribution": "Official download only"
+    },
+    {
+      "id": "economics-corpus",
+      "repo": "vidore/economics_reports_eng_v2",
+      "revision": "d4fba7cf3d620c42810d961435afcfaaa0678e8d",
+      "path": "corpus/test-00000-of-00001.parquet",
+      "sha256": "0d5a0c9c03f5730cb18a8a22f372859866120f4f44ff89b1a32e9bb2db345939",
+      "url": "https://huggingface.co/datasets/vidore/economics_reports_eng_v2/resolve/d4fba7cf3d620c42810d961435afcfaaa0678e8d/corpus/test-00000-of-00001.parquet",
+      "license": "Dataset CC-BY-3.0; original reports CC-BY-3.0-IGO with third-party exceptions",
+      "scope": "Public independent benchmark; not sealed project labels",
+      "redistribution": "Official download only"
+    },
+    {
+      "id": "economics-docs",
+      "repo": "vidore/economics_reports_eng_v2",
+      "revision": "d4fba7cf3d620c42810d961435afcfaaa0678e8d",
+      "path": "docs/test-00000-of-00001.parquet",
+      "sha256": "60eb2a2f818516e37fa06224ead4e3d3a8677827838ad992e6bdf0072d7808e6",
+      "url": "https://huggingface.co/datasets/vidore/economics_reports_eng_v2/resolve/d4fba7cf3d620c42810d961435afcfaaa0678e8d/docs/test-00000-of-00001.parquet",
+      "license": "Dataset CC-BY-3.0; original reports CC-BY-3.0-IGO with third-party exceptions",
+      "scope": "Public independent benchmark; not sealed project labels",
+      "redistribution": "Official download only"
+    },
+    {
+      "id": "economics-qrels",
+      "repo": "vidore/economics_reports_eng_v2",
+      "revision": "d4fba7cf3d620c42810d961435afcfaaa0678e8d",
+      "path": "qrels/test-00000-of-00001.parquet",
+      "sha256": "8e2ef74f957ea777352e670e2230bd16ad77c0a9783f198f1ac4385bd333c5cf",
+      "url": "https://huggingface.co/datasets/vidore/economics_reports_eng_v2/resolve/d4fba7cf3d620c42810d961435afcfaaa0678e8d/qrels/test-00000-of-00001.parquet",
+      "license": "Dataset CC-BY-3.0; original reports CC-BY-3.0-IGO with third-party exceptions",
+      "scope": "Public independent benchmark; not sealed project labels",
+      "redistribution": "Official download only"
+    },
+    {
+      "id": "economics-queries",
+      "repo": "vidore/economics_reports_eng_v2",
+      "revision": "d4fba7cf3d620c42810d961435afcfaaa0678e8d",
+      "path": "queries/test-00000-of-00001.parquet",
+      "sha256": "49717a960d1528f716aabdc388a51c9bbfe09fd96f77f1771a78edc949f4c570",
+      "url": "https://huggingface.co/datasets/vidore/economics_reports_eng_v2/resolve/d4fba7cf3d620c42810d961435afcfaaa0678e8d/queries/test-00000-of-00001.parquet",
+      "license": "Dataset CC-BY-3.0; original reports CC-BY-3.0-IGO with third-party exceptions",
+      "scope": "Public independent benchmark; not sealed project labels",
+      "redistribution": "Official download only"
+    }
+  ],
+  "models": [
+    {
+      "repo": "vidore/colqwen2-v1.0-merged",
+      "revision": "2c9a09bb37ed19b63eb94ae6c29bb4e76eb6e3c2",
+      "license": "Use official pinned model card; no weight redistribution"
+    },
+    {
+      "repo": "vidore/colpali-v1.3",
+      "revision": "1b5c8929330df1a66de441a9b5409a878f0de5b0",
+      "license": "MIT adapter; separate base terms apply"
+    },
+    {
+      "repo": "vidore/colpaligemma-3b-pt-448-base",
+      "revision": "30ab955d073de4a91dc5a288e8c97226647e3e5a",
+      "license": "Gemma base terms; official access/license acknowledgment required"
+    }
+  ],
+  "forbidden": "No mixed development qrels or sealed Cal/Eval/B-L/test/CS labels are fetched by this utility."
+}

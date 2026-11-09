@@ -1,0 +1,9 @@
+{
+  "status": "ALLOWLISTED_NUMERICAL_EXPORT",
+  "K17_policy_rows": 2160,
+  "raw_question_text": false,
+  "full_qrels": false,
+  "page_images": false,
+  "OCR_text": false,
+  "model_weights": false
+}

@@ -1,0 +1,12 @@
+{
+  "status": "DONE",
+  "verdict": "PARTIALLY_REPRODUCED",
+  "A_minus_B": {
+    "estimator": "all_repeats",
+    "contrast": "A_minus_B",
+    "mean_ms": 0.25417437524689956,
+    "low95_ms": 0.0915936514259856,
+    "high95_ms": 0.42069541154584494
+  },
+  "completed_blocks": 8
+}

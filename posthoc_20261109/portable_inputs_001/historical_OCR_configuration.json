@@ -1,0 +1,14 @@
+{
+  "source_path": "${PROJECT_ROOT}/scripts/icde_eab_independent_007/ocr_prepare_001.py",
+  "source_sha256": "81eaf2a1f0c97b595ce7b41b1b98cd85ea865c84b233fc5f8cf59a9468750b15",
+  "runtime_lock_path": "${PROJECT_ROOT}/artifacts/icde_eab_independent_007/T1_preparation/ocr_001/runtime_lock.json",
+  "runtime_lock_sha256": "f377b6bac80734e632695cd3677e0b4117d90acb92058ca36f23153e2f6b337a",
+  "workers": 4,
+  "dispatch": "ThreadPoolExecutor dispatching external tesseract processes",
+  "child_environment": {"OMP_THREAD_LIMIT": "1"},
+  "engine": "Tesseract 4.1.1",
+  "engine_args": ["-l", "eng", "--psm", "3"],
+  "historical_wall_includes_RGB_and_PNG_materialization": true,
+  "new_E5_wall_starts_from_prepared_PNGs": true,
+  "original_child_CPU_warning": "The original setup file used aggregate os.times child CPU without an OCR-start subtraction; do not use its cumulative value as an isolated OCR CPU delta. New E5 uses round-local child CPU deltas."
+}

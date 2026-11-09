@@ -48,3 +48,9 @@ paper_private/
 !/data/README.md
 !/data/acquire_pinned_asset.py
 !/data/official_asset_checksums.json
+
+# Reviewed numerical bootstrap archives, not pretrained weights or indexes
+!/posthoc_20261109/gates_001/*.npz
+!/posthoc_20261109/screening_001/*.npz
+!/posthoc_20261109/independent_001/*.npz
+!/posthoc_20261109/E6_001/analysis_001/*.npz

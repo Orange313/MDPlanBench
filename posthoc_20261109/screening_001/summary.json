@@ -1,0 +1,10 @@
+{
+  "status": "DONE_OFFLINE_SCREENING",
+  "main_cells": 24,
+  "positive_lower_cells": 0,
+  "negative_accounting_cells": 10,
+  "cost_scope": "recomposed from measured components (offline screening)",
+  "GPU_jobs": 0,
+  "new_models_trained": 0,
+  "sealed_labels_read": 0
+}

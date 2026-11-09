@@ -1,0 +1,80 @@
+{
+  "stages": [
+    {
+      "stage": "Biomedical frozen9method",
+      "worker": "execution_source/t2_biomedical_exact_004.py",
+      "arguments": "GPU_ID PROCESS0_1_2",
+      "required_inputs": "official Bio four parquets;OCR;frozen Q/QP/RR;query/source IDs;index",
+      "source_present": true,
+      "status": "ARCHIVED_SOURCE_PRESENT_PORTABILITY_NOT_VALIDATED",
+      "automatic_GPU_launch": false
+    },
+    {
+      "stage": "Dev ColQwen2",
+      "worker": "execution_source/t3_colpali_expansion_004.py",
+      "arguments": "GPU_ID DOMAIN PROCESS",
+      "required_inputs": "official legal Dev-only query/qrels view;original corpus/index",
+      "source_present": true,
+      "status": "ARCHIVED_SOURCE_PRESENT_PORTABILITY_NOT_VALIDATED",
+      "automatic_GPU_launch": false
+    },
+    {
+      "stage": "Dev ColPali",
+      "worker": "execution_source/t3_colpali_expansion_006.py",
+      "arguments": "GPU_ID DOMAIN PROCESS",
+      "required_inputs": "trained adapter+Gemma base;legal Dev-only views;index",
+      "source_present": true,
+      "status": "ARCHIVED_SOURCE_PRESENT_PORTABILITY_NOT_VALIDATED",
+      "automatic_GPU_launch": false
+    },
+    {
+      "stage": "Biomedical ColPali",
+      "worker": "execution_source/008_l1_biomedical_colpali_002.py",
+      "arguments": "GPU_ID PROCESS",
+      "required_inputs": "adapter/base manifest;official Bio;OCR;own reference",
+      "source_present": true,
+      "status": "ARCHIVED_SOURCE_PRESENT_PORTABILITY_NOT_VALIDATED",
+      "automatic_GPU_launch": false
+    },
+    {
+      "stage": "Economics frozen9method",
+      "worker": "source_archive/scripts/icde_eab_external_validation_013_monitor_001/economics_worker_001.py",
+      "arguments": "GPU_ID PROCESS ATTEMPT",
+      "required_inputs": "official Eco;OCR;execution protocol;frozen models;source map",
+      "source_present": true,
+      "status": "ARCHIVED_SOURCE_PRESENT_PORTABILITY_NOT_VALIDATED",
+      "automatic_GPU_launch": false
+    },
+    {
+      "stage": "Lifecycle setup",
+      "worker": "source_archive/scripts/icde_eab_g2_setup_017/worker.py",
+      "arguments": "MODEL repeat REPEAT",
+      "required_inputs": "protocol/asset_lock and original reference indexes;no qrels",
+      "source_present": true,
+      "status": "ARCHIVED_SOURCE_PRESENT_PORTABILITY_NOT_VALIDATED",
+      "automatic_GPU_launch": false
+    },
+    {
+      "stage": "OCR worker study",
+      "worker": "posthoc_20261109/ocr_workers.py",
+      "arguments": "--help",
+      "required_inputs": "official corpus;preparedPNG;original OCR binary+eng;frozen output hashes",
+      "source_present": true,
+      "status": "ARCHIVED_SOURCE_PRESENT_PORTABILITY_NOT_VALIDATED",
+      "automatic_GPU_launch": false
+    },
+    {
+      "stage": "Schedule diagnosis",
+      "worker": "posthoc_20261109/E6_001/run_e6.py",
+      "arguments": "--help",
+      "required_inputs": "original project layout; existing Bio embeddings;OCR;frozen rankings;no qrels",
+      "source_present": true,
+      "status": "ARCHIVED_SOURCE_PRESENT_PORTABILITY_NOT_VALIDATED",
+      "automatic_GPU_launch": false
+    }
+  ],
+  "environment": "env/historical_gpu_environment.json",
+  "full_suite_status": "MISSING_PORTABLE_END_TO_END_HARNESS",
+  "read_boundaries": "No sealed Cal/Eval or historical B-L/test/CS; no automatic new training/effect experiment",
+  "cost_scope": "Original measured cohorts vs recomposed screening must remain separate"
+}

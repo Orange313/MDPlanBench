@@ -1,0 +1,16 @@
+{
+  "status": "DONE_REVIEW_ONLY",
+  "time_beijing": "2026-11-08T22:05:28.903511+08:00",
+  "code_commit": "79fc71b854aeaf2fa0feb8fa3fa1eef40459bd29",
+  "main_cells": 24,
+  "eligible_GPU_measurements": 0,
+  "negative_accounting_cells": 10,
+  "OOF_risk_exceeds_budget_cells": 2,
+  "figures": [
+    "E2_main_crossfit",
+    "E2_budget_grid",
+    "E1_envelope_bias",
+    "E7_text_source"
+  ],
+  "paper_modified": false
+}

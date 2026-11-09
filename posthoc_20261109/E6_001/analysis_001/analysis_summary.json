@@ -1,0 +1,53 @@
+{
+  "status": "DONE",
+  "verdict": "PARTIALLY_REPRODUCED",
+  "conclusion": "PARTIALLY_REPRODUCED\uff1a\u672c\u8f6eA\u2212B=0.254ms\uff0c\u4e0d\u80fd\u636e\u6b64\u8ba4\u5b9a\u539f34.0ms\u8de8\u6279\u6b21\u5dee\u5f02\u7684\u6765\u6e90\uff1b\u65b9\u6cd5\u7ec4\u5408/\u91cd\u590d\u6b21\u6570/\u4ea4\u4e92\u9879\u5206\u522b\u89c1\u4e0b\u8868\uff0c\u4e0d\u6539\u65e770.22/36.22ms\u3002",
+  "queries": 160,
+  "requests": 16640,
+  "completed_blocks": 8,
+  "idle_gate": true,
+  "ResourceGuard_valid": true,
+  "top10_gate": true,
+  "A_minus_B": {
+    "estimator": "all_repeats",
+    "contrast": "A_minus_B",
+    "mean_ms": 0.25417437524689956,
+    "low95_ms": 0.0915936514259856,
+    "high95_ms": 0.42069541154584494
+  },
+  "factorial_effects": [
+    {
+      "estimator": "all_repeats",
+      "contrast": "method_combination",
+      "mean_ms": -0.11189029367718228,
+      "low95_ms": -0.38658219886807865,
+      "high95_ms": 0.16615378196244515
+    },
+    {
+      "estimator": "all_repeats",
+      "contrast": "timing_repetitions",
+      "mean_ms": 0.366064668924082,
+      "low95_ms": 0.07391580786740314,
+      "high95_ms": 0.64877660801964
+    },
+    {
+      "estimator": "all_repeats",
+      "contrast": "interaction",
+      "mean_ms": -3.5116548543252675,
+      "low95_ms": -4.048812163964612,
+      "high95_ms": -3.0068415336184753
+    }
+  ],
+  "bootstrap_repeats": 2000,
+  "bootstrap_seed": 20261109,
+  "source_guard": {
+    "valid": true,
+    "foreign_pids": [],
+    "errors": []
+  },
+  "limitations": [
+    "Intervals pair queries across eight fixed blocks; blocks/repeats are not independent processes or new queries.",
+    "First/second/third mean actual chronological occurrence within block, not pre-shuffle legacy labels.",
+    "Warm resident single-request experiment; no Serving or new risk certificate; GPU metrics are correspondence, not proof of clock causality."
+  ]
+}

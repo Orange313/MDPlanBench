@@ -1,0 +1,13 @@
+domain,cohort,points,median_Bias_pp,max_abs_Bias_pp,cost_scope
+HR,posthoc_three_action,6,-2.0150598065333396,3.0793577996021786,recomposed from measured components (offline screening)
+HR,original_four_static,6,-9.795471005557865e-15,1.959094201111573e-14,recomposed from measured components (offline screening)
+Finance,posthoc_three_action,6,-0.07131398095301503,0.8937647994572949,recomposed from measured components (offline screening)
+Finance,original_four_static,6,-0.07900747816935225,0.5749076556563063,recomposed from measured components (offline screening)
+Industrial,posthoc_three_action,5,-0.906942580323953,3.387648332383807,recomposed from measured components (offline screening)
+Industrial,original_four_static,5,-4.322723973729267,12.044660043840244,recomposed from measured components (offline screening)
+Pharma,posthoc_three_action,5,-0.08430283255291839,3.9732201802015235,recomposed from measured components (offline screening)
+Pharma,original_four_static,5,-2.5918633257785864,3.1372290481674265,recomposed from measured components (offline screening)
+Biomedical,posthoc_three_action,6,0.0,1.9603106866294535e-14,recomposed from measured components (offline screening)
+Biomedical,original_four_static,6,0.0,1.9762853469269286e-14,recomposed from measured components (offline screening)
+Economics,posthoc_three_action,6,0.026823492742194192,0.1568022260702609,recomposed from measured components (offline screening)
+Economics,original_four_static,6,-0.31489118079309825,0.38086028517753945,recomposed from measured components (offline screening)

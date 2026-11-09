@@ -1,0 +1,8 @@
+{
+  "source_commit": "a1f50c417d73fe9c5590057331d9e245d2dc0cb9",
+  "paths": [
+    "posthoc_20261109/"
+  ],
+  "copy_policy": "Tracked bytes copied from local completed supplement; original results unchanged; no publication authorized.",
+  "historical_status": "Root supplement manifest predates separate E6 completion; E6_001/manifest.json is the authoritative later E6 status."
+}

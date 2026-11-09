@@ -1,0 +1,30 @@
+{
+  "${PROJECT_ROOT}/artifacts/splits/query_generalization_002/vidore_v3_hr/dev_queries.json": {
+    "bytes": 7182,
+    "sha256": "d8f0156386277a04ee0617f01464d01e514189632e1d59b056fab5067f98e45e"
+  },
+  "${PROJECT_ROOT}/artifacts/phase1/hr_pilot_004/rankings.jsonl": {
+    "bytes": 3307314,
+    "sha256": "ab93efd38e0e9b7935109a1ea5b83db43923f6d5af6b4e5d26edc65c2f111941"
+  },
+  "${PROJECT_ROOT}/cache/indexes/hr_primary_001/pages.json": {
+    "bytes": 3635768,
+    "sha256": "908c6d08f895f9f84fa630c0668acac53f8520f370174f770f7ac00753af79d6"
+  },
+  "${PROJECT_ROOT}/configs/hr_pilot_sparse_004.json": {
+    "bytes": 2427,
+    "sha256": "c1e4fd0a33236d115023fb9492c021eeb30ec98e4051f779122acfcdfef03ad2"
+  },
+  "${PROJECT_ROOT}/scripts/cross_domain_four_plan_001.py": {
+    "sha256": "357494a211e470a867f49427a86a60ab5473f29409865a753b14967b3a2cd06a",
+    "bytes": 24241
+  },
+  "${PROJECT_ROOT}/cache/indexes/hr_primary_001/index_manifest.json": {
+    "bytes": 55461,
+    "sha256": "612aaa679af5b3b22eb68a78784269f1317101a81335368fd1802657c6d4b910"
+  },
+  "${PROJECT_ROOT}/artifacts/splits/query_generalization_002/vidore_v3_hr/dev_qrels.json": {
+    "bytes": 86010,
+    "sha256": "8f7b491057874708fb43cef9b02db6d1fe1df238de57d29913c1e035dbca37e5"
+  }
+}

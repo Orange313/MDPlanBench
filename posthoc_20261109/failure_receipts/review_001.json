@@ -1,0 +1,1 @@
+{"stage":"review_001","status":"STOPPED_BEFORE_PLOTTING","error":"Missing local placement of gates_001/gate_summary.json; original gate records existed under reports/icde_eab_execution_v2_032/gates_001","fix":"Copy unchanged gate records; render to fresh review_002","scientific_values_changed":false}

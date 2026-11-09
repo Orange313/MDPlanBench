@@ -1,0 +1,9 @@
+block,schedule,FullV_requests,legacy_repeat_not_chronological
+1,A,480,315
+2,B,160,0
+3,A1,160,0
+4,B3,480,327
+5,B3,480,306
+6,A1,160,0
+7,B,160,0
+8,A,480,335

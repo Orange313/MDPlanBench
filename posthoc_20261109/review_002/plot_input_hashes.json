@@ -1,0 +1,18 @@
+{
+  "screening_001/E2_main_b005.csv": "be0842a1be83587770c02cd09e1e58a530a1386d982ac3315772bebd0b45dd60",
+  "screening_001/E2_all_budgets.csv": "ab82834f35b0b4701c26b2ead8c8f425307bde8cb7addfedaabcd945af9fa36c",
+  "screening_001/selected_kappas.csv": "48e2a49fdeed282842d2ac767a8e99057dc3e52923bc53fbf81379b5305ba69f",
+  "screening_001/E1_bias_summary.csv": "66ef0738c4bc56ccee2b5092d28ed178aea63e0ecbf6a8c16694d8aa9e7b9762",
+  "independent_001/E3_intervals_36.csv": "3ec29364171021fe251cd15d4418aee7f3308de59720a8b1e93930427c2840e0",
+  "independent_001/E3_upper_bound_counts.csv": "b260d5e666e74ad8a5a8ba6f1ce7e61f4bcb844211ef0db3899ab55e4908ced2",
+  "independent_001/K17_kappa10_vs20.csv": "4a1e19ef3b2bf7dd11784a8795e76908213d9d1c31021983841e99381ad19068",
+  "independent_001/E4_coarse_hull.csv": "c8c06f2b7f78255c97216496050e29da6c84bad691869904a4fa36eec04ba604",
+  "E5_analysis_001/E5_worker_timings.csv": "dab9d81a384af331a3940d9a57b9024894ab3f7d239f5c8418cb8de2383f76a3",
+  "E5_analysis_001/E5_crossing_ranges.csv": "9dd882a0398cbd097fa2a9fb484f4e15d023aa7f327a38a79ac17de67e110154",
+  "E5_analysis_001/completed.json": "39de236973d1154ac6f3f9c5d72766d54700c0cc46dc05f763b4d0caff0d8f30",
+  "E7_HR_001/E7_summary.csv": "62c33d510236f1021ed5205ad7fa1520f06a2a01762e9ec6dd700333dffce350",
+  "E7_HR_001/coverage.json": "7538f5bcf05ef045243efd4f971d4a6e9f9e1ac31e98731b72cf82c1f1ef1b5d",
+  "E8_storage_001/E8_assets.csv": "7fcc2820368657a933aa2113caa45efdc37fe6fc36e11d9297d07e5dee5f6593",
+  "gates_001/gate_summary.json": "de658b8196c5c2f9762e50af8180c2d83653e7b62d3f392f3fc26af47084039b",
+  "screening_001/gate.json": "e53835e3ccaa65baf35b59480fddd0cd03b9badeb7ceb08ba7528126b09be0fd"
+}

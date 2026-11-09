@@ -1,0 +1,15 @@
+{
+  "status": "PARTIAL",
+  "existing_cells": 11,
+  "missing_cells": [
+    "Economics x ColPali"
+  ],
+  "analytic_payload_checks": 11,
+  "GPU_jobs": 0,
+  "limitations": [
+    "No persisted BM25 index file: size/ratio MISSING, not0.",
+    "Stored vector count is not a separate raw-image patch audit."
+  ],
+  "torch_version": "2.5.1+cu121",
+  "CUDA_initialized": false
+}

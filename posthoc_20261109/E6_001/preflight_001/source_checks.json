@@ -1,0 +1,248 @@
+[
+  {
+    "path": "scripts/icde_eab_independent_007/common.py",
+    "expected": "45f77bd14e60035cc27c6a4c03470ef3a59db2d3c26e4b95ff01c9fdcddaa9c6",
+    "actual": "45f77bd14e60035cc27c6a4c03470ef3a59db2d3c26e4b95ff01c9fdcddaa9c6",
+    "PASS": true
+  },
+  {
+    "path": "scripts/icde_eab_independent_007/t3_expansion_summary_001.py",
+    "expected": "cfe7237e8e6baf0a3b4c13f16875497b3134264e8a35f785594783aba145554b",
+    "actual": "cfe7237e8e6baf0a3b4c13f16875497b3134264e8a35f785594783aba145554b",
+    "PASS": true
+  },
+  {
+    "path": "scripts/icde_eab_independent_007/t1_adjudicate_001.py",
+    "expected": "07da0b09d0f3b40200c61ced86e45a6038c9b628a910a74da3ee6c01a05dac61",
+    "actual": "07da0b09d0f3b40200c61ced86e45a6038c9b628a910a74da3ee6c01a05dac61",
+    "PASS": true
+  },
+  {
+    "path": "scripts/icde_eab_independent_007/ocr_prepare_001.py",
+    "expected": "81eaf2a1f0c97b595ce7b41b1b98cd85ea865c84b233fc5f8cf59a9468750b15",
+    "actual": "81eaf2a1f0c97b595ce7b41b1b98cd85ea865c84b233fc5f8cf59a9468750b15",
+    "PASS": true
+  },
+  {
+    "path": "scripts/icde_eab_independent_007/t1_freeze_001.py",
+    "expected": "55a41be46bd3f68c7f3f149f87ca529189579fa4bd427916b15d300a4c404dfb",
+    "actual": "55a41be46bd3f68c7f3f149f87ca529189579fa4bd427916b15d300a4c404dfb",
+    "PASS": true
+  },
+  {
+    "path": "scripts/icde_eab_independent_007/colpali_loader_003.py",
+    "expected": "340384411eb5c12933d1dad58a609db54f7e99fd7570686d6c9265ecdb6df5be",
+    "actual": "340384411eb5c12933d1dad58a609db54f7e99fd7570686d6c9265ecdb6df5be",
+    "PASS": true
+  },
+  {
+    "path": "scripts/icde_eab_independent_007/figures_001.py",
+    "expected": "3e8ee5b785f7f7b0b6b8b59102f43a9e5be5ecd12e9e6d17b5bf67d2b2b203c9",
+    "actual": "3e8ee5b785f7f7b0b6b8b59102f43a9e5be5ecd12e9e6d17b5bf67d2b2b203c9",
+    "PASS": true
+  },
+  {
+    "path": "scripts/icde_eab_independent_007/abort_own_audit_001.py",
+    "expected": "2b6d724757355362d90ab05ebdc6abfd719dd8d2411dbb753216cdecdfeee8f7",
+    "actual": "2b6d724757355362d90ab05ebdc6abfd719dd8d2411dbb753216cdecdfeee8f7",
+    "PASS": true
+  },
+  {
+    "path": "scripts/icde_eab_independent_007/data_guard.py",
+    "expected": "d0209c7ea01ff5ee8b60b992d31d9ca272570d3ae5defc1454415945fba5b9e7",
+    "actual": "d0209c7ea01ff5ee8b60b992d31d9ca272570d3ae5defc1454415945fba5b9e7",
+    "PASS": true
+  },
+  {
+    "path": "scripts/icde_eab_independent_007/t2_biomedical_exact_004.py",
+    "expected": "8fbfd9f965c1feb0063e7be2f141acb411527ff598e72d13a9877e38505ce203",
+    "actual": "8fbfd9f965c1feb0063e7be2f141acb411527ff598e72d13a9877e38505ce203",
+    "PASS": true
+  },
+  {
+    "path": "scripts/icde_eab_independent_007/t1_audit_001.py",
+    "expected": "c7827b79ed9d6eed8ff236c83976bcda36e51d7f470ffde674e611b254f31285",
+    "actual": "c7827b79ed9d6eed8ff236c83976bcda36e51d7f470ffde674e611b254f31285",
+    "PASS": true
+  },
+  {
+    "path": "scripts/icde_eab_independent_007/t3_expansion_summary_004.py",
+    "expected": "b6478b8db2981cc37b0ce1935c2ff9982a35be6bf1d39ab2d1a59d4f55dee66f",
+    "actual": "b6478b8db2981cc37b0ce1935c2ff9982a35be6bf1d39ab2d1a59d4f55dee66f",
+    "PASS": true
+  },
+  {
+    "path": "scripts/icde_eab_independent_007/t2_biomedical_001.py",
+    "expected": "b15a8177a0171f796a1632777616872b0adb92b02adfa2f49ed07f89cf23052e",
+    "actual": "b15a8177a0171f796a1632777616872b0adb92b02adfa2f49ed07f89cf23052e",
+    "PASS": true
+  },
+  {
+    "path": "scripts/icde_eab_independent_007/model_hash_supplement_001.py",
+    "expected": "7374c041a4923786eb968b9092e4ea3f41276a603f5e5593c90c6c0d1e62bbae",
+    "actual": "7374c041a4923786eb968b9092e4ea3f41276a603f5e5593c90c6c0d1e62bbae",
+    "PASS": true
+  },
+  {
+    "path": "scripts/icde_eab_independent_007/t3_pilot_summary_001.py",
+    "expected": "f2439b00052fffc5d7cefd66328d05beb23414d02a502578ddc7fdc248235990",
+    "actual": "f2439b00052fffc5d7cefd66328d05beb23414d02a502578ddc7fdc248235990",
+    "PASS": true
+  },
+  {
+    "path": "scripts/icde_eab_independent_007/t3_colpali_expansion_004.py",
+    "expected": "3465187a279688081607c9537975be3a2ac401bbfcf84e6262d00dce79a00a6f",
+    "actual": "3465187a279688081607c9537975be3a2ac401bbfcf84e6262d00dce79a00a6f",
+    "PASS": true
+  },
+  {
+    "path": "scripts/icde_eab_independent_007/t3_scorer_diagnostic_003.py",
+    "expected": "c3a6c50cf8666b17d49188f6748274f5483fa8168fad4925281542a8c8aecd5f",
+    "actual": "c3a6c50cf8666b17d49188f6748274f5483fa8168fad4925281542a8c8aecd5f",
+    "PASS": true
+  },
+  {
+    "path": "scripts/icde_eab_independent_007/prepare_local_001.py",
+    "expected": "02e5c0edb4096ea274af55a9f401e3837bb85b134841c36f641b8bdc13261758",
+    "actual": "02e5c0edb4096ea274af55a9f401e3837bb85b134841c36f641b8bdc13261758",
+    "PASS": true
+  },
+  {
+    "path": "scripts/icde_eab_independent_007/engine_001.py",
+    "expected": "fed82a7847f95ea6c9c2ba5b0d5fbce4f543087d7229938fbfcf4d663f35aafe",
+    "actual": "fed82a7847f95ea6c9c2ba5b0d5fbce4f543087d7229938fbfcf4d663f35aafe",
+    "PASS": true
+  },
+  {
+    "path": "scripts/icde_eab_independent_007/t1_page_review_001.py",
+    "expected": "9241feea9274307c3022456114ab8340b64366187e73beaca43e5771845366dc",
+    "actual": "9241feea9274307c3022456114ab8340b64366187e73beaca43e5771845366dc",
+    "PASS": true
+  },
+  {
+    "path": "scripts/icde_eab_independent_007/t3_colpali_pilot_004.py",
+    "expected": "d309c0f77751089a15601722df4653b7fa6649608d825ba618e255dd0eef0012",
+    "actual": "d309c0f77751089a15601722df4653b7fa6649608d825ba618e255dd0eef0012",
+    "PASS": true
+  },
+  {
+    "path": "scripts/icde_eab_independent_007/learning_base_001.py",
+    "expected": "05bbd89d94fc1ce6862fd18a50ff33daf7ad21a0a664f877942276fb03464978",
+    "actual": "05bbd89d94fc1ce6862fd18a50ff33daf7ad21a0a664f877942276fb03464978",
+    "PASS": true
+  },
+  {
+    "path": "scripts/icde_eab_independent_007/t1_freeze_004.py",
+    "expected": "eb7a524e56eea473ab076ea6dc52abed48dece122343b9dc915448b43d560815",
+    "actual": "eb7a524e56eea473ab076ea6dc52abed48dece122343b9dc915448b43d560815",
+    "PASS": true
+  },
+  {
+    "path": "scripts/icde_eab_independent_007/engine_exact_004.py",
+    "expected": "9fcde5b1bfe83111ddf4a55d9bb0db46ae76468348b626e649af0e4e01c65fcb",
+    "actual": "9fcde5b1bfe83111ddf4a55d9bb0db46ae76468348b626e649af0e4e01c65fcb",
+    "PASS": true
+  },
+  {
+    "path": "scripts/icde_eab_independent_007/run_pilot_sequence_001.py",
+    "expected": "61940d6d9ae7df4c2d61e66cde528550d08d45a1d491cdd8aead2e3d70226c9e",
+    "actual": "61940d6d9ae7df4c2d61e66cde528550d08d45a1d491cdd8aead2e3d70226c9e",
+    "PASS": true
+  },
+  {
+    "path": "scripts/icde_eab_independent_007/progress_digest_001.py",
+    "expected": "8c32d56127106d9f3c1dce3af6e49e1c7e51efb2dd9204b0756170de47f68185",
+    "actual": "8c32d56127106d9f3c1dce3af6e49e1c7e51efb2dd9204b0756170de47f68185",
+    "PASS": true
+  },
+  {
+    "path": "scripts/icde_eab_independent_007/archive_code.py",
+    "expected": "0bb2529ff3bb9183408088ad2a077934a3809831d26181860d4b9947954a62ba",
+    "actual": "0bb2529ff3bb9183408088ad2a077934a3809831d26181860d4b9947954a62ba",
+    "PASS": true
+  },
+  {
+    "path": "scripts/icde_eab_independent_007/run_pilot_sequence_004.py",
+    "expected": "4832125c9abc2f27ad40cfc8bd9fc62cc1cbeffcdd2090a71b87f2a134cd18d3",
+    "actual": "4832125c9abc2f27ad40cfc8bd9fc62cc1cbeffcdd2090a71b87f2a134cd18d3",
+    "PASS": true
+  },
+  {
+    "path": "scripts/icde_eab_independent_007/t3_colpali_pilot_002.py",
+    "expected": "88204e1bb49b52619ebb09388f3e1d3ba5acd3ef86f3d9f5d99e81279c772457",
+    "actual": "88204e1bb49b52619ebb09388f3e1d3ba5acd3ef86f3d9f5d99e81279c772457",
+    "PASS": true
+  },
+  {
+    "path": "scripts/icde_eab_independent_007/t1_freeze_003.py",
+    "expected": "0ec7d86127cab9412dec315a0f437bb939ac26bf768bf5ddda34ea4aa3163b60",
+    "actual": "0ec7d86127cab9412dec315a0f437bb939ac26bf768bf5ddda34ea4aa3163b60",
+    "PASS": true
+  },
+  {
+    "path": "scripts/icde_eab_independent_007/t1_audit_002.py",
+    "expected": "d288bf0e4ad1cfe7d6e0258a5ee4c105a13cf72efb9e178c58600419a5f7b98d",
+    "actual": "d288bf0e4ad1cfe7d6e0258a5ee4c105a13cf72efb9e178c58600419a5f7b98d",
+    "PASS": true
+  },
+  {
+    "path": "scripts/icde_eab_independent_007/t3_pilot_summary_004.py",
+    "expected": "7e41e7f26b418c3bb77cdb24b4b49528a2b748b1968622375775b996ea9b87ec",
+    "actual": "7e41e7f26b418c3bb77cdb24b4b49528a2b748b1968622375775b996ea9b87ec",
+    "PASS": true
+  },
+  {
+    "path": "scripts/icde_eab_independent_007/run_pilot_sequence_002.py",
+    "expected": "1b4a07d2f9e2d9d96148bd217ef6ec57ae5787d6c74a70557496706e60449fdf",
+    "actual": "1b4a07d2f9e2d9d96148bd217ef6ec57ae5787d6c74a70557496706e60449fdf",
+    "PASS": true
+  },
+  {
+    "path": "scripts/icde_eab_independent_007/t0_001.py",
+    "expected": "aacc6a2096f925d2378c4f4f54797edc5135b0dd3afc1b435bd839b9691a381d",
+    "actual": "aacc6a2096f925d2378c4f4f54797edc5135b0dd3afc1b435bd839b9691a381d",
+    "PASS": true
+  },
+  {
+    "path": "scripts/icde_eab_independent_007/t1_semantic_adjudicate_001.py",
+    "expected": "c1e547e01fa4e1550c3d392887f6cf98a8068087fe814e867521fcfbe01f443c",
+    "actual": "c1e547e01fa4e1550c3d392887f6cf98a8068087fe814e867521fcfbe01f443c",
+    "PASS": true
+  },
+  {
+    "path": "scripts/icde_eab_independent_007/t4_assemble_001.py",
+    "expected": "62904f91c7f41a04e717a49a08dd98ca1c4b8bcfd7b629ee688cb585616b7c02",
+    "actual": "62904f91c7f41a04e717a49a08dd98ca1c4b8bcfd7b629ee688cb585616b7c02",
+    "PASS": true
+  },
+  {
+    "path": "scripts/icde_eab_independent_007/t3_colpali_pilot_001.py",
+    "expected": "564b8e2a7ba2e66e8217ca42c9bb46dde9f5ff46b998948ae25153cc927d3a62",
+    "actual": "564b8e2a7ba2e66e8217ca42c9bb46dde9f5ff46b998948ae25153cc927d3a62",
+    "PASS": true
+  },
+  {
+    "path": "scripts/icde_eab_independent_007/t2_summarize_001.py",
+    "expected": "abebe97e8de33beab8ad8b9be5acb4f648fd487efcc6e24befdbf775b92749b3",
+    "actual": "abebe97e8de33beab8ad8b9be5acb4f648fd487efcc6e24befdbf775b92749b3",
+    "PASS": true
+  },
+  {
+    "path": "scripts/icde_eab_independent_007/t1_freeze_002.py",
+    "expected": "ccd838f58d7445675722de95ca287f034dae9b29c68107b726fc356048ccbc3e",
+    "actual": "ccd838f58d7445675722de95ca287f034dae9b29c68107b726fc356048ccbc3e",
+    "PASS": true
+  },
+  {
+    "path": "scripts/icde_eab_independent_007/t1_page_review_002.py",
+    "expected": "d3fb4d8016b2e0fb32b9a7bf7b91fc288d187caf619060f35d5d9a9f17d2c358",
+    "actual": "d3fb4d8016b2e0fb32b9a7bf7b91fc288d187caf619060f35d5d9a9f17d2c358",
+    "PASS": true
+  },
+  {
+    "path": "scripts/icde_eab_independent_007/t3_colpali_expansion_001.py",
+    "expected": "7dac92f43683c55d73b3b70d4af17123f7105849c50d74c1e32cf4113ff55ecc",
+    "actual": "7dac92f43683c55d73b3b70d4af17123f7105849c50d74c1e32cf4113ff55ecc",
+    "PASS": true
+  }
+]

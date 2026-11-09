@@ -1,0 +1,12 @@
+[
+  {
+    "time_beijing": "2026-11-09T17:23:35.499254+08:00",
+    "monotonic": 5369367.685488212,
+    "raw": "0, GPU-9a7f5aa2-f494-d7b0-fe4e-ac762a086c85, NVIDIA RTX A6000, 570.133.20, 4424 MiB, 89 %",
+    "memory_MiB": 4424,
+    "foreign_processes": [
+      "GPU-9a7f5aa2-f494-d7b0-fe4e-ac762a086c85, 3855734"
+    ],
+    "PASS": false
+  }
+]

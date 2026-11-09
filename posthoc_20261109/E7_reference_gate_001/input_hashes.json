@@ -1,0 +1,10 @@
+{
+  "${PROJECT_ROOT}/artifacts/icde_eab_review_strengthening_021/EX0/HR.npz": {
+    "bytes": 87382,
+    "sha256": "7eab7c4f6e08d8671397346f9528c087fc41eedf6261759e5ce7a7d9e7eb39a9"
+  },
+  "${PROJECT_ROOT}/posthoc_20261109/E7_HR_001/E7_per_query.csv": {
+    "bytes": 32750,
+    "sha256": "cd20afb18bdf81478b1d376ec2c0805b26c656f6755b4a310ad14366f9ce4325"
+  }
+}

@@ -12,3 +12,4 @@ python-dateutil==3.0.0
 scipy==1.17.1
 six==1.17.0
 tzdata==2026.6
+lightgbm==4.6.0
