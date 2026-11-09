@@ -73,3 +73,7 @@ failed runs, negative results and unsupported claims remain distinguishable.
 All installed versions, generated claims and statuses must be read at their
 actual tested commit; later documentation/manifest commits do not imply another
 GPU experiment. No push, PR, visibility change or CMT submission occurred.
+
+## Data Availability follow-up
+
+See validation/data_availability_002/report.md. Two original-question-text archives are removed from the new export; metadata-only grouping IDs are retained, and the42-CSV numerical regression still passes. This distribution correction supersedes the prior blanket no-question-text statement for the old review ZIP. The R83 all-prose-numbers audit remains pending.

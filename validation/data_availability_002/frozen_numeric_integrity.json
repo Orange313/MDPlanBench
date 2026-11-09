@@ -1,0 +1,27 @@
+{
+  "status": "PASS",
+  "prior_review_commit": "c01df5d760438a343935bf5432ffd994edeaa32d",
+  "protected_unchanged_scopes": [
+    "LICENSE",
+    "records/figure_data",
+    "records/021_snapshot",
+    "records/earlier_plan_audit",
+    "posthoc_20261109",
+    "config/frozen_Q_QP_coefficients.json",
+    "config/frozen_RR_adapted_coefficients.json",
+    "config/frozen_capacity_models.json",
+    "expected_numeric_hashes.json",
+    "expected_extension_hashes.json",
+    "cost009/expected_hashes.json",
+    "input_manifest.json",
+    "cost009/input_manifest.json"
+  ],
+  "scientific_values_changed": 0,
+  "original_expected_hashes_changed": 0,
+  "original_input_manifests_changed": 0,
+  "grouping_rows_equal": 160,
+  "only_raw_metadata_exclusion": "Two compressed original-question family maps are omitted; metadata-only groups supplied through explicit distribution overrides",
+  "paper_or_LaTeX_changes": 0,
+  "license_changes": 0,
+  "remote_pushes": 0
+}

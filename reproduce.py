@@ -5,9 +5,15 @@ p=argparse.ArgumentParser();p.add_argument('--output',required=True);a=p.parse_a
 base=Path(__file__).resolve().parent;out=Path(a.output).resolve();out.mkdir(parents=True,exist_ok=False);ws=out/'workspace';ws.mkdir();start=time.perf_counter()
 sha=lambda b:hashlib.sha256(b).hexdigest()
 manifest=json.loads((base/'input_manifest.json').read_text())
+public_inputs=json.loads((base/'config/distribution_input_overrides.json').read_text())['overrides']
 for target,x in manifest.items():
     if target.startswith(('reports/icde_eab_lastmile_008/L0/','reports/icde_eab_lastmile_008/L1/summary_001/')):continue
-    data=gzip.decompress((base/x['file']).read_bytes());assert sha(data)==x['sha256'];q=ws/target;q.parent.mkdir(parents=True,exist_ok=True);q.write_bytes(data)
+    if target in public_inputs:
+        meta=public_inputs[target];assert meta['original_input_sha256']==x['sha256']
+        data=(base/meta['release_path']).read_bytes();assert sha(data)==meta['release_sha256']
+    else:
+        data=gzip.decompress((base/x['file']).read_bytes());assert sha(data)==x['sha256']
+    q=ws/target;q.parent.mkdir(parents=True,exist_ok=True);q.write_bytes(data)
 os.environ['MDROUTER_REPLAY_ROOT']=str(ws);sys.path.insert(0,str(base/'repro'))
 for script in ['t2_summarize_001.py','t4_assemble_004.py']:runpy.run_path(str(base/'repro'/script),run_name='__main__')
 # Replay008 descriptive diagnostics, with a separate immutable run namespace.

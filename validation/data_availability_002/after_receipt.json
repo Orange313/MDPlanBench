@@ -1,0 +1,14 @@
+{
+  "status": "PASS_NO_RAW_OR_REBUILDABLE_PAGE_ASSETS",
+  "files": 1485,
+  "classifications": {
+    "CODE_CONFIG_DOCUMENTATION_OR_RECORD": 1050,
+    "COMPRESSED_NUMERICAL_OR_OPERATIONAL_RECORD": 363,
+    "SCIENTIFIC_RESULT_PLOT_OR_AUTHOR_DIAGRAM": 33,
+    "NUMERICAL_FEATURE_OUTCOME_OR_BOOTSTRAP_RECORD": 39
+  },
+  "findings": 0,
+  "removed_assets": 0,
+  "source_files_modified": 0,
+  "scope": "Filename and structured-payload audit, including gzip and NPZ. Source-code literals and SHA256/ID metadata are retained; raw query text, page/OCR text, full qrels, pages and embedding/index payloads are not allowed. Scientific result plots are not original page images."
+}

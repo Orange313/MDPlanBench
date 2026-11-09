@@ -1,0 +1,7 @@
+dataset_id,revision,pinned_distinct_files,files
+vidore/vidore_v3_finance_en,7f432c176d82e27546501ad8064a713ac3071809,5,corpus/test-00000-of-00003.parquet;corpus/test-00001-of-00003.parquet;corpus/test-00002-of-00003.parquet;documents_metadata/test-00000-of-00001.parquet;queries/test-00000-of-00001.parquet
+vidore/vidore_v3_hr,0cdf0979f2c5a0fd3e335e6373b9da48a9fe3bc3,3,corpus/test-00000-of-00001.parquet;documents_metadata/test-00000-of-00001.parquet;queries/test-00000-of-00001.parquet
+vidore/vidore_v3_industrial,e26c864724f5dd71a3d7d739272d95637764cee9,7,corpus/test-00000-of-00005.parquet;corpus/test-00001-of-00005.parquet;corpus/test-00002-of-00005.parquet;corpus/test-00003-of-00005.parquet;corpus/test-00004-of-00005.parquet;documents_metadata/test-00000-of-00001.parquet;queries/test-00000-of-00001.parquet
+vidore/vidore_v3_pharmaceuticals,262e203d7c59c55947f7042812e0bcc1eee190b1,3,corpus/test-00000-of-00002.parquet;corpus/test-00001-of-00002.parquet;queries/test-00000-of-00001.parquet
+vidore/biomedical_lectures_eng_v2,e82eb2f3e9f701688e6f3ba41fffad68c5b3b5fa,4,corpus/test-00000-of-00001.parquet;docs/test-00000-of-00001.parquet;qrels/test-00000-of-00001.parquet;queries/test-00000-of-00001.parquet
+vidore/economics_reports_eng_v2,d4fba7cf3d620c42810d961435afcfaaa0678e8d,4,corpus/test-00000-of-00001.parquet;docs/test-00000-of-00001.parquet;qrels/test-00000-of-00001.parquet;queries/test-00000-of-00001.parquet

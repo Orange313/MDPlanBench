@@ -1,7 +1,7 @@
 # Candidate publication review — NOT PUSHED
 
 **Target if later approved:** `https://github.com/Orange313/MDRouter.git`.
-**Local branch:** `codex/icde-eab-reproducibility-20261109`.
+**Local branch:** `codex/icde-eab-data-availability-20261109`.
 **Base:** public artifact v1.1 `e9d4c2d14abca6003001caf8010da4f6b7321669`.
 
 This request authorizes local audit/organization only. No remote push, PR,
@@ -36,3 +36,5 @@ list (status, bytes, SHA256). `MANIFEST.sha256` covers candidate files except
 itself. Before any future publication, review the remaining conditions in
 MISSING_MATERIALS.md and repeat the integrity/privacy check against the exact
 approved commit. Do not automatically merge into main.
+
+Data Availability update: the previous review ZIP and commit are retained as history. The new export excludes two compressed question-text maps and supplies metadata-only grouping IDs via config/distribution_input_overrides.json. Original questions, labels, pages, OCR text and page embeddings are not release payloads. No Git history rewrite or remote cleanup is authorized by this task.

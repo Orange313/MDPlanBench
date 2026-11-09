@@ -1,0 +1,37 @@
+{
+  "overrides": {
+    "reports/icde_eab_independent_007/T1/biomedical_query_family_map_002.csv": {
+      "release_path": "splits/biomedical_groups_metadata_only.csv",
+      "release_sha256": "7cea2d87ed13cb3edbe5d30ee97a503552dbd55d0727ca85852fe10a4853adf1",
+      "original_input_sha256": "9cfea8dc95495ccc8662276b7dd29a6d510f76d78226c8d6aedd5a727ca4b712",
+      "rows": 160,
+      "removed_columns": [
+        "query"
+      ],
+      "retained_fields_equal_to_original": true
+    }
+  },
+  "removed_raw_source_files": [
+    {
+      "excluded_path": "snapshot/reports/icde_eab_independent_007/T1/biomedical_query_family_map_002.csv.gz",
+      "original_compressed_sha256": "59e66121dc0b47bec19b50819dc1243b1d5e167c18bf4d276625787d7b6e0780",
+      "original_input_sha256": "9cfea8dc95495ccc8662276b7dd29a6d510f76d78226c8d6aedd5a727ca4b712",
+      "rows": 160,
+      "removed_columns": [
+        "query"
+      ],
+      "numeric_or_group_values_modified": false
+    },
+    {
+      "excluded_path": "cost009/snapshot/reports/icde_eab_independent_007/T1/biomedical_query_family_map_002.csv.gz",
+      "original_compressed_sha256": "59e66121dc0b47bec19b50819dc1243b1d5e167c18bf4d276625787d7b6e0780",
+      "original_input_sha256": "9cfea8dc95495ccc8662276b7dd29a6d510f76d78226c8d6aedd5a727ca4b712",
+      "rows": 160,
+      "removed_columns": [
+        "query"
+      ],
+      "numeric_or_group_values_modified": false
+    }
+  ],
+  "scope": "Distribution-only metadata export. Original frozen manifests and numerical expected hashes remain unchanged. Original source copies preserved outside this Git worktree; old release commits/packages not overwritten."
+}

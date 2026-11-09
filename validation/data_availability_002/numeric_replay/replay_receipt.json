@@ -1,0 +1,38 @@
+{
+  "status": "PASS_CPU_NUMERIC_AND_FIGURE_REPLAY",
+  "wall_s": 63.72828399995342,
+  "steps": [
+    {
+      "step": "legacy_cpu",
+      "returncode": 0
+    },
+    {
+      "step": "021_017_statistics",
+      "returncode": 0
+    },
+    {
+      "step": "paper_figures_1_3_4",
+      "returncode": 0
+    },
+    {
+      "step": "figure5_and_lifecycle",
+      "returncode": 0
+    }
+  ],
+  "original_numeric_tables": 42,
+  "new_tables": 14,
+  "figures": [
+    "fig2_testbed.pdf",
+    "fig5_lifecycle.pdf",
+    "posthoc_diagnostic.pdf"
+  ],
+  "new_models_trained": 0,
+  "GPU_jobs": 0,
+  "network": false,
+  "sealed_labels_read": 0,
+  "limitations": [
+    "No fresh GPU timing is inferred from CPU reconstruction.",
+    "Economics inference is conditional on one source component.",
+    "Scientific issues in ledger are retained; replay success does not endorse manuscript wording."
+  ]
+}

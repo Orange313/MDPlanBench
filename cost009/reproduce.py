@@ -1,8 +1,13 @@
 from pathlib import Path
 import argparse,gzip,hashlib,json,os,runpy,sys,time
 p=argparse.ArgumentParser();p.add_argument('--output',required=True);a=p.parse_args();base=Path(__file__).resolve().parent;out=Path(a.output).resolve();out.mkdir(parents=True,exist_ok=False);ws=out/'workspace';ws.mkdir();start=time.perf_counter();sha=lambda b:hashlib.sha256(b).hexdigest()
+public_inputs=json.loads((base.parent/'config/distribution_input_overrides.json').read_text())['overrides']
 for target,x in json.loads((base/'input_manifest.json').read_text()).items():
-    b=gzip.decompress((base/x['file']).read_bytes());assert sha(b)==x['sha256']
+    if target in public_inputs:
+        meta=public_inputs[target];assert meta['original_input_sha256']==x['sha256']
+        b=(base.parent/meta['release_path']).read_bytes();assert sha(b)==meta['release_sha256']
+    else:
+        b=gzip.decompress((base/x['file']).read_bytes());assert sha(b)==x['sha256']
     if target.startswith('reports/icde_eab_submission_gate_009/Y1/summary_001/'):continue
     # Raw profiler traces remain hash-verified in the compressed archive.
     # The original numerical summary consumes index_block_costs.csv and

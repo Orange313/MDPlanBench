@@ -1,0 +1,63 @@
+{
+  "status": "LOCAL_REVIEW_ONLY",
+  "datasets": [
+    {
+      "dataset_id": "vidore/vidore_v3_finance_en",
+      "revision": "7f432c176d82e27546501ad8064a713ac3071809",
+      "pinned_distinct_files": 5,
+      "files": "corpus/test-00000-of-00003.parquet;corpus/test-00001-of-00003.parquet;corpus/test-00002-of-00003.parquet;documents_metadata/test-00000-of-00001.parquet;queries/test-00000-of-00001.parquet"
+    },
+    {
+      "dataset_id": "vidore/vidore_v3_hr",
+      "revision": "0cdf0979f2c5a0fd3e335e6373b9da48a9fe3bc3",
+      "pinned_distinct_files": 3,
+      "files": "corpus/test-00000-of-00001.parquet;documents_metadata/test-00000-of-00001.parquet;queries/test-00000-of-00001.parquet"
+    },
+    {
+      "dataset_id": "vidore/vidore_v3_industrial",
+      "revision": "e26c864724f5dd71a3d7d739272d95637764cee9",
+      "pinned_distinct_files": 7,
+      "files": "corpus/test-00000-of-00005.parquet;corpus/test-00001-of-00005.parquet;corpus/test-00002-of-00005.parquet;corpus/test-00003-of-00005.parquet;corpus/test-00004-of-00005.parquet;documents_metadata/test-00000-of-00001.parquet;queries/test-00000-of-00001.parquet"
+    },
+    {
+      "dataset_id": "vidore/vidore_v3_pharmaceuticals",
+      "revision": "262e203d7c59c55947f7042812e0bcc1eee190b1",
+      "pinned_distinct_files": 3,
+      "files": "corpus/test-00000-of-00002.parquet;corpus/test-00001-of-00002.parquet;queries/test-00000-of-00001.parquet"
+    },
+    {
+      "dataset_id": "vidore/biomedical_lectures_eng_v2",
+      "revision": "e82eb2f3e9f701688e6f3ba41fffad68c5b3b5fa",
+      "pinned_distinct_files": 4,
+      "files": "corpus/test-00000-of-00001.parquet;docs/test-00000-of-00001.parquet;qrels/test-00000-of-00001.parquet;queries/test-00000-of-00001.parquet"
+    },
+    {
+      "dataset_id": "vidore/economics_reports_eng_v2",
+      "revision": "d4fba7cf3d620c42810d961435afcfaaa0678e8d",
+      "pinned_distinct_files": 4,
+      "files": "corpus/test-00000-of-00001.parquet;docs/test-00000-of-00001.parquet;qrels/test-00000-of-00001.parquet;queries/test-00000-of-00001.parquet"
+    }
+  ],
+  "distinct_upstream_files": 26,
+  "intentionally_not_distributed": [
+    "original corpus page images/PDFs",
+    "original questions",
+    "raw relevance annotation files/full maps",
+    "page embeddings",
+    "persisted retrieval indexes",
+    "OCR text",
+    "large pretrained retriever weights"
+  ],
+  "retained": [
+    "numerical result/per-query records",
+    "metadata-only query/source IDs",
+    "router numeric feature/outcome arrays",
+    "bootstrap indices/draws",
+    "scientific plots and author diagrams",
+    "source scripts/configuration/checksums"
+  ],
+  "R83_all_prose_numbers_verified": false,
+  "verified_numeric_scope": "Tables III\u2013IV and numerical inputs to Figs.3\u20135 under the audited R82 artifact baseline; frozen per-query and derived tables, not a new raw-data evaluation",
+  "source_results_modified": false,
+  "license_modified": false
+}
