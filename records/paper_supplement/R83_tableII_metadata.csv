@@ -1,0 +1,7 @@
+domain,pages,documents,English_queries,Fit_queries,Fit_families,Dev_queries,Dev_families,Benchmark_queries,Benchmark_families
+HR,1110,14,318,0,0,40,24,0,0
+Finance,2942,6,309,0,0,39,25,0,0
+Industrial,5244,27,283,0,0,40,29,0,0
+Pharma,2313,52,364,81,80,45,44,0,0
+Biomedical,1016,27,160,0,0,0,0,160,157
+Economics,452,5,58,0,0,0,0,58,53

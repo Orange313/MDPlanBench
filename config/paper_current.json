@@ -1,16 +1,16 @@
 {
   "resourceId": "7a578142-5d3f-45c9-bf61-58b112459996",
-  "revisionNumber": 82,
-  "revisionId": "34d15ab3-c937-4bf7-b5e8-d61e49000131",
-  "projectTreeHash": "c2803d51b7221a5d926ae85463cda1dbda2602bf548fc96c3373e7528cc97f08",
-  "workspaceVersion": 86,
-  "build": "269d245c-15c0-4732-81bc-593d79f25993",
-  "sourceBundleHash": "4f4ba339aa9c8cdc6fadad008f69e774c6fec3f87c57a4d94f8c9f62aae9b75f",
-  "buildSourceArtifact": "8355f0be-89f6-4dbf-b986-81ca14afb929",
+  "revisionNumber": 83,
+  "revisionId": "850eb110-3797-473e-b259-1e04db4b86ef",
+  "projectTreeHash": "d8ce03658dcb65337b6c648b7e8f9ba5d6eb17e0e907c4ce77b774c384fec9c3",
+  "workspaceVersion": null,
+  "build": "7631e21b-d462-4c3f-b21f-cc416589ab7e",
+  "sourceBundleHash": "10e0c4e2d07d65f3a19aefec0ad735245890aae3da663e51b764109a4c9072c8",
+  "buildSourceArtifact": "dcdcdf33-fffc-43f9-9e8f-90a7b7ed32f7",
   "artifact_base": "e9d4c2d14abca6003001caf8010da4f6b7321669",
   "public_main": "9dabe7040e0f7173e11cfc35fab68d1d3635c30c",
   "supplement_source_commit": "a1f50c417d73fe9c5590057331d9e245d2dc0cb9",
-  "publication": "LOCAL_REVIEW_ONLY_NO_PUSH",
+  "publication": "APPROVED_V1_2_PENDING_VERIFICATION",
   "manuscript_edited": false,
   "files": {
     "main.tex": {
@@ -30,20 +30,20 @@
       "bytes": 6694
     },
     "sections/04_benchmark.tex": {
-      "sha256": "4f0e89a4c6f45b09e73c68b1c4e298ccf753c3b7e37bb6bb5907a03f4da4107e",
-      "bytes": 7352
+      "sha256": "56056ea727b13a507729cf913a14bcfb20e8fd556d30fcdacbc2a9c61c253188",
+      "bytes": 7371
     },
     "sections/05_setup.tex": {
-      "sha256": "e8120ff831079ab038401caace48c75c90fcc8c88429aaa08c6b6f3b7f8d95a3",
-      "bytes": 6813
+      "sha256": "f53e23cdf01258a4de1c862a5ec488f97065b4d3c2b2f4d8e110b7a7a6f95275",
+      "bytes": 6839
     },
     "sections/06_results.tex": {
-      "sha256": "d463ea3cca7967f40995239d55466b636205ed25a3c599ff6c40aef23542c91a",
+      "sha256": "3f3ef929a7fc2e6d16175b6af57a235ccbbbb1bb8db64a53ee12f1e7da2423ba",
       "bytes": 24763
     },
     "sections/07_lessons.tex": {
-      "sha256": "e63dd9f89af9a372d1d9d09897b780bbe2fd07cf4996a9f797ccdbda5191aea9",
-      "bytes": 4316
+      "sha256": "71a5885a345eeae4f283fd8a58020d75226c9dfb355289d9f917fc0559e0beb7",
+      "bytes": 4312
     },
     "sections/08_conclusion.tex": {
       "sha256": "d5ab8c97017d70e1d15b1107b32b59f1089e1aa9b033c872c9d21433186942e3",
@@ -54,8 +54,8 @@
       "bytes": 11286
     }
   },
-  "table_cells": "ledger/manuscript_R82_table_cells.csv",
-  "number_inventory": "ledger/manuscript_R82_numbers.csv",
+  "table_cells": "ledger/manuscript_R83_table_cells.csv",
+  "number_inventory": "ledger/manuscript_R83_numbers.csv",
   "item_inventory": "ledger/manuscript_R82_items.csv",
   "asset_manifest": "config/manuscript_R82_assets.json"
 }

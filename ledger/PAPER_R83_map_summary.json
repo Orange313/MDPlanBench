@@ -1,0 +1,12 @@
+{
+  "manuscript_revision": 83,
+  "explicit_checks": 323,
+  "pass_checks": 321,
+  "acknowledged_definition_errata": 2,
+  "numeric_failures": 0,
+  "active_numeric_token_occurrences": 447,
+  "numeric_lines_with_evidence": 185,
+  "all_numbers_claim": false,
+  "reason": "An occurrence/scope map is not an independent numerical validation of every configuration token or prose sentence. Numeric coverage is stated explicitly.",
+  "raw_or_gpu_revalidation_classes": 4
+}

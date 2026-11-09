@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "files": 1510,
+  "tree_bytes": 113181104,
+  "largest_file_bytes": 4943724,
+  "files_over_50_MB": 0,
+  "findings": 0,
+  "reserved_fixture_or_matrix_operator_matches": 25,
+  "license_sha256": "20980556f8a9d6f6de4c43a2b8f69d54da1ee5bbfcd81e9ce109487a92612583",
+  "scope": "Current tracked release tree including gzip payloads; Git history is preserved, not rewritten. No sensitive matched text is written to the report."
+}

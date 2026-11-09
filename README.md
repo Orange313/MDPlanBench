@@ -6,10 +6,12 @@ lifecycle cost of physical plans and fixed routers for multimodal document retri
 **Paper:** *[Experiment, Analysis, and Benchmark] MDPlanBench: When Does Query-Level
 Physical Plan Selection Pay Off for Multimodal Document Retrieval?*
 
-This **local review candidate** audits manuscript **R82** (revision
-`34d15ab3-c937-4bf7-b5e8-d61e49000131`). It extends public artifact v1.1
-`e9d4c2d14abca6003001caf8010da4f6b7321669`. It has **not been pushed or published**.
-The paper's numerical results and source are not changed by this artifact work.
+This artifact accompanies manuscript **R83** (revision
+`850eb110-3797-473e-b259-1e04db4b86ef`) and extends v1.1 without changing
+the paper, frozen outcomes, risk contract, or license. Submission snapshot:
+[`icde27-eab-v1.2`](https://github.com/Orange313/MDRouter/tree/icde27-eab-v1.2).
+Read [PAPER_NUMBER_MAP.md](PAPER_NUMBER_MAP.md) and the explicitly disclosed
+[R83 definition erratum](KNOWN_ERRATA_R83.md) before interpreting the results.
 
 ## Data Availability
 
@@ -85,9 +87,9 @@ draws, not page embeddings, OCR text, or retrieval indexes.
 
 Numbers in Tables III–IV and the numerical inputs to Figs. 3–5 can be
 recomputed from the included per-query records and frozen derived result tables
-without the raw corpora (Section "Numeric Replay"). This is the verified R82
-artifact coverage; a line-by-line audit of all numbers in the R83 manuscript is
-still pending, so this package does not make an "all numbers in the paper" claim.
+without the raw corpora (Section "Numeric Replay"). The R83 audit provides 323 explicit checks and a separate occurrence/evidence map;
+it does not make an "all numbers in the paper" claim. See `PAPER_NUMBER_MAP.md`
+for unrounded values, source selectors, hashes, coverage and the known erratum.
 Rechecking the original relevance calculations uses the separately downloaded
 official annotations. Re-running retrieval or timing from scratch requires the
 corpora above and a GPU.
@@ -127,7 +129,7 @@ cover all late manuscript additions; use `reproduce_submission.py` for this audi
 
 ## Paper-to-artifact map
 
-| R82 item | Frozen inputs and computation | Output |
+| R83 item | Frozen inputs and computation | Output |
 |---|---|---|
 | Table I, related-work settings | `ledger/tableI_primary_evidence.csv` (primary-source pointers) | Qualitative evidence; absence claims remain conditional |
 | Table II, data and splits | `splits/`, pinned protocols, `records/fresh_unlabelled_page_counts.json` | `base/tables/table_II.csv` |
@@ -149,7 +151,7 @@ cover all late manuscript additions; use `reproduce_submission.py` for this audi
 
 The exhaustive panel/experiment/configuration map, including failures and missing
 hardware paths, is [REPRODUCIBILITY_MATRIX.md](REPRODUCIBILITY_MATRIX.md).
-The read-only manuscript occurrence inventory is `ledger/manuscript_R82_numbers.csv`.
+The read-only current manuscript occurrence inventory is `ledger/manuscript_R83_numbers.csv`.
 It is an inventory, **not a claim that every prose token was independently verified**.
 
 ## From-scratch hardware route (separate from quick replay)

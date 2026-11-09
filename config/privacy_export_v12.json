@@ -1,0 +1,16 @@
+[
+  {
+    "path": "ledger/manuscript_R74_numbers.csv",
+    "reason": "REMOVE_AUTHOR_CONTACT_AND_ORCID_AUDIT_ROWS; NON_SCIENTIFIC_METADATA_ONLY",
+    "removed_rows": 2,
+    "original_sha256": "682fef60f1cc370343f7a0e255634ff33ce6dfd846e466ea84efdc3dfe63f2eb",
+    "export_sha256": "5994f8651d8f9ae31635fa75f1b76930e5a71b69eb896c43513a2518950d5ede"
+  },
+  {
+    "path": "ledger/manuscript_R82_numbers.csv",
+    "reason": "REMOVE_AUTHOR_CONTACT_AND_ORCID_AUDIT_ROWS; NON_SCIENTIFIC_METADATA_ONLY",
+    "removed_rows": 2,
+    "original_sha256": "44ee8415dcb2e94423fb498ffd022b95c613c8bad71124b68cd783b5b87aca4d",
+    "export_sha256": "64089a5a13cd32aac6a67f13733f833e04f38079940e0d83b227c0ca4b855a63"
+  }
+]

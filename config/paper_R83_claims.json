@@ -1,0 +1,5034 @@
+[
+  {
+    "id": "Dev R100 risk min",
+    "reported": "0.0049",
+    "expected": 0.0049,
+    "source": "records/figure_data/plot_points_registered.csv",
+    "field": "risk",
+    "where": {
+      "model": "ColQwen2",
+      "method": "R100",
+      "domain": [
+        "HR",
+        "Finance",
+        "Industrial",
+        "Pharma"
+      ]
+    },
+    "op": "min",
+    "scale": 1,
+    "offset": 0,
+    "tolerance": 5.00001e-05,
+    "location": "sections/06_results.tex",
+    "scope": "ARCHIVED_MEASUREMENTS_OR_DERIVED_RESULTS; CPU_REPLAY"
+  },
+  {
+    "id": "Dev R100 risk max",
+    "reported": "0.0167",
+    "expected": 0.0167,
+    "source": "records/figure_data/plot_points_registered.csv",
+    "field": "risk",
+    "where": {
+      "model": "ColQwen2",
+      "method": "R100",
+      "domain": [
+        "HR",
+        "Finance",
+        "Industrial",
+        "Pharma"
+      ]
+    },
+    "op": "max",
+    "scale": 1,
+    "offset": 0,
+    "tolerance": 5.00001e-05,
+    "location": "sections/06_results.tex",
+    "scope": "ARCHIVED_MEASUREMENTS_OR_DERIVED_RESULTS; CPU_REPLAY"
+  },
+  {
+    "id": "Dev R100 cost_pct_FullV max",
+    "reported": "10.9",
+    "expected": 10.9,
+    "source": "records/figure_data/plot_points_registered.csv",
+    "field": "cost_pct_FullV",
+    "where": {
+      "model": "ColQwen2",
+      "method": "R100",
+      "domain": [
+        "HR",
+        "Finance",
+        "Industrial",
+        "Pharma"
+      ]
+    },
+    "op": "max",
+    "scale": -1,
+    "offset": 100,
+    "tolerance": 0.050000100000000006,
+    "location": "sections/06_results.tex",
+    "scope": "ARCHIVED_MEASUREMENTS_OR_DERIVED_RESULTS; CPU_REPLAY"
+  },
+  {
+    "id": "Dev R100 cost_pct_FullV min",
+    "reported": "31.0",
+    "expected": 31.0,
+    "source": "records/figure_data/plot_points_registered.csv",
+    "field": "cost_pct_FullV",
+    "where": {
+      "model": "ColQwen2",
+      "method": "R100",
+      "domain": [
+        "HR",
+        "Finance",
+        "Industrial",
+        "Pharma"
+      ]
+    },
+    "op": "min",
+    "scale": -1,
+    "offset": 100,
+    "tolerance": 0.050000100000000006,
+    "location": "sections/06_results.tex",
+    "scope": "ARCHIVED_MEASUREMENTS_OR_DERIVED_RESULTS; CPU_REPLAY"
+  },
+  {
+    "id": "Finance/R50/ndcg",
+    "reported": "0.615",
+    "expected": 0.615,
+    "source": "records/figure_data/plot_points_registered.csv",
+    "field": "ndcg",
+    "where": {
+      "domain": "Finance",
+      "model": "ColQwen2",
+      "method": "R50"
+    },
+    "op": "first",
+    "scale": 1,
+    "offset": 0,
+    "tolerance": 0.000500001,
+    "location": "sections/06_results.tex",
+    "scope": "ARCHIVED_MEASUREMENTS_OR_DERIVED_RESULTS; CPU_REPLAY"
+  },
+  {
+    "id": "Finance/FullV/ndcg",
+    "reported": "0.594",
+    "expected": 0.594,
+    "source": "records/figure_data/plot_points_registered.csv",
+    "field": "ndcg",
+    "where": {
+      "domain": "Finance",
+      "model": "ColQwen2",
+      "method": "FullV"
+    },
+    "op": "first",
+    "scale": 1,
+    "offset": 0,
+    "tolerance": 0.000500001,
+    "location": "sections/06_results.tex",
+    "scope": "ARCHIVED_MEASUREMENTS_OR_DERIVED_RESULTS; CPU_REPLAY"
+  },
+  {
+    "id": "Finance/R50/harm",
+    "reported": "12.8",
+    "expected": 12.8,
+    "source": "records/figure_data/plot_points_registered.csv",
+    "field": "harm",
+    "where": {
+      "domain": "Finance",
+      "model": "ColQwen2",
+      "method": "R50"
+    },
+    "op": "first",
+    "scale": 100,
+    "offset": 0,
+    "tolerance": 0.050000100000000006,
+    "location": "sections/06_results.tex",
+    "scope": "ARCHIVED_MEASUREMENTS_OR_DERIVED_RESULTS; CPU_REPLAY"
+  },
+  {
+    "id": "Biomedical/R100/risk",
+    "reported": "0.1117",
+    "expected": 0.1117,
+    "source": "records/figure_data/plot_points_registered.csv",
+    "field": "risk",
+    "where": {
+      "domain": "Biomedical",
+      "model": "ColQwen2",
+      "method": "R100"
+    },
+    "op": "first",
+    "scale": 1,
+    "offset": 0,
+    "tolerance": 5.00001e-05,
+    "location": "sections/06_results.tex",
+    "scope": "ARCHIVED_MEASUREMENTS_OR_DERIVED_RESULTS; CPU_REPLAY"
+  },
+  {
+    "id": "Economics/R100/risk",
+    "reported": "0.0086",
+    "expected": 0.0086,
+    "source": "records/figure_data/plot_points_registered.csv",
+    "field": "risk",
+    "where": {
+      "domain": "Economics",
+      "model": "ColQwen2",
+      "method": "R100"
+    },
+    "op": "first",
+    "scale": 1,
+    "offset": 0,
+    "tolerance": 5.00001e-05,
+    "location": "sections/06_results.tex",
+    "scope": "ARCHIVED_MEASUREMENTS_OR_DERIVED_RESULTS; CPU_REPLAY"
+  },
+  {
+    "id": "Pharma/Q/gain_pp",
+    "reported": "-15.15",
+    "expected": -15.15,
+    "source": "records/figure_data/plot_points_registered.csv",
+    "field": "gain_pp",
+    "where": {
+      "domain": "Pharma",
+      "model": "ColQwen2",
+      "method": "Q"
+    },
+    "op": "first",
+    "scale": 1,
+    "offset": 0,
+    "tolerance": 0.00500001,
+    "location": "sections/06_results.tex",
+    "scope": "ARCHIVED_MEASUREMENTS_OR_DERIVED_RESULTS; CPU_REPLAY"
+  },
+  {
+    "id": "Biomedical/Q/gain_pp",
+    "reported": "-19.63",
+    "expected": -19.63,
+    "source": "records/figure_data/plot_points_registered.csv",
+    "field": "gain_pp",
+    "where": {
+      "domain": "Biomedical",
+      "model": "ColQwen2",
+      "method": "Q"
+    },
+    "op": "first",
+    "scale": 1,
+    "offset": 0,
+    "tolerance": 0.00500001,
+    "location": "sections/06_results.tex",
+    "scope": "ARCHIVED_MEASUREMENTS_OR_DERIVED_RESULTS; CPU_REPLAY"
+  },
+  {
+    "id": "Biomedical/QP/gain_pp",
+    "reported": "-14.05",
+    "expected": -14.05,
+    "source": "records/figure_data/plot_points_registered.csv",
+    "field": "gain_pp",
+    "where": {
+      "domain": "Biomedical",
+      "model": "ColQwen2",
+      "method": "QP"
+    },
+    "op": "first",
+    "scale": 1,
+    "offset": 0,
+    "tolerance": 0.00500001,
+    "location": "sections/06_results.tex",
+    "scope": "ARCHIVED_MEASUREMENTS_OR_DERIVED_RESULTS; CPU_REPLAY"
+  },
+  {
+    "id": "Pharma Q saving vs FullV",
+    "reported": "24.0",
+    "expected": 24.0,
+    "source": "records/figure_data/plot_points_registered.csv",
+    "field": "cost_pct_FullV",
+    "where": {
+      "domain": "Pharma",
+      "model": "ColQwen2",
+      "method": "Q"
+    },
+    "op": "first",
+    "scale": -1,
+    "offset": 100,
+    "tolerance": 0.050000100000000006,
+    "location": "sections/06_results.tex",
+    "scope": "ARCHIVED_MEASUREMENTS_OR_DERIVED_RESULTS; CPU_REPLAY"
+  },
+  {
+    "id": "Dev BM25 harm min",
+    "reported": "37.5",
+    "expected": 37.5,
+    "source": "records/figure_data/plot_points_registered.csv",
+    "field": "harm",
+    "where": {
+      "domain": [
+        "HR",
+        "Finance",
+        "Industrial",
+        "Pharma"
+      ],
+      "model": "ColQwen2",
+      "method": "BM25"
+    },
+    "op": "min",
+    "scale": 100,
+    "offset": 0,
+    "tolerance": 0.050000100000000006,
+    "location": "sections/06_results.tex",
+    "scope": "ARCHIVED_MEASUREMENTS_OR_DERIVED_RESULTS; CPU_REPLAY"
+  },
+  {
+    "id": "Dev BM25 harm max",
+    "reported": "55.0",
+    "expected": 55.0,
+    "source": "records/figure_data/plot_points_registered.csv",
+    "field": "harm",
+    "where": {
+      "domain": [
+        "HR",
+        "Finance",
+        "Industrial",
+        "Pharma"
+      ],
+      "model": "ColQwen2",
+      "method": "BM25"
+    },
+    "op": "max",
+    "scale": 100,
+    "offset": 0,
+    "tolerance": 0.050000100000000006,
+    "location": "sections/06_results.tex",
+    "scope": "ARCHIVED_MEASUREMENTS_OR_DERIVED_RESULTS; CPU_REPLAY"
+  },
+  {
+    "id": "ColPali Dev R100 cost_pct_FullV max",
+    "reported": "10.9",
+    "expected": 10.9,
+    "source": "records/figure_data/plot_points_registered.csv",
+    "field": "cost_pct_FullV",
+    "where": {
+      "domain": [
+        "HR",
+        "Finance",
+        "Industrial",
+        "Pharma"
+      ],
+      "model": "ColPali",
+      "method": "R100"
+    },
+    "op": "max",
+    "scale": -1,
+    "offset": 100,
+    "tolerance": 0.050000100000000006,
+    "location": "sections/06_results.tex",
+    "scope": "ARCHIVED_MEASUREMENTS_OR_DERIVED_RESULTS; CPU_REPLAY"
+  },
+  {
+    "id": "ColPali Dev R100 cost_pct_FullV min",
+    "reported": "29.3",
+    "expected": 29.3,
+    "source": "records/figure_data/plot_points_registered.csv",
+    "field": "cost_pct_FullV",
+    "where": {
+      "domain": [
+        "HR",
+        "Finance",
+        "Industrial",
+        "Pharma"
+      ],
+      "model": "ColPali",
+      "method": "R100"
+    },
+    "op": "min",
+    "scale": -1,
+    "offset": 100,
+    "tolerance": 0.050000100000000006,
+    "location": "sections/06_results.tex",
+    "scope": "ARCHIVED_MEASUREMENTS_OR_DERIVED_RESULTS; CPU_REPLAY"
+  },
+  {
+    "id": "ColPali Dev R100 risk max",
+    "reported": "0.0312",
+    "expected": 0.0312,
+    "source": "records/figure_data/plot_points_registered.csv",
+    "field": "risk",
+    "where": {
+      "domain": [
+        "HR",
+        "Finance",
+        "Industrial",
+        "Pharma"
+      ],
+      "model": "ColPali",
+      "method": "R100"
+    },
+    "op": "max",
+    "scale": 1,
+    "offset": 0,
+    "tolerance": 5.00001e-05,
+    "location": "sections/06_results.tex",
+    "scope": "ARCHIVED_MEASUREMENTS_OR_DERIVED_RESULTS; CPU_REPLAY"
+  },
+  {
+    "id": "ColPali Biomedical R100 risk",
+    "reported": "0.0929",
+    "expected": 0.0929,
+    "source": "records/figure_data/plot_points_registered.csv",
+    "field": "risk",
+    "where": {
+      "domain": "Biomedical",
+      "model": "ColPali",
+      "method": "R100"
+    },
+    "op": "first",
+    "scale": 1,
+    "offset": 0,
+    "tolerance": 5.00001e-05,
+    "location": "sections/06_results.tex",
+    "scope": "ARCHIVED_MEASUREMENTS_OR_DERIVED_RESULTS; CPU_REPLAY"
+  },
+  {
+    "id": "Biomedical QP minus Q risk",
+    "reported": "-0.0322",
+    "expected": -0.0322,
+    "source": "records/figure_data/paired_contrasts.csv",
+    "field": "delta_r",
+    "where": {
+      "domain": "Biomedical",
+      "control": "Q"
+    },
+    "op": "first",
+    "scale": 1,
+    "offset": 0,
+    "tolerance": 5.00001e-05,
+    "location": "sections/06_results.tex",
+    "scope": "ARCHIVED_MEASUREMENTS_OR_DERIVED_RESULTS; CPU_REPLAY"
+  },
+  {
+    "id": "Biomedical QP minus Q E2E ms",
+    "reported": "3.6",
+    "expected": 3.6,
+    "source": "records/figure_data/paired_contrasts.csv",
+    "field": "delta_ms",
+    "where": {
+      "domain": "Biomedical",
+      "control": "Q"
+    },
+    "op": "first",
+    "scale": 1,
+    "offset": 0,
+    "tolerance": 0.050000100000000006,
+    "location": "sections/06_results.tex",
+    "scope": "ARCHIVED_MEASUREMENTS_OR_DERIVED_RESULTS; CPU_REPLAY"
+  },
+  {
+    "id": "Biomedical QP-Q E2E rounded introductory",
+    "reported": "3.6",
+    "expected": 3.6,
+    "source": "records/figure_data/paired_contrasts.csv",
+    "field": "delta_ms",
+    "where": {
+      "domain": "Biomedical",
+      "control": "Q"
+    },
+    "op": "first",
+    "scale": 1,
+    "offset": 0,
+    "tolerance": 0.050000100000000006,
+    "location": "sections/06_results.tex",
+    "scope": "ARCHIVED_MEASUREMENTS_OR_DERIVED_RESULTS; CPU_REPLAY"
+  },
+  {
+    "id": "Economics QP minus Q risk",
+    "reported": "-0.0267",
+    "expected": -0.0267,
+    "source": "records/figure_data/paired_contrasts.csv",
+    "field": "delta_r",
+    "where": {
+      "domain": "Economics",
+      "control": "Q"
+    },
+    "op": "first",
+    "scale": 1,
+    "offset": 0,
+    "tolerance": 5.00001e-05,
+    "location": "sections/06_results.tex",
+    "scope": "ARCHIVED_MEASUREMENTS_OR_DERIVED_RESULTS; CPU_REPLAY"
+  },
+  {
+    "id": "Economics QP minus Q E2E ms",
+    "reported": "4.06",
+    "expected": 4.06,
+    "source": "records/figure_data/paired_contrasts.csv",
+    "field": "delta_ms",
+    "where": {
+      "domain": "Economics",
+      "control": "Q"
+    },
+    "op": "first",
+    "scale": 1,
+    "offset": 0,
+    "tolerance": 0.00500001,
+    "location": "sections/06_results.tex",
+    "scope": "ARCHIVED_MEASUREMENTS_OR_DERIVED_RESULTS; CPU_REPLAY"
+  },
+  {
+    "id": "Economics QP-Q E2E rounded introductory",
+    "reported": "4.1",
+    "expected": 4.1,
+    "source": "records/figure_data/paired_contrasts.csv",
+    "field": "delta_ms",
+    "where": {
+      "domain": "Economics",
+      "control": "Q"
+    },
+    "op": "first",
+    "scale": 1,
+    "offset": 0,
+    "tolerance": 0.050000100000000006,
+    "location": "sections/06_results.tex",
+    "scope": "ARCHIVED_MEASUREMENTS_OR_DERIVED_RESULTS; CPU_REPLAY"
+  },
+  {
+    "id": "Dev Oracle .02 min",
+    "reported": "42.5",
+    "expected": 42.5,
+    "source": "records/figure_data/fixed_budget_oracle.csv",
+    "field": "headroom4env_3oracle_pp",
+    "where": {
+      "domain": [
+        "HR",
+        "Finance",
+        "Industrial",
+        "Pharma"
+      ],
+      "model": "ColQwen2",
+      "budget": "0.02"
+    },
+    "op": "min",
+    "scale": 1,
+    "offset": 0,
+    "tolerance": 0.050000100000000006,
+    "location": "sections/06_results.tex",
+    "scope": "ARCHIVED_MEASUREMENTS_OR_DERIVED_RESULTS; CPU_REPLAY"
+  },
+  {
+    "id": "Dev Oracle .02 max",
+    "reported": "53.2",
+    "expected": 53.2,
+    "source": "records/figure_data/fixed_budget_oracle.csv",
+    "field": "headroom4env_3oracle_pp",
+    "where": {
+      "domain": [
+        "HR",
+        "Finance",
+        "Industrial",
+        "Pharma"
+      ],
+      "model": "ColQwen2",
+      "budget": "0.02"
+    },
+    "op": "max",
+    "scale": 1,
+    "offset": 0,
+    "tolerance": 0.050000100000000006,
+    "location": "sections/06_results.tex",
+    "scope": "ARCHIVED_MEASUREMENTS_OR_DERIVED_RESULTS; CPU_REPLAY"
+  },
+  {
+    "id": "ColPali Oracle .02 min",
+    "reported": "30.9",
+    "expected": 30.9,
+    "source": "records/figure_data/fixed_budget_oracle.csv",
+    "field": "headroom4env_3oracle_pp",
+    "where": {
+      "domain": [
+        "HR",
+        "Finance",
+        "Industrial",
+        "Pharma"
+      ],
+      "model": "ColPali",
+      "budget": "0.02"
+    },
+    "op": "min",
+    "scale": 1,
+    "offset": 0,
+    "tolerance": 0.050000100000000006,
+    "location": "sections/06_results.tex",
+    "scope": "ARCHIVED_MEASUREMENTS_OR_DERIVED_RESULTS; CPU_REPLAY"
+  },
+  {
+    "id": "ColPali Oracle .02 max",
+    "reported": "57.4",
+    "expected": 57.4,
+    "source": "records/figure_data/fixed_budget_oracle.csv",
+    "field": "headroom4env_3oracle_pp",
+    "where": {
+      "domain": [
+        "HR",
+        "Finance",
+        "Industrial",
+        "Pharma"
+      ],
+      "model": "ColPali",
+      "budget": "0.02"
+    },
+    "op": "max",
+    "scale": 1,
+    "offset": 0,
+    "tolerance": 0.050000100000000006,
+    "location": "sections/06_results.tex",
+    "scope": "ARCHIVED_MEASUREMENTS_OR_DERIVED_RESULTS; CPU_REPLAY"
+  },
+  {
+    "id": "Bench Oracle min",
+    "reported": "36.7",
+    "expected": 36.7,
+    "source": "records/figure_data/oracle_at_router_risk.csv",
+    "field": "headroom_vs4_pp",
+    "where": {
+      "domain": [
+        "Biomedical",
+        "Economics"
+      ],
+      "model": "ColQwen2"
+    },
+    "op": "min",
+    "scale": 1,
+    "offset": 0,
+    "tolerance": 0.050000100000000006,
+    "location": "sections/06_results.tex",
+    "scope": "ARCHIVED_MEASUREMENTS_OR_DERIVED_RESULTS; CPU_REPLAY"
+  },
+  {
+    "id": "Bench Oracle max",
+    "reported": "45.3",
+    "expected": 45.3,
+    "source": "records/figure_data/oracle_at_router_risk.csv",
+    "field": "headroom_vs4_pp",
+    "where": {
+      "domain": [
+        "Biomedical",
+        "Economics"
+      ],
+      "model": "ColQwen2"
+    },
+    "op": "max",
+    "scale": 1,
+    "offset": 0,
+    "tolerance": 0.050000100000000006,
+    "location": "sections/06_results.tex",
+    "scope": "ARCHIVED_MEASUREMENTS_OR_DERIVED_RESULTS; CPU_REPLAY"
+  },
+  {
+    "id": "Abstract about37 Oracle minimum",
+    "reported": "37",
+    "expected": 37.0,
+    "source": "records/figure_data/oracle_at_router_risk.csv",
+    "field": "headroom_vs4_pp",
+    "where": {
+      "domain": [
+        "Biomedical",
+        "Economics"
+      ],
+      "model": "ColQwen2"
+    },
+    "op": "min",
+    "scale": 1,
+    "offset": 0,
+    "tolerance": 0.500001,
+    "location": "sections/06_results.tex",
+    "scope": "ARCHIVED_MEASUREMENTS_OR_DERIVED_RESULTS; CPU_REPLAY"
+  },
+  {
+    "id": "Abstract about53 Oracle maximum",
+    "reported": "53",
+    "expected": 53.0,
+    "source": "records/figure_data/fixed_budget_oracle.csv",
+    "field": "headroom4env_3oracle_pp",
+    "where": {
+      "domain": [
+        "HR",
+        "Finance",
+        "Industrial",
+        "Pharma"
+      ],
+      "model": "ColQwen2",
+      "budget": "0.02"
+    },
+    "op": "max",
+    "scale": 1,
+    "offset": 0,
+    "tolerance": 0.500001,
+    "location": "sections/06_results.tex",
+    "scope": "ARCHIVED_MEASUREMENTS_OR_DERIVED_RESULTS; CPU_REPLAY"
+  },
+  {
+    "id": "Executed mix within5.1pp",
+    "reported": "5.1",
+    "expected": 5.1,
+    "source": "records/figure_data/executed_mix_audit.csv",
+    "field": "gain_pp",
+    "where": {},
+    "op": "max_abs",
+    "scale": 1,
+    "offset": 0,
+    "tolerance": 0.050000100000000006,
+    "location": "sections/06_results.tex",
+    "scope": "ARCHIVED_MEASUREMENTS_OR_DERIVED_RESULTS; CPU_REPLAY"
+  },
+  {
+    "id": "Crossfit/HR/Ridge_QP/DeltaC_cf_pp",
+    "reported": "5.55",
+    "expected": 5.55,
+    "source": "posthoc_20261109/screening_001/E2_main_b005.csv",
+    "field": "DeltaC_cf_pp",
+    "where": {
+      "domain": "HR",
+      "method": "Ridge_QP"
+    },
+    "op": "first",
+    "scale": 1,
+    "offset": 0,
+    "tolerance": 0.00500001,
+    "location": "sections/06_results.tex",
+    "scope": "POSTHOC_THREE_ACTION; COMPONENT_RECOMPOSED_OFFLINE_SCREEN; CONDITIONAL_PAIRED_INTERVALS"
+  },
+  {
+    "id": "Crossfit/HR/Ridge_QP/low95_pp",
+    "reported": "-12.74",
+    "expected": -12.74,
+    "source": "posthoc_20261109/screening_001/E2_main_b005.csv",
+    "field": "low95_pp",
+    "where": {
+      "domain": "HR",
+      "method": "Ridge_QP"
+    },
+    "op": "first",
+    "scale": 1,
+    "offset": 0,
+    "tolerance": 0.00500001,
+    "location": "sections/06_results.tex",
+    "scope": "POSTHOC_THREE_ACTION; COMPONENT_RECOMPOSED_OFFLINE_SCREEN; CONDITIONAL_PAIRED_INTERVALS"
+  },
+  {
+    "id": "Crossfit/Pharma/LightGBM_QP/DeltaC_cf_pp",
+    "reported": "8.6",
+    "expected": 8.6,
+    "source": "posthoc_20261109/screening_001/E2_main_b005.csv",
+    "field": "DeltaC_cf_pp",
+    "where": {
+      "domain": "Pharma",
+      "method": "LightGBM_QP"
+    },
+    "op": "first",
+    "scale": 1,
+    "offset": 0,
+    "tolerance": 0.050000100000000006,
+    "location": "sections/06_results.tex",
+    "scope": "POSTHOC_THREE_ACTION; COMPONENT_RECOMPOSED_OFFLINE_SCREEN; CONDITIONAL_PAIRED_INTERVALS"
+  },
+  {
+    "id": "Crossfit/Pharma/LightGBM_QP/low95_pp",
+    "reported": "-7.02",
+    "expected": -7.02,
+    "source": "posthoc_20261109/screening_001/E2_main_b005.csv",
+    "field": "low95_pp",
+    "where": {
+      "domain": "Pharma",
+      "method": "LightGBM_QP"
+    },
+    "op": "first",
+    "scale": 1,
+    "offset": 0,
+    "tolerance": 0.00500001,
+    "location": "sections/06_results.tex",
+    "scope": "POSTHOC_THREE_ACTION; COMPONENT_RECOMPOSED_OFFLINE_SCREEN; CONDITIONAL_PAIRED_INTERVALS"
+  },
+  {
+    "id": "Crossfit/Pharma/LightGBM_QP/high95_pp",
+    "reported": "28.19",
+    "expected": 28.19,
+    "source": "posthoc_20261109/screening_001/E2_main_b005.csv",
+    "field": "high95_pp",
+    "where": {
+      "domain": "Pharma",
+      "method": "LightGBM_QP"
+    },
+    "op": "first",
+    "scale": 1,
+    "offset": 0,
+    "tolerance": 0.00500001,
+    "location": "sections/06_results.tex",
+    "scope": "POSTHOC_THREE_ACTION; COMPONENT_RECOMPOSED_OFFLINE_SCREEN; CONDITIONAL_PAIRED_INTERVALS"
+  },
+  {
+    "id": "Crossfit/Biomedical/LightGBM_QP/DeltaC_cf_pp",
+    "reported": "-15.47",
+    "expected": -15.47,
+    "source": "posthoc_20261109/screening_001/E2_main_b005.csv",
+    "field": "DeltaC_cf_pp",
+    "where": {
+      "domain": "Biomedical",
+      "method": "LightGBM_QP"
+    },
+    "op": "first",
+    "scale": 1,
+    "offset": 0,
+    "tolerance": 0.00500001,
+    "location": "sections/06_results.tex",
+    "scope": "POSTHOC_THREE_ACTION; COMPONENT_RECOMPOSED_OFFLINE_SCREEN; CONDITIONAL_PAIRED_INTERVALS"
+  },
+  {
+    "id": "Crossfit positive lower bounds",
+    "reported": "0",
+    "expected": 0.0,
+    "source": "posthoc_20261109/screening_001/E2_main_b005.csv",
+    "field": "low95_pp",
+    "where": {},
+    "op": "count_positive",
+    "scale": 1,
+    "offset": 0,
+    "tolerance": 0,
+    "location": "sections/06_results.tex",
+    "scope": "ARCHIVED_MEASUREMENTS_OR_DERIVED_RESULTS; CPU_REPLAY"
+  },
+  {
+    "id": "Other five domains optimism at most4.0",
+    "reported": "4.0",
+    "expected": 4.0,
+    "source": "posthoc_20261109/screening_001/E1_bias_summary.csv",
+    "field": "max_abs_Bias_pp",
+    "where": {
+      "domain": [
+        "HR",
+        "Finance",
+        "Pharma",
+        "Biomedical",
+        "Economics"
+      ]
+    },
+    "op": "max",
+    "scale": 1,
+    "offset": 0,
+    "tolerance": 0.050000100000000006,
+    "location": "sections/06_results.tex",
+    "scope": "ARCHIVED_MEASUREMENTS_OR_DERIVED_RESULTS; CPU_REPLAY"
+  },
+  {
+    "id": "Industrial median optimism",
+    "reported": "4.3",
+    "expected": 4.3,
+    "source": "posthoc_20261109/screening_001/E1_bias_summary.csv",
+    "field": "median_Bias_pp",
+    "where": {
+      "domain": "Industrial",
+      "cohort": "original_four_static"
+    },
+    "op": "first",
+    "scale": -1,
+    "offset": 0,
+    "tolerance": 0.050000100000000006,
+    "location": "sections/06_results.tex",
+    "scope": "ARCHIVED_MEASUREMENTS_OR_DERIVED_RESULTS; CPU_REPLAY"
+  },
+  {
+    "id": "Industrial max optimism",
+    "reported": "12.0",
+    "expected": 12.0,
+    "source": "posthoc_20261109/screening_001/E1_bias_summary.csv",
+    "field": "max_abs_Bias_pp",
+    "where": {
+      "domain": "Industrial",
+      "cohort": "original_four_static"
+    },
+    "op": "first",
+    "scale": 1,
+    "offset": 0,
+    "tolerance": 0.050000100000000006,
+    "location": "sections/06_results.tex",
+    "scope": "ARCHIVED_MEASUREMENTS_OR_DERIVED_RESULTS; CPU_REPLAY"
+  },
+  {
+    "id": "Learning kappa20/Q_regret/20",
+    "reported": "-0.63",
+    "expected": -0.63,
+    "source": "posthoc_20261109/independent_001/K17_kappa10_vs20.csv",
+    "field": "matched_risk_increment_pp",
+    "where": {
+      "method": "Q_regret",
+      "kappa": "20",
+      "Fit_n": "20"
+    },
+    "op": "first",
+    "scale": 1,
+    "offset": 0,
+    "tolerance": 0.00500001,
+    "location": "sections/06_results.tex",
+    "scope": "POSTHOC_LEARNING_CURVE; HISTORICAL_SUBSETS; FOUR_STATIC_ENVELOPE; NO_RETRAINING"
+  },
+  {
+    "id": "Learning kappa20/Q_regret/81",
+    "reported": "-26.8",
+    "expected": -26.8,
+    "source": "posthoc_20261109/independent_001/K17_kappa10_vs20.csv",
+    "field": "matched_risk_increment_pp",
+    "where": {
+      "method": "Q_regret",
+      "kappa": "20",
+      "Fit_n": "81"
+    },
+    "op": "first",
+    "scale": 1,
+    "offset": 0,
+    "tolerance": 0.050000100000000006,
+    "location": "sections/06_results.tex",
+    "scope": "POSTHOC_LEARNING_CURVE; HISTORICAL_SUBSETS; FOUR_STATIC_ENVELOPE; NO_RETRAINING"
+  },
+  {
+    "id": "Learning kappa20/QP_regret/20",
+    "reported": "-3.52",
+    "expected": -3.52,
+    "source": "posthoc_20261109/independent_001/K17_kappa10_vs20.csv",
+    "field": "matched_risk_increment_pp",
+    "where": {
+      "method": "QP_regret",
+      "kappa": "20",
+      "Fit_n": "20"
+    },
+    "op": "first",
+    "scale": 1,
+    "offset": 0,
+    "tolerance": 0.00500001,
+    "location": "sections/06_results.tex",
+    "scope": "POSTHOC_LEARNING_CURVE; HISTORICAL_SUBSETS; FOUR_STATIC_ENVELOPE; NO_RETRAINING"
+  },
+  {
+    "id": "Learning kappa20/QP_regret/81",
+    "reported": "-8.67",
+    "expected": -8.67,
+    "source": "posthoc_20261109/independent_001/K17_kappa10_vs20.csv",
+    "field": "matched_risk_increment_pp",
+    "where": {
+      "method": "QP_regret",
+      "kappa": "20",
+      "Fit_n": "81"
+    },
+    "op": "first",
+    "scale": 1,
+    "offset": 0,
+    "tolerance": 0.00500001,
+    "location": "sections/06_results.tex",
+    "scope": "POSTHOC_LEARNING_CURVE; HISTORICAL_SUBSETS; FOUR_STATIC_ENVELOPE; NO_RETRAINING"
+  },
+  {
+    "id": "Selection decomposition/selector_loss_pp/min",
+    "reported": "42.39",
+    "expected": 42.39,
+    "source": "records/022_plot_data/selection_plot.csv",
+    "field": "selector_loss_pp",
+    "where": {},
+    "op": "min",
+    "scale": 1,
+    "offset": 0,
+    "tolerance": 0.00500001,
+    "location": "sections/06_results.tex",
+    "scope": "POSTHOC_THREE_ACTION; MATCHED_STATIC_QUERY_PRICES; O_INCLUDES_CONTEXT_RESIDUAL"
+  },
+  {
+    "id": "Selection decomposition/selector_loss_pp/max",
+    "reported": "60.49",
+    "expected": 60.49,
+    "source": "records/022_plot_data/selection_plot.csv",
+    "field": "selector_loss_pp",
+    "where": {},
+    "op": "max",
+    "scale": 1,
+    "offset": 0,
+    "tolerance": 0.00500001,
+    "location": "sections/06_results.tex",
+    "scope": "POSTHOC_THREE_ACTION; MATCHED_STATIC_QUERY_PRICES; O_INCLUDES_CONTEXT_RESIDUAL"
+  },
+  {
+    "id": "Selection decomposition/realized_minus_standalone_execution_pp/min",
+    "reported": "1.04",
+    "expected": 1.04,
+    "source": "records/022_plot_data/selection_plot.csv",
+    "field": "realized_minus_standalone_execution_pp",
+    "where": {},
+    "op": "min",
+    "scale": 1,
+    "offset": 0,
+    "tolerance": 0.00500001,
+    "location": "sections/06_results.tex",
+    "scope": "POSTHOC_THREE_ACTION; MATCHED_STATIC_QUERY_PRICES; O_INCLUDES_CONTEXT_RESIDUAL"
+  },
+  {
+    "id": "Selection decomposition/realized_minus_standalone_execution_pp/max",
+    "reported": "5.83",
+    "expected": 5.83,
+    "source": "records/022_plot_data/selection_plot.csv",
+    "field": "realized_minus_standalone_execution_pp",
+    "where": {},
+    "op": "max",
+    "scale": 1,
+    "offset": 0,
+    "tolerance": 0.00500001,
+    "location": "sections/06_results.tex",
+    "scope": "POSTHOC_THREE_ACTION; MATCHED_STATIC_QUERY_PRICES; O_INCLUDES_CONTEXT_RESIDUAL"
+  },
+  {
+    "id": "Index wall min",
+    "reported": "142.9",
+    "expected": 142.9,
+    "source": "records/figure_data/017/G2_setup_repeats.csv",
+    "field": "index_wall_s",
+    "where": {},
+    "op": "min",
+    "scale": 1,
+    "offset": 0,
+    "tolerance": 0.050000100000000006,
+    "location": "sections/06_results.tex",
+    "scope": "ARCHIVED_MEASUREMENTS_OR_DERIVED_RESULTS; CPU_REPLAY"
+  },
+  {
+    "id": "Index wall max",
+    "reported": "186.6",
+    "expected": 186.6,
+    "source": "records/figure_data/017/G2_setup_repeats.csv",
+    "field": "index_wall_s",
+    "where": {},
+    "op": "max",
+    "scale": 1,
+    "offset": 0,
+    "tolerance": 0.050000100000000006,
+    "location": "sections/06_results.tex",
+    "scope": "ARCHIVED_MEASUREMENTS_OR_DERIVED_RESULTS; CPU_REPLAY"
+  },
+  {
+    "id": "Same-process warm margin min",
+    "reported": "4.4",
+    "expected": 4.4,
+    "source": "records/figure_data/017/G2_setup_repeats.csv",
+    "field": "warm_margin_s",
+    "where": {},
+    "op": "min",
+    "scale": 1000,
+    "offset": 0,
+    "tolerance": 0.050000100000000006,
+    "location": "sections/06_results.tex",
+    "scope": "ARCHIVED_MEASUREMENTS_OR_DERIVED_RESULTS; CPU_REPLAY"
+  },
+  {
+    "id": "Same-process warm margin max",
+    "reported": "6.0",
+    "expected": 6.0,
+    "source": "records/figure_data/017/G2_setup_repeats.csv",
+    "field": "warm_margin_s",
+    "where": {},
+    "op": "max",
+    "scale": 1000,
+    "offset": 0,
+    "tolerance": 0.050000100000000006,
+    "location": "sections/06_results.tex",
+    "scope": "ARCHIVED_MEASUREMENTS_OR_DERIVED_RESULTS; CPU_REPLAY"
+  },
+  {
+    "id": "Setup FullV mean Biomedical ColQwen2",
+    "reported": "36.22",
+    "expected": 36.22,
+    "source": "records/figure_data/017/G2_setup_repeats.csv",
+    "field": "warm_FullV_s",
+    "where": {
+      "model": "ColQwen2"
+    },
+    "op": "mean",
+    "scale": 1000,
+    "offset": 0,
+    "tolerance": 0.00500001,
+    "location": "sections/05_setup.tex",
+    "scope": "ARCHIVED_MEASUREMENTS_OR_DERIVED_RESULTS; CPU_REPLAY"
+  },
+  {
+    "id": "Main FullV mean Biomedical ColQwen2",
+    "reported": "70.22",
+    "expected": 70.22,
+    "source": "records/figure_data/plot_points_registered.csv",
+    "field": "warm_ms",
+    "where": {
+      "domain": "Biomedical",
+      "model": "ColQwen2",
+      "method": "FullV"
+    },
+    "op": "first",
+    "scale": 1,
+    "offset": 0,
+    "tolerance": 0.00500001,
+    "location": "sections/05_setup.tex",
+    "scope": "ARCHIVED_MEASUREMENTS_OR_DERIVED_RESULTS; CPU_REPLAY"
+  },
+  {
+    "id": "Crossing/OCR_EXCLUSIVE_NEW_INDEX/min",
+    "reported": "68000",
+    "expected": 68000.0,
+    "source": "records/paper_supplement/05_lifecycle_crossing_ranges.csv",
+    "field": "N_min",
+    "where": {
+      "scenario": "OCR_EXCLUSIVE_NEW_INDEX"
+    },
+    "op": "min",
+    "scale": 1,
+    "offset": 0,
+    "tolerance": 0,
+    "location": "sections/06_results.tex",
+    "scope": "CONDITIONAL_COMPONENT_MODEL; OBSERVED_PROCESS_RANGE_NOT_CI",
+    "round": -3
+  },
+  {
+    "id": "Crossing/OCR_EXCLUSIVE_NEW_INDEX/max",
+    "reported": "93000",
+    "expected": 93000.0,
+    "source": "records/paper_supplement/05_lifecycle_crossing_ranges.csv",
+    "field": "N_max",
+    "where": {
+      "scenario": "OCR_EXCLUSIVE_NEW_INDEX"
+    },
+    "op": "max",
+    "scale": 1,
+    "offset": 0,
+    "tolerance": 0,
+    "location": "sections/06_results.tex",
+    "scope": "CONDITIONAL_COMPONENT_MODEL; OBSERVED_PROCESS_RANGE_NOT_CI",
+    "round": -3
+  },
+  {
+    "id": "Crossing/OCR_SHARED_HALF_NEW_INDEX/min",
+    "reported": "34235",
+    "expected": 34235.0,
+    "source": "records/paper_supplement/05_lifecycle_crossing_ranges.csv",
+    "field": "N_min",
+    "where": {
+      "scenario": "OCR_SHARED_HALF_NEW_INDEX"
+    },
+    "op": "min",
+    "scale": 1,
+    "offset": 0,
+    "tolerance": 0,
+    "location": "sections/06_results.tex",
+    "scope": "CONDITIONAL_COMPONENT_MODEL; OBSERVED_PROCESS_RANGE_NOT_CI"
+  },
+  {
+    "id": "Crossing/OCR_SHARED_HALF_NEW_INDEX/max",
+    "reported": "46436",
+    "expected": 46436.0,
+    "source": "records/paper_supplement/05_lifecycle_crossing_ranges.csv",
+    "field": "N_max",
+    "where": {
+      "scenario": "OCR_SHARED_HALF_NEW_INDEX"
+    },
+    "op": "max",
+    "scale": 1,
+    "offset": 0,
+    "tolerance": 0,
+    "location": "sections/06_results.tex",
+    "scope": "CONDITIONAL_COMPONENT_MODEL; OBSERVED_PROCESS_RANGE_NOT_CI"
+  },
+  {
+    "id": "Crossing/OCR_PREPAID_NEW_INDEX/min",
+    "reported": "25",
+    "expected": 25.0,
+    "source": "records/paper_supplement/05_lifecycle_crossing_ranges.csv",
+    "field": "N_min",
+    "where": {
+      "scenario": "OCR_PREPAID_NEW_INDEX"
+    },
+    "op": "min",
+    "scale": 1,
+    "offset": 0,
+    "tolerance": 0,
+    "location": "sections/06_results.tex",
+    "scope": "CONDITIONAL_COMPONENT_MODEL; OBSERVED_PROCESS_RANGE_NOT_CI"
+  },
+  {
+    "id": "Crossing/OCR_PREPAID_NEW_INDEX/max",
+    "reported": "30",
+    "expected": 30.0,
+    "source": "records/paper_supplement/05_lifecycle_crossing_ranges.csv",
+    "field": "N_max",
+    "where": {
+      "scenario": "OCR_PREPAID_NEW_INDEX"
+    },
+    "op": "max",
+    "scale": 1,
+    "offset": 0,
+    "tolerance": 0,
+    "location": "sections/06_results.tex",
+    "scope": "CONDITIONAL_COMPONENT_MODEL; OBSERVED_PROCESS_RANGE_NOT_CI"
+  },
+  {
+    "id": "OCR exclusive CPU lower bound >90000",
+    "reported": "91442.0",
+    "expected": 91442.0,
+    "source": "posthoc_20261109/E5_analysis_001/E5_crossing_ranges.csv",
+    "field": "min_N",
+    "where": {
+      "scenario": "exclusive",
+      "resource": "CPU"
+    },
+    "op": "min",
+    "scale": 1,
+    "offset": 0,
+    "tolerance": 0,
+    "location": "sections/06_results.tex",
+    "scope": "CPU_CORE_SECONDS; OBSERVED_MINIMUM_91442_GREATER_THAN_90000"
+  },
+  {
+    "id": "OCR worker16 wall approx/min",
+    "reported": "8000",
+    "expected": 8000.0,
+    "source": "posthoc_20261109/E5_analysis_001/E5_crossing_ranges.csv",
+    "field": "min_N",
+    "where": {
+      "scenario": "exclusive",
+      "resource": "wall",
+      "workers": "16"
+    },
+    "op": "min",
+    "scale": 1,
+    "offset": 0,
+    "tolerance": 0,
+    "location": "sections/06_results.tex",
+    "scope": "APPROXIMATE_TO_NEAREST_1000; CONDITIONAL_COMPONENT_CROSSING",
+    "round": -3
+  },
+  {
+    "id": "OCR worker16 wall approx/max",
+    "reported": "11000",
+    "expected": 11000.0,
+    "source": "posthoc_20261109/E5_analysis_001/E5_crossing_ranges.csv",
+    "field": "max_N",
+    "where": {
+      "scenario": "exclusive",
+      "resource": "wall",
+      "workers": "16"
+    },
+    "op": "max",
+    "scale": 1,
+    "offset": 0,
+    "tolerance": 0,
+    "location": "sections/06_results.tex",
+    "scope": "APPROXIMATE_TO_NEAREST_1000; CONDITIONAL_COMPONENT_CROSSING",
+    "round": -3
+  },
+  {
+    "id": "HR OCR sensitivity/BM25/official_markdown",
+    "reported": "0.117",
+    "expected": 0.117,
+    "source": "posthoc_20261109/E7_HR_001/E7_summary.csv",
+    "field": "mean_r",
+    "where": {
+      "plan": "BM25",
+      "text_source": "official_markdown"
+    },
+    "op": "first",
+    "scale": 1,
+    "offset": 0,
+    "tolerance": 0.000500001,
+    "location": "sections/06_results.tex",
+    "scope": "POSTHOC_HR40_ONLY; FROZEN_EXISTING_FULL_PAGE_SCORE_COVERAGE"
+  },
+  {
+    "id": "HR OCR sensitivity/BM25/Tesseract411_eng_psm3",
+    "reported": "0.115",
+    "expected": 0.115,
+    "source": "posthoc_20261109/E7_HR_001/E7_summary.csv",
+    "field": "mean_r",
+    "where": {
+      "plan": "BM25",
+      "text_source": "Tesseract411_eng_psm3"
+    },
+    "op": "first",
+    "scale": 1,
+    "offset": 0,
+    "tolerance": 0.000500001,
+    "location": "sections/06_results.tex",
+    "scope": "POSTHOC_HR40_ONLY; FROZEN_EXISTING_FULL_PAGE_SCORE_COVERAGE"
+  },
+  {
+    "id": "HR OCR sensitivity/BM25-R100/official_markdown",
+    "reported": "0.017",
+    "expected": 0.017,
+    "source": "posthoc_20261109/E7_HR_001/E7_summary.csv",
+    "field": "mean_r",
+    "where": {
+      "plan": "BM25-R100",
+      "text_source": "official_markdown"
+    },
+    "op": "first",
+    "scale": 1,
+    "offset": 0,
+    "tolerance": 0.000500001,
+    "location": "sections/06_results.tex",
+    "scope": "POSTHOC_HR40_ONLY; FROZEN_EXISTING_FULL_PAGE_SCORE_COVERAGE"
+  },
+  {
+    "id": "HR OCR sensitivity/BM25-R100/Tesseract411_eng_psm3",
+    "reported": "0.02",
+    "expected": 0.02,
+    "source": "posthoc_20261109/E7_HR_001/E7_summary.csv",
+    "field": "mean_r",
+    "where": {
+      "plan": "BM25-R100",
+      "text_source": "Tesseract411_eng_psm3"
+    },
+    "op": "first",
+    "scale": 1,
+    "offset": 0,
+    "tolerance": 0.00500001,
+    "location": "sections/06_results.tex",
+    "scope": "POSTHOC_HR40_ONLY; FROZEN_EXISTING_FULL_PAGE_SCORE_COVERAGE"
+  },
+  {
+    "id": "Dev R50->R100 harmed50",
+    "reported": "23",
+    "expected": 23.0,
+    "source": "records/figure_data/repair_counts.csv",
+    "field": "harmed50",
+    "where": {
+      "domain": [
+        "HR",
+        "Finance",
+        "Industrial",
+        "Pharma"
+      ],
+      "model": "ColQwen2"
+    },
+    "op": "sum",
+    "scale": 1,
+    "offset": 0,
+    "tolerance": 0,
+    "location": "sections/06_results.tex",
+    "scope": "ARCHIVED_MEASUREMENTS_OR_DERIVED_RESULTS; CPU_REPLAY"
+  },
+  {
+    "id": "Dev R50->R100 fully_repaired",
+    "reported": "7",
+    "expected": 7.0,
+    "source": "records/figure_data/repair_counts.csv",
+    "field": "fully_repaired",
+    "where": {
+      "domain": [
+        "HR",
+        "Finance",
+        "Industrial",
+        "Pharma"
+      ],
+      "model": "ColQwen2"
+    },
+    "op": "sum",
+    "scale": 1,
+    "offset": 0,
+    "tolerance": 0,
+    "location": "sections/06_results.tex",
+    "scope": "ARCHIVED_MEASUREMENTS_OR_DERIVED_RESULTS; CPU_REPLAY"
+  },
+  {
+    "id": "Bench R50->R100 harmed50",
+    "reported": "61",
+    "expected": 61.0,
+    "source": "records/figure_data/repair_counts.csv",
+    "field": "harmed50",
+    "where": {
+      "domain": [
+        "Biomedical",
+        "Economics"
+      ],
+      "model": "ColQwen2"
+    },
+    "op": "sum",
+    "scale": 1,
+    "offset": 0,
+    "tolerance": 0,
+    "location": "sections/06_results.tex",
+    "scope": "ARCHIVED_MEASUREMENTS_OR_DERIVED_RESULTS; CPU_REPLAY"
+  },
+  {
+    "id": "Bench R50->R100 fully_repaired",
+    "reported": "19",
+    "expected": 19.0,
+    "source": "records/figure_data/repair_counts.csv",
+    "field": "fully_repaired",
+    "where": {
+      "domain": [
+        "Biomedical",
+        "Economics"
+      ],
+      "model": "ColQwen2"
+    },
+    "op": "sum",
+    "scale": 1,
+    "offset": 0,
+    "tolerance": 0,
+    "location": "sections/06_results.tex",
+    "scope": "ARCHIVED_MEASUREMENTS_OR_DERIVED_RESULTS; CPU_REPLAY"
+  },
+  {
+    "id": "ColQwen2 new harmed R100",
+    "reported": "0",
+    "expected": 0.0,
+    "source": "records/figure_data/repair_counts.csv",
+    "field": "newly_harmed",
+    "where": {
+      "model": "ColQwen2"
+    },
+    "op": "sum",
+    "scale": 1,
+    "offset": 0,
+    "tolerance": 0,
+    "location": "sections/06_results.tex",
+    "scope": "ARCHIVED_MEASUREMENTS_OR_DERIVED_RESULTS; CPU_REPLAY"
+  },
+  {
+    "id": "ColPali Dev new harmed R100",
+    "reported": "3",
+    "expected": 3.0,
+    "source": "records/figure_data/repair_counts.csv",
+    "field": "newly_harmed",
+    "where": {
+      "model": "ColPali",
+      "domain": [
+        "HR",
+        "Finance",
+        "Industrial",
+        "Pharma"
+      ]
+    },
+    "op": "sum",
+    "scale": 1,
+    "offset": 0,
+    "tolerance": 0,
+    "location": "sections/06_results.tex",
+    "scope": "ARCHIVED_MEASUREMENTS_OR_DERIVED_RESULTS; CPU_REPLAY"
+  },
+  {
+    "id": "Table III/HR/FullV/risk",
+    "reported": "0.0000",
+    "expected": 0.0,
+    "source": "records/figure_data/plot_points_registered.csv",
+    "field": "risk",
+    "where": {
+      "domain": "HR",
+      "model": "ColQwen2",
+      "method": "FullV"
+    },
+    "op": "first",
+    "scale": 1.0,
+    "offset": 0,
+    "tolerance": 5.00001e-05,
+    "location": "sections/06_results.tex:21",
+    "scope": "ARCHIVED_MEASUREMENTS_OR_DERIVED_RESULTS; CPU_REPLAY"
+  },
+  {
+    "id": "Table III/HR/FullV/harm",
+    "reported": "0.0",
+    "expected": 0.0,
+    "source": "records/figure_data/plot_points_registered.csv",
+    "field": "harm",
+    "where": {
+      "domain": "HR",
+      "model": "ColQwen2",
+      "method": "FullV"
+    },
+    "op": "first",
+    "scale": 100.0,
+    "offset": 0,
+    "tolerance": 0.050000100000000006,
+    "location": "sections/06_results.tex:21",
+    "scope": "ARCHIVED_MEASUREMENTS_OR_DERIVED_RESULTS; CPU_REPLAY"
+  },
+  {
+    "id": "Table III/HR/FullV/warm_ms",
+    "reported": "35.42",
+    "expected": 35.42,
+    "source": "records/figure_data/plot_points_registered.csv",
+    "field": "warm_ms",
+    "where": {
+      "domain": "HR",
+      "model": "ColQwen2",
+      "method": "FullV"
+    },
+    "op": "first",
+    "scale": 1.0,
+    "offset": 0,
+    "tolerance": 0.00500001,
+    "location": "sections/06_results.tex:21",
+    "scope": "ARCHIVED_MEASUREMENTS_OR_DERIVED_RESULTS; CPU_REPLAY"
+  },
+  {
+    "id": "Table III/HR/FullV/gain_pp",
+    "reported": "0.00",
+    "expected": 0.0,
+    "source": "records/figure_data/plot_points_registered.csv",
+    "field": "gain_pp",
+    "where": {
+      "domain": "HR",
+      "model": "ColQwen2",
+      "method": "FullV"
+    },
+    "op": "first",
+    "scale": 1.0,
+    "offset": 0,
+    "tolerance": 0.00500001,
+    "location": "sections/06_results.tex:21",
+    "scope": "ARCHIVED_MEASUREMENTS_OR_DERIVED_RESULTS; CPU_REPLAY"
+  },
+  {
+    "id": "Table III/HR/R100/risk",
+    "reported": "0.0167",
+    "expected": 0.0167,
+    "source": "records/figure_data/plot_points_registered.csv",
+    "field": "risk",
+    "where": {
+      "domain": "HR",
+      "model": "ColQwen2",
+      "method": "R100"
+    },
+    "op": "first",
+    "scale": 1.0,
+    "offset": 0,
+    "tolerance": 5.00001e-05,
+    "location": "sections/06_results.tex:22",
+    "scope": "ARCHIVED_MEASUREMENTS_OR_DERIVED_RESULTS; CPU_REPLAY"
+  },
+  {
+    "id": "Table III/HR/R100/harm",
+    "reported": "12.5",
+    "expected": 12.5,
+    "source": "records/figure_data/plot_points_registered.csv",
+    "field": "harm",
+    "where": {
+      "domain": "HR",
+      "model": "ColQwen2",
+      "method": "R100"
+    },
+    "op": "first",
+    "scale": 100.0,
+    "offset": 0,
+    "tolerance": 0.050000100000000006,
+    "location": "sections/06_results.tex:22",
+    "scope": "ARCHIVED_MEASUREMENTS_OR_DERIVED_RESULTS; CPU_REPLAY"
+  },
+  {
+    "id": "Table III/HR/R100/warm_ms",
+    "reported": "31.57",
+    "expected": 31.57,
+    "source": "records/figure_data/plot_points_registered.csv",
+    "field": "warm_ms",
+    "where": {
+      "domain": "HR",
+      "model": "ColQwen2",
+      "method": "R100"
+    },
+    "op": "first",
+    "scale": 1.0,
+    "offset": 0,
+    "tolerance": 0.00500001,
+    "location": "sections/06_results.tex:22",
+    "scope": "ARCHIVED_MEASUREMENTS_OR_DERIVED_RESULTS; CPU_REPLAY"
+  },
+  {
+    "id": "Table III/HR/R100/gain_pp",
+    "reported": "-2.88",
+    "expected": -2.88,
+    "source": "records/figure_data/plot_points_registered.csv",
+    "field": "gain_pp",
+    "where": {
+      "domain": "HR",
+      "model": "ColQwen2",
+      "method": "R100"
+    },
+    "op": "first",
+    "scale": 1.0,
+    "offset": 0,
+    "tolerance": 0.00500001,
+    "location": "sections/06_results.tex:22",
+    "scope": "ARCHIVED_MEASUREMENTS_OR_DERIVED_RESULTS; CPU_REPLAY"
+  },
+  {
+    "id": "Table III/HR/Q/risk",
+    "reported": "0.0364",
+    "expected": 0.0364,
+    "source": "records/figure_data/plot_points_registered.csv",
+    "field": "risk",
+    "where": {
+      "domain": "HR",
+      "model": "ColQwen2",
+      "method": "Q"
+    },
+    "op": "first",
+    "scale": 1.0,
+    "offset": 0,
+    "tolerance": 5.00001e-05,
+    "location": "sections/06_results.tex:23",
+    "scope": "ARCHIVED_MEASUREMENTS_OR_DERIVED_RESULTS; CPU_REPLAY"
+  },
+  {
+    "id": "Table III/HR/Q/harm",
+    "reported": "17.5",
+    "expected": 17.5,
+    "source": "records/figure_data/plot_points_registered.csv",
+    "field": "harm",
+    "where": {
+      "domain": "HR",
+      "model": "ColQwen2",
+      "method": "Q"
+    },
+    "op": "first",
+    "scale": 100.0,
+    "offset": 0,
+    "tolerance": 0.050000100000000006,
+    "location": "sections/06_results.tex:23",
+    "scope": "ARCHIVED_MEASUREMENTS_OR_DERIVED_RESULTS; CPU_REPLAY"
+  },
+  {
+    "id": "Table III/HR/Q/warm_ms",
+    "reported": "25.63",
+    "expected": 25.63,
+    "source": "records/figure_data/plot_points_registered.csv",
+    "field": "warm_ms",
+    "where": {
+      "domain": "HR",
+      "model": "ColQwen2",
+      "method": "Q"
+    },
+    "op": "first",
+    "scale": 1.0,
+    "offset": 0,
+    "tolerance": 0.00500001,
+    "location": "sections/06_results.tex:23",
+    "scope": "ARCHIVED_MEASUREMENTS_OR_DERIVED_RESULTS; CPU_REPLAY"
+  },
+  {
+    "id": "Table III/HR/Q/gain_pp",
+    "reported": "-2.24",
+    "expected": -2.24,
+    "source": "records/figure_data/plot_points_registered.csv",
+    "field": "gain_pp",
+    "where": {
+      "domain": "HR",
+      "model": "ColQwen2",
+      "method": "Q"
+    },
+    "op": "first",
+    "scale": 1.0,
+    "offset": 0,
+    "tolerance": 0.00500001,
+    "location": "sections/06_results.tex:23",
+    "scope": "ARCHIVED_MEASUREMENTS_OR_DERIVED_RESULTS; CPU_REPLAY"
+  },
+  {
+    "id": "Table III/HR/QP/risk",
+    "reported": "0.0186",
+    "expected": 0.0186,
+    "source": "records/figure_data/plot_points_registered.csv",
+    "field": "risk",
+    "where": {
+      "domain": "HR",
+      "model": "ColQwen2",
+      "method": "QP"
+    },
+    "op": "first",
+    "scale": 1.0,
+    "offset": 0,
+    "tolerance": 5.00001e-05,
+    "location": "sections/06_results.tex:24",
+    "scope": "ARCHIVED_MEASUREMENTS_OR_DERIVED_RESULTS; CPU_REPLAY"
+  },
+  {
+    "id": "Table III/HR/QP/harm",
+    "reported": "10.0",
+    "expected": 10.0,
+    "source": "records/figure_data/plot_points_registered.csv",
+    "field": "harm",
+    "where": {
+      "domain": "HR",
+      "model": "ColQwen2",
+      "method": "QP"
+    },
+    "op": "first",
+    "scale": 100.0,
+    "offset": 0,
+    "tolerance": 0.050000100000000006,
+    "location": "sections/06_results.tex:24",
+    "scope": "ARCHIVED_MEASUREMENTS_OR_DERIVED_RESULTS; CPU_REPLAY"
+  },
+  {
+    "id": "Table III/HR/QP/warm_ms",
+    "reported": "29.93",
+    "expected": 29.93,
+    "source": "records/figure_data/plot_points_registered.csv",
+    "field": "warm_ms",
+    "where": {
+      "domain": "HR",
+      "model": "ColQwen2",
+      "method": "QP"
+    },
+    "op": "first",
+    "scale": 1.0,
+    "offset": 0,
+    "tolerance": 0.00500001,
+    "location": "sections/06_results.tex:24",
+    "scope": "ARCHIVED_MEASUREMENTS_OR_DERIVED_RESULTS; CPU_REPLAY"
+  },
+  {
+    "id": "Table III/HR/QP/gain_pp",
+    "reported": "+0.20",
+    "expected": 0.2,
+    "source": "records/figure_data/plot_points_registered.csv",
+    "field": "gain_pp",
+    "where": {
+      "domain": "HR",
+      "model": "ColQwen2",
+      "method": "QP"
+    },
+    "op": "first",
+    "scale": 1.0,
+    "offset": 0,
+    "tolerance": 0.00500001,
+    "location": "sections/06_results.tex:24",
+    "scope": "ARCHIVED_MEASUREMENTS_OR_DERIVED_RESULTS; CPU_REPLAY"
+  },
+  {
+    "id": "Table III/Finance/FullV/risk",
+    "reported": "0.0000",
+    "expected": 0.0,
+    "source": "records/figure_data/plot_points_registered.csv",
+    "field": "risk",
+    "where": {
+      "domain": "Finance",
+      "model": "ColQwen2",
+      "method": "FullV"
+    },
+    "op": "first",
+    "scale": 1.0,
+    "offset": 0,
+    "tolerance": 5.00001e-05,
+    "location": "sections/06_results.tex:26",
+    "scope": "ARCHIVED_MEASUREMENTS_OR_DERIVED_RESULTS; CPU_REPLAY"
+  },
+  {
+    "id": "Table III/Finance/FullV/harm",
+    "reported": "0.0",
+    "expected": 0.0,
+    "source": "records/figure_data/plot_points_registered.csv",
+    "field": "harm",
+    "where": {
+      "domain": "Finance",
+      "model": "ColQwen2",
+      "method": "FullV"
+    },
+    "op": "first",
+    "scale": 100.0,
+    "offset": 0,
+    "tolerance": 0.050000100000000006,
+    "location": "sections/06_results.tex:26",
+    "scope": "ARCHIVED_MEASUREMENTS_OR_DERIVED_RESULTS; CPU_REPLAY"
+  },
+  {
+    "id": "Table III/Finance/FullV/warm_ms",
+    "reported": "42.05",
+    "expected": 42.05,
+    "source": "records/figure_data/plot_points_registered.csv",
+    "field": "warm_ms",
+    "where": {
+      "domain": "Finance",
+      "model": "ColQwen2",
+      "method": "FullV"
+    },
+    "op": "first",
+    "scale": 1.0,
+    "offset": 0,
+    "tolerance": 0.00500001,
+    "location": "sections/06_results.tex:26",
+    "scope": "ARCHIVED_MEASUREMENTS_OR_DERIVED_RESULTS; CPU_REPLAY"
+  },
+  {
+    "id": "Table III/Finance/FullV/gain_pp",
+    "reported": "0.00",
+    "expected": 0.0,
+    "source": "records/figure_data/plot_points_registered.csv",
+    "field": "gain_pp",
+    "where": {
+      "domain": "Finance",
+      "model": "ColQwen2",
+      "method": "FullV"
+    },
+    "op": "first",
+    "scale": 1.0,
+    "offset": 0,
+    "tolerance": 0.00500001,
+    "location": "sections/06_results.tex:26",
+    "scope": "ARCHIVED_MEASUREMENTS_OR_DERIVED_RESULTS; CPU_REPLAY"
+  },
+  {
+    "id": "Table III/Finance/R100/risk",
+    "reported": "0.0049",
+    "expected": 0.0049,
+    "source": "records/figure_data/plot_points_registered.csv",
+    "field": "risk",
+    "where": {
+      "domain": "Finance",
+      "model": "ColQwen2",
+      "method": "R100"
+    },
+    "op": "first",
+    "scale": 1.0,
+    "offset": 0,
+    "tolerance": 5.00001e-05,
+    "location": "sections/06_results.tex:27",
+    "scope": "ARCHIVED_MEASUREMENTS_OR_DERIVED_RESULTS; CPU_REPLAY"
+  },
+  {
+    "id": "Table III/Finance/R100/harm",
+    "reported": "7.7",
+    "expected": 7.7,
+    "source": "records/figure_data/plot_points_registered.csv",
+    "field": "harm",
+    "where": {
+      "domain": "Finance",
+      "model": "ColQwen2",
+      "method": "R100"
+    },
+    "op": "first",
+    "scale": 100.0,
+    "offset": 0,
+    "tolerance": 0.050000100000000006,
+    "location": "sections/06_results.tex:27",
+    "scope": "ARCHIVED_MEASUREMENTS_OR_DERIVED_RESULTS; CPU_REPLAY"
+  },
+  {
+    "id": "Table III/Finance/R100/warm_ms",
+    "reported": "33.20",
+    "expected": 33.2,
+    "source": "records/figure_data/plot_points_registered.csv",
+    "field": "warm_ms",
+    "where": {
+      "domain": "Finance",
+      "model": "ColQwen2",
+      "method": "R100"
+    },
+    "op": "first",
+    "scale": 1.0,
+    "offset": 0,
+    "tolerance": 0.00500001,
+    "location": "sections/06_results.tex:27",
+    "scope": "ARCHIVED_MEASUREMENTS_OR_DERIVED_RESULTS; CPU_REPLAY"
+  },
+  {
+    "id": "Table III/Finance/R100/gain_pp",
+    "reported": "0.00",
+    "expected": 0.0,
+    "source": "records/figure_data/plot_points_registered.csv",
+    "field": "gain_pp",
+    "where": {
+      "domain": "Finance",
+      "model": "ColQwen2",
+      "method": "R100"
+    },
+    "op": "first",
+    "scale": 1.0,
+    "offset": 0,
+    "tolerance": 0.00500001,
+    "location": "sections/06_results.tex:27",
+    "scope": "ARCHIVED_MEASUREMENTS_OR_DERIVED_RESULTS; CPU_REPLAY"
+  },
+  {
+    "id": "Table III/Finance/Q/risk",
+    "reported": "0.0205",
+    "expected": 0.0205,
+    "source": "records/figure_data/plot_points_registered.csv",
+    "field": "risk",
+    "where": {
+      "domain": "Finance",
+      "model": "ColQwen2",
+      "method": "Q"
+    },
+    "op": "first",
+    "scale": 1.0,
+    "offset": 0,
+    "tolerance": 5.00001e-05,
+    "location": "sections/06_results.tex:28",
+    "scope": "ARCHIVED_MEASUREMENTS_OR_DERIVED_RESULTS; CPU_REPLAY"
+  },
+  {
+    "id": "Table III/Finance/Q/harm",
+    "reported": "10.3",
+    "expected": 10.3,
+    "source": "records/figure_data/plot_points_registered.csv",
+    "field": "harm",
+    "where": {
+      "domain": "Finance",
+      "model": "ColQwen2",
+      "method": "Q"
+    },
+    "op": "first",
+    "scale": 100.0,
+    "offset": 0,
+    "tolerance": 0.050000100000000006,
+    "location": "sections/06_results.tex:28",
+    "scope": "ARCHIVED_MEASUREMENTS_OR_DERIVED_RESULTS; CPU_REPLAY"
+  },
+  {
+    "id": "Table III/Finance/Q/warm_ms",
+    "reported": "28.85",
+    "expected": 28.85,
+    "source": "records/figure_data/plot_points_registered.csv",
+    "field": "warm_ms",
+    "where": {
+      "domain": "Finance",
+      "model": "ColQwen2",
+      "method": "Q"
+    },
+    "op": "first",
+    "scale": 1.0,
+    "offset": 0,
+    "tolerance": 0.00500001,
+    "location": "sections/06_results.tex:28",
+    "scope": "ARCHIVED_MEASUREMENTS_OR_DERIVED_RESULTS; CPU_REPLAY"
+  },
+  {
+    "id": "Table III/Finance/Q/gain_pp",
+    "reported": "-0.35",
+    "expected": -0.35,
+    "source": "records/figure_data/plot_points_registered.csv",
+    "field": "gain_pp",
+    "where": {
+      "domain": "Finance",
+      "model": "ColQwen2",
+      "method": "Q"
+    },
+    "op": "first",
+    "scale": 1.0,
+    "offset": 0,
+    "tolerance": 0.00500001,
+    "location": "sections/06_results.tex:28",
+    "scope": "ARCHIVED_MEASUREMENTS_OR_DERIVED_RESULTS; CPU_REPLAY"
+  },
+  {
+    "id": "Table III/Finance/QP/risk",
+    "reported": "0.0186",
+    "expected": 0.0186,
+    "source": "records/figure_data/plot_points_registered.csv",
+    "field": "risk",
+    "where": {
+      "domain": "Finance",
+      "model": "ColQwen2",
+      "method": "QP"
+    },
+    "op": "first",
+    "scale": 1.0,
+    "offset": 0,
+    "tolerance": 5.00001e-05,
+    "location": "sections/06_results.tex:29",
+    "scope": "ARCHIVED_MEASUREMENTS_OR_DERIVED_RESULTS; CPU_REPLAY"
+  },
+  {
+    "id": "Table III/Finance/QP/harm",
+    "reported": "7.7",
+    "expected": 7.7,
+    "source": "records/figure_data/plot_points_registered.csv",
+    "field": "harm",
+    "where": {
+      "domain": "Finance",
+      "model": "ColQwen2",
+      "method": "QP"
+    },
+    "op": "first",
+    "scale": 100.0,
+    "offset": 0,
+    "tolerance": 0.050000100000000006,
+    "location": "sections/06_results.tex:29",
+    "scope": "ARCHIVED_MEASUREMENTS_OR_DERIVED_RESULTS; CPU_REPLAY"
+  },
+  {
+    "id": "Table III/Finance/QP/warm_ms",
+    "reported": "29.64",
+    "expected": 29.64,
+    "source": "records/figure_data/plot_points_registered.csv",
+    "field": "warm_ms",
+    "where": {
+      "domain": "Finance",
+      "model": "ColQwen2",
+      "method": "QP"
+    },
+    "op": "first",
+    "scale": 1.0,
+    "offset": 0,
+    "tolerance": 0.00500001,
+    "location": "sections/06_results.tex:29",
+    "scope": "ARCHIVED_MEASUREMENTS_OR_DERIVED_RESULTS; CPU_REPLAY"
+  },
+  {
+    "id": "Table III/Finance/QP/gain_pp",
+    "reported": "-0.91",
+    "expected": -0.91,
+    "source": "records/figure_data/plot_points_registered.csv",
+    "field": "gain_pp",
+    "where": {
+      "domain": "Finance",
+      "model": "ColQwen2",
+      "method": "QP"
+    },
+    "op": "first",
+    "scale": 1.0,
+    "offset": 0,
+    "tolerance": 0.00500001,
+    "location": "sections/06_results.tex:29",
+    "scope": "ARCHIVED_MEASUREMENTS_OR_DERIVED_RESULTS; CPU_REPLAY"
+  },
+  {
+    "id": "Table III/Industrial/FullV/risk",
+    "reported": "0.0000",
+    "expected": 0.0,
+    "source": "records/figure_data/plot_points_registered.csv",
+    "field": "risk",
+    "where": {
+      "domain": "Industrial",
+      "model": "ColQwen2",
+      "method": "FullV"
+    },
+    "op": "first",
+    "scale": 1.0,
+    "offset": 0,
+    "tolerance": 5.00001e-05,
+    "location": "sections/06_results.tex:31",
+    "scope": "ARCHIVED_MEASUREMENTS_OR_DERIVED_RESULTS; CPU_REPLAY"
+  },
+  {
+    "id": "Table III/Industrial/FullV/harm",
+    "reported": "0.0",
+    "expected": 0.0,
+    "source": "records/figure_data/plot_points_registered.csv",
+    "field": "harm",
+    "where": {
+      "domain": "Industrial",
+      "model": "ColQwen2",
+      "method": "FullV"
+    },
+    "op": "first",
+    "scale": 100.0,
+    "offset": 0,
+    "tolerance": 0.050000100000000006,
+    "location": "sections/06_results.tex:31",
+    "scope": "ARCHIVED_MEASUREMENTS_OR_DERIVED_RESULTS; CPU_REPLAY"
+  },
+  {
+    "id": "Table III/Industrial/FullV/warm_ms",
+    "reported": "57.59",
+    "expected": 57.59,
+    "source": "records/figure_data/plot_points_registered.csv",
+    "field": "warm_ms",
+    "where": {
+      "domain": "Industrial",
+      "model": "ColQwen2",
+      "method": "FullV"
+    },
+    "op": "first",
+    "scale": 1.0,
+    "offset": 0,
+    "tolerance": 0.00500001,
+    "location": "sections/06_results.tex:31",
+    "scope": "ARCHIVED_MEASUREMENTS_OR_DERIVED_RESULTS; CPU_REPLAY"
+  },
+  {
+    "id": "Table III/Industrial/FullV/gain_pp",
+    "reported": "0.00",
+    "expected": 0.0,
+    "source": "records/figure_data/plot_points_registered.csv",
+    "field": "gain_pp",
+    "where": {
+      "domain": "Industrial",
+      "model": "ColQwen2",
+      "method": "FullV"
+    },
+    "op": "first",
+    "scale": 1.0,
+    "offset": 0,
+    "tolerance": 0.00500001,
+    "location": "sections/06_results.tex:31",
+    "scope": "ARCHIVED_MEASUREMENTS_OR_DERIVED_RESULTS; CPU_REPLAY"
+  },
+  {
+    "id": "Table III/Industrial/R100/risk",
+    "reported": "0.0095",
+    "expected": 0.0095,
+    "source": "records/figure_data/plot_points_registered.csv",
+    "field": "risk",
+    "where": {
+      "domain": "Industrial",
+      "model": "ColQwen2",
+      "method": "R100"
+    },
+    "op": "first",
+    "scale": 1.0,
+    "offset": 0,
+    "tolerance": 5.00001e-05,
+    "location": "sections/06_results.tex:32",
+    "scope": "ARCHIVED_MEASUREMENTS_OR_DERIVED_RESULTS; CPU_REPLAY"
+  },
+  {
+    "id": "Table III/Industrial/R100/harm",
+    "reported": "10.0",
+    "expected": 10.0,
+    "source": "records/figure_data/plot_points_registered.csv",
+    "field": "harm",
+    "where": {
+      "domain": "Industrial",
+      "model": "ColQwen2",
+      "method": "R100"
+    },
+    "op": "first",
+    "scale": 100.0,
+    "offset": 0,
+    "tolerance": 0.050000100000000006,
+    "location": "sections/06_results.tex:32",
+    "scope": "ARCHIVED_MEASUREMENTS_OR_DERIVED_RESULTS; CPU_REPLAY"
+  },
+  {
+    "id": "Table III/Industrial/R100/warm_ms",
+    "reported": "39.75",
+    "expected": 39.75,
+    "source": "records/figure_data/plot_points_registered.csv",
+    "field": "warm_ms",
+    "where": {
+      "domain": "Industrial",
+      "model": "ColQwen2",
+      "method": "R100"
+    },
+    "op": "first",
+    "scale": 1.0,
+    "offset": 0,
+    "tolerance": 0.00500001,
+    "location": "sections/06_results.tex:32",
+    "scope": "ARCHIVED_MEASUREMENTS_OR_DERIVED_RESULTS; CPU_REPLAY"
+  },
+  {
+    "id": "Table III/Industrial/R100/gain_pp",
+    "reported": "0.00",
+    "expected": 0.0,
+    "source": "records/figure_data/plot_points_registered.csv",
+    "field": "gain_pp",
+    "where": {
+      "domain": "Industrial",
+      "model": "ColQwen2",
+      "method": "R100"
+    },
+    "op": "first",
+    "scale": 1.0,
+    "offset": 0,
+    "tolerance": 0.00500001,
+    "location": "sections/06_results.tex:32",
+    "scope": "ARCHIVED_MEASUREMENTS_OR_DERIVED_RESULTS; CPU_REPLAY"
+  },
+  {
+    "id": "Table III/Industrial/Q/risk",
+    "reported": "0.0380",
+    "expected": 0.038,
+    "source": "records/figure_data/plot_points_registered.csv",
+    "field": "risk",
+    "where": {
+      "domain": "Industrial",
+      "model": "ColQwen2",
+      "method": "Q"
+    },
+    "op": "first",
+    "scale": 1.0,
+    "offset": 0,
+    "tolerance": 5.00001e-05,
+    "location": "sections/06_results.tex:33",
+    "scope": "ARCHIVED_MEASUREMENTS_OR_DERIVED_RESULTS; CPU_REPLAY"
+  },
+  {
+    "id": "Table III/Industrial/Q/harm",
+    "reported": "15.0",
+    "expected": 15.0,
+    "source": "records/figure_data/plot_points_registered.csv",
+    "field": "harm",
+    "where": {
+      "domain": "Industrial",
+      "model": "ColQwen2",
+      "method": "Q"
+    },
+    "op": "first",
+    "scale": 100.0,
+    "offset": 0,
+    "tolerance": 0.050000100000000006,
+    "location": "sections/06_results.tex:33",
+    "scope": "ARCHIVED_MEASUREMENTS_OR_DERIVED_RESULTS; CPU_REPLAY"
+  },
+  {
+    "id": "Table III/Industrial/Q/warm_ms",
+    "reported": "39.33",
+    "expected": 39.33,
+    "source": "records/figure_data/plot_points_registered.csv",
+    "field": "warm_ms",
+    "where": {
+      "domain": "Industrial",
+      "model": "ColQwen2",
+      "method": "Q"
+    },
+    "op": "first",
+    "scale": 1.0,
+    "offset": 0,
+    "tolerance": 0.00500001,
+    "location": "sections/06_results.tex:33",
+    "scope": "ARCHIVED_MEASUREMENTS_OR_DERIVED_RESULTS; CPU_REPLAY"
+  },
+  {
+    "id": "Table III/Industrial/Q/gain_pp",
+    "reported": "-19.60",
+    "expected": -19.6,
+    "source": "records/figure_data/plot_points_registered.csv",
+    "field": "gain_pp",
+    "where": {
+      "domain": "Industrial",
+      "model": "ColQwen2",
+      "method": "Q"
+    },
+    "op": "first",
+    "scale": 1.0,
+    "offset": 0,
+    "tolerance": 0.00500001,
+    "location": "sections/06_results.tex:33",
+    "scope": "ARCHIVED_MEASUREMENTS_OR_DERIVED_RESULTS; CPU_REPLAY"
+  },
+  {
+    "id": "Table III/Industrial/QP/risk",
+    "reported": "0.0347",
+    "expected": 0.0347,
+    "source": "records/figure_data/plot_points_registered.csv",
+    "field": "risk",
+    "where": {
+      "domain": "Industrial",
+      "model": "ColQwen2",
+      "method": "QP"
+    },
+    "op": "first",
+    "scale": 1.0,
+    "offset": 0,
+    "tolerance": 5.00001e-05,
+    "location": "sections/06_results.tex:34",
+    "scope": "ARCHIVED_MEASUREMENTS_OR_DERIVED_RESULTS; CPU_REPLAY"
+  },
+  {
+    "id": "Table III/Industrial/QP/harm",
+    "reported": "12.5",
+    "expected": 12.5,
+    "source": "records/figure_data/plot_points_registered.csv",
+    "field": "harm",
+    "where": {
+      "domain": "Industrial",
+      "model": "ColQwen2",
+      "method": "QP"
+    },
+    "op": "first",
+    "scale": 100.0,
+    "offset": 0,
+    "tolerance": 0.050000100000000006,
+    "location": "sections/06_results.tex:34",
+    "scope": "ARCHIVED_MEASUREMENTS_OR_DERIVED_RESULTS; CPU_REPLAY"
+  },
+  {
+    "id": "Table III/Industrial/QP/warm_ms",
+    "reported": "41.77",
+    "expected": 41.77,
+    "source": "records/figure_data/plot_points_registered.csv",
+    "field": "warm_ms",
+    "where": {
+      "domain": "Industrial",
+      "model": "ColQwen2",
+      "method": "QP"
+    },
+    "op": "first",
+    "scale": 1.0,
+    "offset": 0,
+    "tolerance": 0.00500001,
+    "location": "sections/06_results.tex:34",
+    "scope": "ARCHIVED_MEASUREMENTS_OR_DERIVED_RESULTS; CPU_REPLAY"
+  },
+  {
+    "id": "Table III/Industrial/QP/gain_pp",
+    "reported": "-21.46",
+    "expected": -21.46,
+    "source": "records/figure_data/plot_points_registered.csv",
+    "field": "gain_pp",
+    "where": {
+      "domain": "Industrial",
+      "model": "ColQwen2",
+      "method": "QP"
+    },
+    "op": "first",
+    "scale": 1.0,
+    "offset": 0,
+    "tolerance": 0.00500001,
+    "location": "sections/06_results.tex:34",
+    "scope": "ARCHIVED_MEASUREMENTS_OR_DERIVED_RESULTS; CPU_REPLAY"
+  },
+  {
+    "id": "Table III/Pharma/FullV/risk",
+    "reported": "0.0000",
+    "expected": 0.0,
+    "source": "records/figure_data/plot_points_registered.csv",
+    "field": "risk",
+    "where": {
+      "domain": "Pharma",
+      "model": "ColQwen2",
+      "method": "FullV"
+    },
+    "op": "first",
+    "scale": 1.0,
+    "offset": 0,
+    "tolerance": 5.00001e-05,
+    "location": "sections/06_results.tex:36",
+    "scope": "ARCHIVED_MEASUREMENTS_OR_DERIVED_RESULTS; CPU_REPLAY"
+  },
+  {
+    "id": "Table III/Pharma/FullV/harm",
+    "reported": "0.0",
+    "expected": 0.0,
+    "source": "records/figure_data/plot_points_registered.csv",
+    "field": "harm",
+    "where": {
+      "domain": "Pharma",
+      "model": "ColQwen2",
+      "method": "FullV"
+    },
+    "op": "first",
+    "scale": 100.0,
+    "offset": 0,
+    "tolerance": 0.050000100000000006,
+    "location": "sections/06_results.tex:36",
+    "scope": "ARCHIVED_MEASUREMENTS_OR_DERIVED_RESULTS; CPU_REPLAY"
+  },
+  {
+    "id": "Table III/Pharma/FullV/warm_ms",
+    "reported": "41.70",
+    "expected": 41.7,
+    "source": "records/figure_data/plot_points_registered.csv",
+    "field": "warm_ms",
+    "where": {
+      "domain": "Pharma",
+      "model": "ColQwen2",
+      "method": "FullV"
+    },
+    "op": "first",
+    "scale": 1.0,
+    "offset": 0,
+    "tolerance": 0.00500001,
+    "location": "sections/06_results.tex:36",
+    "scope": "ARCHIVED_MEASUREMENTS_OR_DERIVED_RESULTS; CPU_REPLAY"
+  },
+  {
+    "id": "Table III/Pharma/FullV/gain_pp",
+    "reported": "0.00",
+    "expected": 0.0,
+    "source": "records/figure_data/plot_points_registered.csv",
+    "field": "gain_pp",
+    "where": {
+      "domain": "Pharma",
+      "model": "ColQwen2",
+      "method": "FullV"
+    },
+    "op": "first",
+    "scale": 1.0,
+    "offset": 0,
+    "tolerance": 0.00500001,
+    "location": "sections/06_results.tex:36",
+    "scope": "ARCHIVED_MEASUREMENTS_OR_DERIVED_RESULTS; CPU_REPLAY"
+  },
+  {
+    "id": "Table III/Pharma/R100/risk",
+    "reported": "0.0133",
+    "expected": 0.0133,
+    "source": "records/figure_data/plot_points_registered.csv",
+    "field": "risk",
+    "where": {
+      "domain": "Pharma",
+      "model": "ColQwen2",
+      "method": "R100"
+    },
+    "op": "first",
+    "scale": 1.0,
+    "offset": 0,
+    "tolerance": 5.00001e-05,
+    "location": "sections/06_results.tex:37",
+    "scope": "ARCHIVED_MEASUREMENTS_OR_DERIVED_RESULTS; CPU_REPLAY"
+  },
+  {
+    "id": "Table III/Pharma/R100/harm",
+    "reported": "8.9",
+    "expected": 8.9,
+    "source": "records/figure_data/plot_points_registered.csv",
+    "field": "harm",
+    "where": {
+      "domain": "Pharma",
+      "model": "ColQwen2",
+      "method": "R100"
+    },
+    "op": "first",
+    "scale": 100.0,
+    "offset": 0,
+    "tolerance": 0.050000100000000006,
+    "location": "sections/06_results.tex:37",
+    "scope": "ARCHIVED_MEASUREMENTS_OR_DERIVED_RESULTS; CPU_REPLAY"
+  },
+  {
+    "id": "Table III/Pharma/R100/warm_ms",
+    "reported": "34.19",
+    "expected": 34.19,
+    "source": "records/figure_data/plot_points_registered.csv",
+    "field": "warm_ms",
+    "where": {
+      "domain": "Pharma",
+      "model": "ColQwen2",
+      "method": "R100"
+    },
+    "op": "first",
+    "scale": 1.0,
+    "offset": 0,
+    "tolerance": 0.00500001,
+    "location": "sections/06_results.tex:37",
+    "scope": "ARCHIVED_MEASUREMENTS_OR_DERIVED_RESULTS; CPU_REPLAY"
+  },
+  {
+    "id": "Table III/Pharma/R100/gain_pp",
+    "reported": "0.00",
+    "expected": 0.0,
+    "source": "records/figure_data/plot_points_registered.csv",
+    "field": "gain_pp",
+    "where": {
+      "domain": "Pharma",
+      "model": "ColQwen2",
+      "method": "R100"
+    },
+    "op": "first",
+    "scale": 1.0,
+    "offset": 0,
+    "tolerance": 0.00500001,
+    "location": "sections/06_results.tex:37",
+    "scope": "ARCHIVED_MEASUREMENTS_OR_DERIVED_RESULTS; CPU_REPLAY"
+  },
+  {
+    "id": "Table III/Pharma/Q/risk",
+    "reported": "0.0336",
+    "expected": 0.0336,
+    "source": "records/figure_data/plot_points_registered.csv",
+    "field": "risk",
+    "where": {
+      "domain": "Pharma",
+      "model": "ColQwen2",
+      "method": "Q"
+    },
+    "op": "first",
+    "scale": 1.0,
+    "offset": 0,
+    "tolerance": 5.00001e-05,
+    "location": "sections/06_results.tex:38",
+    "scope": "ARCHIVED_MEASUREMENTS_OR_DERIVED_RESULTS; CPU_REPLAY"
+  },
+  {
+    "id": "Table III/Pharma/Q/harm",
+    "reported": "15.6",
+    "expected": 15.6,
+    "source": "records/figure_data/plot_points_registered.csv",
+    "field": "harm",
+    "where": {
+      "domain": "Pharma",
+      "model": "ColQwen2",
+      "method": "Q"
+    },
+    "op": "first",
+    "scale": 100.0,
+    "offset": 0,
+    "tolerance": 0.050000100000000006,
+    "location": "sections/06_results.tex:38",
+    "scope": "ARCHIVED_MEASUREMENTS_OR_DERIVED_RESULTS; CPU_REPLAY"
+  },
+  {
+    "id": "Table III/Pharma/Q/warm_ms",
+    "reported": "31.68",
+    "expected": 31.68,
+    "source": "records/figure_data/plot_points_registered.csv",
+    "field": "warm_ms",
+    "where": {
+      "domain": "Pharma",
+      "model": "ColQwen2",
+      "method": "Q"
+    },
+    "op": "first",
+    "scale": 1.0,
+    "offset": 0,
+    "tolerance": 0.00500001,
+    "location": "sections/06_results.tex:38",
+    "scope": "ARCHIVED_MEASUREMENTS_OR_DERIVED_RESULTS; CPU_REPLAY"
+  },
+  {
+    "id": "Table III/Pharma/Q/gain_pp",
+    "reported": "-15.15",
+    "expected": -15.15,
+    "source": "records/figure_data/plot_points_registered.csv",
+    "field": "gain_pp",
+    "where": {
+      "domain": "Pharma",
+      "model": "ColQwen2",
+      "method": "Q"
+    },
+    "op": "first",
+    "scale": 1.0,
+    "offset": 0,
+    "tolerance": 0.00500001,
+    "location": "sections/06_results.tex:38",
+    "scope": "ARCHIVED_MEASUREMENTS_OR_DERIVED_RESULTS; CPU_REPLAY"
+  },
+  {
+    "id": "Table III/Pharma/QP/risk",
+    "reported": "0.0069",
+    "expected": 0.0069,
+    "source": "records/figure_data/plot_points_registered.csv",
+    "field": "risk",
+    "where": {
+      "domain": "Pharma",
+      "model": "ColQwen2",
+      "method": "QP"
+    },
+    "op": "first",
+    "scale": 1.0,
+    "offset": 0,
+    "tolerance": 5.00001e-05,
+    "location": "sections/06_results.tex:39",
+    "scope": "ARCHIVED_MEASUREMENTS_OR_DERIVED_RESULTS; CPU_REPLAY"
+  },
+  {
+    "id": "Table III/Pharma/QP/harm",
+    "reported": "6.7",
+    "expected": 6.7,
+    "source": "records/figure_data/plot_points_registered.csv",
+    "field": "harm",
+    "where": {
+      "domain": "Pharma",
+      "model": "ColQwen2",
+      "method": "QP"
+    },
+    "op": "first",
+    "scale": 100.0,
+    "offset": 0,
+    "tolerance": 0.050000100000000006,
+    "location": "sections/06_results.tex:39",
+    "scope": "ARCHIVED_MEASUREMENTS_OR_DERIVED_RESULTS; CPU_REPLAY"
+  },
+  {
+    "id": "Table III/Pharma/QP/warm_ms",
+    "reported": "33.96",
+    "expected": 33.96,
+    "source": "records/figure_data/plot_points_registered.csv",
+    "field": "warm_ms",
+    "where": {
+      "domain": "Pharma",
+      "model": "ColQwen2",
+      "method": "QP"
+    },
+    "op": "first",
+    "scale": 1.0,
+    "offset": 0,
+    "tolerance": 0.00500001,
+    "location": "sections/06_results.tex:39",
+    "scope": "ARCHIVED_MEASUREMENTS_OR_DERIVED_RESULTS; CPU_REPLAY"
+  },
+  {
+    "id": "Table III/Pharma/QP/gain_pp",
+    "reported": "+9.30",
+    "expected": 9.3,
+    "source": "records/figure_data/plot_points_registered.csv",
+    "field": "gain_pp",
+    "where": {
+      "domain": "Pharma",
+      "model": "ColQwen2",
+      "method": "QP"
+    },
+    "op": "first",
+    "scale": 1.0,
+    "offset": 0,
+    "tolerance": 0.00500001,
+    "location": "sections/06_results.tex:39",
+    "scope": "ARCHIVED_MEASUREMENTS_OR_DERIVED_RESULTS; CPU_REPLAY"
+  },
+  {
+    "id": "Table IV/Biomedical/FullV/ndcg",
+    "reported": "0.6536",
+    "expected": 0.6536,
+    "source": "records/figure_data/plot_points_registered.csv",
+    "field": "ndcg",
+    "where": {
+      "domain": "Biomedical",
+      "model": "ColQwen2",
+      "method": "FullV"
+    },
+    "op": "first",
+    "scale": 1.0,
+    "offset": 0,
+    "tolerance": 5.00001e-05,
+    "location": "sections/06_results.tex:154",
+    "scope": "ARCHIVED_MEASUREMENTS_OR_DERIVED_RESULTS; CPU_REPLAY"
+  },
+  {
+    "id": "Table IV/Biomedical/FullV/risk",
+    "reported": "0.0000",
+    "expected": 0.0,
+    "source": "records/figure_data/plot_points_registered.csv",
+    "field": "risk",
+    "where": {
+      "domain": "Biomedical",
+      "model": "ColQwen2",
+      "method": "FullV"
+    },
+    "op": "first",
+    "scale": 1.0,
+    "offset": 0,
+    "tolerance": 5.00001e-05,
+    "location": "sections/06_results.tex:154",
+    "scope": "ARCHIVED_MEASUREMENTS_OR_DERIVED_RESULTS; CPU_REPLAY"
+  },
+  {
+    "id": "Table IV/Biomedical/FullV/r_low",
+    "reported": "0.0000",
+    "expected": 0.0,
+    "source": "records/figure_data/plot_points_registered.csv",
+    "field": "r_low",
+    "where": {
+      "domain": "Biomedical",
+      "model": "ColQwen2",
+      "method": "FullV"
+    },
+    "op": "first",
+    "scale": 1.0,
+    "offset": 0,
+    "tolerance": 5.00001e-05,
+    "location": "sections/06_results.tex:154",
+    "scope": "ARCHIVED_MEASUREMENTS_OR_DERIVED_RESULTS; CPU_REPLAY"
+  },
+  {
+    "id": "Table IV/Biomedical/FullV/r_high",
+    "reported": "0.0000",
+    "expected": 0.0,
+    "source": "records/figure_data/plot_points_registered.csv",
+    "field": "r_high",
+    "where": {
+      "domain": "Biomedical",
+      "model": "ColQwen2",
+      "method": "FullV"
+    },
+    "op": "first",
+    "scale": 1.0,
+    "offset": 0,
+    "tolerance": 5.00001e-05,
+    "location": "sections/06_results.tex:154",
+    "scope": "ARCHIVED_MEASUREMENTS_OR_DERIVED_RESULTS; CPU_REPLAY"
+  },
+  {
+    "id": "Table IV/Biomedical/FullV/harm",
+    "reported": "0.0",
+    "expected": 0.0,
+    "source": "records/figure_data/plot_points_registered.csv",
+    "field": "harm",
+    "where": {
+      "domain": "Biomedical",
+      "model": "ColQwen2",
+      "method": "FullV"
+    },
+    "op": "first",
+    "scale": 100.0,
+    "offset": 0,
+    "tolerance": 0.050000100000000006,
+    "location": "sections/06_results.tex:154",
+    "scope": "ARCHIVED_MEASUREMENTS_OR_DERIVED_RESULTS; CPU_REPLAY"
+  },
+  {
+    "id": "Table IV/Biomedical/FullV/warm_ms",
+    "reported": "70.22",
+    "expected": 70.22,
+    "source": "records/figure_data/plot_points_registered.csv",
+    "field": "warm_ms",
+    "where": {
+      "domain": "Biomedical",
+      "model": "ColQwen2",
+      "method": "FullV"
+    },
+    "op": "first",
+    "scale": 1.0,
+    "offset": 0,
+    "tolerance": 0.00500001,
+    "location": "sections/06_results.tex:154",
+    "scope": "ARCHIVED_MEASUREMENTS_OR_DERIVED_RESULTS; CPU_REPLAY"
+  },
+  {
+    "id": "Table IV/Economics/FullV/ndcg",
+    "reported": "0.5870",
+    "expected": 0.587,
+    "source": "records/figure_data/plot_points_registered.csv",
+    "field": "ndcg",
+    "where": {
+      "domain": "Economics",
+      "model": "ColQwen2",
+      "method": "FullV"
+    },
+    "op": "first",
+    "scale": 1.0,
+    "offset": 0,
+    "tolerance": 5.00001e-05,
+    "location": "sections/06_results.tex:154",
+    "scope": "ARCHIVED_MEASUREMENTS_OR_DERIVED_RESULTS; CPU_REPLAY"
+  },
+  {
+    "id": "Table IV/Economics/FullV/risk",
+    "reported": "0.0000",
+    "expected": 0.0,
+    "source": "records/figure_data/plot_points_registered.csv",
+    "field": "risk",
+    "where": {
+      "domain": "Economics",
+      "model": "ColQwen2",
+      "method": "FullV"
+    },
+    "op": "first",
+    "scale": 1.0,
+    "offset": 0,
+    "tolerance": 5.00001e-05,
+    "location": "sections/06_results.tex:154",
+    "scope": "ARCHIVED_MEASUREMENTS_OR_DERIVED_RESULTS; CPU_REPLAY"
+  },
+  {
+    "id": "Table IV/Economics/FullV/harm",
+    "reported": "0.0",
+    "expected": 0.0,
+    "source": "records/figure_data/plot_points_registered.csv",
+    "field": "harm",
+    "where": {
+      "domain": "Economics",
+      "model": "ColQwen2",
+      "method": "FullV"
+    },
+    "op": "first",
+    "scale": 100.0,
+    "offset": 0,
+    "tolerance": 0.050000100000000006,
+    "location": "sections/06_results.tex:154",
+    "scope": "ARCHIVED_MEASUREMENTS_OR_DERIVED_RESULTS; CPU_REPLAY"
+  },
+  {
+    "id": "Table IV/Economics/FullV/warm_ms",
+    "reported": "37.62",
+    "expected": 37.62,
+    "source": "records/figure_data/plot_points_registered.csv",
+    "field": "warm_ms",
+    "where": {
+      "domain": "Economics",
+      "model": "ColQwen2",
+      "method": "FullV"
+    },
+    "op": "first",
+    "scale": 1.0,
+    "offset": 0,
+    "tolerance": 0.00500001,
+    "location": "sections/06_results.tex:154",
+    "scope": "ARCHIVED_MEASUREMENTS_OR_DERIVED_RESULTS; CPU_REPLAY"
+  },
+  {
+    "id": "Table IV/Biomedical/R50/ndcg",
+    "reported": "0.5395",
+    "expected": 0.5395,
+    "source": "records/figure_data/plot_points_registered.csv",
+    "field": "ndcg",
+    "where": {
+      "domain": "Biomedical",
+      "model": "ColQwen2",
+      "method": "R50"
+    },
+    "op": "first",
+    "scale": 1.0,
+    "offset": 0,
+    "tolerance": 5.00001e-05,
+    "location": "sections/06_results.tex:155",
+    "scope": "ARCHIVED_MEASUREMENTS_OR_DERIVED_RESULTS; CPU_REPLAY"
+  },
+  {
+    "id": "Table IV/Biomedical/R50/risk",
+    "reported": "0.1325",
+    "expected": 0.1325,
+    "source": "records/figure_data/plot_points_registered.csv",
+    "field": "risk",
+    "where": {
+      "domain": "Biomedical",
+      "model": "ColQwen2",
+      "method": "R50"
+    },
+    "op": "first",
+    "scale": 1.0,
+    "offset": 0,
+    "tolerance": 5.00001e-05,
+    "location": "sections/06_results.tex:155",
+    "scope": "ARCHIVED_MEASUREMENTS_OR_DERIVED_RESULTS; CPU_REPLAY"
+  },
+  {
+    "id": "Table IV/Biomedical/R50/r_low",
+    "reported": "0.0805",
+    "expected": 0.0805,
+    "source": "records/figure_data/plot_points_registered.csv",
+    "field": "r_low",
+    "where": {
+      "domain": "Biomedical",
+      "model": "ColQwen2",
+      "method": "R50"
+    },
+    "op": "first",
+    "scale": 1.0,
+    "offset": 0,
+    "tolerance": 5.00001e-05,
+    "location": "sections/06_results.tex:155",
+    "scope": "ARCHIVED_MEASUREMENTS_OR_DERIVED_RESULTS; CPU_REPLAY"
+  },
+  {
+    "id": "Table IV/Biomedical/R50/r_high",
+    "reported": "0.1921",
+    "expected": 0.1921,
+    "source": "records/figure_data/plot_points_registered.csv",
+    "field": "r_high",
+    "where": {
+      "domain": "Biomedical",
+      "model": "ColQwen2",
+      "method": "R50"
+    },
+    "op": "first",
+    "scale": 1.0,
+    "offset": 0,
+    "tolerance": 5.00001e-05,
+    "location": "sections/06_results.tex:155",
+    "scope": "ARCHIVED_MEASUREMENTS_OR_DERIVED_RESULTS; CPU_REPLAY"
+  },
+  {
+    "id": "Table IV/Biomedical/R50/harm",
+    "reported": "27.5",
+    "expected": 27.5,
+    "source": "records/figure_data/plot_points_registered.csv",
+    "field": "harm",
+    "where": {
+      "domain": "Biomedical",
+      "model": "ColQwen2",
+      "method": "R50"
+    },
+    "op": "first",
+    "scale": 100.0,
+    "offset": 0,
+    "tolerance": 0.050000100000000006,
+    "location": "sections/06_results.tex:155",
+    "scope": "ARCHIVED_MEASUREMENTS_OR_DERIVED_RESULTS; CPU_REPLAY"
+  },
+  {
+    "id": "Table IV/Biomedical/R50/warm_ms",
+    "reported": "62.31",
+    "expected": 62.31,
+    "source": "records/figure_data/plot_points_registered.csv",
+    "field": "warm_ms",
+    "where": {
+      "domain": "Biomedical",
+      "model": "ColQwen2",
+      "method": "R50"
+    },
+    "op": "first",
+    "scale": 1.0,
+    "offset": 0,
+    "tolerance": 0.00500001,
+    "location": "sections/06_results.tex:155",
+    "scope": "ARCHIVED_MEASUREMENTS_OR_DERIVED_RESULTS; CPU_REPLAY"
+  },
+  {
+    "id": "Table IV/Economics/R50/ndcg",
+    "reported": "0.5743",
+    "expected": 0.5743,
+    "source": "records/figure_data/plot_points_registered.csv",
+    "field": "ndcg",
+    "where": {
+      "domain": "Economics",
+      "model": "ColQwen2",
+      "method": "R50"
+    },
+    "op": "first",
+    "scale": 1.0,
+    "offset": 0,
+    "tolerance": 5.00001e-05,
+    "location": "sections/06_results.tex:155",
+    "scope": "ARCHIVED_MEASUREMENTS_OR_DERIVED_RESULTS; CPU_REPLAY"
+  },
+  {
+    "id": "Table IV/Economics/R50/risk",
+    "reported": "0.0160",
+    "expected": 0.016,
+    "source": "records/figure_data/plot_points_registered.csv",
+    "field": "risk",
+    "where": {
+      "domain": "Economics",
+      "model": "ColQwen2",
+      "method": "R50"
+    },
+    "op": "first",
+    "scale": 1.0,
+    "offset": 0,
+    "tolerance": 5.00001e-05,
+    "location": "sections/06_results.tex:155",
+    "scope": "ARCHIVED_MEASUREMENTS_OR_DERIVED_RESULTS; CPU_REPLAY"
+  },
+  {
+    "id": "Table IV/Economics/R50/harm",
+    "reported": "29.3",
+    "expected": 29.3,
+    "source": "records/figure_data/plot_points_registered.csv",
+    "field": "harm",
+    "where": {
+      "domain": "Economics",
+      "model": "ColQwen2",
+      "method": "R50"
+    },
+    "op": "first",
+    "scale": 100.0,
+    "offset": 0,
+    "tolerance": 0.050000100000000006,
+    "location": "sections/06_results.tex:155",
+    "scope": "ARCHIVED_MEASUREMENTS_OR_DERIVED_RESULTS; CPU_REPLAY"
+  },
+  {
+    "id": "Table IV/Economics/R50/warm_ms",
+    "reported": "35.15",
+    "expected": 35.15,
+    "source": "records/figure_data/plot_points_registered.csv",
+    "field": "warm_ms",
+    "where": {
+      "domain": "Economics",
+      "model": "ColQwen2",
+      "method": "R50"
+    },
+    "op": "first",
+    "scale": 1.0,
+    "offset": 0,
+    "tolerance": 0.00500001,
+    "location": "sections/06_results.tex:155",
+    "scope": "ARCHIVED_MEASUREMENTS_OR_DERIVED_RESULTS; CPU_REPLAY"
+  },
+  {
+    "id": "Table IV/Biomedical/R100/ndcg",
+    "reported": "0.5616",
+    "expected": 0.5616,
+    "source": "records/figure_data/plot_points_registered.csv",
+    "field": "ndcg",
+    "where": {
+      "domain": "Biomedical",
+      "model": "ColQwen2",
+      "method": "R100"
+    },
+    "op": "first",
+    "scale": 1.0,
+    "offset": 0,
+    "tolerance": 5.00001e-05,
+    "location": "sections/06_results.tex:156",
+    "scope": "ARCHIVED_MEASUREMENTS_OR_DERIVED_RESULTS; CPU_REPLAY"
+  },
+  {
+    "id": "Table IV/Biomedical/R100/risk",
+    "reported": "0.1117",
+    "expected": 0.1117,
+    "source": "records/figure_data/plot_points_registered.csv",
+    "field": "risk",
+    "where": {
+      "domain": "Biomedical",
+      "model": "ColQwen2",
+      "method": "R100"
+    },
+    "op": "first",
+    "scale": 1.0,
+    "offset": 0,
+    "tolerance": 5.00001e-05,
+    "location": "sections/06_results.tex:156",
+    "scope": "ARCHIVED_MEASUREMENTS_OR_DERIVED_RESULTS; CPU_REPLAY"
+  },
+  {
+    "id": "Table IV/Biomedical/R100/r_low",
+    "reported": "0.0663",
+    "expected": 0.0663,
+    "source": "records/figure_data/plot_points_registered.csv",
+    "field": "r_low",
+    "where": {
+      "domain": "Biomedical",
+      "model": "ColQwen2",
+      "method": "R100"
+    },
+    "op": "first",
+    "scale": 1.0,
+    "offset": 0,
+    "tolerance": 5.00001e-05,
+    "location": "sections/06_results.tex:156",
+    "scope": "ARCHIVED_MEASUREMENTS_OR_DERIVED_RESULTS; CPU_REPLAY"
+  },
+  {
+    "id": "Table IV/Biomedical/R100/r_high",
+    "reported": "0.1631",
+    "expected": 0.1631,
+    "source": "records/figure_data/plot_points_registered.csv",
+    "field": "r_high",
+    "where": {
+      "domain": "Biomedical",
+      "model": "ColQwen2",
+      "method": "R100"
+    },
+    "op": "first",
+    "scale": 1.0,
+    "offset": 0,
+    "tolerance": 5.00001e-05,
+    "location": "sections/06_results.tex:156",
+    "scope": "ARCHIVED_MEASUREMENTS_OR_DERIVED_RESULTS; CPU_REPLAY"
+  },
+  {
+    "id": "Table IV/Biomedical/R100/harm",
+    "reported": "23.1",
+    "expected": 23.1,
+    "source": "records/figure_data/plot_points_registered.csv",
+    "field": "harm",
+    "where": {
+      "domain": "Biomedical",
+      "model": "ColQwen2",
+      "method": "R100"
+    },
+    "op": "first",
+    "scale": 100.0,
+    "offset": 0,
+    "tolerance": 0.050000100000000006,
+    "location": "sections/06_results.tex:156",
+    "scope": "ARCHIVED_MEASUREMENTS_OR_DERIVED_RESULTS; CPU_REPLAY"
+  },
+  {
+    "id": "Table IV/Biomedical/R100/warm_ms",
+    "reported": "62.66",
+    "expected": 62.66,
+    "source": "records/figure_data/plot_points_registered.csv",
+    "field": "warm_ms",
+    "where": {
+      "domain": "Biomedical",
+      "model": "ColQwen2",
+      "method": "R100"
+    },
+    "op": "first",
+    "scale": 1.0,
+    "offset": 0,
+    "tolerance": 0.00500001,
+    "location": "sections/06_results.tex:156",
+    "scope": "ARCHIVED_MEASUREMENTS_OR_DERIVED_RESULTS; CPU_REPLAY"
+  },
+  {
+    "id": "Table IV/Economics/R100/ndcg",
+    "reported": "0.5801",
+    "expected": 0.5801,
+    "source": "records/figure_data/plot_points_registered.csv",
+    "field": "ndcg",
+    "where": {
+      "domain": "Economics",
+      "model": "ColQwen2",
+      "method": "R100"
+    },
+    "op": "first",
+    "scale": 1.0,
+    "offset": 0,
+    "tolerance": 5.00001e-05,
+    "location": "sections/06_results.tex:156",
+    "scope": "ARCHIVED_MEASUREMENTS_OR_DERIVED_RESULTS; CPU_REPLAY"
+  },
+  {
+    "id": "Table IV/Economics/R100/risk",
+    "reported": "0.0086",
+    "expected": 0.0086,
+    "source": "records/figure_data/plot_points_registered.csv",
+    "field": "risk",
+    "where": {
+      "domain": "Economics",
+      "model": "ColQwen2",
+      "method": "R100"
+    },
+    "op": "first",
+    "scale": 1.0,
+    "offset": 0,
+    "tolerance": 5.00001e-05,
+    "location": "sections/06_results.tex:156",
+    "scope": "ARCHIVED_MEASUREMENTS_OR_DERIVED_RESULTS; CPU_REPLAY"
+  },
+  {
+    "id": "Table IV/Economics/R100/harm",
+    "reported": "8.6",
+    "expected": 8.6,
+    "source": "records/figure_data/plot_points_registered.csv",
+    "field": "harm",
+    "where": {
+      "domain": "Economics",
+      "model": "ColQwen2",
+      "method": "R100"
+    },
+    "op": "first",
+    "scale": 100.0,
+    "offset": 0,
+    "tolerance": 0.050000100000000006,
+    "location": "sections/06_results.tex:156",
+    "scope": "ARCHIVED_MEASUREMENTS_OR_DERIVED_RESULTS; CPU_REPLAY"
+  },
+  {
+    "id": "Table IV/Economics/R100/warm_ms",
+    "reported": "35.74",
+    "expected": 35.74,
+    "source": "records/figure_data/plot_points_registered.csv",
+    "field": "warm_ms",
+    "where": {
+      "domain": "Economics",
+      "model": "ColQwen2",
+      "method": "R100"
+    },
+    "op": "first",
+    "scale": 1.0,
+    "offset": 0,
+    "tolerance": 0.00500001,
+    "location": "sections/06_results.tex:156",
+    "scope": "ARCHIVED_MEASUREMENTS_OR_DERIVED_RESULTS; CPU_REPLAY"
+  },
+  {
+    "id": "Table IV/Biomedical/BM25/ndcg",
+    "reported": "0.3807",
+    "expected": 0.3807,
+    "source": "records/figure_data/plot_points_registered.csv",
+    "field": "ndcg",
+    "where": {
+      "domain": "Biomedical",
+      "model": "ColQwen2",
+      "method": "BM25"
+    },
+    "op": "first",
+    "scale": 1.0,
+    "offset": 0,
+    "tolerance": 5.00001e-05,
+    "location": "sections/06_results.tex:157",
+    "scope": "ARCHIVED_MEASUREMENTS_OR_DERIVED_RESULTS; CPU_REPLAY"
+  },
+  {
+    "id": "Table IV/Biomedical/BM25/risk",
+    "reported": "0.2906",
+    "expected": 0.2906,
+    "source": "records/figure_data/plot_points_registered.csv",
+    "field": "risk",
+    "where": {
+      "domain": "Biomedical",
+      "model": "ColQwen2",
+      "method": "BM25"
+    },
+    "op": "first",
+    "scale": 1.0,
+    "offset": 0,
+    "tolerance": 5.00001e-05,
+    "location": "sections/06_results.tex:157",
+    "scope": "ARCHIVED_MEASUREMENTS_OR_DERIVED_RESULTS; CPU_REPLAY"
+  },
+  {
+    "id": "Table IV/Biomedical/BM25/r_low",
+    "reported": "0.2228",
+    "expected": 0.2228,
+    "source": "records/figure_data/plot_points_registered.csv",
+    "field": "r_low",
+    "where": {
+      "domain": "Biomedical",
+      "model": "ColQwen2",
+      "method": "BM25"
+    },
+    "op": "first",
+    "scale": 1.0,
+    "offset": 0,
+    "tolerance": 5.00001e-05,
+    "location": "sections/06_results.tex:157",
+    "scope": "ARCHIVED_MEASUREMENTS_OR_DERIVED_RESULTS; CPU_REPLAY"
+  },
+  {
+    "id": "Table IV/Biomedical/BM25/r_high",
+    "reported": "0.3636",
+    "expected": 0.3636,
+    "source": "records/figure_data/plot_points_registered.csv",
+    "field": "r_high",
+    "where": {
+      "domain": "Biomedical",
+      "model": "ColQwen2",
+      "method": "BM25"
+    },
+    "op": "first",
+    "scale": 1.0,
+    "offset": 0,
+    "tolerance": 5.00001e-05,
+    "location": "sections/06_results.tex:157",
+    "scope": "ARCHIVED_MEASUREMENTS_OR_DERIVED_RESULTS; CPU_REPLAY"
+  },
+  {
+    "id": "Table IV/Biomedical/BM25/harm",
+    "reported": "63.7",
+    "expected": 63.7,
+    "source": "records/figure_data/plot_points_registered.csv",
+    "field": "harm",
+    "where": {
+      "domain": "Biomedical",
+      "model": "ColQwen2",
+      "method": "BM25"
+    },
+    "op": "first",
+    "scale": 100.0,
+    "offset": 0,
+    "tolerance": 0.050000100000000006,
+    "location": "sections/06_results.tex:157",
+    "scope": "ARCHIVED_MEASUREMENTS_OR_DERIVED_RESULTS; CPU_REPLAY"
+  },
+  {
+    "id": "Table IV/Biomedical/BM25/warm_ms",
+    "reported": "2.47",
+    "expected": 2.47,
+    "source": "records/figure_data/plot_points_registered.csv",
+    "field": "warm_ms",
+    "where": {
+      "domain": "Biomedical",
+      "model": "ColQwen2",
+      "method": "BM25"
+    },
+    "op": "first",
+    "scale": 1.0,
+    "offset": 0,
+    "tolerance": 0.00500001,
+    "location": "sections/06_results.tex:157",
+    "scope": "ARCHIVED_MEASUREMENTS_OR_DERIVED_RESULTS; CPU_REPLAY"
+  },
+  {
+    "id": "Table IV/Economics/BM25/ndcg",
+    "reported": "0.4598",
+    "expected": 0.4598,
+    "source": "records/figure_data/plot_points_registered.csv",
+    "field": "ndcg",
+    "where": {
+      "domain": "Economics",
+      "model": "ColQwen2",
+      "method": "BM25"
+    },
+    "op": "first",
+    "scale": 1.0,
+    "offset": 0,
+    "tolerance": 5.00001e-05,
+    "location": "sections/06_results.tex:157",
+    "scope": "ARCHIVED_MEASUREMENTS_OR_DERIVED_RESULTS; CPU_REPLAY"
+  },
+  {
+    "id": "Table IV/Economics/BM25/risk",
+    "reported": "0.1832",
+    "expected": 0.1832,
+    "source": "records/figure_data/plot_points_registered.csv",
+    "field": "risk",
+    "where": {
+      "domain": "Economics",
+      "model": "ColQwen2",
+      "method": "BM25"
+    },
+    "op": "first",
+    "scale": 1.0,
+    "offset": 0,
+    "tolerance": 5.00001e-05,
+    "location": "sections/06_results.tex:157",
+    "scope": "ARCHIVED_MEASUREMENTS_OR_DERIVED_RESULTS; CPU_REPLAY"
+  },
+  {
+    "id": "Table IV/Economics/BM25/harm",
+    "reported": "67.2",
+    "expected": 67.2,
+    "source": "records/figure_data/plot_points_registered.csv",
+    "field": "harm",
+    "where": {
+      "domain": "Economics",
+      "model": "ColQwen2",
+      "method": "BM25"
+    },
+    "op": "first",
+    "scale": 100.0,
+    "offset": 0,
+    "tolerance": 0.050000100000000006,
+    "location": "sections/06_results.tex:157",
+    "scope": "ARCHIVED_MEASUREMENTS_OR_DERIVED_RESULTS; CPU_REPLAY"
+  },
+  {
+    "id": "Table IV/Economics/BM25/warm_ms",
+    "reported": "0.63",
+    "expected": 0.63,
+    "source": "records/figure_data/plot_points_registered.csv",
+    "field": "warm_ms",
+    "where": {
+      "domain": "Economics",
+      "model": "ColQwen2",
+      "method": "BM25"
+    },
+    "op": "first",
+    "scale": 1.0,
+    "offset": 0,
+    "tolerance": 0.00500001,
+    "location": "sections/06_results.tex:157",
+    "scope": "ARCHIVED_MEASUREMENTS_OR_DERIVED_RESULTS; CPU_REPLAY"
+  },
+  {
+    "id": "Table IV/Biomedical/Q/ndcg",
+    "reported": "0.5376",
+    "expected": 0.5376,
+    "source": "records/figure_data/plot_points_registered.csv",
+    "field": "ndcg",
+    "where": {
+      "domain": "Biomedical",
+      "model": "ColQwen2",
+      "method": "Q"
+    },
+    "op": "first",
+    "scale": 1.0,
+    "offset": 0,
+    "tolerance": 5.00001e-05,
+    "location": "sections/06_results.tex:158",
+    "scope": "ARCHIVED_MEASUREMENTS_OR_DERIVED_RESULTS; CPU_REPLAY"
+  },
+  {
+    "id": "Table IV/Biomedical/Q/risk",
+    "reported": "0.1265",
+    "expected": 0.1265,
+    "source": "records/figure_data/plot_points_registered.csv",
+    "field": "risk",
+    "where": {
+      "domain": "Biomedical",
+      "model": "ColQwen2",
+      "method": "Q"
+    },
+    "op": "first",
+    "scale": 1.0,
+    "offset": 0,
+    "tolerance": 5.00001e-05,
+    "location": "sections/06_results.tex:158",
+    "scope": "ARCHIVED_MEASUREMENTS_OR_DERIVED_RESULTS; CPU_REPLAY"
+  },
+  {
+    "id": "Table IV/Biomedical/Q/r_low",
+    "reported": "0.0750",
+    "expected": 0.075,
+    "source": "records/figure_data/plot_points_registered.csv",
+    "field": "r_low",
+    "where": {
+      "domain": "Biomedical",
+      "model": "ColQwen2",
+      "method": "Q"
+    },
+    "op": "first",
+    "scale": 1.0,
+    "offset": 0,
+    "tolerance": 5.00001e-05,
+    "location": "sections/06_results.tex:158",
+    "scope": "ARCHIVED_MEASUREMENTS_OR_DERIVED_RESULTS; CPU_REPLAY"
+  },
+  {
+    "id": "Table IV/Biomedical/Q/r_high",
+    "reported": "0.1851",
+    "expected": 0.1851,
+    "source": "records/figure_data/plot_points_registered.csv",
+    "field": "r_high",
+    "where": {
+      "domain": "Biomedical",
+      "model": "ColQwen2",
+      "method": "Q"
+    },
+    "op": "first",
+    "scale": 1.0,
+    "offset": 0,
+    "tolerance": 5.00001e-05,
+    "location": "sections/06_results.tex:158",
+    "scope": "ARCHIVED_MEASUREMENTS_OR_DERIVED_RESULTS; CPU_REPLAY"
+  },
+  {
+    "id": "Table IV/Biomedical/Q/harm",
+    "reported": "23.8",
+    "expected": 23.8,
+    "source": "records/figure_data/plot_points_registered.csv",
+    "field": "harm",
+    "where": {
+      "domain": "Biomedical",
+      "model": "ColQwen2",
+      "method": "Q"
+    },
+    "op": "first",
+    "scale": 100.0,
+    "offset": 0,
+    "tolerance": 0.050000100000000006,
+    "location": "sections/06_results.tex:158",
+    "scope": "ARCHIVED_MEASUREMENTS_OR_DERIVED_RESULTS; CPU_REPLAY"
+  },
+  {
+    "id": "Table IV/Biomedical/Q/warm_ms",
+    "reported": "54.52",
+    "expected": 54.52,
+    "source": "records/figure_data/plot_points_registered.csv",
+    "field": "warm_ms",
+    "where": {
+      "domain": "Biomedical",
+      "model": "ColQwen2",
+      "method": "Q"
+    },
+    "op": "first",
+    "scale": 1.0,
+    "offset": 0,
+    "tolerance": 0.00500001,
+    "location": "sections/06_results.tex:158",
+    "scope": "ARCHIVED_MEASUREMENTS_OR_DERIVED_RESULTS; CPU_REPLAY"
+  },
+  {
+    "id": "Table IV/Economics/Q/ndcg",
+    "reported": "0.5587",
+    "expected": 0.5587,
+    "source": "records/figure_data/plot_points_registered.csv",
+    "field": "ndcg",
+    "where": {
+      "domain": "Economics",
+      "model": "ColQwen2",
+      "method": "Q"
+    },
+    "op": "first",
+    "scale": 1.0,
+    "offset": 0,
+    "tolerance": 5.00001e-05,
+    "location": "sections/06_results.tex:158",
+    "scope": "ARCHIVED_MEASUREMENTS_OR_DERIVED_RESULTS; CPU_REPLAY"
+  },
+  {
+    "id": "Table IV/Economics/Q/risk",
+    "reported": "0.0312",
+    "expected": 0.0312,
+    "source": "records/figure_data/plot_points_registered.csv",
+    "field": "risk",
+    "where": {
+      "domain": "Economics",
+      "model": "ColQwen2",
+      "method": "Q"
+    },
+    "op": "first",
+    "scale": 1.0,
+    "offset": 0,
+    "tolerance": 5.00001e-05,
+    "location": "sections/06_results.tex:158",
+    "scope": "ARCHIVED_MEASUREMENTS_OR_DERIVED_RESULTS; CPU_REPLAY"
+  },
+  {
+    "id": "Table IV/Economics/Q/harm",
+    "reported": "15.5",
+    "expected": 15.5,
+    "source": "records/figure_data/plot_points_registered.csv",
+    "field": "harm",
+    "where": {
+      "domain": "Economics",
+      "model": "ColQwen2",
+      "method": "Q"
+    },
+    "op": "first",
+    "scale": 100.0,
+    "offset": 0,
+    "tolerance": 0.050000100000000006,
+    "location": "sections/06_results.tex:158",
+    "scope": "ARCHIVED_MEASUREMENTS_OR_DERIVED_RESULTS; CPU_REPLAY"
+  },
+  {
+    "id": "Table IV/Economics/Q/warm_ms",
+    "reported": "32.08",
+    "expected": 32.08,
+    "source": "records/figure_data/plot_points_registered.csv",
+    "field": "warm_ms",
+    "where": {
+      "domain": "Economics",
+      "model": "ColQwen2",
+      "method": "Q"
+    },
+    "op": "first",
+    "scale": 1.0,
+    "offset": 0,
+    "tolerance": 0.00500001,
+    "location": "sections/06_results.tex:158",
+    "scope": "ARCHIVED_MEASUREMENTS_OR_DERIVED_RESULTS; CPU_REPLAY"
+  },
+  {
+    "id": "Table IV/Biomedical/QP/ndcg",
+    "reported": "0.5707",
+    "expected": 0.5707,
+    "source": "records/figure_data/plot_points_registered.csv",
+    "field": "ndcg",
+    "where": {
+      "domain": "Biomedical",
+      "model": "ColQwen2",
+      "method": "QP"
+    },
+    "op": "first",
+    "scale": 1.0,
+    "offset": 0,
+    "tolerance": 5.00001e-05,
+    "location": "sections/06_results.tex:159",
+    "scope": "ARCHIVED_MEASUREMENTS_OR_DERIVED_RESULTS; CPU_REPLAY"
+  },
+  {
+    "id": "Table IV/Biomedical/QP/risk",
+    "reported": "0.0943",
+    "expected": 0.0943,
+    "source": "records/figure_data/plot_points_registered.csv",
+    "field": "risk",
+    "where": {
+      "domain": "Biomedical",
+      "model": "ColQwen2",
+      "method": "QP"
+    },
+    "op": "first",
+    "scale": 1.0,
+    "offset": 0,
+    "tolerance": 5.00001e-05,
+    "location": "sections/06_results.tex:159",
+    "scope": "ARCHIVED_MEASUREMENTS_OR_DERIVED_RESULTS; CPU_REPLAY"
+  },
+  {
+    "id": "Table IV/Biomedical/QP/r_low",
+    "reported": "0.0570",
+    "expected": 0.057,
+    "source": "records/figure_data/plot_points_registered.csv",
+    "field": "r_low",
+    "where": {
+      "domain": "Biomedical",
+      "model": "ColQwen2",
+      "method": "QP"
+    },
+    "op": "first",
+    "scale": 1.0,
+    "offset": 0,
+    "tolerance": 5.00001e-05,
+    "location": "sections/06_results.tex:159",
+    "scope": "ARCHIVED_MEASUREMENTS_OR_DERIVED_RESULTS; CPU_REPLAY"
+  },
+  {
+    "id": "Table IV/Biomedical/QP/r_high",
+    "reported": "0.1351",
+    "expected": 0.1351,
+    "source": "records/figure_data/plot_points_registered.csv",
+    "field": "r_high",
+    "where": {
+      "domain": "Biomedical",
+      "model": "ColQwen2",
+      "method": "QP"
+    },
+    "op": "first",
+    "scale": 1.0,
+    "offset": 0,
+    "tolerance": 5.00001e-05,
+    "location": "sections/06_results.tex:159",
+    "scope": "ARCHIVED_MEASUREMENTS_OR_DERIVED_RESULTS; CPU_REPLAY"
+  },
+  {
+    "id": "Table IV/Biomedical/QP/harm",
+    "reported": "20.0",
+    "expected": 20.0,
+    "source": "records/figure_data/plot_points_registered.csv",
+    "field": "harm",
+    "where": {
+      "domain": "Biomedical",
+      "model": "ColQwen2",
+      "method": "QP"
+    },
+    "op": "first",
+    "scale": 100.0,
+    "offset": 0,
+    "tolerance": 0.050000100000000006,
+    "location": "sections/06_results.tex:159",
+    "scope": "ARCHIVED_MEASUREMENTS_OR_DERIVED_RESULTS; CPU_REPLAY"
+  },
+  {
+    "id": "Table IV/Biomedical/QP/warm_ms",
+    "reported": "58.11",
+    "expected": 58.11,
+    "source": "records/figure_data/plot_points_registered.csv",
+    "field": "warm_ms",
+    "where": {
+      "domain": "Biomedical",
+      "model": "ColQwen2",
+      "method": "QP"
+    },
+    "op": "first",
+    "scale": 1.0,
+    "offset": 0,
+    "tolerance": 0.00500001,
+    "location": "sections/06_results.tex:159",
+    "scope": "ARCHIVED_MEASUREMENTS_OR_DERIVED_RESULTS; CPU_REPLAY"
+  },
+  {
+    "id": "Table IV/Economics/QP/ndcg",
+    "reported": "0.5847",
+    "expected": 0.5847,
+    "source": "records/figure_data/plot_points_registered.csv",
+    "field": "ndcg",
+    "where": {
+      "domain": "Economics",
+      "model": "ColQwen2",
+      "method": "QP"
+    },
+    "op": "first",
+    "scale": 1.0,
+    "offset": 0,
+    "tolerance": 5.00001e-05,
+    "location": "sections/06_results.tex:159",
+    "scope": "ARCHIVED_MEASUREMENTS_OR_DERIVED_RESULTS; CPU_REPLAY"
+  },
+  {
+    "id": "Table IV/Economics/QP/risk",
+    "reported": "0.0045",
+    "expected": 0.0045,
+    "source": "records/figure_data/plot_points_registered.csv",
+    "field": "risk",
+    "where": {
+      "domain": "Economics",
+      "model": "ColQwen2",
+      "method": "QP"
+    },
+    "op": "first",
+    "scale": 1.0,
+    "offset": 0,
+    "tolerance": 5.00001e-05,
+    "location": "sections/06_results.tex:159",
+    "scope": "ARCHIVED_MEASUREMENTS_OR_DERIVED_RESULTS; CPU_REPLAY"
+  },
+  {
+    "id": "Table IV/Economics/QP/harm",
+    "reported": "6.9",
+    "expected": 6.9,
+    "source": "records/figure_data/plot_points_registered.csv",
+    "field": "harm",
+    "where": {
+      "domain": "Economics",
+      "model": "ColQwen2",
+      "method": "QP"
+    },
+    "op": "first",
+    "scale": 100.0,
+    "offset": 0,
+    "tolerance": 0.050000100000000006,
+    "location": "sections/06_results.tex:159",
+    "scope": "ARCHIVED_MEASUREMENTS_OR_DERIVED_RESULTS; CPU_REPLAY"
+  },
+  {
+    "id": "Table IV/Economics/QP/warm_ms",
+    "reported": "36.14",
+    "expected": 36.14,
+    "source": "records/figure_data/plot_points_registered.csv",
+    "field": "warm_ms",
+    "where": {
+      "domain": "Economics",
+      "model": "ColQwen2",
+      "method": "QP"
+    },
+    "op": "first",
+    "scale": 1.0,
+    "offset": 0,
+    "tolerance": 0.00500001,
+    "location": "sections/06_results.tex:159",
+    "scope": "ARCHIVED_MEASUREMENTS_OR_DERIVED_RESULTS; CPU_REPLAY"
+  },
+  {
+    "id": "Table IV/Biomedical/FixedMix/ndcg",
+    "reported": "0.5191",
+    "expected": 0.5191,
+    "source": "records/figure_data/plot_points_registered.csv",
+    "field": "ndcg",
+    "where": {
+      "domain": "Biomedical",
+      "model": "ColQwen2",
+      "method": "FixedMix"
+    },
+    "op": "first",
+    "scale": 1.0,
+    "offset": 0,
+    "tolerance": 5.00001e-05,
+    "location": "sections/06_results.tex:160",
+    "scope": "ARCHIVED_MEASUREMENTS_OR_DERIVED_RESULTS; CPU_REPLAY"
+  },
+  {
+    "id": "Table IV/Biomedical/FixedMix/risk",
+    "reported": "0.1523",
+    "expected": 0.1523,
+    "source": "records/figure_data/plot_points_registered.csv",
+    "field": "risk",
+    "where": {
+      "domain": "Biomedical",
+      "model": "ColQwen2",
+      "method": "FixedMix"
+    },
+    "op": "first",
+    "scale": 1.0,
+    "offset": 0,
+    "tolerance": 5.00001e-05,
+    "location": "sections/06_results.tex:160",
+    "scope": "ARCHIVED_MEASUREMENTS_OR_DERIVED_RESULTS; CPU_REPLAY"
+  },
+  {
+    "id": "Table IV/Biomedical/FixedMix/r_low",
+    "reported": "0.1041",
+    "expected": 0.1041,
+    "source": "records/figure_data/plot_points_registered.csv",
+    "field": "r_low",
+    "where": {
+      "domain": "Biomedical",
+      "model": "ColQwen2",
+      "method": "FixedMix"
+    },
+    "op": "first",
+    "scale": 1.0,
+    "offset": 0,
+    "tolerance": 5.00001e-05,
+    "location": "sections/06_results.tex:160",
+    "scope": "ARCHIVED_MEASUREMENTS_OR_DERIVED_RESULTS; CPU_REPLAY"
+  },
+  {
+    "id": "Table IV/Biomedical/FixedMix/r_high",
+    "reported": "0.2064",
+    "expected": 0.2064,
+    "source": "records/figure_data/plot_points_registered.csv",
+    "field": "r_high",
+    "where": {
+      "domain": "Biomedical",
+      "model": "ColQwen2",
+      "method": "FixedMix"
+    },
+    "op": "first",
+    "scale": 1.0,
+    "offset": 0,
+    "tolerance": 5.00001e-05,
+    "location": "sections/06_results.tex:160",
+    "scope": "ARCHIVED_MEASUREMENTS_OR_DERIVED_RESULTS; CPU_REPLAY"
+  },
+  {
+    "id": "Table IV/Biomedical/FixedMix/harm",
+    "reported": "33.8",
+    "expected": 33.8,
+    "source": "records/figure_data/plot_points_registered.csv",
+    "field": "harm",
+    "where": {
+      "domain": "Biomedical",
+      "model": "ColQwen2",
+      "method": "FixedMix"
+    },
+    "op": "first",
+    "scale": 100.0,
+    "offset": 0,
+    "tolerance": 0.050000100000000006,
+    "location": "sections/06_results.tex:160",
+    "scope": "ARCHIVED_MEASUREMENTS_OR_DERIVED_RESULTS; CPU_REPLAY"
+  },
+  {
+    "id": "Table IV/Biomedical/FixedMix/warm_ms",
+    "reported": "46.37",
+    "expected": 46.37,
+    "source": "records/figure_data/plot_points_registered.csv",
+    "field": "warm_ms",
+    "where": {
+      "domain": "Biomedical",
+      "model": "ColQwen2",
+      "method": "FixedMix"
+    },
+    "op": "first",
+    "scale": 1.0,
+    "offset": 0,
+    "tolerance": 0.00500001,
+    "location": "sections/06_results.tex:160",
+    "scope": "ARCHIVED_MEASUREMENTS_OR_DERIVED_RESULTS; CPU_REPLAY"
+  },
+  {
+    "id": "Table IV/Economics/FixedMix/ndcg",
+    "reported": "0.5314",
+    "expected": 0.5314,
+    "source": "records/figure_data/plot_points_registered.csv",
+    "field": "ndcg",
+    "where": {
+      "domain": "Economics",
+      "model": "ColQwen2",
+      "method": "FixedMix"
+    },
+    "op": "first",
+    "scale": 1.0,
+    "offset": 0,
+    "tolerance": 5.00001e-05,
+    "location": "sections/06_results.tex:160",
+    "scope": "ARCHIVED_MEASUREMENTS_OR_DERIVED_RESULTS; CPU_REPLAY"
+  },
+  {
+    "id": "Table IV/Economics/FixedMix/risk",
+    "reported": "0.0768",
+    "expected": 0.0768,
+    "source": "records/figure_data/plot_points_registered.csv",
+    "field": "risk",
+    "where": {
+      "domain": "Economics",
+      "model": "ColQwen2",
+      "method": "FixedMix"
+    },
+    "op": "first",
+    "scale": 1.0,
+    "offset": 0,
+    "tolerance": 5.00001e-05,
+    "location": "sections/06_results.tex:160",
+    "scope": "ARCHIVED_MEASUREMENTS_OR_DERIVED_RESULTS; CPU_REPLAY"
+  },
+  {
+    "id": "Table IV/Economics/FixedMix/harm",
+    "reported": "31.0",
+    "expected": 31.0,
+    "source": "records/figure_data/plot_points_registered.csv",
+    "field": "harm",
+    "where": {
+      "domain": "Economics",
+      "model": "ColQwen2",
+      "method": "FixedMix"
+    },
+    "op": "first",
+    "scale": 100.0,
+    "offset": 0,
+    "tolerance": 0.050000100000000006,
+    "location": "sections/06_results.tex:160",
+    "scope": "ARCHIVED_MEASUREMENTS_OR_DERIVED_RESULTS; CPU_REPLAY"
+  },
+  {
+    "id": "Table IV/Economics/FixedMix/warm_ms",
+    "reported": "24.83",
+    "expected": 24.83,
+    "source": "records/figure_data/plot_points_registered.csv",
+    "field": "warm_ms",
+    "where": {
+      "domain": "Economics",
+      "model": "ColQwen2",
+      "method": "FixedMix"
+    },
+    "op": "first",
+    "scale": 1.0,
+    "offset": 0,
+    "tolerance": 0.00500001,
+    "location": "sections/06_results.tex:160",
+    "scope": "ARCHIVED_MEASUREMENTS_OR_DERIVED_RESULTS; CPU_REPLAY"
+  },
+  {
+    "id": "Table IV/Biomedical/RR-hard/ndcg",
+    "reported": "0.4510",
+    "expected": 0.451,
+    "source": "records/figure_data/plot_points_registered.csv",
+    "field": "ndcg",
+    "where": {
+      "domain": "Biomedical",
+      "model": "ColQwen2",
+      "method": "RR-hard"
+    },
+    "op": "first",
+    "scale": 1.0,
+    "offset": 0,
+    "tolerance": 5.00001e-05,
+    "location": "sections/06_results.tex:161",
+    "scope": "ARCHIVED_MEASUREMENTS_OR_DERIVED_RESULTS; CPU_REPLAY"
+  },
+  {
+    "id": "Table IV/Biomedical/RR-hard/risk",
+    "reported": "0.2147",
+    "expected": 0.2147,
+    "source": "records/figure_data/plot_points_registered.csv",
+    "field": "risk",
+    "where": {
+      "domain": "Biomedical",
+      "model": "ColQwen2",
+      "method": "RR-hard"
+    },
+    "op": "first",
+    "scale": 1.0,
+    "offset": 0,
+    "tolerance": 5.00001e-05,
+    "location": "sections/06_results.tex:161",
+    "scope": "ARCHIVED_MEASUREMENTS_OR_DERIVED_RESULTS; CPU_REPLAY"
+  },
+  {
+    "id": "Table IV/Biomedical/RR-hard/r_low",
+    "reported": "0.1508",
+    "expected": 0.1508,
+    "source": "records/figure_data/plot_points_registered.csv",
+    "field": "r_low",
+    "where": {
+      "domain": "Biomedical",
+      "model": "ColQwen2",
+      "method": "RR-hard"
+    },
+    "op": "first",
+    "scale": 1.0,
+    "offset": 0,
+    "tolerance": 5.00001e-05,
+    "location": "sections/06_results.tex:161",
+    "scope": "ARCHIVED_MEASUREMENTS_OR_DERIVED_RESULTS; CPU_REPLAY"
+  },
+  {
+    "id": "Table IV/Biomedical/RR-hard/r_high",
+    "reported": "0.2904",
+    "expected": 0.2904,
+    "source": "records/figure_data/plot_points_registered.csv",
+    "field": "r_high",
+    "where": {
+      "domain": "Biomedical",
+      "model": "ColQwen2",
+      "method": "RR-hard"
+    },
+    "op": "first",
+    "scale": 1.0,
+    "offset": 0,
+    "tolerance": 5.00001e-05,
+    "location": "sections/06_results.tex:161",
+    "scope": "ARCHIVED_MEASUREMENTS_OR_DERIVED_RESULTS; CPU_REPLAY"
+  },
+  {
+    "id": "Table IV/Biomedical/RR-hard/harm",
+    "reported": "46.2",
+    "expected": 46.2,
+    "source": "records/figure_data/plot_points_registered.csv",
+    "field": "harm",
+    "where": {
+      "domain": "Biomedical",
+      "model": "ColQwen2",
+      "method": "RR-hard"
+    },
+    "op": "first",
+    "scale": 100.0,
+    "offset": 0,
+    "tolerance": 0.050000100000000006,
+    "location": "sections/06_results.tex:161",
+    "scope": "ARCHIVED_MEASUREMENTS_OR_DERIVED_RESULTS; CPU_REPLAY"
+  },
+  {
+    "id": "Table IV/Biomedical/RR-hard/warm_ms",
+    "reported": "26.62",
+    "expected": 26.62,
+    "source": "records/figure_data/plot_points_registered.csv",
+    "field": "warm_ms",
+    "where": {
+      "domain": "Biomedical",
+      "model": "ColQwen2",
+      "method": "RR-hard"
+    },
+    "op": "first",
+    "scale": 1.0,
+    "offset": 0,
+    "tolerance": 0.00500001,
+    "location": "sections/06_results.tex:161",
+    "scope": "ARCHIVED_MEASUREMENTS_OR_DERIVED_RESULTS; CPU_REPLAY"
+  },
+  {
+    "id": "Table IV/Economics/RR-hard/ndcg",
+    "reported": "0.4862",
+    "expected": 0.4862,
+    "source": "records/figure_data/plot_points_registered.csv",
+    "field": "ndcg",
+    "where": {
+      "domain": "Economics",
+      "model": "ColQwen2",
+      "method": "RR-hard"
+    },
+    "op": "first",
+    "scale": 1.0,
+    "offset": 0,
+    "tolerance": 5.00001e-05,
+    "location": "sections/06_results.tex:161",
+    "scope": "ARCHIVED_MEASUREMENTS_OR_DERIVED_RESULTS; CPU_REPLAY"
+  },
+  {
+    "id": "Table IV/Economics/RR-hard/risk",
+    "reported": "0.1421",
+    "expected": 0.1421,
+    "source": "records/figure_data/plot_points_registered.csv",
+    "field": "risk",
+    "where": {
+      "domain": "Economics",
+      "model": "ColQwen2",
+      "method": "RR-hard"
+    },
+    "op": "first",
+    "scale": 1.0,
+    "offset": 0,
+    "tolerance": 5.00001e-05,
+    "location": "sections/06_results.tex:161",
+    "scope": "ARCHIVED_MEASUREMENTS_OR_DERIVED_RESULTS; CPU_REPLAY"
+  },
+  {
+    "id": "Table IV/Economics/RR-hard/harm",
+    "reported": "51.7",
+    "expected": 51.7,
+    "source": "records/figure_data/plot_points_registered.csv",
+    "field": "harm",
+    "where": {
+      "domain": "Economics",
+      "model": "ColQwen2",
+      "method": "RR-hard"
+    },
+    "op": "first",
+    "scale": 100.0,
+    "offset": 0,
+    "tolerance": 0.050000100000000006,
+    "location": "sections/06_results.tex:161",
+    "scope": "ARCHIVED_MEASUREMENTS_OR_DERIVED_RESULTS; CPU_REPLAY"
+  },
+  {
+    "id": "Table IV/Economics/RR-hard/warm_ms",
+    "reported": "11.40",
+    "expected": 11.4,
+    "source": "records/figure_data/plot_points_registered.csv",
+    "field": "warm_ms",
+    "where": {
+      "domain": "Economics",
+      "model": "ColQwen2",
+      "method": "RR-hard"
+    },
+    "op": "first",
+    "scale": 1.0,
+    "offset": 0,
+    "tolerance": 0.00500001,
+    "location": "sections/06_results.tex:161",
+    "scope": "ARCHIVED_MEASUREMENTS_OR_DERIVED_RESULTS; CPU_REPLAY"
+  },
+  {
+    "id": "Table IV/Biomedical/RR-soft/ndcg",
+    "reported": "0.4521",
+    "expected": 0.4521,
+    "source": "records/figure_data/plot_points_registered.csv",
+    "field": "ndcg",
+    "where": {
+      "domain": "Biomedical",
+      "model": "ColQwen2",
+      "method": "RR-soft"
+    },
+    "op": "first",
+    "scale": 1.0,
+    "offset": 0,
+    "tolerance": 5.00001e-05,
+    "location": "sections/06_results.tex:162",
+    "scope": "ARCHIVED_MEASUREMENTS_OR_DERIVED_RESULTS; CPU_REPLAY"
+  },
+  {
+    "id": "Table IV/Biomedical/RR-soft/risk",
+    "reported": "0.2143",
+    "expected": 0.2143,
+    "source": "records/figure_data/plot_points_registered.csv",
+    "field": "risk",
+    "where": {
+      "domain": "Biomedical",
+      "model": "ColQwen2",
+      "method": "RR-soft"
+    },
+    "op": "first",
+    "scale": 1.0,
+    "offset": 0,
+    "tolerance": 5.00001e-05,
+    "location": "sections/06_results.tex:162",
+    "scope": "ARCHIVED_MEASUREMENTS_OR_DERIVED_RESULTS; CPU_REPLAY"
+  },
+  {
+    "id": "Table IV/Biomedical/RR-soft/r_low",
+    "reported": "0.1512",
+    "expected": 0.1512,
+    "source": "records/figure_data/plot_points_registered.csv",
+    "field": "r_low",
+    "where": {
+      "domain": "Biomedical",
+      "model": "ColQwen2",
+      "method": "RR-soft"
+    },
+    "op": "first",
+    "scale": 1.0,
+    "offset": 0,
+    "tolerance": 5.00001e-05,
+    "location": "sections/06_results.tex:162",
+    "scope": "ARCHIVED_MEASUREMENTS_OR_DERIVED_RESULTS; CPU_REPLAY"
+  },
+  {
+    "id": "Table IV/Biomedical/RR-soft/r_high",
+    "reported": "0.2868",
+    "expected": 0.2868,
+    "source": "records/figure_data/plot_points_registered.csv",
+    "field": "r_high",
+    "where": {
+      "domain": "Biomedical",
+      "model": "ColQwen2",
+      "method": "RR-soft"
+    },
+    "op": "first",
+    "scale": 1.0,
+    "offset": 0,
+    "tolerance": 5.00001e-05,
+    "location": "sections/06_results.tex:162",
+    "scope": "ARCHIVED_MEASUREMENTS_OR_DERIVED_RESULTS; CPU_REPLAY"
+  },
+  {
+    "id": "Table IV/Biomedical/RR-soft/harm",
+    "reported": "45.0",
+    "expected": 45.0,
+    "source": "records/figure_data/plot_points_registered.csv",
+    "field": "harm",
+    "where": {
+      "domain": "Biomedical",
+      "model": "ColQwen2",
+      "method": "RR-soft"
+    },
+    "op": "first",
+    "scale": 100.0,
+    "offset": 0,
+    "tolerance": 0.050000100000000006,
+    "location": "sections/06_results.tex:162",
+    "scope": "ARCHIVED_MEASUREMENTS_OR_DERIVED_RESULTS; CPU_REPLAY"
+  },
+  {
+    "id": "Table IV/Biomedical/RR-soft/warm_ms",
+    "reported": "30.44",
+    "expected": 30.44,
+    "source": "records/figure_data/plot_points_registered.csv",
+    "field": "warm_ms",
+    "where": {
+      "domain": "Biomedical",
+      "model": "ColQwen2",
+      "method": "RR-soft"
+    },
+    "op": "first",
+    "scale": 1.0,
+    "offset": 0,
+    "tolerance": 0.00500001,
+    "location": "sections/06_results.tex:162",
+    "scope": "ARCHIVED_MEASUREMENTS_OR_DERIVED_RESULTS; CPU_REPLAY"
+  },
+  {
+    "id": "Table IV/Economics/RR-soft/ndcg",
+    "reported": "0.5141",
+    "expected": 0.5141,
+    "source": "records/figure_data/plot_points_registered.csv",
+    "field": "ndcg",
+    "where": {
+      "domain": "Economics",
+      "model": "ColQwen2",
+      "method": "RR-soft"
+    },
+    "op": "first",
+    "scale": 1.0,
+    "offset": 0,
+    "tolerance": 5.00001e-05,
+    "location": "sections/06_results.tex:162",
+    "scope": "ARCHIVED_MEASUREMENTS_OR_DERIVED_RESULTS; CPU_REPLAY"
+  },
+  {
+    "id": "Table IV/Economics/RR-soft/risk",
+    "reported": "0.1141",
+    "expected": 0.1141,
+    "source": "records/figure_data/plot_points_registered.csv",
+    "field": "risk",
+    "where": {
+      "domain": "Economics",
+      "model": "ColQwen2",
+      "method": "RR-soft"
+    },
+    "op": "first",
+    "scale": 1.0,
+    "offset": 0,
+    "tolerance": 5.00001e-05,
+    "location": "sections/06_results.tex:162",
+    "scope": "ARCHIVED_MEASUREMENTS_OR_DERIVED_RESULTS; CPU_REPLAY"
+  },
+  {
+    "id": "Table IV/Economics/RR-soft/harm",
+    "reported": "41.4",
+    "expected": 41.4,
+    "source": "records/figure_data/plot_points_registered.csv",
+    "field": "harm",
+    "where": {
+      "domain": "Economics",
+      "model": "ColQwen2",
+      "method": "RR-soft"
+    },
+    "op": "first",
+    "scale": 100.0,
+    "offset": 0,
+    "tolerance": 0.050000100000000006,
+    "location": "sections/06_results.tex:162",
+    "scope": "ARCHIVED_MEASUREMENTS_OR_DERIVED_RESULTS; CPU_REPLAY"
+  },
+  {
+    "id": "Table IV/Economics/RR-soft/warm_ms",
+    "reported": "15.17",
+    "expected": 15.17,
+    "source": "records/figure_data/plot_points_registered.csv",
+    "field": "warm_ms",
+    "where": {
+      "domain": "Economics",
+      "model": "ColQwen2",
+      "method": "RR-soft"
+    },
+    "op": "first",
+    "scale": 1.0,
+    "offset": 0,
+    "tolerance": 0.00500001,
+    "location": "sections/06_results.tex:162",
+    "scope": "ARCHIVED_MEASUREMENTS_OR_DERIVED_RESULTS; CPU_REPLAY"
+  },
+  {
+    "id": "Fit-only Dev expected risk min",
+    "reported": "0.045",
+    "expected": 0.045,
+    "source": "records/021_snapshot/reports/icde_eab_review_strengthening_021/analysis_003/EX3/static_mixture_prospective.csv",
+    "field": "achieved_expected_r",
+    "where": {
+      "Fit_budget": "0.05",
+      "domain": [
+        "HR",
+        "Finance",
+        "Industrial",
+        "Pharma"
+      ]
+    },
+    "op": "min",
+    "scale": 1,
+    "offset": 0,
+    "tolerance": 0.000500001,
+    "location": "sections/06_results.tex:197-201",
+    "scope": "POSTHOC_FIT_ONLY_STATIC_MIXTURE; NO_CERTIFICATION"
+  },
+  {
+    "id": "Fit-only Dev expected risk max",
+    "reported": "0.06",
+    "expected": 0.06,
+    "source": "records/021_snapshot/reports/icde_eab_review_strengthening_021/analysis_003/EX3/static_mixture_prospective.csv",
+    "field": "achieved_expected_r",
+    "where": {
+      "Fit_budget": "0.05",
+      "domain": [
+        "HR",
+        "Finance",
+        "Industrial",
+        "Pharma"
+      ]
+    },
+    "op": "max",
+    "scale": 1,
+    "offset": 0,
+    "tolerance": 0.00500001,
+    "location": "sections/06_results.tex:197-201",
+    "scope": "POSTHOC_FIT_ONLY_STATIC_MIXTURE; NO_CERTIFICATION"
+  },
+  {
+    "id": "Fit-only Biomedical expected risk",
+    "reported": "0.189",
+    "expected": 0.189,
+    "source": "records/021_snapshot/reports/icde_eab_review_strengthening_021/analysis_003/EX3/static_mixture_prospective.csv",
+    "field": "achieved_expected_r",
+    "where": {
+      "Fit_budget": "0.05",
+      "domain": "Biomedical"
+    },
+    "op": "first",
+    "scale": 1,
+    "offset": 0,
+    "tolerance": 0.000500001,
+    "location": "sections/06_results.tex:197-201",
+    "scope": "POSTHOC_FIT_ONLY_STATIC_MIXTURE; NO_CERTIFICATION"
+  },
+  {
+    "id": "Fit-only executed risk min",
+    "reported": "0.035",
+    "expected": 0.035,
+    "source": "records/021_snapshot/reports/icde_eab_review_strengthening_021/analysis_003/EX3/static_mixture_prospective.csv",
+    "field": "achieved_replayed_r",
+    "where": {
+      "Fit_budget": "0.05"
+    },
+    "op": "min",
+    "scale": 1,
+    "offset": 0,
+    "tolerance": 0.000500001,
+    "location": "sections/06_results.tex:197-201",
+    "scope": "POSTHOC_FIT_ONLY_STATIC_MIXTURE; NO_CERTIFICATION"
+  },
+  {
+    "id": "Fit-only executed risk max",
+    "reported": "0.195",
+    "expected": 0.195,
+    "source": "records/021_snapshot/reports/icde_eab_review_strengthening_021/analysis_003/EX3/static_mixture_prospective.csv",
+    "field": "achieved_replayed_r",
+    "where": {
+      "Fit_budget": "0.05"
+    },
+    "op": "max",
+    "scale": 1,
+    "offset": 0,
+    "tolerance": 0.000500001,
+    "location": "sections/06_results.tex:197-201",
+    "scope": "POSTHOC_FIT_ONLY_STATIC_MIXTURE; NO_CERTIFICATION"
+  },
+  {
+    "id": "TableII/HR/pages",
+    "reported": "1110",
+    "expected": 1110.0,
+    "source": "records/paper_supplement/R83_tableII_metadata.csv",
+    "field": "pages",
+    "where": {
+      "domain": "HR"
+    },
+    "op": "first",
+    "tolerance": 0,
+    "location": "sections/05_setup.tex:19-24",
+    "scope": "ARCHIVED_METADATA; TABLE_II_RECOMPUTED_FROM_SPLITS_BY_BASE_REPLAY"
+  },
+  {
+    "id": "TableII/HR/documents",
+    "reported": "14",
+    "expected": 14.0,
+    "source": "records/paper_supplement/R83_tableII_metadata.csv",
+    "field": "documents",
+    "where": {
+      "domain": "HR"
+    },
+    "op": "first",
+    "tolerance": 0,
+    "location": "sections/05_setup.tex:19-24",
+    "scope": "ARCHIVED_METADATA; TABLE_II_RECOMPUTED_FROM_SPLITS_BY_BASE_REPLAY"
+  },
+  {
+    "id": "TableII/HR/English_queries",
+    "reported": "318",
+    "expected": 318.0,
+    "source": "records/paper_supplement/R83_tableII_metadata.csv",
+    "field": "English_queries",
+    "where": {
+      "domain": "HR"
+    },
+    "op": "first",
+    "tolerance": 0,
+    "location": "sections/05_setup.tex:19-24",
+    "scope": "ARCHIVED_METADATA; TABLE_II_RECOMPUTED_FROM_SPLITS_BY_BASE_REPLAY"
+  },
+  {
+    "id": "TableII/HR/Fit_queries",
+    "reported": "0",
+    "expected": 0.0,
+    "source": "records/paper_supplement/R83_tableII_metadata.csv",
+    "field": "Fit_queries",
+    "where": {
+      "domain": "HR"
+    },
+    "op": "first",
+    "tolerance": 0,
+    "location": "sections/05_setup.tex:19-24",
+    "scope": "ARCHIVED_METADATA; TABLE_II_RECOMPUTED_FROM_SPLITS_BY_BASE_REPLAY"
+  },
+  {
+    "id": "TableII/HR/Fit_families",
+    "reported": "0",
+    "expected": 0.0,
+    "source": "records/paper_supplement/R83_tableII_metadata.csv",
+    "field": "Fit_families",
+    "where": {
+      "domain": "HR"
+    },
+    "op": "first",
+    "tolerance": 0,
+    "location": "sections/05_setup.tex:19-24",
+    "scope": "ARCHIVED_METADATA; TABLE_II_RECOMPUTED_FROM_SPLITS_BY_BASE_REPLAY"
+  },
+  {
+    "id": "TableII/HR/Dev_queries",
+    "reported": "40",
+    "expected": 40.0,
+    "source": "records/paper_supplement/R83_tableII_metadata.csv",
+    "field": "Dev_queries",
+    "where": {
+      "domain": "HR"
+    },
+    "op": "first",
+    "tolerance": 0,
+    "location": "sections/05_setup.tex:19-24",
+    "scope": "ARCHIVED_METADATA; TABLE_II_RECOMPUTED_FROM_SPLITS_BY_BASE_REPLAY"
+  },
+  {
+    "id": "TableII/HR/Dev_families",
+    "reported": "24",
+    "expected": 24.0,
+    "source": "records/paper_supplement/R83_tableII_metadata.csv",
+    "field": "Dev_families",
+    "where": {
+      "domain": "HR"
+    },
+    "op": "first",
+    "tolerance": 0,
+    "location": "sections/05_setup.tex:19-24",
+    "scope": "ARCHIVED_METADATA; TABLE_II_RECOMPUTED_FROM_SPLITS_BY_BASE_REPLAY"
+  },
+  {
+    "id": "TableII/HR/Benchmark_queries",
+    "reported": "0",
+    "expected": 0.0,
+    "source": "records/paper_supplement/R83_tableII_metadata.csv",
+    "field": "Benchmark_queries",
+    "where": {
+      "domain": "HR"
+    },
+    "op": "first",
+    "tolerance": 0,
+    "location": "sections/05_setup.tex:19-24",
+    "scope": "ARCHIVED_METADATA; TABLE_II_RECOMPUTED_FROM_SPLITS_BY_BASE_REPLAY"
+  },
+  {
+    "id": "TableII/HR/Benchmark_families",
+    "reported": "0",
+    "expected": 0.0,
+    "source": "records/paper_supplement/R83_tableII_metadata.csv",
+    "field": "Benchmark_families",
+    "where": {
+      "domain": "HR"
+    },
+    "op": "first",
+    "tolerance": 0,
+    "location": "sections/05_setup.tex:19-24",
+    "scope": "ARCHIVED_METADATA; TABLE_II_RECOMPUTED_FROM_SPLITS_BY_BASE_REPLAY"
+  },
+  {
+    "id": "TableII/Finance/pages",
+    "reported": "2942",
+    "expected": 2942.0,
+    "source": "records/paper_supplement/R83_tableII_metadata.csv",
+    "field": "pages",
+    "where": {
+      "domain": "Finance"
+    },
+    "op": "first",
+    "tolerance": 0,
+    "location": "sections/05_setup.tex:19-24",
+    "scope": "ARCHIVED_METADATA; TABLE_II_RECOMPUTED_FROM_SPLITS_BY_BASE_REPLAY"
+  },
+  {
+    "id": "TableII/Finance/documents",
+    "reported": "6",
+    "expected": 6.0,
+    "source": "records/paper_supplement/R83_tableII_metadata.csv",
+    "field": "documents",
+    "where": {
+      "domain": "Finance"
+    },
+    "op": "first",
+    "tolerance": 0,
+    "location": "sections/05_setup.tex:19-24",
+    "scope": "ARCHIVED_METADATA; TABLE_II_RECOMPUTED_FROM_SPLITS_BY_BASE_REPLAY"
+  },
+  {
+    "id": "TableII/Finance/English_queries",
+    "reported": "309",
+    "expected": 309.0,
+    "source": "records/paper_supplement/R83_tableII_metadata.csv",
+    "field": "English_queries",
+    "where": {
+      "domain": "Finance"
+    },
+    "op": "first",
+    "tolerance": 0,
+    "location": "sections/05_setup.tex:19-24",
+    "scope": "ARCHIVED_METADATA; TABLE_II_RECOMPUTED_FROM_SPLITS_BY_BASE_REPLAY"
+  },
+  {
+    "id": "TableII/Finance/Fit_queries",
+    "reported": "0",
+    "expected": 0.0,
+    "source": "records/paper_supplement/R83_tableII_metadata.csv",
+    "field": "Fit_queries",
+    "where": {
+      "domain": "Finance"
+    },
+    "op": "first",
+    "tolerance": 0,
+    "location": "sections/05_setup.tex:19-24",
+    "scope": "ARCHIVED_METADATA; TABLE_II_RECOMPUTED_FROM_SPLITS_BY_BASE_REPLAY"
+  },
+  {
+    "id": "TableII/Finance/Fit_families",
+    "reported": "0",
+    "expected": 0.0,
+    "source": "records/paper_supplement/R83_tableII_metadata.csv",
+    "field": "Fit_families",
+    "where": {
+      "domain": "Finance"
+    },
+    "op": "first",
+    "tolerance": 0,
+    "location": "sections/05_setup.tex:19-24",
+    "scope": "ARCHIVED_METADATA; TABLE_II_RECOMPUTED_FROM_SPLITS_BY_BASE_REPLAY"
+  },
+  {
+    "id": "TableII/Finance/Dev_queries",
+    "reported": "39",
+    "expected": 39.0,
+    "source": "records/paper_supplement/R83_tableII_metadata.csv",
+    "field": "Dev_queries",
+    "where": {
+      "domain": "Finance"
+    },
+    "op": "first",
+    "tolerance": 0,
+    "location": "sections/05_setup.tex:19-24",
+    "scope": "ARCHIVED_METADATA; TABLE_II_RECOMPUTED_FROM_SPLITS_BY_BASE_REPLAY"
+  },
+  {
+    "id": "TableII/Finance/Dev_families",
+    "reported": "25",
+    "expected": 25.0,
+    "source": "records/paper_supplement/R83_tableII_metadata.csv",
+    "field": "Dev_families",
+    "where": {
+      "domain": "Finance"
+    },
+    "op": "first",
+    "tolerance": 0,
+    "location": "sections/05_setup.tex:19-24",
+    "scope": "ARCHIVED_METADATA; TABLE_II_RECOMPUTED_FROM_SPLITS_BY_BASE_REPLAY"
+  },
+  {
+    "id": "TableII/Finance/Benchmark_queries",
+    "reported": "0",
+    "expected": 0.0,
+    "source": "records/paper_supplement/R83_tableII_metadata.csv",
+    "field": "Benchmark_queries",
+    "where": {
+      "domain": "Finance"
+    },
+    "op": "first",
+    "tolerance": 0,
+    "location": "sections/05_setup.tex:19-24",
+    "scope": "ARCHIVED_METADATA; TABLE_II_RECOMPUTED_FROM_SPLITS_BY_BASE_REPLAY"
+  },
+  {
+    "id": "TableII/Finance/Benchmark_families",
+    "reported": "0",
+    "expected": 0.0,
+    "source": "records/paper_supplement/R83_tableII_metadata.csv",
+    "field": "Benchmark_families",
+    "where": {
+      "domain": "Finance"
+    },
+    "op": "first",
+    "tolerance": 0,
+    "location": "sections/05_setup.tex:19-24",
+    "scope": "ARCHIVED_METADATA; TABLE_II_RECOMPUTED_FROM_SPLITS_BY_BASE_REPLAY"
+  },
+  {
+    "id": "TableII/Industrial/pages",
+    "reported": "5244",
+    "expected": 5244.0,
+    "source": "records/paper_supplement/R83_tableII_metadata.csv",
+    "field": "pages",
+    "where": {
+      "domain": "Industrial"
+    },
+    "op": "first",
+    "tolerance": 0,
+    "location": "sections/05_setup.tex:19-24",
+    "scope": "ARCHIVED_METADATA; TABLE_II_RECOMPUTED_FROM_SPLITS_BY_BASE_REPLAY"
+  },
+  {
+    "id": "TableII/Industrial/documents",
+    "reported": "27",
+    "expected": 27.0,
+    "source": "records/paper_supplement/R83_tableII_metadata.csv",
+    "field": "documents",
+    "where": {
+      "domain": "Industrial"
+    },
+    "op": "first",
+    "tolerance": 0,
+    "location": "sections/05_setup.tex:19-24",
+    "scope": "ARCHIVED_METADATA; TABLE_II_RECOMPUTED_FROM_SPLITS_BY_BASE_REPLAY"
+  },
+  {
+    "id": "TableII/Industrial/English_queries",
+    "reported": "283",
+    "expected": 283.0,
+    "source": "records/paper_supplement/R83_tableII_metadata.csv",
+    "field": "English_queries",
+    "where": {
+      "domain": "Industrial"
+    },
+    "op": "first",
+    "tolerance": 0,
+    "location": "sections/05_setup.tex:19-24",
+    "scope": "ARCHIVED_METADATA; TABLE_II_RECOMPUTED_FROM_SPLITS_BY_BASE_REPLAY"
+  },
+  {
+    "id": "TableII/Industrial/Fit_queries",
+    "reported": "0",
+    "expected": 0.0,
+    "source": "records/paper_supplement/R83_tableII_metadata.csv",
+    "field": "Fit_queries",
+    "where": {
+      "domain": "Industrial"
+    },
+    "op": "first",
+    "tolerance": 0,
+    "location": "sections/05_setup.tex:19-24",
+    "scope": "ARCHIVED_METADATA; TABLE_II_RECOMPUTED_FROM_SPLITS_BY_BASE_REPLAY"
+  },
+  {
+    "id": "TableII/Industrial/Fit_families",
+    "reported": "0",
+    "expected": 0.0,
+    "source": "records/paper_supplement/R83_tableII_metadata.csv",
+    "field": "Fit_families",
+    "where": {
+      "domain": "Industrial"
+    },
+    "op": "first",
+    "tolerance": 0,
+    "location": "sections/05_setup.tex:19-24",
+    "scope": "ARCHIVED_METADATA; TABLE_II_RECOMPUTED_FROM_SPLITS_BY_BASE_REPLAY"
+  },
+  {
+    "id": "TableII/Industrial/Dev_queries",
+    "reported": "40",
+    "expected": 40.0,
+    "source": "records/paper_supplement/R83_tableII_metadata.csv",
+    "field": "Dev_queries",
+    "where": {
+      "domain": "Industrial"
+    },
+    "op": "first",
+    "tolerance": 0,
+    "location": "sections/05_setup.tex:19-24",
+    "scope": "ARCHIVED_METADATA; TABLE_II_RECOMPUTED_FROM_SPLITS_BY_BASE_REPLAY"
+  },
+  {
+    "id": "TableII/Industrial/Dev_families",
+    "reported": "29",
+    "expected": 29.0,
+    "source": "records/paper_supplement/R83_tableII_metadata.csv",
+    "field": "Dev_families",
+    "where": {
+      "domain": "Industrial"
+    },
+    "op": "first",
+    "tolerance": 0,
+    "location": "sections/05_setup.tex:19-24",
+    "scope": "ARCHIVED_METADATA; TABLE_II_RECOMPUTED_FROM_SPLITS_BY_BASE_REPLAY"
+  },
+  {
+    "id": "TableII/Industrial/Benchmark_queries",
+    "reported": "0",
+    "expected": 0.0,
+    "source": "records/paper_supplement/R83_tableII_metadata.csv",
+    "field": "Benchmark_queries",
+    "where": {
+      "domain": "Industrial"
+    },
+    "op": "first",
+    "tolerance": 0,
+    "location": "sections/05_setup.tex:19-24",
+    "scope": "ARCHIVED_METADATA; TABLE_II_RECOMPUTED_FROM_SPLITS_BY_BASE_REPLAY"
+  },
+  {
+    "id": "TableII/Industrial/Benchmark_families",
+    "reported": "0",
+    "expected": 0.0,
+    "source": "records/paper_supplement/R83_tableII_metadata.csv",
+    "field": "Benchmark_families",
+    "where": {
+      "domain": "Industrial"
+    },
+    "op": "first",
+    "tolerance": 0,
+    "location": "sections/05_setup.tex:19-24",
+    "scope": "ARCHIVED_METADATA; TABLE_II_RECOMPUTED_FROM_SPLITS_BY_BASE_REPLAY"
+  },
+  {
+    "id": "TableII/Pharma/pages",
+    "reported": "2313",
+    "expected": 2313.0,
+    "source": "records/paper_supplement/R83_tableII_metadata.csv",
+    "field": "pages",
+    "where": {
+      "domain": "Pharma"
+    },
+    "op": "first",
+    "tolerance": 0,
+    "location": "sections/05_setup.tex:19-24",
+    "scope": "ARCHIVED_METADATA; TABLE_II_RECOMPUTED_FROM_SPLITS_BY_BASE_REPLAY"
+  },
+  {
+    "id": "TableII/Pharma/documents",
+    "reported": "52",
+    "expected": 52.0,
+    "source": "records/paper_supplement/R83_tableII_metadata.csv",
+    "field": "documents",
+    "where": {
+      "domain": "Pharma"
+    },
+    "op": "first",
+    "tolerance": 0,
+    "location": "sections/05_setup.tex:19-24",
+    "scope": "ARCHIVED_METADATA; TABLE_II_RECOMPUTED_FROM_SPLITS_BY_BASE_REPLAY"
+  },
+  {
+    "id": "TableII/Pharma/English_queries",
+    "reported": "364",
+    "expected": 364.0,
+    "source": "records/paper_supplement/R83_tableII_metadata.csv",
+    "field": "English_queries",
+    "where": {
+      "domain": "Pharma"
+    },
+    "op": "first",
+    "tolerance": 0,
+    "location": "sections/05_setup.tex:19-24",
+    "scope": "ARCHIVED_METADATA; TABLE_II_RECOMPUTED_FROM_SPLITS_BY_BASE_REPLAY"
+  },
+  {
+    "id": "TableII/Pharma/Fit_queries",
+    "reported": "81",
+    "expected": 81.0,
+    "source": "records/paper_supplement/R83_tableII_metadata.csv",
+    "field": "Fit_queries",
+    "where": {
+      "domain": "Pharma"
+    },
+    "op": "first",
+    "tolerance": 0,
+    "location": "sections/05_setup.tex:19-24",
+    "scope": "ARCHIVED_METADATA; TABLE_II_RECOMPUTED_FROM_SPLITS_BY_BASE_REPLAY"
+  },
+  {
+    "id": "TableII/Pharma/Fit_families",
+    "reported": "80",
+    "expected": 80.0,
+    "source": "records/paper_supplement/R83_tableII_metadata.csv",
+    "field": "Fit_families",
+    "where": {
+      "domain": "Pharma"
+    },
+    "op": "first",
+    "tolerance": 0,
+    "location": "sections/05_setup.tex:19-24",
+    "scope": "ARCHIVED_METADATA; TABLE_II_RECOMPUTED_FROM_SPLITS_BY_BASE_REPLAY"
+  },
+  {
+    "id": "TableII/Pharma/Dev_queries",
+    "reported": "45",
+    "expected": 45.0,
+    "source": "records/paper_supplement/R83_tableII_metadata.csv",
+    "field": "Dev_queries",
+    "where": {
+      "domain": "Pharma"
+    },
+    "op": "first",
+    "tolerance": 0,
+    "location": "sections/05_setup.tex:19-24",
+    "scope": "ARCHIVED_METADATA; TABLE_II_RECOMPUTED_FROM_SPLITS_BY_BASE_REPLAY"
+  },
+  {
+    "id": "TableII/Pharma/Dev_families",
+    "reported": "44",
+    "expected": 44.0,
+    "source": "records/paper_supplement/R83_tableII_metadata.csv",
+    "field": "Dev_families",
+    "where": {
+      "domain": "Pharma"
+    },
+    "op": "first",
+    "tolerance": 0,
+    "location": "sections/05_setup.tex:19-24",
+    "scope": "ARCHIVED_METADATA; TABLE_II_RECOMPUTED_FROM_SPLITS_BY_BASE_REPLAY"
+  },
+  {
+    "id": "TableII/Pharma/Benchmark_queries",
+    "reported": "0",
+    "expected": 0.0,
+    "source": "records/paper_supplement/R83_tableII_metadata.csv",
+    "field": "Benchmark_queries",
+    "where": {
+      "domain": "Pharma"
+    },
+    "op": "first",
+    "tolerance": 0,
+    "location": "sections/05_setup.tex:19-24",
+    "scope": "ARCHIVED_METADATA; TABLE_II_RECOMPUTED_FROM_SPLITS_BY_BASE_REPLAY"
+  },
+  {
+    "id": "TableII/Pharma/Benchmark_families",
+    "reported": "0",
+    "expected": 0.0,
+    "source": "records/paper_supplement/R83_tableII_metadata.csv",
+    "field": "Benchmark_families",
+    "where": {
+      "domain": "Pharma"
+    },
+    "op": "first",
+    "tolerance": 0,
+    "location": "sections/05_setup.tex:19-24",
+    "scope": "ARCHIVED_METADATA; TABLE_II_RECOMPUTED_FROM_SPLITS_BY_BASE_REPLAY"
+  },
+  {
+    "id": "TableII/Biomedical/pages",
+    "reported": "1016",
+    "expected": 1016.0,
+    "source": "records/paper_supplement/R83_tableII_metadata.csv",
+    "field": "pages",
+    "where": {
+      "domain": "Biomedical"
+    },
+    "op": "first",
+    "tolerance": 0,
+    "location": "sections/05_setup.tex:19-24",
+    "scope": "ARCHIVED_METADATA; TABLE_II_RECOMPUTED_FROM_SPLITS_BY_BASE_REPLAY"
+  },
+  {
+    "id": "TableII/Biomedical/documents",
+    "reported": "27",
+    "expected": 27.0,
+    "source": "records/paper_supplement/R83_tableII_metadata.csv",
+    "field": "documents",
+    "where": {
+      "domain": "Biomedical"
+    },
+    "op": "first",
+    "tolerance": 0,
+    "location": "sections/05_setup.tex:19-24",
+    "scope": "ARCHIVED_METADATA; TABLE_II_RECOMPUTED_FROM_SPLITS_BY_BASE_REPLAY"
+  },
+  {
+    "id": "TableII/Biomedical/English_queries",
+    "reported": "160",
+    "expected": 160.0,
+    "source": "records/paper_supplement/R83_tableII_metadata.csv",
+    "field": "English_queries",
+    "where": {
+      "domain": "Biomedical"
+    },
+    "op": "first",
+    "tolerance": 0,
+    "location": "sections/05_setup.tex:19-24",
+    "scope": "ARCHIVED_METADATA; TABLE_II_RECOMPUTED_FROM_SPLITS_BY_BASE_REPLAY"
+  },
+  {
+    "id": "TableII/Biomedical/Fit_queries",
+    "reported": "0",
+    "expected": 0.0,
+    "source": "records/paper_supplement/R83_tableII_metadata.csv",
+    "field": "Fit_queries",
+    "where": {
+      "domain": "Biomedical"
+    },
+    "op": "first",
+    "tolerance": 0,
+    "location": "sections/05_setup.tex:19-24",
+    "scope": "ARCHIVED_METADATA; TABLE_II_RECOMPUTED_FROM_SPLITS_BY_BASE_REPLAY"
+  },
+  {
+    "id": "TableII/Biomedical/Fit_families",
+    "reported": "0",
+    "expected": 0.0,
+    "source": "records/paper_supplement/R83_tableII_metadata.csv",
+    "field": "Fit_families",
+    "where": {
+      "domain": "Biomedical"
+    },
+    "op": "first",
+    "tolerance": 0,
+    "location": "sections/05_setup.tex:19-24",
+    "scope": "ARCHIVED_METADATA; TABLE_II_RECOMPUTED_FROM_SPLITS_BY_BASE_REPLAY"
+  },
+  {
+    "id": "TableII/Biomedical/Dev_queries",
+    "reported": "0",
+    "expected": 0.0,
+    "source": "records/paper_supplement/R83_tableII_metadata.csv",
+    "field": "Dev_queries",
+    "where": {
+      "domain": "Biomedical"
+    },
+    "op": "first",
+    "tolerance": 0,
+    "location": "sections/05_setup.tex:19-24",
+    "scope": "ARCHIVED_METADATA; TABLE_II_RECOMPUTED_FROM_SPLITS_BY_BASE_REPLAY"
+  },
+  {
+    "id": "TableII/Biomedical/Dev_families",
+    "reported": "0",
+    "expected": 0.0,
+    "source": "records/paper_supplement/R83_tableII_metadata.csv",
+    "field": "Dev_families",
+    "where": {
+      "domain": "Biomedical"
+    },
+    "op": "first",
+    "tolerance": 0,
+    "location": "sections/05_setup.tex:19-24",
+    "scope": "ARCHIVED_METADATA; TABLE_II_RECOMPUTED_FROM_SPLITS_BY_BASE_REPLAY"
+  },
+  {
+    "id": "TableII/Biomedical/Benchmark_queries",
+    "reported": "160",
+    "expected": 160.0,
+    "source": "records/paper_supplement/R83_tableII_metadata.csv",
+    "field": "Benchmark_queries",
+    "where": {
+      "domain": "Biomedical"
+    },
+    "op": "first",
+    "tolerance": 0,
+    "location": "sections/05_setup.tex:19-24",
+    "scope": "ARCHIVED_METADATA; TABLE_II_RECOMPUTED_FROM_SPLITS_BY_BASE_REPLAY"
+  },
+  {
+    "id": "TableII/Biomedical/Benchmark_families",
+    "reported": "157",
+    "expected": 157.0,
+    "source": "records/paper_supplement/R83_tableII_metadata.csv",
+    "field": "Benchmark_families",
+    "where": {
+      "domain": "Biomedical"
+    },
+    "op": "first",
+    "tolerance": 0,
+    "location": "sections/05_setup.tex:19-24",
+    "scope": "ARCHIVED_METADATA; TABLE_II_RECOMPUTED_FROM_SPLITS_BY_BASE_REPLAY"
+  },
+  {
+    "id": "TableII/Economics/pages",
+    "reported": "452",
+    "expected": 452.0,
+    "source": "records/paper_supplement/R83_tableII_metadata.csv",
+    "field": "pages",
+    "where": {
+      "domain": "Economics"
+    },
+    "op": "first",
+    "tolerance": 0,
+    "location": "sections/05_setup.tex:19-24",
+    "scope": "ARCHIVED_METADATA; TABLE_II_RECOMPUTED_FROM_SPLITS_BY_BASE_REPLAY"
+  },
+  {
+    "id": "TableII/Economics/documents",
+    "reported": "5",
+    "expected": 5.0,
+    "source": "records/paper_supplement/R83_tableII_metadata.csv",
+    "field": "documents",
+    "where": {
+      "domain": "Economics"
+    },
+    "op": "first",
+    "tolerance": 0,
+    "location": "sections/05_setup.tex:19-24",
+    "scope": "ARCHIVED_METADATA; TABLE_II_RECOMPUTED_FROM_SPLITS_BY_BASE_REPLAY"
+  },
+  {
+    "id": "TableII/Economics/English_queries",
+    "reported": "58",
+    "expected": 58.0,
+    "source": "records/paper_supplement/R83_tableII_metadata.csv",
+    "field": "English_queries",
+    "where": {
+      "domain": "Economics"
+    },
+    "op": "first",
+    "tolerance": 0,
+    "location": "sections/05_setup.tex:19-24",
+    "scope": "ARCHIVED_METADATA; TABLE_II_RECOMPUTED_FROM_SPLITS_BY_BASE_REPLAY"
+  },
+  {
+    "id": "TableII/Economics/Fit_queries",
+    "reported": "0",
+    "expected": 0.0,
+    "source": "records/paper_supplement/R83_tableII_metadata.csv",
+    "field": "Fit_queries",
+    "where": {
+      "domain": "Economics"
+    },
+    "op": "first",
+    "tolerance": 0,
+    "location": "sections/05_setup.tex:19-24",
+    "scope": "ARCHIVED_METADATA; TABLE_II_RECOMPUTED_FROM_SPLITS_BY_BASE_REPLAY"
+  },
+  {
+    "id": "TableII/Economics/Fit_families",
+    "reported": "0",
+    "expected": 0.0,
+    "source": "records/paper_supplement/R83_tableII_metadata.csv",
+    "field": "Fit_families",
+    "where": {
+      "domain": "Economics"
+    },
+    "op": "first",
+    "tolerance": 0,
+    "location": "sections/05_setup.tex:19-24",
+    "scope": "ARCHIVED_METADATA; TABLE_II_RECOMPUTED_FROM_SPLITS_BY_BASE_REPLAY"
+  },
+  {
+    "id": "TableII/Economics/Dev_queries",
+    "reported": "0",
+    "expected": 0.0,
+    "source": "records/paper_supplement/R83_tableII_metadata.csv",
+    "field": "Dev_queries",
+    "where": {
+      "domain": "Economics"
+    },
+    "op": "first",
+    "tolerance": 0,
+    "location": "sections/05_setup.tex:19-24",
+    "scope": "ARCHIVED_METADATA; TABLE_II_RECOMPUTED_FROM_SPLITS_BY_BASE_REPLAY"
+  },
+  {
+    "id": "TableII/Economics/Dev_families",
+    "reported": "0",
+    "expected": 0.0,
+    "source": "records/paper_supplement/R83_tableII_metadata.csv",
+    "field": "Dev_families",
+    "where": {
+      "domain": "Economics"
+    },
+    "op": "first",
+    "tolerance": 0,
+    "location": "sections/05_setup.tex:19-24",
+    "scope": "ARCHIVED_METADATA; TABLE_II_RECOMPUTED_FROM_SPLITS_BY_BASE_REPLAY"
+  },
+  {
+    "id": "TableII/Economics/Benchmark_queries",
+    "reported": "58",
+    "expected": 58.0,
+    "source": "records/paper_supplement/R83_tableII_metadata.csv",
+    "field": "Benchmark_queries",
+    "where": {
+      "domain": "Economics"
+    },
+    "op": "first",
+    "tolerance": 0,
+    "location": "sections/05_setup.tex:19-24",
+    "scope": "ARCHIVED_METADATA; TABLE_II_RECOMPUTED_FROM_SPLITS_BY_BASE_REPLAY"
+  },
+  {
+    "id": "TableII/Economics/Benchmark_families",
+    "reported": "53",
+    "expected": 53.0,
+    "source": "records/paper_supplement/R83_tableII_metadata.csv",
+    "field": "Benchmark_families",
+    "where": {
+      "domain": "Economics"
+    },
+    "op": "first",
+    "tolerance": 0,
+    "location": "sections/05_setup.tex:19-24",
+    "scope": "ARCHIVED_METADATA; TABLE_II_RECOMPUTED_FROM_SPLITS_BY_BASE_REPLAY"
+  }
+]
