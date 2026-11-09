@@ -1,0 +1,21 @@
+{
+  "status": "PASS",
+  "checks": 323,
+  "reported_numbers_equal": true,
+  "unrounded_results_equal": true,
+  "changed_status_rows": [
+    {
+      "item": "False-Safe Q_regret",
+      "old": "KNOWN_ERRATUM_ACKNOWLEDGED",
+      "new": "PASS"
+    },
+    {
+      "item": "False-Safe QP_regret",
+      "old": "KNOWN_ERRATUM_ACKNOWLEDGED",
+      "new": "PASS"
+    }
+  ],
+  "definition_errata": 0,
+  "frozen_parameters_changed": false,
+  "frozen_results_changed": false
+}

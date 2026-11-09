@@ -6,12 +6,13 @@ lifecycle cost of physical plans and fixed routers for multimodal document retri
 **Paper:** *[Experiment, Analysis, and Benchmark] MDPlanBench: When Does Query-Level
 Physical Plan Selection Pay Off for Multimodal Document Retrieval?*
 
-This artifact accompanies manuscript **R83** (revision
-`850eb110-3797-473e-b259-1e04db4b86ef`) and extends v1.1 without changing
+This artifact accompanies manuscript **R84** (revision
+`9ce79cf3-76d4-4482-aa7b-39941593cf3b`) and updates the v1.2 artifact without changing
 the paper, frozen outcomes, risk contract, or license. Submission snapshot:
-[`icde27-eab-v1.2`](https://github.com/Orange313/MDRouter/tree/icde27-eab-v1.2).
-Read [PAPER_NUMBER_MAP.md](PAPER_NUMBER_MAP.md) and the explicitly disclosed
-[R83 definition erratum](KNOWN_ERRATA_R83.md) before interpreting the results.
+[`icde27-eab-v1.3`](https://github.com/Orange313/MDPlanBench/tree/icde27-eab-v1.3).
+Read [PAPER_NUMBER_MAP.md](PAPER_NUMBER_MAP.md) for the R84 numerical checks
+and reproduction coverage. All 323 checks pass; the False-Safe definition and
+query-identifier description match the archived records.
 
 ## Data Availability
 
@@ -87,12 +88,24 @@ draws, not page embeddings, OCR text, or retrieval indexes.
 
 Numbers in Tables III–IV and the numerical inputs to Figs. 3–5 can be
 recomputed from the included per-query records and frozen derived result tables
-without the raw corpora (Section "Numeric Replay"). The R83 audit provides 323 explicit checks and a separate occurrence/evidence map;
+without the raw corpora (Section "Numeric Replay"). The R84 audit provides 323 passing explicit checks and a separate occurrence/evidence map;
 it does not make an "all numbers in the paper" claim. See `PAPER_NUMBER_MAP.md`
-for unrounded values, source selectors, hashes, coverage and the known erratum.
+for unrounded values, source selectors, hashes, coverage and evidence boundaries.
 Rechecking the original relevance calculations uses the separately downloaded
 official annotations. Re-running retrieval or timing from scratch requires the
 corpora above and a GPU.
+
+### Public-data boundary
+
+Per-query records identify queries by query identifier, as described in R84.
+Original query prose and complete relevance maps are intentionally **not distributed**
+in this artifact. Public records retain numerical outcomes and anonymous query,
+family and source identifiers. Obtain original queries and labels only from the
+pinned official sources under their terms.
+
+### Evidence scope
+
+Numeric replay of archived observations is separate from rechecking nDCG against original qrels and from rerunning GPU retrieval/timing. Economics intervals remain conditional on its single source component. Post-hoc component-recomposed costs are not measurements of newly executed complete paths. The three-action post-hoc envelope is distinct from the original four-static-plan envelope. No new K1 certificate or Serving speedup is claimed.
 
 ## Reproduction
 
@@ -129,7 +142,7 @@ cover all late manuscript additions; use `reproduce_submission.py` for this audi
 
 ## Paper-to-artifact map
 
-| R83 item | Frozen inputs and computation | Output |
+| R84 item | Frozen inputs and computation | Output |
 |---|---|---|
 | Table I, related-work settings | `ledger/tableI_primary_evidence.csv` (primary-source pointers) | Qualitative evidence; absence claims remain conditional |
 | Table II, data and splits | `splits/`, pinned protocols, `records/fresh_unlabelled_page_counts.json` | `base/tables/table_II.csv` |
@@ -151,7 +164,7 @@ cover all late manuscript additions; use `reproduce_submission.py` for this audi
 
 The exhaustive panel/experiment/configuration map, including failures and missing
 hardware paths, is [REPRODUCIBILITY_MATRIX.md](REPRODUCIBILITY_MATRIX.md).
-The read-only current manuscript occurrence inventory is `ledger/manuscript_R83_numbers.csv`.
+The read-only current manuscript occurrence inventory is `ledger/manuscript_R84_numbers.csv`.
 It is an inventory, **not a claim that every prose token was independently verified**.
 
 ## From-scratch hardware route (separate from quick replay)

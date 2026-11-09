@@ -1,0 +1,12 @@
+{
+  "manuscript_revision": 84,
+  "explicit_checks": 323,
+  "pass_checks": 323,
+  "definition_errata": 0,
+  "numeric_failures": 0,
+  "active_numeric_token_occurrences": 448,
+  "numeric_lines_with_evidence": 185,
+  "all_numbers_claim": false,
+  "reason": "The occurrence inventory is separate from independently validated quantitative assertions.",
+  "frozen_numbers_equal_to_v1_2": true
+}

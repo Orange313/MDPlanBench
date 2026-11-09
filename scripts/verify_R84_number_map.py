@@ -1,4 +1,4 @@
-"""Read-only numerical assertions for the R83 artifact (no corpus or GPU access)."""
+"""Read-only numerical assertions for the R84 artifact (no corpus or GPU access)."""
 from pathlib import Path
 import argparse,csv,gzip,hashlib,json,math
 import numpy as np
@@ -26,7 +26,7 @@ def calculate(s):
     return v
 def main():
     p=argparse.ArgumentParser();p.add_argument('--output',type=Path,required=True);a=p.parse_args();a.output.mkdir(parents=True,exist_ok=False)
-    specs=json.loads((G/'config/paper_R83_claims.json').read_text(encoding='utf8'));checks=[]
+    specs=json.loads((G/'config/paper_R84_claims.json').read_text(encoding='utf8'));checks=[]
     for s in specs:
         v=calculate(s);ok=abs(v-s['expected'])<=s.get('tolerance',0)
         checks.append(dict(item=s['id'],location=s['location'],reported=s['reported'],recomputed=v,status='PASS' if ok else 'FAIL',source=s['source'],row_selector=json.dumps(s.get('where',{}),sort_keys=True),field_formula=f"{s.get('op','first')}({s['field']}) * {s.get('scale',1)} + {s.get('offset',0)}",source_sha256=hashlib.sha256((G/s['source']).read_bytes()).hexdigest(),scope=s.get('scope','ARCHIVED_MEASUREMENTS_OR_DERIVED_RESULTS; CPU_REPLAY')))
@@ -35,8 +35,17 @@ def main():
     values={'Cal families':audit['roles']['new_calibration_sealed']['families'],'Cal components':audit['roles']['new_calibration_sealed']['sources'],'Fit-Cal overlapping components':len(audit['Fit_Cal_intersections']['source_component'])}
     for m in (1,2,8):values['zero-loss n, policies='+str(m)]=math.ceil(math.log(.01/m)/math.log(.95))
     for k,e in [('Cal families',81),('Cal components',20),('Fit-Cal overlapping components',19),('zero-loss n, policies=1',90),('zero-loss n, policies=2',104),('zero-loss n, policies=8',131)]:
-        checks.append(dict(item=k,location='sections/06_results.tex, RQ5',reported=e,recomputed=values[k],status='PASS' if e==values[k] else 'FAIL',source='splits/audit.json' if k.startswith(('Cal','Fit')) else 'scripts/verify_R83_number_map.py',row_selector=k,field_formula=k,source_sha256=hashlib.sha256((G/('splits/audit.json' if k.startswith(('Cal','Fit')) else 'scripts/verify_R83_number_map.py')).read_bytes()).hexdigest(),scope='METADATA_OR_EXACT_FORMULA; NO_LABEL_READ'))
-    # Verify the documented, author-acknowledged definition discrepancy directly.
+        checks.append(dict(item=k,location='sections/06_results.tex, RQ5',reported=e,recomputed=values[k],status='PASS' if e==values[k] else 'FAIL',source='splits/audit.json' if k.startswith(('Cal','Fit')) else 'scripts/verify_R84_number_map.py',row_selector=k,field_formula=k,source_sha256=hashlib.sha256((G/('splits/audit.json' if k.startswith(('Cal','Fit')) else 'scripts/verify_R84_number_map.py')).read_bytes()).hexdigest(),scope='METADATA_OR_EXACT_FORMULA; NO_LABEL_READ'))
+    # Bind the risk-share calculation to the exact, independently checked R84 revision.
+    revision=json.loads((G/'config/paper_R84_revision_audit.json').read_text(encoding='utf8'))
+    current=json.loads((G/'config/paper_current.json').read_text(encoding='utf8'))
+    assert revision['status']=='PASS' and revision['revisionNumber']==84
+    assert revision['revisionId']==current['revisionId']
+    assert revision['current_sha256']==current['files']['sections/06_results.tex']['sha256']
+    assert revision['risk_threshold']==.05 and revision['query_reference']=='query identifier'
+    assert revision['edits'][0]['new']=='regret above 0.05, account for most of the'
+    assert revision['edits'][1]['new']=='records keep the query identifier,'
+    assert revision['numeric_results_changed'] is False and revision['figures_changed'] is False
     src='planb014_full/inputs/reports/icde_eab_main_006/X2/rebuild_002/all_per_query.csv'
     rr=rows(src)
     for method,wanted in [('Q_regret',96.63915649505253),('QP_regret',88.08924818353047)]:
@@ -44,9 +53,9 @@ def main():
         key='mean_r'
         vv=[float(x[key]) for x in r];assert len(vv)==45
         v=100*sum(x for x in vv if x>.05)/sum(vv)
-        checks.append(dict(item='False-Safe '+method,location='sections/06_results.tex:256-260',reported=round(wanted,1),recomputed=v,status='KNOWN_ERRATUM_ACKNOWLEDGED' if abs(v-wanted)<1e-9 else 'FAIL',source=src,row_selector='Pharma / '+method,field_formula='100*sum(r[r>0.05])/sum(r); r>0 would give 100%',source_sha256=hashlib.sha256((G/src).read_bytes()).hexdigest(),scope='R83_DEFINITION_ERRATUM; PUBLICATION_APPROVED; FROZEN_NUMBERS_UNCHANGED'))
+        checks.append(dict(item='False-Safe '+method,location='sections/06_results.tex:256-260',reported=round(wanted,1),recomputed=v,status='PASS' if abs(v-wanted)<1e-9 else 'FAIL',source=src,row_selector='Pharma / '+method,field_formula='100*sum(r[r>0.05])/sum(r); R84 False-Safe threshold',source_sha256=hashlib.sha256((G/src).read_bytes()).hexdigest(),scope='R84_DEFINITION_CONSISTENT; FROZEN_NUMBERS_UNCHANGED'))
     def extra(item,expected,actual,src,formula,tolerance=0,scope='ARCHIVED_NUMERIC_RECORDS; CPU_ONLY'):
-        checks.append(dict(item=item,location='R83 quantitative prose (see PAPER_NUMBER_MAP.md)',reported=expected,recomputed=actual,status='PASS' if abs(expected-actual)<=tolerance else 'FAIL',source=src,row_selector=formula,field_formula=formula,source_sha256=hashlib.sha256((G/src).read_bytes()).hexdigest(),scope=scope))
+        checks.append(dict(item=item,location='R84 quantitative prose (see PAPER_NUMBER_MAP.md)',reported=expected,recomputed=actual,status='PASS' if abs(expected-actual)<=tolerance else 'FAIL',source=src,row_selector=formula,field_formula=formula,source_sha256=hashlib.sha256((G/src).read_bytes()).hexdigest(),scope=scope))
     src='records/figure_data/017/G2_setup_repeats.csv';reps=rows(src)
     for model,want in [('ColQwen2',14.5),('ColPali',10.9)]:
         rs=[r for r in reps if r['model']==model]
@@ -89,8 +98,9 @@ def main():
     w=json.loads(next(r['weights'] for r in rows(src) if r['domain']=='HR' and r['Fit_budget']=='0.05'))
     extra('Fit-only BM100 weight',.568,w[1],src,'weights[BM100] at Fit_budget=.05',.0005)
     extra('Fit-only BM25 weight',.432,w[2],src,'weights[BM25] at Fit_budget=.05',.0005)
-    with (a.output/'R83_numeric_assertions.csv').open('w',newline='',encoding='utf8') as f:
+    assert len(checks)==323, 'R84 must preserve the complete v1.2 assertion set'
+    with (a.output/'R84_numeric_assertions.csv').open('w',newline='',encoding='utf8') as f:
         w=csv.DictWriter(f,list(checks[0]));w.writeheader();w.writerows(checks)
-    result={'status':'PASS_WITH_DISCLOSED_R83_ERRATUM' if not any(r['status']=='FAIL' for r in checks) else 'FAIL','checks':len(checks),'numeric_failures':[r for r in checks if r['status']=='FAIL'],'acknowledged_definition_errata':2,'raw_data_read':False,'GPU_jobs':0,'new_training':0,'scope':'Specified R83 quantitative assertions, table cells in the separate paper_values stage. Not a claim of independent raw-corpus or hardware reproduction.'}
+    result={'status':'PASS' if not any(r['status']=='FAIL' for r in checks) else 'FAIL','checks':len(checks),'numeric_failures':[r for r in checks if r['status']=='FAIL'],'definition_errata':0,'passed_checks':sum(r['status']=='PASS' for r in checks),'manuscript_revision':84,'raw_data_read':False,'GPU_jobs':0,'new_training':0,'scope':'Specified R84 quantitative assertions, table cells in the separate paper_values stage. Not a claim of independent raw-corpus or hardware reproduction.'}
     (a.output/'receipt.json').write_text(json.dumps(result,indent=2)+'\n',encoding='utf8');print(json.dumps(result,indent=2));return int(result['status']=='FAIL')
 if __name__=='__main__':raise SystemExit(main())

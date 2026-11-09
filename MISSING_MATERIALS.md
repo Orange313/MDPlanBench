@@ -39,6 +39,11 @@ Raw pages, OCR prose, original query cases, full relevance maps and large pretra
 weights are deliberately not added. Official acquisition links/revisions/hashes
 are provided under separate terms. They are not replaced by fabricated fixtures.
 
-## R83 audit and release scope
+## R84 audit and release scope
 
-`PAPER_NUMBER_MAP.md` records 323 explicit checks (321 numerical PASS and two acknowledged definition errata), an active-body inventory and per-line evidence pointers. An occurrence inventory does not establish that every prose/configuration token has independently been recalculated. No unrestricted all-numbers claim is made. The False-Safe threshold mismatch is explicitly disclosed and its publication approved by the author. Public question prose is intentionally excluded.
+`PAPER_NUMBER_MAP.md` records 323 PASS checks, zero numeric failures and zero
+definition errata. R84 aligns the False-Safe definition with r>0.05 and describes
+public records as query identifiers. The data-distribution and scientific-evidence
+boundaries are in README. An occurrence inventory is distinct from independently
+recalculating every prose/configuration token; no unrestricted all-numbers claim
+is made. Historical R83 receipts describe that earlier revision only.

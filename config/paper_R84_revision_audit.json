@@ -1,0 +1,29 @@
+{
+  "status": "PASS",
+  "revisionNumber": 84,
+  "revisionId": "9ce79cf3-76d4-4482-aa7b-39941593cf3b",
+  "parentRevisionId": "850eb110-3797-473e-b259-1e04db4b86ef",
+  "projectTreeHash": "59891aac5883275d8e2d87e9996b49c87c8881152af3568dbd5b12d290a41b3f",
+  "source_bundle_sha256": "745cdb5e57f2145994b0db14e57cf77bf5e6dbd8417d8310334bbf2086586b57",
+  "changed_files": [
+    "sections/06_results.tex"
+  ],
+  "source_file": "sections/06_results.tex",
+  "previous_sha256": "3f3ef929a7fc2e6d16175b6af57a235ccbbbb1bb8db64a53ee12f1e7da2423ba",
+  "current_sha256": "f962faddec4d06630338991a6863ab2246dbf91081d503d6dceaca8ef1adfc2f",
+  "edits": [
+    {
+      "old": "positive regret, account for most of the",
+      "new": "regret above 0.05, account for most of the"
+    },
+    {
+      "old": "records keep the query text,",
+      "new": "records keep the query identifier,"
+    }
+  ],
+  "risk_threshold": 0.05,
+  "query_reference": "query identifier",
+  "numeric_results_changed": false,
+  "figures_changed": false,
+  "manuscript_writes": 0
+}
